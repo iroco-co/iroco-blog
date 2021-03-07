@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<div class="container container-left">
+    <div class="row">
+
+        <div class="col-md-9">
+            <div class="article">
+                <div class="well">
+                    {% include article.html %}
+                </div>
+            </div>
+            <div class="pagination">
+                {% if page.previous %}
+                <a class="btn btn-default" href="{{ site.baseurl}}{{ page.previous.url }}" class="previous">Articles plus anciens</a>
+                {% endif %}
+                {% if page.next %}
+                <a class="btn btn-default" href="{{ site.baseurl}}{{ page.next.url }}" class="next">Articles plus récents</a>
+                {% endif %}
+            </div>
+        </div>
+
+    </div>
+</div>

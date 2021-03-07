@@ -1,0 +1,42 @@
+# Jekyll configuration
+name: Le blog d'iroco 
+title: Le blog d'iroco 
+email: hello@iroco.co
+description: Blog sur l'écoconception logicielle
+
+timezone: Europe/Paris
+
+# url is currently only used only for the RSS feed in feed.xml
+url: https://blog.iroco.co
+
+baseurl: "" # the subpath of your site, e.g. /blogdd
+twitter_username: iroco
+github_username:  iroco-co
+github: 'iroco-co/iroco.github.io'
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+permalink: /:title/
+plugins:
+- jekyll-paginate-v2
+- jekyll-seo-tag
+header_pages:
+- about.md
+
+pagination:
+  enabled: true
+  per_page: 9
+  permalink: '/page/:num/'
+  title_suffix: ' - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
+exclude: ['README.md', 'LICENSE', '*.sh', '.circleci']
+encoding: utf-8
+
+minima:
+  skin: dark
