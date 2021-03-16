@@ -1,8 +1,7 @@
 ---
 layout: post
 author:
-  display_name: Bruno Thomas
-email: bruno@iroco.co
+  display_name: Adeline Agut
 categories:
 - evenements
 tags:
