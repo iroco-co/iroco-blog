@@ -17,12 +17,11 @@ github: 'iroco-co/iroco.github.io'
 # Build settings
 markdown: kramdown
 theme: minima
-plugins:
-  - jekyll-feed
 permalink: /:title/
 plugins:
-- jekyll-paginate-v2
-- jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-paginate-v2
+  - jekyll-seo-tag
 header_pages:
 - about.md
 
