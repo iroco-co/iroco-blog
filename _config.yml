@@ -9,7 +9,7 @@ timezone: Europe/Paris
 # url is currently only used only for the RSS feed in feed.xml
 url: https://blog.iroco.co
 
-baseurl: "" # the subpath of your site, e.g. /blogdd
+baseurl: "" # the subpath of your site
 twitter_username: iroco
 github_username:  iroco-co
 github: 'iroco-co/iroco.github.io'
@@ -27,9 +27,9 @@ header_pages:
 
 pagination:
   enabled: true
-  per_page: 9
+  per_page: 5
   permalink: '/page/:num/'
-  title_suffix: ' - page :num'
+  title: ' - page :num'
   limit: 0
   sort_field: 'date'
   sort_reverse: true

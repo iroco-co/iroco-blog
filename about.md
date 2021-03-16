@@ -1,18 +1,14 @@
 ---
 layout: page
-title: About
+title: À propos
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Vous êtes sur le site du blog de Iroco. Ce blog est consacré à l'actualité de l'écoconception informatique 
+et plus précisément logicielle. 
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
+Vous y retrouverez des articles techniques ou plus généralistes rédigés par les membres d'iroco.
+
+Ce blog est statique, généré à partir de [jekyll](https://github.com/jekyll) /
 [minima](https://github.com/jekyll/minima)
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
