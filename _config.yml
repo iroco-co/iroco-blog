@@ -18,10 +18,14 @@ github: 'iroco-co/iroco.github.io'
 markdown: kramdown
 theme: minima
 permalink: /:title/
-plugins:
+gems:
   - jekyll-feed
   - jekyll-paginate-v2
   - jekyll-seo-tag
+
+# Explicitly turn off the old code
+paginate: nil
+paginate_path: nil
 
 pagination:
   enabled: true
