@@ -22,8 +22,6 @@ plugins:
   - jekyll-feed
   - jekyll-paginate-v2
   - jekyll-seo-tag
-header_pages:
-- about.md
 
 pagination:
   enabled: true
@@ -36,6 +34,3 @@ pagination:
 
 exclude: ['README.md', 'LICENSE', '*.sh', '.circleci']
 encoding: utf-8
-
-minima:
-  skin: dark
