@@ -23,10 +23,6 @@ gems:
   - jekyll-paginate-v2
   - jekyll-seo-tag
 
-# Explicitly turn off the old code
-paginate: nil
-paginate_path: nil
-
 pagination:
   enabled: true
   per_page: 5
