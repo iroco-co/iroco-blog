@@ -6,7 +6,9 @@ categories:
 - evenements
 tags:
 - iroco 
-title: "Ouverture"
+title: "Bienvenue"
 ---
 
-Ex de post.
+Bienvenue sur le blog d'Iroco ! Vous y trouverez des nouvelles de nos projets, des actualités liées au numérique responsable et quelques articles d'opinion.
+
+Vous pouvez également nous suivre sur [LinkedIn](https://www.linkedin.com/company/irocodigital/) et sur [Twitter](https://twitter.com/irocodigital).
