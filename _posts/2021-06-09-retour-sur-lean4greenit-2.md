@@ -7,6 +7,7 @@ tags:
 - greenIT
 comments: true
 ---
+*article initialement publié sur [barre verte](https://barreverte.fr) le 17 octobre 2018*
 
 ![Image : le bourgeois gentilhomme]({{ site.url }}/images/ecoconception/aof2014.jpg)
 
@@ -26,7 +27,7 @@ Car de l'autre côté, si on considère non plus l'efficacité de l'exploitation
 
 La mise en évidence des améliorations de performances est elle aussi coûteuse : faire des programmes de tests de charge, des campagnes de benchmark.
 
-Plus le code est optimisé, plus il sera cher à élaborer et à maintenir. Les sociétés qui développent des services en ligne veulent diminuer les coûts de développement. L'amélioration des performances n'est considérée que si le sujet est mis sur le devant de la scène par les utilisateurs, ou par la gestion de l'exploitation. 
+Plus le code est optimisé, plus il sera cher à élaborer et à maintenir. Les sociétés qui développent des services en ligne veulent diminuer les coûts de développement. L'amélioration des performances n'est considérée que si le sujet est mis sur le devant de la scène par les utilisateurs, ou par la gestion de l'exploitation.
 
 > "le vrai sujet c'est l'expérience utilisateur"
 
@@ -68,14 +69,14 @@ En revanche, cela demande généralement de consacrer plus de temps au développ
 
 ### la participation aux communs numériques
 
-Internet est construit sur des communs numériques. Les protocoles standard sont ouverts : 
+Internet est construit sur des communs numériques. Les protocoles standard sont ouverts :
 
-* web : [HTTP](https://www.ietf.org/rfc/rfc2616.txt), [HTTP2](https://tools.ietf.org/html/rfc7540), 
-* mail : [IMAP](https://tools.ietf.org/html/rfc3501), [SMTP](https://tools.ietf.org/html/rfc5321), 
-* usegroup : [NNTP](https://tools.ietf.org/html/rfc3977), 
-* réseau : [DNS](https://www.ietf.org/rfc/rfc1035.txt), [ARP](https://tools.ietf.org/html/rfc826), [BGP](https://tools.ietf.org/html/rfc4271), [SNMP](https://tools.ietf.org/html/rfc1157) 
+* web : [HTTP](https://www.ietf.org/rfc/rfc2616.txt), [HTTP2](https://tools.ietf.org/html/rfc7540),
+* mail : [IMAP](https://tools.ietf.org/html/rfc3501), [SMTP](https://tools.ietf.org/html/rfc5321),
+* usegroup : [NNTP](https://tools.ietf.org/html/rfc3977),
+* réseau : [DNS](https://www.ietf.org/rfc/rfc1035.txt), [ARP](https://tools.ietf.org/html/rfc826), [BGP](https://tools.ietf.org/html/rfc4271), [SNMP](https://tools.ietf.org/html/rfc1157)
 
-Pour n'en citer que quelque-uns. Ces protocoles sont simples et efficaces. Quand ils peuvent être améliorés, des [RFC complémentaires](https://www.imapwiki.org/ImapRFCList) peuvent être proposées. Ils peuvent aussi être repensés comme le HTTP2 qui apporte des nouvelles fonctions majeures (push serveur, pipelining, multiplexing, compression des entêtes). Ces améliorations ont des leviers énormes car le réseau mondial en bénéficie. Quand ils ne sont pas respectés par un acteur c'est au prix d'une augmentation de la complexité du code des composants qui interragissent avec cet acteur, et souvent également d'inefficacité. 
+Pour n'en citer que quelque-uns. Ces protocoles sont simples et efficaces. Quand ils peuvent être améliorés, des [RFC complémentaires](https://www.imapwiki.org/ImapRFCList) peuvent être proposées. Ils peuvent aussi être repensés comme le HTTP2 qui apporte des nouvelles fonctions majeures (push serveur, pipelining, multiplexing, compression des entêtes). Ces améliorations ont des leviers énormes car le réseau mondial en bénéficie. Quand ils ne sont pas respectés par un acteur c'est au prix d'une augmentation de la complexité du code des composants qui interragissent avec cet acteur, et souvent également d'inefficacité.
 
 Par exemple yahoo mail n'implémente pas la [commande IDLE](https://tools.ietf.org/html/rfc2177) ce qui oblige les clients mails en IMAP à scruter l'arrivée de nouveaux mails régulièrement.
 
@@ -89,7 +90,7 @@ Enfin, après avoir développé dans plusieurs grands groupes français, j'ai vu
 
 <img class="right" alt="image accessibilité" src="{{ site.url }}/images/ecoconception/accessibility.jpg" />
 
-L'accessibilité d'un site web c'est faire en sorte qu'il soit utilisable par le plus grand nombre : 
+L'accessibilité d'un site web c'est faire en sorte qu'il soit utilisable par le plus grand nombre :
 
 * avec un petit écran
 * avec un vieil ordinateur
@@ -100,7 +101,7 @@ Même si c'est lié à l'UX, à la lutte contre l'obsolescence programmée, au r
 
 ## L'écoconception : une opportunité
 
-Alors oui, tout bon *craftman* aura en tête ces pratiques. Et c'est une opportunité supplémentaire pour : 
+Alors oui, tout bon *craftman* aura en tête ces pratiques. Et c'est une opportunité supplémentaire pour :
 
 * améliorer la satisfaction des utilisateurs
 * diminuer ses charges d'exploitation

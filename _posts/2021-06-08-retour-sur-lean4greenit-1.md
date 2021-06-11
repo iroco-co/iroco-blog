@@ -8,6 +8,8 @@ tags:
 comments: true
 ---
 
+*article initialement publié sur [barre verte](https://barreverte.fr) le 14 septembre 2014*
+
 Il y a un an environ, j'ai débuté [un projet d'entreprise](https://classe.io) avec deux amis associés. Ils voulaient intégrer une démarche éco-responsable dans la construction d'un service en ligne pour classer automatiquement leurs mails dans des dossiers dématérialisés. Comme je n'étais pas réfractaire au principe de l'écologie, et à dire vrai que je n'en avais presque pas entendu parler pour l'IT, j'ai essayé de me renseigner sur l'écoconception logicielle et de l'appliquer pour l'architecture du site.
 
 Pour faire court, dans mes recherches sur ce domaine je n'ai pas trouvé grand-chose. Je me suis alors demandé :
