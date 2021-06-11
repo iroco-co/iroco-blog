@@ -1,8 +1,8 @@
 # Jekyll configuration
 name: Le blog d'iroco 
-title: Le blog d'iroco 
-email: hello@iroco.co
-description: Blog sur l'écoconception logicielle
+title: Bienvenue sur notre blog ! 
+email: hello@iroco.fr
+description: Blog sur l'écoconception logicielle, le GreenIT et le numérique responsable
 
 timezone: Europe/Paris
 
