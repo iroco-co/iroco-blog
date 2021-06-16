@@ -7,7 +7,7 @@ tags:
 - greenIT
 comments: true
 ---
-*article initialement publié sur [barre verte](https://barreverte.fr) le 17 octobre 2018*
+*article initialement publié sur [barre verte](https://www.barreverte.fr) le 17 octobre 2018*
 
 ![Image : le bourgeois gentilhomme]({{ site.url }}/images/ecoconception/aof2014.jpg)
 
