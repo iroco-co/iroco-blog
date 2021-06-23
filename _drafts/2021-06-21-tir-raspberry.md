@@ -59,7 +59,7 @@ Dans un autre tir, nous avons relevé la distribution du temps de réponses des 
 
 ![Image : Distributions du temps de réponses des requêtes]({{ site.url }}/images/backend_benchmark/distribution.png)
 
-Nous pouvons voir que Rust est beaucoup plus constant que Python. Rust présente ainsi un autre avantage par rapport à Python, il est beaucoup plus régulier que Python.  
+Nous remarquons encore la constance de Rust par rapport à Python, beaucoup plus instable.
 
 De plus, des tirs plus conséquents (30 000 000 de requêtes) ont été réalisés pour tester l'endurance du serveur Rust. Nous obtenons une moyenne du temps d'exécution similaire aux tirs avec de plus faibles nombres de requêtes. Aucun crash ni d'augmentation de la mémoire prouve encore la stabilité  de la technologie Rust. 
 
