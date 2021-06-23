@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Backend Benchmark
+title: Migration vers une technologie plus responsable. (3/3)
 author:
   display_name: Barnabé Geffroy
 tags:
@@ -12,13 +12,12 @@ comments: true
 ---
 
 
-# Migration vers une technologie plus responsable. (3/3)
+# Benchmark sur Raspberry Pi
 
-## Benchmark avec un Raspberry Pi
 
 Après les résultats concluants un benchmark du serveur Rust sur un laptop, nous essayons maintenant de tester sont efficacité sur une plus petite structure : le Rapsberry Pi.
 
-### Protocole
+## Protocole
 
 
 Le protocole est identique au tir avec le laptop. Nous testons :
@@ -38,7 +37,7 @@ Les outils utilisés sont :
 
 Les tirs sont encore réalisés sur un serveur Python et un serveur Rust de type CardDav (asynchrone et threading) proposant les mêmes fonctionnalités.
 
-### Résultats
+## Résultats
 
 Plusieurs tirs ont été réalisés, ils donnent tous des résultats similaires aux tirs sur laptop.
 
@@ -65,11 +64,12 @@ Nous pouvons voir que Rust est beaucoup plus constant que Python. Rust présente
 De plus, des tirs plus conséquents (30 000 000 de requêtes) ont été réalisés pour tester l'endurance du serveur Rust. Nous obtenons une moyenne du temps d'exécution similaire aux tirs avec de plus faibles nombres de requêtes. Aucun crash ni d'augmentation de la mémoire prouve encore la stabilité  de la technologie Rust. 
 
 
-### Conclusion 
+## Conclusion 
 
 Ce benchmark confirme les résultats obtenus sur les tests laptop. On y retrouve l'efficacité, la stabilité et l'endurance de Rust même sur une plus petite structure.
 
 Ces résultats montrent donc que le service Rust peut également tourner de manière efficace sur des machines avec des petites configurations. Un cluster de Raspberry Pi pourrait alors être une solution envisageable pour remplacer des serveurs standrards et ainsi avoir un service adapté aux nombres d'utilisateurs.
 
-![Image : Cluster de 750 Raspberry Pi]({{ site.url }}/images/backend_benchmark/cluster_raspberry.jpg)
+![Image : Cluster de 750 Raspberry Pi]({{ site.url }}/images/backend_benchmark/cluster_rapsberry.jpg)
+
 Source: Photo © BitScope

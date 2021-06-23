@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Des langages plus écolos ?
+title: Migration vers une technologie plus responsable. (1/3)
 author:
   display_name: Barnabé Geffroy
 tags:
@@ -12,7 +12,7 @@ comments: true
 ---
 
 
-# Migration vers une technologie plus responsable. (1/3)
+# Des langages plus écolos ?
 
 ## Constat
 
@@ -35,6 +35,7 @@ Initialement le serveur HTTP utilisé par Iroco était implémenté avec le lang
 ## Rust
 
 ![Image : Logo du langage Rust]({{ site.url }}/images/backend_benchmark/rust_logo.svg)
+
 Source: Photo © [Mozilla Foundation](https://www.rust-lang.org/)
 
 Le langage Rust semble alors une alternative convaincante. À 3% du meilleur langage, le C, il présente des résultats beaucoup plus convaincants que Python. Une implémentation d'un serveur HTTP Rust est également plus facile à mettre en place et à maintenir qu'avec des langages tels que le C.

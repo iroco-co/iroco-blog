@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Backend Benchmark
+title: Migration vers une technologie plus responsable. (2/3)
 author:
   display_name: Barnabé Geffroy
 tags:
@@ -12,13 +12,12 @@ comments: true
 ---
 
 
-# Migration vers une technologie plus responsable. (2/3)
+# Benchmark sur laptop
 
-## Benchmark avec un laptop
 
 Comme décrit dans l'article sur l'impact des différents langages, ceux-ci n'ont nous avons nous avons donc décidé d'effectuer un benchmark pour déterminer l'utilité d'une migration de technologie de Python à Rust. Ac
 
-### Protocole
+## Protocole
 
 Ce benchmark prend en compte trois facteurs : 
 
@@ -31,12 +30,12 @@ Il a été réalisé à l'aide d'un laptop HP EliteBook G40 G3 avec une distribu
 Les outils utilisés sont :
 
 * Les injecteurs [`ab`](https://httpd.apache.org/docs/2.4/fr/programs/ab.HTTP) et [`jmeter`](https://jmeter.apache.org/) qui envoie au serveur un nombre de requêtes donné à partir d'un ordinateur du réseau.
-* [`Scanphandre`](https://github.com/hubblo-org/scaphandre) qui permet de mesurer la puissance des process d'une machine.
+* [`Scaphandre`](https://github.com/hubblo-org/scaphandre) qui permet de mesurer la puissance des process d'une machine.
 * La commande [`ps`](https://man7.org/linux/man-pages/man1/ps.1.HTTP) pour mesurer la CPU utilisée par les serveurs. 
 
 Nous avons donc un serveur Python et un serveur Rust de type CardDav (asynchrone et threading) proposant les mêmes fonctionnalités.
 
-### Résultats
+## Résultats
 
 Une dizaine de tirs ont été réalisés. Les résultats montrent que Rust est plus rapide et nécessite moins d'énergie et de CPU que Python.
 
@@ -66,7 +65,7 @@ Nous pouvons voir que Rust est beaucoup plus constant que Python. Rust présente
 
 De plus, des tirs plus conséquents (30 000 000 de requêtes) ont été réalisés pour tester l'endurance du serveur Rust. Nous obtenons une moyenne du temps d'exécution similaire aux tirs avec de plus faibles nombres de requêtes. Aucun crash ni d'augmentation de la mémoire prouve encore la stabilité  de la technologie Rust. 
 
-### Conclusion 
+## Conclusion 
 
 Notre benchmark valide qu'une migration d'une implémentation en langage Rust qu'un Python permet de réduire l'impact du serveur. Rust apporte également une vitesse de réponse plus élevé et plus stable. 
 
