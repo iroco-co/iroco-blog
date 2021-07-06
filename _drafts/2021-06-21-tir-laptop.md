@@ -33,7 +33,7 @@ Les outils utilisés sont :
 * [`Scaphandre`](https://github.com/hubblo-org/scaphandre) qui permet de mesurer la puissance des process d'une machine.
 * La commande [`ps`](https://man7.org/linux/man-pages/man1/ps.1.HTTP) pour mesurer la CPU utilisée par les serveurs. 
 
-Nous avons donc un serveur Python et un serveur Rust de type CardDav (asynchrone et threading) proposant les mêmes fonctionnalités.
+Nous avons donc un serveur Python et un serveur Rust de type CardDav (asynchrone et threading) proposant les mêmes fonctionnalités. La base de données Postgresql contient 10 000 contacts. Le scénario de test est la requête pour l'accès aux données d'un contact.
 
 ## Résultats
 

@@ -35,7 +35,7 @@ Les outils utilisés sont :
 
 ![Image : Installation du Raspberry Pi avec le Wattmètre]({{ site.url }}/images/backend_benchmark/instal.png)
 
-Les tirs sont encore réalisés sur un serveur Python et un serveur Rust de type CardDav (asynchrone et threading) proposant les mêmes fonctionnalités.
+Les tirs sont encore réalisés sur un serveur Python et un serveur Rust de type CardDav (asynchrone et threading) proposant les mêmes fonctionnalités. La base de données Postgresql contient 10 000 contacts. Le scénario de test est la requête pour l'accès aux données d'un contact.
 
 ## Résultats
 
