@@ -48,4 +48,4 @@ Son gestionnaire de dépendances, Cargo, ainsi que son compilateur facilitent é
 
 ## Benchmarks
 
-Pour confirmer les résultats de cette étude, nous allons effectuer notre propre benchmark afin de nous assurer du gain d'une telle migration.
+Pour confirmer les résultats de cette étude, nous allons effectuer notre propre benchmark afin de nous assurer du gain d'une telle migration : c'est l'objet du prochain article de cette série.
