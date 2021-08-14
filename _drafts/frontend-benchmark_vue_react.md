@@ -68,6 +68,8 @@ Plusieurs surprises dans ces résultats. Premièrement, si on reprend nos mesure
 | moyenne    | 151.1 | 157.9
 | écart type | 12.6 | 11.7
 
-Deuxièmement, il y a des anomalies dans le FCP de vuejs avec 6 pics, et des anomalies dans le LCP de react qui passe entre des valeurs autour de 140ms à 50ms. Le LCP de vuejs est stable autour de 140ms. Ce tir et ces métriques sont donc meilleures pour react, avec une certaine incompréhension pour les variations observées (alors que la page est sensée être rechargée à chaque requête). Est-ce que cela pourrait être des mécanismes de cache ? Si vous avez des pistes d'explications nous sommes preneurs.
+Deuxièmement, il y a des anomalies dans le FCP de vuejs avec 6 pics, et des anomalies dans le LCP de react qui passe entre des valeurs autour de 140ms à 50ms. Le LCP de vuejs est stable autour de 140ms. Ce tir et ces métriques sont donc meilleures pour react, avec une certaine incompréhension pour les variations observées (alors que la page est sensée être rechargée à chaque requête). Est-ce que cela pourrait être lié à des mécanismes de cache ? Si vous avez des pistes d'explications nous sommes preneurs.
+
+Sur des tirs suivants, nous avons observé une certaine proximité des performances entre vuejs et react avec un léger avantage pour vuejs notamment dans les modifications dynamiques du virtual DOM. C'est en conformité avec les résultats de [cette étude](https://rawgit.com/krausest/js-framework-benchmark/master/webdriver-ts-results/table.html) beaucoup plus large que nos tests.
 
 C'est ce que nous avons montré lors d'une présentation au groupe de travail [Boavizta](https://boavizta.org/) [le 2 avril 2021](https://github.com/iroco-co/frontend-benchmark/tree/master/slideshow)
