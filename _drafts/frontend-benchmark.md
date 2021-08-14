@@ -35,6 +35,12 @@ Nous souhaitons tester ces deux applications en ayant en tête les critères sui
 - les possibilités de compatibilité javascript
 - la performance d'affichage/traitement (plus c'est rapide moins longtemps l'équipement client est sollicité en resources)
 
+La compatibilité des navigateurs est importante pour Iroco si on veut éviter aux utilisateurs de devoir mettre à jour leur navigateur pour utiliser nos applications, ce qui peut parfois entrainer une mise à jour de l'OS, et au final un changement de mobile. Ca fait partie de la lutte contre l'obsolescence programmée.
+
+C'est un sujet complexe car il concerne beaucoup de features ainsi qu'une combinatoire importante d'environnement (machine/OS/navigateur).
+
+Nous partons dans l'hypothèse d'une comptabilité ES5 (99,71% des navigateur à l'écriture de cet article sur [caniuse.com](https://caniuse.com)) et flexbox (99,59% des navigateur).
+
 # Démarche
 
 Nous préparons [une petite app](https://framer.com/share/Benchmark--7MGmW80Lo1Lu1AMoMN2Y/jZNcXWNxR#jZNcXWNxR) avec un [backend python](https://github.com/iroco-co/frontend-benchmark/tree/master/api) en flask. Nous écrivons cette application en vuejs et en reactjs.
@@ -44,5 +50,7 @@ Pour l'injection de trafic web nous utilisons [jmeter](https://jmeter.apache.org
 ![jmeter selenium](/images/frontend_benchmark/jmeter-selenium.png)
 
 Pour avoir plus de détails sur ce que fait le navigateur, nous ajoutons des sondes [Web Vitals](https://web.dev/vitals/).
+
+Tout le code et les résultats des tirs sont disponibles sur [ce dépôt](https://github.com/iroco-co/frontend-benchmark) github.
 
 Nous présenterons dans l'article prochain les résultats pour vuejs/reactjs et pourquoi nous avons ajouté svelte.
