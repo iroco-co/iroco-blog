@@ -20,18 +20,18 @@ Afin d'apporter des éléments de réponse à cette question, j'ai proposé un s
 
 ## Eco-truc, greenIT wot ?
 
-Les termes d'*informatique dans les nuages*, de *[serverless architecture](https://www.martinfowler.com/articles/serverless.html)*, plateformes dématérialisées, serveurs viruels, évoquent pour nous, utilisateurs des services IT/web, une forme d'évanescence, d'immatérialité des infrastructures informatiques. Cela évoque en tout cas quelque chose sans lien avec l’écologie. Et a fortiori avec l’écologie appliquée au monde du numérique.
+Les termes d'*informatique dans les nuages*, de *[serverless architecture](https://www.martinfowler.com/articles/serverless.html)*, plateformes dématérialisées, serveurs virtuels, évoquent pour nous, utilisateurs des services IT/web, une forme d'évanescence, d'immatérialité des infrastructures informatiques. Cela évoque en tout cas quelque chose sans lien avec l’écologie. Et a fortiori avec l’écologie appliquée au monde du numérique.
 
 GreenIT, éco-reponsabilité des services informatiques, écoconception, ["conception responsable des services numériques"](https://collectif.greenit.fr/), derrière ces expressions se cachent en réalité deux enjeux majeurs relativement ignorés pour l’instant des acteurs du numérique :
 
 1. Prendre conscience que les services numériques ont un impact sur l'environnement. Par ailleurs, les enjeux environnementaux sont globaux, comme internet. Il y a une certaine congruence entre les deux ;
-2. Adopter une approche de rationalisation de l'usage des infrastructures informatiques, en intégrant une réflexion dès la conception des logiciels et du matériel
+2. Adopter une approche de rationalisation de l'usage des infrastructures informatiques, en intégrant une réflexion dès la conception des logiciels et du matériel.
 
 La prise en compte de ces deux enjeux est complexe car elle n'est pas uniquement liée à l'exploitation des machines (par exemple la consommation électrique des centres d'hébergement), mais elle doit aussi englober tout le cycle de vie des produits :
 
 ![Cycle de vie produit]({{ site.url }}/images/ecoconception/product_lifecycle.png)
 
-En regardant l'ensemble du cycle pour les produits manufacturés impliqués dans la mise en oeuvre et l'utilisation d'un service en ligne, nous réalisons l'étendue de l'impacts des technologies de l'information : production, acheminement, utilisation, recyclage des mobiles, serveurs, routeurs, ordinateurs portables, ordinateurs fixes, tablettes, switches, répéteurs, antennes, câbles, fibre optique, climatiseurs, onduleurs, etc.
+En regardant l'ensemble du cycle pour les produits manufacturés impliqués dans la mise en oeuvre et l'utilisation d'un service en ligne, nous réalisons l'étendue de l'impact des technologies de l'information : production, acheminement, utilisation, recyclage des mobiles, serveurs, routeurs, ordinateurs portables, ordinateurs fixes, tablettes, switches, répéteurs, antennes, câbles, fibre optique, climatiseurs, onduleurs, etc.
 
 > "OK, ça représente 2% des émissions de CO2, occupons-nous des 98%" entendra-t-on.
 
@@ -39,7 +39,7 @@ Oui, mais ces 2% ne représentent que l'exploitation des infrastructures du web 
 
 La production des produits électroniques nécessite l'utilisation de matières premières non renouvelables et pour certaines en voie d'épuisement. L'OCDE donne encore 30 ans d'exploitation pour le cuivre, plomb, nickel, argent, étain, zinc. Cette production dégage également des déchets environnementaux et des gaz à effet de serre.
 
-De plus, le recyclage est une gageure car de plus en plus de matières sont employées pour la miniaturisation, et beaucoup sont toxiques : mercure, cadmium, chrome, diphényls polybromés, PVC, baryum, beryllium, phosphore, etc. Pour certaines de ces matières, ce ne sont pas des quantités négligeables qui sont en jeu : en 2000 les équipements électroniques et informatiques utilisaient 22% de la consommation annuelle de mercure [1]. Par ailleurs, ces matières se retrouvent souvent traitées dans des pays en voie de développement dans des conditions plus que précaires.
+De plus, le recyclage est une gageure car de plus en plus de matières sont employées pour la miniaturisation, et beaucoup sont toxiques : mercure, cadmium, chrome, diphényls polybromés, PVC, baryum, beryllium, phosphore, etc. Pour certaines de ces matières, ce ne sont pas des quantités négligeables qui sont en jeu : en 2000, les équipements électroniques et informatiques utilisaient 22% de la consommation annuelle de mercure [1]. Par ailleurs, ces matières se retrouvent souvent traitées dans des pays en voie de développement dans des conditions plus que précaires.
 
 Enfin, nous émettons des gaz à effet de serre par le biais de ces produits tout au long de leur cycle de vie. L'empreinte carbone des infrastructures du web était de 0,91 Giga tonnes d'équivalent CO2 (1,9% de l'empreinte mondiale) en 2011. Le [Boston Consulting Group prévoit](http://gesi.org/research/gesi-smarter2020-the-role-of-ict-in-driving-a-sustainable-future) qu'elle sera de 1,27 Giga tonnes en 2020 (2,3% du global) soit une augmentation de près de 40% en 9 ans. Dans le rapport ci-dessus, il est expliqué (p. 22) que ces projections ne prennent pas en compte les impacts incertains du recyclage. Je n'y ai pas trouvé non plus de références à l'explosion des objets connectés qui vont passer de 6 milliards en 2016 à 20 milliards en 2020 [2].
 

@@ -23,7 +23,7 @@ Le numérique a un impact non négligeable sur notre planète. Bien que l'emprei
 C'est pourquoi chez Iroco nous essayons de travailler sur tous les aspects pour proposer des services numériques plus respectueux de l'environnement.
 
 
-Les langages de programmation ne sont pas épargnés et n'ont pas tous le même impact. [Une étude de chercheurs portugais](https://sites.google.com/view/energy-efficiency-languages) donne un aperçu de 27 des langages de programmation les plus connus. La vitesse d'exécution, l'énergie requise et la taille du fichier sont comparées sur une série d'algorithmes identique pour ces 27 langages. Ce tableau résume les résultats de cette étude :
+Les langages de programmation ne sont pas épargnés et n'ont pas tous le même impact. [Une étude de chercheurs portugais](https://sites.google.com/view/energy-efficiency-languages) donne un aperçu de 27 des langages de programmation les plus connus. La vitesse d'exécution, l'énergie requise et la taille du fichier sont comparées sur une série d'algorithmes identiques pour ces 27 langages. Ce tableau résume les résultats de cette étude :
 
 ![Image : tableau de l'impact des différents langages]({{ site.url }}/images/backend_benchmark/tableau.png)
 Source: Photo © [Rui Pereira, Marco Couto, Francisco Ribeiro, Rui Rua, Jácome Cunha,João Paulo Fernandes, and João Saraiva. 2017. Energy Efficiencyacross Programming Languages. InProceedings of SLE’17, Vancouver,BC, Canada, October 23–24, 2017, 12 pages](https://dl.acm.org/doi/10.1145/3136014.3136031)

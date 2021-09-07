@@ -31,7 +31,7 @@ Plus le code est optimisé, plus il sera cher à élaborer et à maintenir. Les 
 
 > "Le vrai sujet c'est l'expérience utilisateur"
 
-Si l'optimisation d'un programme permet de faire de l'écoconception, l'amélioration de l'expérience utilisateur peut aussi entraîner des gains d'utilisation des resources. La minification des fichiers javascript et CSS assure de meilleurs temps de chargement d'un site et une réactivité de service. De la même manière, le *offline first* évite à l'utilisateur de télécharger des données inutiles sur son forfait mobile et fluidifie les interractions avec l'application.
+Si l'optimisation d'un programme permet de faire de l'écoconception, l'amélioration de l'expérience utilisateur peut aussi entraîner des gains d'utilisation des resources. La minification des fichiers javascript et CSS assure de meilleurs temps de chargement d'un site et une réactivité de service. De la même manière, le *offline first* évite à l'utilisateur de télécharger des données inutiles sur son forfait mobile et fluidifie les interactions avec l'application.
 
 L'écoconception est donc au *craftsman* ce que la prose est à Monsieur Jourdain.
 
@@ -53,17 +53,17 @@ Source : Flickr / Photo © [lilszeto](https://www.flickr.com/photos/mszeto/)
 
 Ce programme de la tour de Hanoï est orienté orienté calcul (utilisant quasiment exclusivement le CPU), par opposition à un programme orienté entrées/sorties. Un serveur d'application faisant du web en architecture 3 tiers, sera souvent orienté entrées/sorties : le facteur limitant ne sera pas le CPU mais l'utilisation accrue des entrées/sorties. Mais ce que montre l'article, c'est que l'environnement technologique a des conséquences importantes sur la puissance consommée par les serveurs.
 
-Les environnements web, avec un grand nombre de communications réseau (proxies, base de données, bus de données), de lecture-écriture de fichiers, utilisent de plus en plus la programmation asynchrone. NodeJS, [asyncio](https://docs.python.org/3/library/asyncio.html) pour python3, [NIO](https://stackoverflow.com/questions/33692992/does-jdk7-nio-2-use-epoll-etc-on-linux) pour Java, basés sur les couches epoll (pour linux) et kqueue (pour FreeBSD/MacOS), ont eu un essor important pour des raisons de [performance](http://www.kegel.com/c10k.html). Ces solutions sont aussi intéressante au niveau de l'écoconception puisqu'elles permettent aux serveurs d'attendre des événements sur des entrées sorties.
+Les environnements web, avec un grand nombre de communications réseau (proxies, base de données, bus de données), de lecture-écriture de fichiers, utilisent de plus en plus la programmation asynchrone. NodeJS, [asyncio](https://docs.python.org/3/library/asyncio.html) pour python3, [NIO](https://stackoverflow.com/questions/33692992/does-jdk7-nio-2-use-epoll-etc-on-linux) pour Java, basés sur les couches epoll (pour linux) et kqueue (pour FreeBSD/MacOS), ont eu un essor important pour des raisons de [performance](http://www.kegel.com/c10k.html). Ces solutions sont aussi intéressantes au niveau de l'écoconception puisqu'elles permettent aux serveurs d'attendre des événements sur des entrées sorties.
 
 
 ### La lutte contre l'obsolescence programmée
 
-Si on prend en compte le cycle de vie des produits technologiques, une grande partie des dommages causés à la planète est lié au rythme d'obsolescence des produits. Par exemple un mobile est changé tous les 18 mois en moyenne, alors qu'il serait capable de fonctionner jusqu'à 5 à 7 ans. La fréquentation de sites qui ne sont pas adaptés peuvent pousser certains internautes à changer leurs terminaux.
+Si on prend en compte le cycle de vie des produits technologiques, une grande partie des dommages causés à la planète est lié au rythme d'obsolescence des produits. Par exemple, un mobile est changé tous les 18 mois en moyenne, alors qu'il serait capable de fonctionner jusqu'à 5 à 7 ans. La fréquentation de sites qui ne sont pas adaptés peuvent pousser certains internautes à changer leurs terminaux.
 
 ![Image : tour de hanoi]({{ site.url }}/images/ecoconception/mobile_garbage.jpg)
 Source: Photo © [Fairphone](https://www.fairphone.com/en/2016/07/14/closing-the-loop-the-garbage-collectors-of-the-mobile-industry/)
 
-Or, lors du développement d'un site, il est possible de prendre en compte la compatibilité avec d'anciens appareils. En tant que développeur nous pouvons faire en sorte qu'un site se "dégrade" tout en restant fonctionnel : les bords ronds d'une CSS3 seront carrés, le *smooth scrolling* en javascript n'est pas rendu, mais la page est chargée, ou l'ancre atteinte, etc. En faisant de la sorte, nos utilisateurs peuvent consulter nos sites même avec un vieux mobile, et nous ne pesons pas dans leur décision de changer de mobile.
+Or, lors du développement d'un site, il est possible de prendre en compte la compatibilité avec d'anciens appareils. En tant que développeur, nous pouvons faire en sorte qu'un site se "dégrade" tout en restant fonctionnel : les bords ronds d'une CSS3 seront carrés, le *smooth scrolling* en javascript n'est pas rendu, mais la page est chargée, ou l'ancre atteinte, etc. En faisant de la sorte, nos utilisateurs peuvent consulter nos sites même avec un vieux mobile, et nous ne pesons pas dans leur décision de changer de mobile.
 
 En revanche, cela demande généralement de consacrer plus de temps au développement, pour tester le site avec différents mobiles, et adapter le code en fonction des dysfonctionnements.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: L'événementiel c'est écologique
+title: L'événementiel, c'est écologique
 author:
   display_name: Bruno Thomas
 tags:
@@ -10,7 +10,7 @@ tags:
 comments: true
 ---
 
-*article initialement publié sur [barre verte](https://www.barreverte.fr) le 30 décembre 2016*
+*Article initialement publié sur [barre verte](https://www.barreverte.fr) le 30 décembre 2016*
 
 Pour faire suite à une mini série sur l'[écoconception](https://www.greenit.fr/categorie/logiciels/), je voulais partager un remaniement récent de transformation d'un polling web en push serveur (avec une websocket), et les conséquences en terme d'utilisation de bande passante.
 
@@ -25,17 +25,17 @@ setInterval(function () {
 
 ````
 
-Côté serveur, dès qu'un utilisateur se connecte, un client IMAP est créé et va aussi faire du polling sur la boite de réception. Ca fonctionne, mais il y a au moins deux problèmes :
+Côté serveur, dès qu'un utilisateur se connecte, un client IMAP est créé et va aussi faire du polling sur la boîte de réception. Ca fonctionne, mais il y a au moins deux problèmes :
 
 - si un utilisateur est connecté toute la journée, et qu'il ne reçoit aucun message, l'application est sollicitée, le réseau également, pour rien
-- l'expérience utilisateur est dégradée par le temps de polling : comme nous avons positionné ce temps à 30 secondes, au pire il devra attendre une minute pour être notifié d'un nouveau message. Dans l'absolu c'est pas beaucoup, mais nous nous sommes habitués à une certaine immédiateté. Ce délais peut par exemple nuire à l'image qu'on se fait d'une application
+- l'expérience utilisateur est dégradée par le temps de polling : comme nous avons positionné ce temps à 30 secondes, au pire il devra attendre une minute pour être notifié d'un nouveau message. Dans l'absolu, c'est pas beaucoup, mais nous nous sommes habitués à une certaine immédiateté. Ce délai peut par exemple nuire à l'image qu'on se fait d'une application.
 
 ### Passer en événementiel
 
 Pour en apprendre un peu plus sur le sujet, nous avons fait un [spike](http://www.extremeprogramming.org/rules/spike.html) afin de valider l'intérêt d'une solution événementielle.
 
-- côté serveur, nous utilisons l'[instruction IDLE](https://tools.ietf.org/html/rfc2177) de l'IMAP4 et nous programmons le batch de récupération de mail en [python asynchrone](https://docs.python.org/3/library/asyncio.html) pour que le serveur se mette au repos lorsque rien ne se passe sur la connexion IMAP. Pour la partie web, nous utilisons un worker [gaiohttp](http://docs.gunicorn.org/en/stable/design.html#asyncio-workers) de [green unicorn](http://gunicorn.org/) en passant par [aiohttp](https://aiohttp.readthedocs.io/en/stable/). En effet cela permet d'utiliser une application [pyramid](https://trypyramid.com/) en mode asynchrone. Comme le reste du projet utilise pyramid pour le web, nous contrôlons l'authentification par le même token, c'est pratique, et on ne change pas de techno. Enfin, ce sont des projets opensource reconnus qui se basent sur la couche asynchrone native de python ([asyncio](https://docs.python.org/3/library/asyncio.html)) contrairement à [twisted](https://twistedmatrix.com/) ou [tornado](http://www.tornadoweb.org) ;
-- pour le front web, nous configurons nginx comme un [proxy websocket](https://www.nginx.com/blog/websocket-nginx/) qui jouera un role de *load balancing* et de *reverse proxy*
+- côté serveur, nous utilisons l'[instruction IDLE](https://tools.ietf.org/html/rfc2177) de l'IMAP4 et nous programmons le batch de récupération de mail en [python asynchrone](https://docs.python.org/3/library/asyncio.html) pour que le serveur se mette au repos lorsque rien ne se passe sur la connexion IMAP. Pour la partie web, nous utilisons un worker [gaiohttp](http://docs.gunicorn.org/en/stable/design.html#asyncio-workers) de [green unicorn](http://gunicorn.org/) en passant par [aiohttp](https://aiohttp.readthedocs.io/en/stable/). En effet, cela permet d'utiliser une application [pyramid](https://trypyramid.com/) en mode asynchrone. Comme le reste du projet utilise pyramid pour le web, nous contrôlons l'authentification par le même token, c'est pratique, et on ne change pas de techno. Enfin, ce sont des projets opensource reconnus qui se basent sur la couche asynchrone native de python ([asyncio](https://docs.python.org/3/library/asyncio.html)) contrairement à [twisted](https://twistedmatrix.com/) ou [tornado](http://www.tornadoweb.org) ;
+- pour le front web, nous configurons nginx comme un [proxy websocket](https://www.nginx.com/blog/websocket-nginx/) qui jouera un rôle de *load balancing* et de *reverse proxy*
 - côté client, nous mettons en place une websocket
 
 ````javascript
@@ -71,7 +71,7 @@ En résumé :
 | toutes les 30s | toutes les 45s |
 
 
-Nous divisions par 7,3 le nombre d'informations échangées à chaque requête, et nous faisons trois requêtes HTTP pour deux Keep-Alive/ACK. Donc nous échangeons **10 fois moins de données** en ayant une meilleure réactivité à la réception d'un mail.
+Nous divisions par 7,3 le nombre d'informations échangées à chaque requête, et nous faisons trois requêtes HTTP pour deux Keep-Alive/ACK. Donc, nous échangeons **10 fois moins de données** en ayant une meilleure réactivité à la réception d'un mail.
 
 ### Pour l'IMAP
 
@@ -108,13 +108,13 @@ Nous obtenons :
 - une diminution de l'utilisation des serveurs
 - un apprentissage sur la programmation asynchrone en python
 
-Dans cet environnement contraint nous avons rendu [notre tâche simple en tâche difficile](http://dominicwilliams.net/en/pair_diff.html) : notifier l'utilisateur de l'arrivée d'un nouveau message par scrutation en push serveur.
+Dans cet environnement contraint, nous avons rendu [notre tâche simple en tâche difficile](http://dominicwilliams.net/en/pair_diff.html) : notifier l'utilisateur de l'arrivée d'un nouveau message par scrutation en push serveur.
 
 Pour bien faire, il reste à travailler la fiabilité et le déploiement :
 
 - un fallback en longtime polling pour les clients qui ne supportent pas les websockets
 - la détection côté client d'un lien cassé et le rétablissement automatique d'une nouvelle websocket
-- le dimentionnement du nombre de clients websocket que peut servir une machine. [Ce fil stackoverflow](http://stackoverflow.com/questions/15872788/maximum-concurrent-socket-io-connections) peut aider.
+- le dimensionnement du nombre de clients websocket que peut servir une machine. [Ce fil stackoverflow](http://stackoverflow.com/questions/15872788/maximum-concurrent-socket-io-connections) peut aider.
 
 Nous calculerons également l'économie en eau et en émission de CO2 en fonction du nombre d'utilisateurs, en se basant sur le modèle d'[Ecoindex](http://www.ecoindex.fr/quest-ce-que-ecoindex/). Mais cela fera l'objet d'un autre article :)
 
