@@ -56,7 +56,7 @@ Nous exécutons notre scénario de bench précédent (sans rechargement d'applic
 | moyenne (ms)   | 75.8 | 71.0
 | écart type | 13.3 | 11.7
 
-Surprise encore, svelte fait moins bien de 6% que vuejs. Comme le DOM est modifié directement, on s'attendait à des résulats meilleurs que vuejs, comme mentionné [ici](https://medium.com/cacher-app/svelte-is-really-fast-45224f57bd86) ou encore [là](https://medium.com/habilelabs/svelte-a-magically-fast-javascript-framework-c854162288dd). Cela montre à quel point vuejs est optimisé.
+Surprise encore, svelte fait moins bien de 6% que vuejs. Comme le DOM est modifié directement, on s'attendait à des résultats meilleurs que vuejs, comme mentionné [ici](https://medium.com/cacher-app/svelte-is-really-fast-45224f57bd86) ou encore [là](https://medium.com/habilelabs/svelte-a-magically-fast-javascript-framework-c854162288dd). Cela montre à quel point vuejs est optimisé.
 
 Pour creuser les différences internes de fonctionnement de svelte et de vue, [cet article](https://www.vuemastery.com/blog/vue-vs-svelte-comparing-framework-internals/) nous a bien éclairé.
 
