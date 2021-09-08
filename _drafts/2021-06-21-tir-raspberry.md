@@ -14,7 +14,7 @@ comments: true
 
 # Benchmark sur Raspberry Pi
 
-Après les résultats concluants un benchmark du serveur Rust sur un laptop, nous essayons maintenant de tester sont efficacité sur une plus petite machine : le Rapsberry Pi. C'est aussi un des critères de validation d'un service : s'il tourne sur un Raspberry Pi, c'est une bonne indication de frugalité.
+Après les résultats concluants du benchmark du serveur Rust sur un laptop, nous essayons maintenant de tester son efficacité sur une plus petite machine : le Raspberry Pi. C'est aussi un des critères de validation d'un service : s'il tourne sur un Raspberry Pi, c'est une bonne indication de frugalité.
 
 ## Protocole
 
@@ -23,7 +23,7 @@ Le protocole est identique au tir avec le laptop. Nous testons :
 * L'énergie nécessaire
 * La CPU utilisée
 
-Cette fois-ci le serveur se trouvent sur un Raspberry Pi 3 Model B avec une distribution Ubuntu Server 20.04.2 et l'injecteur sur un laptop HP EliteBook G40 G3 avec une distribution Ubuntu 20.04.1. Cette configuration permet de qualifier le comportement du serveur sur une machine de faible puissance.
+Cette fois-ci, le serveur se trouve sur un Raspberry Pi 3 Model B avec une distribution Ubuntu Server 20.04.2 et l'injecteur sur un laptop HP EliteBook G40 G3 avec une distribution Ubuntu 20.04.1. Cette configuration permet de qualifier le comportement du serveur sur une machine de faible puissance.
 
 Les outils utilisés sont :
 
@@ -37,9 +37,9 @@ Les tirs sont encore réalisés sur un serveur Python et un serveur Rust de type
 
 ## Résultats
 
-Plusieurs tirs ont été réalisés, ils donnent des résultats plus tranchés que sur laptop.
+Plusieurs tirs ont été réalisés ; ils donnent des résultats plus tranchés que sur laptop.
 
-Voici un exemple sur un tir de 500 000 requêtes et 4 concurrences injectés sur le Raspberry Pi depuis le HP EliteBook. Les chiffres exposés ci-dessous sont relatifs et dépende différents facteurs (OS, connexion au réseau, ...). Nous n'obtiendrons donc pas les mêmes valeurs que les tirs précédents sur laptop.
+Voici un exemple sur un tir de 500 000 requêtes et 4 concurrences injectés sur le Raspberry Pi depuis le HP EliteBook. Les chiffres exposés ci-dessous sont relatifs et dépendent de différents facteurs (OS, connexion au réseau, ...). Nous n'obtiendrons donc pas les mêmes valeurs que les tirs précédents sur laptop.
 
 Nous obtenons une moyenne de 5,722ms par requête pour Rust et 21,394ms pour Python :
 
@@ -61,7 +61,7 @@ Dans un autre tir, nous avons relevé la distribution du temps de réponses des 
 
 Nous remarquons encore la constance de Rust par rapport à Python, beaucoup plus instable.
 
-De plus, des tirs plus conséquents (30 000 000 de requêtes) ont été réalisés pour tester l'endurance du serveur Rust. Nous obtenons une moyenne du temps d'exécution similaire aux tirs avec de plus faibles nombres de requêtes. Aucun crash ni d'augmentation de la mémoire prouve encore la stabilité  de la technologie Rust.
+De plus, des tirs plus conséquents (30 000 000 de requêtes) ont été réalisés pour tester l'endurance du serveur Rust. Nous obtenons une moyenne du temps d'exécution similaire aux tirs avec de plus faibles nombres de requêtes. Aucun crash ni d'augmentation de la mémoire prouve encore la stabilité de la technologie Rust.
 
 
 ## Conclusion
