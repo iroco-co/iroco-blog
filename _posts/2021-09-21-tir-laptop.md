@@ -49,7 +49,7 @@ Les outils utilisés sont :
 
 Nous utilisons un serveur Python et un serveur Rust de type CardDav (asynchrone et threading), tous deux proposant les mêmes fonctionnalités. La base de données Postgresql contient 10 000 contacts. Le scénario de test est la requête pour l'accès aux données d'un contact.
 
-Les deux serveurs sont lancés avec un pool de connexion.  
+Les deux serveurs sont lancés avec un pool de 10 connexions postgresql.  
 
 ## Résultats
 
