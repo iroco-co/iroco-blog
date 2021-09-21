@@ -58,7 +58,7 @@ Une dizaine de tirs ont été réalisés.
 # Tour de chauffe
 
 Nous lançons `ab` avec 8 utilisateurs qui font 100 000 requêtes au total.
-Nous obtenons une latence moyenne de 1.895 ms par requête pour Rust et 2.674 ms pour Python (soit ~30% de mieux pour rust):
+Nous obtenons une latence moyenne de 1.895 ms par requête pour Rust et 2.674 ms pour Python (soit ~30% de mieux pour Rust) :
 
 ![Image : latence]({{ site.url }}/images/backend_benchmark/nb_req_sec.png)
 
@@ -94,4 +94,3 @@ Ces résultats nous permettent donc de proposer un service avec un nombre de mac
 
 Nous allons maintenant effectuer ces tests sur une machine de plus faible puissance : le Raspberry Pi.
 
-[Lien vers l'article suivant]({{ site.url }}/tir-raspberry)
