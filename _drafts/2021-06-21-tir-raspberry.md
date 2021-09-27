@@ -14,14 +14,14 @@ comments: true
 
 # Benchmark sur Raspberry Pi
 
-Après les résultats concluants du benchmark du serveur Rust sur un laptop, nous essayons maintenant de tester son efficacité sur une plus petite machine : le Raspberry Pi. C'est aussi un des critères de validation d'un service : s'il tourne sur un Raspberry Pi, c'est une bonne indication de frugalité.
+Après les résultats concluants du benchmark du serveur Rust sur un laptop, nous essayons maintenant de tester son efficacité sur une plus petite machine : le Raspberry Pi. C'est aussi un des critères de validation de la frugalité d'un service : s'il tourne sur un Raspberry Pi, c'est une bonne indication de frugalité.
 
 ## Protocole
 
 Le protocole est identique au tir avec le laptop. Nous testons :
-* La vitesse d'exécution
-* L'énergie nécessaire
-* La CPU utilisée
+* La vitesse d'exécution ;
+* L'énergie nécessaire ;
+* La CPU utilisée.
 
 Cette fois-ci, le serveur se trouve sur un Raspberry Pi 3 Model B avec une distribution Ubuntu Server 20.04.2 et l'injecteur sur un laptop HP EliteBook G40 G3 avec une distribution Ubuntu 20.04.1. Cette configuration permet de qualifier le comportement du serveur sur une machine de faible puissance.
 
@@ -39,13 +39,13 @@ Les tirs sont encore réalisés sur un serveur Python et un serveur Rust de type
 
 Plusieurs tirs ont été réalisés ; ils donnent des résultats plus tranchés que sur laptop.
 
-Voici un exemple sur un tir de 500 000 requêtes et 4 concurrences injectés sur le Raspberry Pi depuis le HP EliteBook. Les chiffres exposés ci-dessous sont relatifs et dépendent de différents facteurs (OS, connexion au réseau, ...). Nous n'obtiendrons donc pas les mêmes valeurs que les tirs précédents sur laptop.
+Voici un exemple sur un tir de 500 000 requêtes et 4 concurrences injectés sur le Raspberry Pi depuis le HP EliteBook. Les chiffres exposés ci-dessous sont relatifs et dépendent de différents facteurs (OS, connexion au réseau...). Nous n'obtiendrons donc pas les mêmes valeurs que les tirs précédents sur laptop.
 
 Nous obtenons une moyenne de 5,722ms par requête pour Rust et 21,394ms pour Python :
 
 ![Image : Résultats sur la vitesse]({{ site.url }}/images/backend_benchmark/time.png)
 
-En ce qui concerne la puissance, le Wattmètre indique que Rust nécessite plus de puissance sur l'instant mais pendant moins longtemps. Le serveur Rust nécessite ainsi moins d'énergie que Python :
+En ce qui concerne la puissance, le wattmètre indique que Rust nécessite plus de puissance sur l'instant mais pendant moins longtemps. Le serveur Rust nécessite ainsi moins d'énergie que Python :
 
 ![Image : Résultats sur la puissance]({{ site.url }}/images/backend_benchmark/W.png)
 
@@ -61,14 +61,14 @@ Dans un autre tir, nous avons relevé la distribution du temps de réponses des 
 
 Nous remarquons encore la constance de Rust par rapport à Python, beaucoup plus instable.
 
-De plus, des tirs plus conséquents (30 000 000 de requêtes) ont été réalisés pour tester l'endurance du serveur Rust. Nous obtenons une moyenne du temps d'exécution similaire aux tirs avec de plus faibles nombres de requêtes. Aucun crash ni d'augmentation de la mémoire prouve encore la stabilité de la technologie Rust.
+De plus, des tirs plus conséquents (30 000 000 de requêtes) ont été réalisés pour tester l'endurance du serveur Rust. Nous obtenons une moyenne du temps d'exécution similaire aux tirs avec de plus faibles nombres de requêtes. L'absence de crash ou d'augmentation de l'utilisation de la mémoire prouve encore la stabilité de la technologie Rust.
 
 
 ## Conclusion
 
 Ce benchmark confirme les résultats obtenus sur les tests laptop. On y retrouve l'efficacité, la stabilité et l'endurance de Rust, de manière plus prononcée sur une petite machine.
 
-Ces résultats montrent donc que le service peut également tourner de manière efficace sur des machines avec des petites configurations. Un cluster de Raspberry Pi pourrait alors être une solution envisageable pour remplacer des serveurs standards et ainsi avoir un service adapté aux nombres d'utilisateurs.
+Ces résultats montrent donc que le service étudié (un serveur de mail) peut également tourner de manière efficace sur des machines avec des petites configurations. Un cluster de Raspberry Pi pourrait alors être une solution envisageable pour remplacer des serveurs standards et ainsi avoir un service adaptable à un nombre d'utilisateurs donné.
 
 ![Image : Cluster de 750 Raspberry Pi]({{ site.url }}/images/backend_benchmark/cluster_rapsberry.jpg)
 
