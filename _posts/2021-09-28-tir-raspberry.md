@@ -14,7 +14,7 @@ comments: true
 
 # Benchmark sur Raspberry Pi
 
-Après les résultats concluants du benchmark du serveur Rust sur un laptop, nous essayons maintenant de tester son efficacité sur une plus petite machine : le Raspberry Pi. C'est aussi un des critères de validation de la frugalité d'un service : s'il tourne sur un Raspberry Pi, c'est une bonne indication de frugalité.
+Après les [résultats concluants du benchmark du serveur Rust sur un laptop]({{ site.url }}/tir-laptop), nous essayons maintenant de tester son efficacité sur une plus petite machine : le Raspberry Pi. C'est aussi un des critères de validation de la frugalité d'un service : s'il tourne sur un Raspberry Pi, c'est une bonne indication de frugalité.
 
 ## Protocole
 
