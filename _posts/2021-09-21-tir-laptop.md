@@ -92,5 +92,5 @@ Notre benchmark valide qu'une migration d'une implémentation en Python vers du 
 
 Ces résultats nous permettent donc de proposer un service avec un nombre de machines réduit et d'économiser plus de ressources premières et énergétiques.
 
-Nous allons maintenant effectuer ces tests sur une machine de plus faible puissance : le Raspberry Pi.
+Nous allons maintenant effectuer ces tests sur une machine de plus faible puissance : le [Raspberry Pi]({{ site.url }}/tir-raspberry).
 
