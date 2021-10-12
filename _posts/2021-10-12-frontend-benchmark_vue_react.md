@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bench vuejs reactjs (2/3)
+title: Benchmark : vuejs vs. reactjs (2/3)
 author:
   display_name: Bruno Thomas
 tags:
@@ -11,7 +11,7 @@ tags:
 comments: true
 ---
 
-Résumé de l'[épisode précédent]({{site.url}}/frontend_benchmark) : nous avons fait deux applications identiques (une en reactjs et l'autre en vuejs) avec les fonctionnalités suivantes :
+Résumé de l'[épisode précédent]({{site.url}}/frontend-benchmark) : nous avons fait deux applications identiques (une en reactjs et l'autre en vuejs) avec les fonctionnalités suivantes :
 
 * chargement d'une liste de mail ;
 * chargement d'un mail lorsque l'on clique sur un mail de la liste.
