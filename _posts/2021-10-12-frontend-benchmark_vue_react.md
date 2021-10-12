@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Benchmark : vuejs vs. reactjs (2/3)
+title: Benchmark vuejs vs. reactjs (2/3)
 author:
   display_name: Bruno Thomas
 tags:
