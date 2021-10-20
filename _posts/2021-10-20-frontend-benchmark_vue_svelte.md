@@ -11,7 +11,7 @@ tags:
 comments: true
 ---
 
-Lors de la présentation de nos [résultats sur le bench vuejs/react]({{site.url}}/frontend-benchmark_vue_react) au groupe de travail Boavizta, nous avons eu ces retours parmi d'autres :
+Lors de la présentation de nos [résultats sur le benchmark vuejs/react]({{site.url}}/frontend-benchmark_vue_react) au groupe de travail Boavizta, nous avons eu ces retours parmi d'autres :
 
 > Pourquoi utiliser un framework ?
 
@@ -47,7 +47,7 @@ Le code est clair et la courbe d'apprentissage est douce.
 
 # Performance svelte/vuejs
 
-Nous exécutons notre scénario de bench précédent (sans rechargement d'application) :
+Nous exécutons notre scénario de benchmark précédent (sans rechargement d'application) :
 
 ![diagramme](/images/frontend_benchmark/07-run-diagramme.png)
 
