@@ -76,7 +76,7 @@ Une fois que `testsaslauthd` fonctionnait, nous n'avions toujours pas d'authenti
 
 Deuxième obstacle, cyrus ne fais pas de [SNI](https://fr.wikipedia.org/wiki/Server_Name_Indication), donc on ne peut pas configurer plusieurs noms de domaines en TLS. Notre première idée était d'utiliser un proxy [nginx en mode email](https://docs.nginx.com/nginx/admin-guide/mail-proxy/mail-proxy/) qui fasse la partie SSL/TLS. Mais après avoir recherché, pas possible non plus [de faire du SNI en mode mail avec nginx](https://forum.nginx.org/read.php?2,237967,250127#msg-250127).
 
-Autre piste : utiliser alors HAproxy en [mode SSL/TLS termination](https://www.haproxy.com/blog/haproxy-ssl-termination/) pour l'IMAP. Etant donné qu'il sait faire des protocoles binaires, il doit pouvoir faire de l'IMAP non ? Victoire ! Ca fonctionne. On peut effectivement donner un wildcard au proxy :
+Autre piste : utiliser alors [HAproxy](https://www.haproxy.com) en [mode SSL/TLS termination](https://www.haproxy.com/blog/haproxy-ssl-termination/) pour l'IMAP. Etant donné qu'il sait faire des protocoles binaires, il doit pouvoir faire de l'IMAP non ? Victoire ! Ca fonctionne. On peut effectivement donner un wildcard au proxy :
 
 ```
 frontend ft_imaps
