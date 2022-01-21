@@ -62,7 +62,7 @@ La configuration serveur dépend des choix de déploiement, on ne va pas passer 
 
 Premier obstacle, l'authentification.
 
-![sasl/PAM/pgsql]({{ site.url }}/images/saslauthd.png)
+![sasl/PAM/pgsql]({{ site.url }}/images/cyrus/saslauthd.png)
 
 Nous configurons saslauthd avec PAM et nous utilisons le module [pam-pgsql](https://github.com/pam-pgsql/pam-pgsql) pour se connecter à la base de données. On se concentre sur saslauthd. Pour tester on utilise :
 
@@ -103,7 +103,7 @@ dans `master.cf` (diff sur le changement)
 
 Cette fois les utilisateurs passent bien par cyrus. Quelques jours plus tard, on décide alors d'éteindre dovecot.
 
-> BOUM !!
+![BOOM!!]({{ site.url }}/images/cyrus/fire.png)
 
 L'envoi de mail ne fonctionne plus à nouveau. En effet, postfix envoie bien les mails entrants à cyrus, mais nous nous rendons compte que l'authentification de postfix utilise _toujours_ le SASL de dovecot. Quand on éteint dovecot, postfix ne sait plus authentifier l'envoi de mail.
 
