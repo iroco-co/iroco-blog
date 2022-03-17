@@ -137,8 +137,8 @@ Si vous avez une solution ou des suggestions, nous serions heureux d'en discuter
 
 # Ce que nous avons appris
 
-1. que postfix tourne dans une chroot. Imoprtant de conserver ça dans un coin de son cerveau  pour comprendre ce qui se passe
+1. que postfix tourne dans une chroot. Important de conserver ça dans un coin de son cerveau pour mieux comprendre ce qui se passe
 2. que dovecot fournit un serveur d'authentification SASL qui est utilisé par postfix dans une install classique dovecot/postfix (dans la plupart des docs)
-3. que dans postfix ce service d'authentification était avant par défaut celui de cyrus
+3. que dans postfix ce service d'authentification était avant par défaut celui de cyrus-sasl
 
 Et plus généralement nous avons beaucoup appris sur les différents composants d'une chaine de mail (Mail Transfert Agent, Mail Delivery Agent, SASL, PAM,...).
