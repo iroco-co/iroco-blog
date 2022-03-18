@@ -101,7 +101,7 @@ dans `master.cf` (diff sur le changement)
 +lmtp      unix  -       -       n       -       -       lmtp
 ```
 
-Cette fois les utilisateurs passent bien par cyrus. Quelques jours plus tard, nosu décidons alors d'éteindre dovecot.
+Cette fois les utilisateurs passent bien par cyrus. Quelques jours plus tard, nous décidons alors d'éteindre dovecot.
 
 ![BOOM!!]({{ site.url }}/images/cyrus/fire.png)
 
