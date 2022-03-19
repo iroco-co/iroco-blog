@@ -8,6 +8,7 @@ tags:
 - vuejs
 - greenIT
 - frontend
+- benchmark
 comments: true
 ---
 
