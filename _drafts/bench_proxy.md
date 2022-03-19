@@ -35,13 +35,14 @@ Nous faisons 7 tirs de 10000 requêtes:
 
 Voici les résultats obtenus :
 
-![diagramme](/images/proxy_benchmark/auth_proxy.png)!
+![diagramme](/images/proxy_benchmark/auth_proxy.png)
 
 Ce que nous voyons : 
 
 1. dans les mêmes conditions (monothreadé, concurrence de 1) rust est 4,2 fois plus efficace que python
 2. rust en compilation non-optimisée est 2,6 fois moins efficace
 3. avec une concurrence de 8 les performances de python explosent. C'est lié au fait que notre serveur est synchrone, il ne peut pas paralléliser les requêtes
+4. résultat que nous avons du mal à expliquer : rust fait mieux avec 8 utilisateurs parallèles que avec un seul
  
 Ok c'est très fort pour rust. Cela dit la comparaison n'est pas tout à fait juste : 
 
@@ -53,7 +54,7 @@ Alors testons un pur reverse proxy HTTP asynchrone en monothreadé. Nous récup�
 
 Nous faisons plusieurs tirs de 100K requêtes. Voici les résultats:
 
-![diagramme](/images/proxy_benchmark/http_proxy.png)!
+![diagramme](/images/proxy_benchmark/http_proxy.png)
 
 Nous constatons que le proxy rust fait toujours mieux, alors que nous sommes dans des situations comparables. Il ajoute 0,5ms au temps de réponse de nginx. Le proxy python fait très bien également en ajoutant 1ms, mais c'est deux fois plus.
 
