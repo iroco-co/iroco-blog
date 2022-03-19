@@ -19,6 +19,8 @@ C'est très simple de le faire en python puisque notre backend de connexion est 
 
 Alors nous faisons [un proxy en Rust](https://crates.io/crates/hyper-auth-proxy). Il va juste aller chercher les _credentials_ dans la base Redis, les décoder et les ajouter encodées en base64 dans le header `Authorization`. Nous choisissons de le faire en asynchrone avec [hyper](https://hyper.rs/) pour qu'il soit [le plus efficace possible](https://www.techempower.com/benchmarks/#section=data-r18&hw=ph&test=plaintext).
 
+![hyper auth proxy](/images/proxy_benchmark/auth_token.png)
+
 A présent nous pouvons comparer les deux avec un petit bench pour vérifier notre hypothèse. Pour cela nous faisons tourner un serveur nginx sur une machine, et sur une autre, nous lançons notre proxy. L'injecteur [ab](https://httpd.apache.org/docs/2.4/programs/ab.html) tourne également sur la machine du proxy. 
 
 Ce test de performance nous intéresse car c'est typiquement un problème _I/O bound_ (relatifs aux entrées sorties réseau) : le proxy reçoit des requêtes HTTP, va chercher (via le réseau encore) une valeur dans la base de données, et fait une requête vers le serveur nginx. 
