@@ -21,9 +21,9 @@ Alors nous implémentons [un proxy en Rust](https://crates.io/crates/hyper-auth-
 
 ![hyper auth proxy](/images/proxy_benchmark/auth_token.png)
 
-A présent nous pouvons comparer les deux avec un petit bench pour vérifier notre hypothèse. Pour cela nous faisons tourner un serveur nginx sur une machine, et sur une autre, nous lançons notre proxy. L'injecteur [ab](https://httpd.apache.org/docs/2.4/programs/ab.html) tourne également sur la machine du proxy. 
+A présent nous pouvons comparer les deux avec un petit bench pour vérifier notre hypothèse. Pour cela nous faisons tourner un serveur nginx sur une machine, et sur une autre nous lançons notre proxy. L'injecteur [ab](https://httpd.apache.org/docs/2.4/programs/ab.html) tourne également sur la machine du proxy. 
 
-Ce test de performance nous intéresse car c'est typiquement un problème _I/O bound_ (relatifs aux entrées sorties réseau) : le proxy reçoit des requêtes HTTP, va chercher (via le réseau encore) une valeur dans la base de données, et fait une requête vers le serveur nginx. 
+Ce test de performance nous intéresse car c'est typiquement un problème _I/O bound_ (relatifs aux entrées sorties réseau) : le proxy reçoit des requêtes HTTP, va chercher (via le réseau encore) une valeur dans la base de données, et fait une requête vers le serveur nginx. Or [nous savons](https://sites.google.com/view/energy-efficiency-languages) que pour les problèmes _CPU bound_ Rust est très performant. Qu'en est-il dans le cas de notre proxy ? 
 
 Nous faisons 7 tirs de 10000 requêtes: 
 
