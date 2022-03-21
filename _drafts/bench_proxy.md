@@ -59,6 +59,6 @@ Nous faisons plusieurs tirs de 100K requêtes. Voici les résultats:
 
 ![diagramme](/images/proxy_benchmark/http_proxy.png)
 
-Nous constatons que le proxy rust fait toujours mieux, alors que nous sommes dans des situations comparables. Il ajoute 0,5ms au temps de réponse de nginx. Le proxy python fait très bien également en ajoutant 1ms, mais c'est deux fois plus.
+Nous constatons que le proxy rust est encore meilleur alors que nous sommes dans des situations comparables. Il ajoute 0,5ms au temps de réponse de nginx. Le proxy python répond très bien en ajoutant 1ms, mais c'est deux fois plus.
 
-Conclusion, même sur des performances presque uniquement _I/0 bound_ rust est quand même bien plus efficace que python.
+Conclusion, même sur des performances _I/0 bound_ rust est quand même bien plus efficace que python.
