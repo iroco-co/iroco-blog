@@ -42,9 +42,10 @@ Voici les résultats obtenus :
 Ce que nous voyons : 
 
 1. dans les mêmes conditions (monothreadé, concurrence de 1) rust est 4,2 fois plus efficace que python
-2. rust en compilation non-optimisée est 2,6 fois moins efficace
-3. avec une concurrence de 8 les performances de python explosent. C'est lié au fait que notre serveur est synchrone, il ne peut pas paralléliser les requêtes
-4. résultat que nous avons du mal à expliquer : rust fait mieux avec 8 utilisateurs parallèles que avec un seul
+2. rust en compilation non-optimisée est 2,6 fois moins efficace (comparativement à la version optimisée)
+3. la version multithreadée (p8t) fait à peine mieux que la version monothreadée
+4. avec une concurrence de 8 les performances de python explosent. C'est probablement lié au fait que notre serveur est synchrone, il ne peut pas paralléliser les requêtes
+5. résultat que nous avons du mal à expliquer : rust fait mieux avec 8 utilisateurs parallèles qu'avec un seul
  
 Ok c'est très fort pour rust. Cela dit la comparaison n'est pas tout à fait juste : 
 
