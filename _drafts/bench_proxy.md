@@ -61,4 +61,4 @@ Nous faisons plusieurs tirs de 100K requêtes. Voici les résultats:
 
 Nous constatons que le proxy rust est encore meilleur alors que nous sommes dans des situations comparables. Il ajoute 0,5ms au temps de réponse de nginx. Le proxy python répond très bien en ajoutant 1ms, mais c'est deux fois plus.
 
-Conclusion, même sur des performances _I/0 bound_ rust est quand même bien plus efficace que python. Nous avons déployé notre proxy en production.
+Conclusion, même sur des performances _I/0 bound_ rust est quand même bien plus efficace que python. Nous avons déployé notre proxy en production. Notre proxy a également [été référencé](https://jmap.io/software.html) sur le site de [JMAP](https://jmap.io).
