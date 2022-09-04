@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pourquoi l'écologie serait-elle de gauche ? 
+title: Pourquoi l'écologie serait-elle de gauche ?
 author:
   display_name: Bruno Thomas
 categories:
@@ -63,8 +63,6 @@ La troisième c'est la différence d'échelle de temps entre les échéances éc
 
 La dernière c'est que cette recherche de profit systématique pousse les entreprises à négliger les externalités négatives liées à leur activité (et attendre l'évolution de la législation). Cela conduit de fait à une mutualisation des pertes et une privatisation des profits et in fine à l'atrophie de l'État qui croule sous les dettes et l'augmentation des inégalités. On a pu en voir un exemple lors de la crise de 2008 avec les banques qui ont été sauvées par les États (et donc par les citoyens). On a pu aussi constater cette tendance lors de la crise du COVID où les entreprises ont fait appel aux États pour éviter la faillite. On pourrait aussi ajouter dans la balance les infrastructures, la recherche fondamentale...
 
-Voila pourquoi la droite politique, notamment son aile libérale n'est pas en mesure de faire face à l'urgence environnementale. Car son logiciel d'origine est construit sur des principes qui sont opposés à ceux qu'il faudrait mettre en place pour prendre à bras-le-corps le problème climatique.
+Voila pourquoi la droite politique, notamment son aile libérale n'est pas en mesure de faire face à l'urgence environnementale. Car son logiciel d'origine est construit sur des principes qui sont opposés à ceux qu'il faudrait mettre en place pour prendre à bras-le-corps le problème climatique. Pour être plus exact il faudrait définir ce qu'on entend [par gauche](https://www.economiedistributive.fr/La-gauche-et-le-capitalisme) et par droite. Est-ce la gauche de Jaurès, ou celle de Thiers (qui écrasait la commune) ou encore celle de Hollande ? Idem pour la droite. Peut-être une droite environnementaliste pourrait émerger (par exemple avec les mouvements catholiques autour de l'encyclique Laudato Si), mais pour le moment, si on regarde les programmes LR, RN et LRM pour les présidentielles, aucun programme n'était à la hauteur des enjeux selon les études de différentes ONG environnmentales.
 
 Si vous voulez en savoir plus, c'est la lecture du livre de Pierre Charbonnier "Culture Ecologique" qui m'a beaucoup inspirée (disclaimer il s'agit du chapitre 4 sur "le capitalisme et ses limites", dans lequel il ne parle pas de gauche/droite). Vous trouverez bien d'autres explications et références pour mieux comprendre les enjeux écologiques actuels.
-
-[La “gauche” et le capitalisme aujourd’hui en France](https://www.economiedistributive.fr/La-gauche-et-le-capitalisme)
