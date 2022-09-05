@@ -11,7 +11,7 @@ tags:
 
 # pourquoi l'écologie serait-elle de gauche ?
 
-Cet été en rencontrant les différentes personnes de la famille et du cercle familial, beaucoup de conversations ont tourné autour de l'écologie. Les sècheresses, canicules, incendies, innondations émaillant l'actualité y ont été pour beaucoup. Et une question est revenue plusieurs fois :
+Cet été en rencontrant les différentes personnes de la famille et du cercle amical, beaucoup de conversations ont tourné autour de l'écologie. Les sècheresses, canicules, incendies, innondations émaillant l'actualité y ont été pour beaucoup. Et une question est revenue plusieurs fois :
 
 > pourquoi l'écologie serait-elle de gauche ?
 
