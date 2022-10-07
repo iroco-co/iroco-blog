@@ -1,11 +1,19 @@
 ---
 layout: default
 ---
+{% capture read_time %}
+{{ page.content | number_of_words | divided_by: 180 }}
+{% endcapture %}
 <div class="container container-left">
     <div class="row">
 
         <div class="col-md-9">
             <div class="article">
+                {% if read_time != '0' %}
+                {{ read_time }}
+                {% else %}
+                1
+                {% endif %} min de lecture
                 <div class="well">
                     {% include article.html %}
                 </div>

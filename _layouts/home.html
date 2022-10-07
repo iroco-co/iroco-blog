@@ -33,6 +33,15 @@ layout: default
       {% when '12' %}décembre
     {% endcase %}
     {{ post.date | date: "%Y" }}, par <span class="author"><a href="{{ site.baseurl }}/author/{{ site.data.authors[author_name].short }}/">{{ author_name }}</a></span>
+      {% capture read_time %}
+      {{ post.content | number_of_words | divided_by: 180 }}
+      {% endcapture %}
+      (
+      {% if read_time != '0' %}
+      {{ read_time }}
+      {% else %}
+      1
+      {% endif %} min de lecture)
     </p>
             <div class="content">
               {% if forloop.index  == 1 %}
