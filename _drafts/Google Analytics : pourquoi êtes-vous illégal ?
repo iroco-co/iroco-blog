@@ -61,6 +61,13 @@ Cependant, la mise en œuvre pour que la proxyfication soit valable "peut se ré
 
 Chez Iroco, nous utilisons **Matomo**, un logiciel libre et open source (anciennement Piwik) afin d'assurer la **sécurité des données de nos visiteurs**.
 
+Les avantages de cette solution : 
+
+* Respectueux des données et de la vie privée (les données sont anonymisées et non transmises hors UE)
+* RGPD compliant 
+* Disponible en Cloud ou On-Premise 
+* Un suivi qualitatif des données 
+
 Sources : [Les Échos](https://www.lesechos.fr/tech-medias/hightech/lutilisation-de-google-analytics-enfreint-le-droit-europeen-selon-la-cnil-1386157) | [CNIL](https://www.cnil.fr/fr/utilisation-de-google-analytics-et-transferts-de-donnees-vers-les-etats-unis-la-cnil-met-en-demeure) 
 
 ------
