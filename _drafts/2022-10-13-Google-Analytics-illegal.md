@@ -12,9 +12,6 @@ tags:
 - RGPD
 ---
 
-
-# Google Analytics : pourquoi êtes-vous illégal ?
-
 *Google Analytics est une plateforme de statistiques Web lancée en 2005 par Google du groupe Alphabet. On estime que 80% du marché mondial l'utilisent pour analyser le trafic sur leur site Web. Pourquoi son utilisation pourrait-elle finalement être interdite ? Décryptage.*
 
 ## Google Analytics : qu'est-ce que c'est ?
