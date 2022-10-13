@@ -1,0 +1,18 @@
+---
+layout: default
+title: Catégories
+group: navigation
+---
+<h1><a href="{{ site.baseurl}}{{ page.url }}">{{ page.title }}</a></h1>
+<ul class="tags_box inline">
+  {% assign categories_list = site.categories %}
+  {% include categorylist.html %}
+</ul>
+
+{% for category in site.categories %}
+  <h2 id="{{ category[0] }}-ref">{{ category[0] }}</h2>
+  <ul>
+    {% assign pages_list = category[1] %}
+    {% include pagelist.html %}
+  </ul>
+{% endfor %}

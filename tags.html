@@ -1,0 +1,18 @@
+---
+layout: default
+title: Tags
+group: navigation
+---
+<h1><a href="{{ site.baseurl}}{{ page.url }}">{{ page.title }}</a></h1>
+<ul class="tags_box inline">
+  {% assign tags_list = site.tags %}
+  {% include taglist.html %}
+</ul>
+
+{% for tag in site.tags %}
+  <h2 id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
+  <ul>
+    {% assign pages_list = tag[1] %}
+    {% include pagelist.html %}
+  </ul>
+{% endfor %}
