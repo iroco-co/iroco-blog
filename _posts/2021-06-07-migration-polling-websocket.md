@@ -3,6 +3,8 @@ layout: post
 title: L'événementiel, c'est écologique
 author:
   display_name: Bruno Thomas
+categories:
+- dev
 tags:
 - javascript
 - refactoring

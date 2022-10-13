@@ -3,6 +3,8 @@ layout: post
 title: L'écoconception et le "software craftsmanship" ?
 author:
   display_name: Bruno Thomas
+categories:
+- dev
 tags:
 - greenIT
 comments: true

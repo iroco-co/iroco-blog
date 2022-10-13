@@ -3,6 +3,8 @@ layout: post
 title: Benchmark vuejs vs. svelte (3/3)
 author:
   display_name: Bruno Thomas
+categories:
+- dev
 tags:
 - svelte
 - vuejs

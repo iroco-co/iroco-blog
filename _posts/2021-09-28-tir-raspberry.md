@@ -3,11 +3,14 @@ layout: post
 title: Migration vers une technologie plus responsable. (3/3)
 author:
   display_name: Barnabé Geffroy
+categories:
+- dev
 tags:
 - rust
 - python
 - greenIT
 - backend
+- benchmark
 comments: true
 ---
 

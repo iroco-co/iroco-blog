@@ -3,6 +3,8 @@ layout: post
 title: Une migration vers ES6 et un pas de plus en écoconception
 author:
   display_name: Bruno Thomas
+categories:
+- dev
 tags:
 - javascript
 - es6

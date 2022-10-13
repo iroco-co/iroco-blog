@@ -3,6 +3,8 @@ layout: post
 title: Migration vers une technologie plus responsable. (1/3)
 author:
   display_name: Barnabé Geffroy
+categories:
+- dev
 tags:
 - rust
 - python

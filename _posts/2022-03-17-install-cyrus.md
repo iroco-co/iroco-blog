@@ -3,6 +3,8 @@ layout: post
 title: Migration de dovecot vers cyrus
 author:
   display_name: Bruno Thomas
+categories:
+- sysadmin
 tags:
 - mail
 - backend
