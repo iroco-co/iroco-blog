@@ -1,3 +1,18 @@
+---
+layout: post
+title: Google Analytics est-il illégal en France ?
+description: La CNIL a annoncé la mise en demeure des sites utilisant Google Analytics, pour non-respect des règles du RGPD sur la protection des données. Quelles en sont les conséquences ? 
+author:
+  display_name: Iroco
+categories:
+- Décryptage
+tags:
+- Google Analytics
+- Données personnelles et confidentialité
+- RGPD
+---
+
+
 # Google Analytics : pourquoi êtes-vous illégal ?
 
 *Google Analytics est une plateforme de statistiques Web lancée en 2005 par Google du groupe Alphabet. On estime que 80% du marché mondial l'utilisent pour analyser le trafic sur leur site Web. Pourquoi son utilisation pourrait-elle finalement être interdite ? Décryptage.* 
@@ -106,11 +121,3 @@ Les avantages de cette solution :
 * Un suivi qualitatif des données 
 
 Sources : [Les Échos](https://www.lesechos.fr/tech-medias/hightech/lutilisation-de-google-analytics-enfreint-le-droit-europeen-selon-la-cnil-1386157) | [CNIL](https://www.cnil.fr/fr/utilisation-de-google-analytics-et-transferts-de-donnees-vers-les-etats-unis-la-cnil-met-en-demeure) 
-
-------
-
-Meta Title : Google Analytics est-il illégal en France ? 
-
-Description : La CNIL a annoncé la mise en demeure des sites utilisant Google Analytics, pour non-respect des règles du RGPD sur la protection des données. Quelles en sont les conséquences ? 
-
-Tags : Google Analytics |  Privacy | RGPD
