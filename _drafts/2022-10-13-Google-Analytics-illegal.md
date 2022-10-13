@@ -29,8 +29,6 @@ Il est utilisé particulièrement par les TPE/PME afin d'obtenir diverses **donn
 **Google Analytics** acquiert les données utilisateur de chaque visiteur d'un site Web via un "**code Javascript**" qui est installé sur chaque page.
 
 ![Image : Snippet google analytics]({{ site.url }}/images/google_analytics/Google-Analytics-Snippet.png)
-![Image : Schéma explicatif du fonctionnement de io_uring]({{ site.url }}/images/io_uring/read_iouring.png)
-
 
 Le code Javascript est ni plus ni moins qu'un "**traceur**" ou plus communément un **cookie** (fichier témoin) qui est **stocké sur votre ordinateur ou votre téléphone** par les sites que vous avez visités afin de **recueillir des informations**. Cependant, le système ne peut pas collecter de données pour les utilisateurs qui les désactivent.
 
