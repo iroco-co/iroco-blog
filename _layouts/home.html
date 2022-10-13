@@ -43,22 +43,18 @@ layout: default
               1
               {% endif %} min de lecture
             </p>
-            <p>
-              {% if post.categories.size > 0 %}
+            <p class="tags">
               {% for category in post.categories %}
-              <a href="{{ site.baseurl }}/categories#{{ category }}-ref">
-                <span class="tag tag-category">{{ category }}</span>
-              </a>
+                <a href="{{ site.baseurl }}/categories#{{ category }}-ref">
+                  <span class="tag tag-category">{{ category }}</span>
+                </a>
               {% endfor %}
-              {% endif %}
 
-              {% if post.tags.size > 0 %}
-              {% for tag in post.tags %}
-              <a href="{{ site.baseurl }}/tags#{{ tag }}-ref">
-                <span class="tag tag-tag">{{ tag }}</span>
-              </a>
+              {%- for tag in post.tags -%}
+                <a href="{{ site.baseurl }}/tags#{{ tag }}-ref">
+                  <span class="tag tag-tag">{{ tag }}</span>
+                </a>
               {% endfor %}
-              {% endif %}
             </p>
             <div class="content">
               {% if forloop.index  == 1 %}
