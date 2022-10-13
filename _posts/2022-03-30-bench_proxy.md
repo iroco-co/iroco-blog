@@ -5,6 +5,7 @@ author:
   display_name: Bruno Thomas
 categories:
 - dev
+- sysadmin
 tags:
 - rust
 - python
