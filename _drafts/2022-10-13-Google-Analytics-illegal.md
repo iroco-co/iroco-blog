@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Google Analytics est-il illégal en France ?
-description: La CNIL a annoncé la mise en demeure des sites utilisant Google Analytics, pour non-respect des règles du RGPD sur la protection des données. Quelles en sont les conséquences ? 
+description: La CNIL a annoncé la mise en demeure des sites utilisant Google Analytics, pour non-respect des règles du RGPD sur la protection des données. Quelles en sont les conséquences ?
 author:
   display_name: Iroco
 categories:
@@ -15,9 +15,9 @@ tags:
 
 # Google Analytics : pourquoi êtes-vous illégal ?
 
-*Google Analytics est une plateforme de statistiques Web lancée en 2005 par Google du groupe Alphabet. On estime que 80% du marché mondial l'utilisent pour analyser le trafic sur leur site Web. Pourquoi son utilisation pourrait-elle finalement être interdite ? Décryptage.* 
+*Google Analytics est une plateforme de statistiques Web lancée en 2005 par Google du groupe Alphabet. On estime que 80% du marché mondial l'utilisent pour analyser le trafic sur leur site Web. Pourquoi son utilisation pourrait-elle finalement être interdite ? Décryptage.*
 
-## Google Analytics : qu'est-ce que c'est ? 
+## Google Analytics : qu'est-ce que c'est ?
 
 [Google Analytics](https://analytics.google.com/analytics/web/)
 est un service d'**analyse Web** qui fournit des statistiques et des outils d'analyse à des fins d'optimisation des moteurs de recherche (SEO) et de marketing. Ce service est disponible gratuitement pour toute personne possédant un compte Google.
@@ -26,13 +26,15 @@ Il est utilisé particulièrement par les TPE/PME afin d'obtenir diverses **donn
 
 ## Comment fonctionne Google Analytics ?
 
-**Google Analytics** acquiert les données utilisateur de chaque visiteur d'un site Web via un "**code Javascript**" qui est installé sur chaque page. 
+**Google Analytics** acquiert les données utilisateur de chaque visiteur d'un site Web via un "**code Javascript**" qui est installé sur chaque page.
 
-1-Google-Analytics-Snippet.png
+![Image : Snippet google analytics]({{ site.url }}/images/google_analytics/Google-Analytics-Snippet.png)
+![Image : Schéma explicatif du fonctionnement de io_uring]({{ site.url }}/images/io_uring/read_iouring.png)
+
 
 Le code Javascript est ni plus ni moins qu'un "**traceur**" ou plus communément un **cookie** (fichier témoin) qui est **stocké sur votre ordinateur ou votre téléphone** par les sites que vous avez visités afin de **recueillir des informations**. Cependant, le système ne peut pas collecter de données pour les utilisateurs qui les désactivent.
 
-Google Analytics peut alors générer des rapports personnalisables pour suivre et visualiser deux types d'informations: des données d'acquisitions et des données de comportements. 
+Google Analytics peut alors générer des rapports personnalisables pour suivre et visualiser deux types d'informations: des données d'acquisitions et des données de comportements.
 
 **Les données d'acquisitions** sont basées sur "comment votre trafic arrive sur votre site internet".
 
@@ -50,21 +52,21 @@ Ces informations vous permettront d'**optimiser le ciblage dans votre stratégie
 * Les pages vues
 * Le taux de rebond (pourcentage de visiteurs qui visitent une seule page du site avant d'en sortir)
 
-Vous trouverez également le chemin que les visiteurs empruntent généralement lorsqu'ils accèdent à votre site web, c'est ce qu'on appelle le "flux de comportement" 
+Vous trouverez également le chemin que les visiteurs empruntent généralement lorsqu'ils accèdent à votre site web, c'est ce qu'on appelle le "flux de comportement"
 
 debuter-sur-google-analytics-le-parcours-utilisateur-624x264.png
 
 Une section non négligeable présente également dans Google Analytics est la **vitesse du site** (temps de chargement). Cet onglet permet de déterminer les zones du site qui doivent être optimisées en raison d'une vitesse anormalement lente. Voici quelques metrics :  
 
 * Temps de chargement moyen des pages
-* Temps de redirection moyen 
+* Temps de redirection moyen
 * Temps moyen de recherche de domaine (temps moyen passé en recherche DNS pour une page)
-* Temps moyen de téléchargement d'une page 
+* Temps moyen de téléchargement d'une page
 * ...
 
-En plus des informations "de base" fournies par Analytics, nous pouvons également **définir des objectifs personnalisés et uniques** tels que "effectuer un achat" (dans le cadre d'un site e-commerce). Cela peut vous aider à trouver des accrocs, comme un processus de paiement compliqué. 
+En plus des informations "de base" fournies par Analytics, nous pouvons également **définir des objectifs personnalisés et uniques** tels que "effectuer un achat" (dans le cadre d'un site e-commerce). Cela peut vous aider à trouver des accrocs, comme un processus de paiement compliqué.
 
-En clair, les outils d'analyse d'audience vous permettront de : 
+En clair, les outils d'analyse d'audience vous permettront de :
 
 * Trouver vos sources de trafic (comment les internautes découvrent-ils mon site ?)
 * Comprendre les fluctuations de vos visites (pourquoi il y a eu  une baisse ?)
@@ -75,7 +77,7 @@ En clair, les outils d'analyse d'audience vous permettront de :
 * Optimiser son SEO (échantillon des mots-clés et savoir où votre site est visible dans les résultats)
 * Évaluer la vitesse de chargement des pages (vitesse moyenne de chargement des pages, mais aussi des informations pour l'améliorer)
 
-## Pourquoi est-il essentiel pour une entreprise d'utiliser un outil d'analyse web ? 
+## Pourquoi est-il essentiel pour une entreprise d'utiliser un outil d'analyse web ?
 
 Selon le [baromètre France Num](https://www.francenum.gouv.fr/guides-et-conseils/strategie-numerique/barometre-france-num-2021-le-numerique-dans-les-tpe-pme-0), **66% des TPE/PME disposent d'un site internet en 2021**. Par conséquent, il est primordial de connaître les détails de ce que font les internautes lorsqu'ils visitent votre site web : combien de temps ils y restent et quelles pages ils visitent. C'est pourquoi l'analyse web est un outil puissant pour étudier le comportement des visiteurs, suivre et mesurer chaque action marketing, et donc **mesurer votre retour sur investissement (ROI)**.
 
@@ -87,9 +89,9 @@ En février 2022, la [CNIL](https://www.cnil.fr/fr/cookies-et-autres-traceurs/re
 
 Tout a commencé lorsque le Centre européen pour les droits numériques([NOYB](https://noyb.eu/fr)) a déposé une plainte contre NetDoktor, une société autrichienne d'informations médicales qui utilisait des cookies de Google Analytics.
 
-Le 22 décembre 2021, l'Agence autrichienne de protection des données (DPA) a conclu que l'utilisation de Google Analytics violait la **RGPD** car la société NetDoktor n'avait pas correctement configuré le masquage des adresses IP, ce qui peut permettre une identification précise des utilisateurs. 
+Le 22 décembre 2021, l'Agence autrichienne de protection des données (DPA) a conclu que l'utilisation de Google Analytics violait la **RGPD** car la société NetDoktor n'avait pas correctement configuré le masquage des adresses IP, ce qui peut permettre une identification précise des utilisateurs.
 
-En outre, la CNIL a critiqué  le transfert des données suivies  par Google vers les États-Unis en ne restreignant pas suffisamment l'accès aux données aux agences de renseignement américaines. 
+En outre, la CNIL a critiqué  le transfert des données suivies  par Google vers les États-Unis en ne restreignant pas suffisamment l'accès aux données aux agences de renseignement américaines.
 
 ## La France va-t-elle interdire Google Analytics ?
 
@@ -105,7 +107,7 @@ Si Google Analytics est effectivement interdit en Europe, cela affectera des mil
 
 De nombreuses entreprises en Europe doivent se demander si Google Analytics doit être supprimé de leurs sites web ou s'exposer à des sanctions. Au lieu d'attendre que les lois soient appliquées, les sociétés devraient commencer à travailler de manière éthique et trouver des[ alternatives à Google Analytics validées par la CNIL](https://www.cnil.fr/fr/cookies-et-autres-traceurs/regles/cookies-solutions-pour-les-outils-de-mesure-daudience)qui respectent **les lois ePrivacy et de RGPD**.
 
-Depuis juin 2022, une solution aurait été trouvée par la CNIL pour continuer à utiliser Google Analytics, la proxyfication. 
+Depuis juin 2022, une solution aurait été trouvée par la CNIL pour continuer à utiliser Google Analytics, la proxyfication.
 
 https://www.cnil.fr/sites/default/files/atoms/files/statistiques_avec_proxyfication.pdf
 
@@ -113,11 +115,11 @@ Cependant, la mise en œuvre pour que la proxyfication soit valable "peut se ré
 
 Chez Iroco, nous utilisons **Matomo**, un logiciel libre et open source (anciennement Piwik) afin d'assurer la **sécurité des données de nos visiteurs**.
 
-Les avantages de cette solution : 
+Les avantages de cette solution :
 
 * Respectueux des données et de la vie privée (les données sont anonymisées et non transmises hors UE)
-* RGPD compliant 
-* Disponible en Cloud ou On-Premise 
-* Un suivi qualitatif des données 
+* RGPD compliant
+* Disponible en Cloud ou On-Premise
+* Un suivi qualitatif des données
 
-Sources : [Les Échos](https://www.lesechos.fr/tech-medias/hightech/lutilisation-de-google-analytics-enfreint-le-droit-europeen-selon-la-cnil-1386157) | [CNIL](https://www.cnil.fr/fr/utilisation-de-google-analytics-et-transferts-de-donnees-vers-les-etats-unis-la-cnil-met-en-demeure) 
+Sources : [Les Échos](https://www.lesechos.fr/tech-medias/hightech/lutilisation-de-google-analytics-enfreint-le-droit-europeen-selon-la-cnil-1386157) | [CNIL](https://www.cnil.fr/fr/utilisation-de-google-analytics-et-transferts-de-donnees-vers-les-etats-unis-la-cnil-met-en-demeure)
