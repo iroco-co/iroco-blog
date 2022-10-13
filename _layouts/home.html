@@ -36,12 +36,12 @@ layout: default
       {% capture read_time %}
       {{ post.content | number_of_words | divided_by: 180 }}
       {% endcapture %}
-      (
+      -
       {% if read_time != '0' %}
       {{ read_time }}
       {% else %}
       1
-      {% endif %} min de lecture)
+      {% endif %} min de lecture
     </p>
             <div class="content">
               {% if forloop.index  == 1 %}
