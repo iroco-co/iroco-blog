@@ -28,7 +28,17 @@ Il est utilisé particulièrement par les TPE/PME afin d'obtenir diverses **donn
 
 **Google Analytics** acquiert les données utilisateur de chaque visiteur d'un site Web via un "**code Javascript**" qui est installé sur chaque page.
 
-![Image : Snippet google analytics]({{ site.url }}/images/google_analytics/Google-Analytics-Snippet.png)
+````javascript
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-xxxxxx-1', 'auto');
+  ga('send', 'pageview');
+</script>
+````
 
 Le code Javascript est ni plus ni moins qu'un "**traceur**" ou plus communément un **cookie** (fichier témoin) qui est **stocké sur votre ordinateur ou votre téléphone** par les sites que vous avez visités afin de **recueillir des informations**. Cependant, le système ne peut pas collecter de données pour les utilisateurs qui les désactivent.
 
