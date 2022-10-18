@@ -1,10 +1,12 @@
 ---
 layout: post
 title: Migration vers une technologie plus responsable. (2/3)
+description: Python contre Rust, performances comparées
 author:
   display_name: Barnabé Geffroy
 categories:
-- dev
+- Sous le capot
+- Avancé
 tags:
 - rust
 - python
