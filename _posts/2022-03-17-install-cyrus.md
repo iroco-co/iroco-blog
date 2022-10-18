@@ -1,10 +1,12 @@
 ---
 layout: post
 title: Migration de dovecot vers cyrus
+description: Essais, erreurs et leçons apprises de la migration de notre serveur 
 author:
   display_name: Bruno Thomas
 categories:
-- sysadmin
+- Sous le capot
+- Avancé
 tags:
 - mail
 - backend
