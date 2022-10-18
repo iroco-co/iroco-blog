@@ -6,6 +6,7 @@ author:
   display_name: Bruno Thomas
 categories:
 - Sous le capot
+- Niveau de lecture avancé
 tags:
 - javascript
 - es6
