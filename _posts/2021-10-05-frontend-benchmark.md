@@ -1,10 +1,12 @@
 ---
 layout: post
 title: Migration vers une technologie front plus responsable. (1/3)
+description: Comparaison de frameworks frontend
 author:
   display_name: Bruno Thomas
 categories:
-- dev
+- Sous le capot
+- Avancé
 tags:
 - svelte
 - reactjs
