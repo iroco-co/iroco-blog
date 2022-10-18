@@ -6,7 +6,7 @@ author:
   display_name: Bruno Thomas
 categories:
 - Sous le capot
-- Niveau de lecture avancé
+- Avancé
 tags:
 - javascript
 - refactoring
