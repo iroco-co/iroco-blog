@@ -33,7 +33,7 @@ Cette fois-ci, le serveur se trouve sur un Raspberry Pi 3 Model B avec une distr
 
 Les outils utilisés sont :
 
-* Les injecteurs [`ab`](https://httpd.apache.org/docs/2.4/fr/programs/ab.HTTP) et [`jmeter`](https://jmeter.apache.org/) qui envoie au serveur un nombre de requêtes donné à partir d'un ordinateur du réseau.
+* Les injecteurs [`ab`](https://httpd.apache.org/docs/2.4/fr/programs/ab.HTTP) et [`jmeter`](https://jmeter.apache.org/) qui envoient au serveur un nombre de requêtes donné à partir d'un ordinateur du réseau.
 * Un Wattmètre GreenBlue GB202 pour mesurer la puissance de la machine
 * La commande [`ps`](https://man7.org/linux/man-pages/man1/ps.1.HTTP) pour mesurer la CPU utilisée par les serveurs.
 
