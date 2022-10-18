@@ -1,8 +1,12 @@
 ---
 layout: post
 title: L'écoconception, qu'est-ce que c'est ?
+description: Réflexions autour du GreenIT
 author:
   display_name: Bruno Thomas
+categories: 
+- Décryptage
+- Niveau de lecture grand public
 tags:
 - greenIT
 comments: true
@@ -22,7 +26,7 @@ Afin d'apporter des éléments de réponse à cette question, j'ai proposé un s
 
 Les termes d'*informatique dans les nuages*, de *[serverless architecture](https://www.martinfowler.com/articles/serverless.html)*, plateformes dématérialisées, serveurs virtuels, évoquent pour nous, utilisateurs des services IT/web, une forme d'évanescence, d'immatérialité des infrastructures informatiques. Cela évoque en tout cas quelque chose sans lien avec l’écologie. Et a fortiori avec l’écologie appliquée au monde du numérique.
 
-GreenIT, éco-reponsabilité des services informatiques, écoconception, ["conception responsable des services numériques"](https://collectif.greenit.fr/), derrière ces expressions se cachent en réalité deux enjeux majeurs relativement ignorés pour l’instant des acteurs du numérique :
+GreenIT, éco-responsabilité des services informatiques, écoconception, ["conception responsable des services numériques"](https://collectif.greenit.fr/), derrière ces expressions se cachent en réalité deux enjeux majeurs relativement ignorés pour l’instant des acteurs du numérique :
 
 1. Prendre conscience que les services numériques ont un impact sur l'environnement. Par ailleurs, les enjeux environnementaux sont globaux, comme internet. Il y a une certaine congruence entre les deux ;
 2. Adopter une approche de rationalisation de l'usage des infrastructures informatiques, en intégrant une réflexion dès la conception des logiciels et du matériel.
