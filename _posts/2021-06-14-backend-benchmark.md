@@ -1,10 +1,12 @@
 ---
 layout: post
 title: Migration vers une technologie plus responsable. (1/3)
+description: Eco-conception et langages de programmation
 author:
   display_name: Barnabé Geffroy
 categories:
-- dev
+- Décryptage
+- Grand public
 tags:
 - rust
 - python
