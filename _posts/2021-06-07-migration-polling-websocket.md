@@ -1,10 +1,12 @@
 ---
 layout: post
 title: L'événementiel, c'est écologique
+description: IMAP asynchrone et éco-conception
 author:
   display_name: Bruno Thomas
 categories:
-- dev
+- Sous le capot
+- Niveau de lecture avancé
 tags:
 - javascript
 - refactoring
