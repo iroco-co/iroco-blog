@@ -1,10 +1,12 @@
 ---
 layout: post
 title: Une migration vers ES6 et un pas de plus en écoconception
+description: Javascript et amélioration de l'empreinte du site 
 author:
   display_name: Bruno Thomas
 categories:
-- dev
+- Sous le capot
+- Niveau de lecture : avancé
 tags:
 - javascript
 - es6
