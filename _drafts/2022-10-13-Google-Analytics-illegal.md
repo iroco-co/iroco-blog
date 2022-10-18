@@ -12,6 +12,7 @@ tags:
 - Données personnelles et confidentialité
 - RGPD
 ---
+![google analytics monitoring](/images/google_analytics/google-analytics-monitoring.png)
 
 *Google Analytics est une plateforme de statistiques Web lancée en 2005 par Google du groupe Alphabet. On estime que 80% du marché mondial l'utilisent pour analyser le trafic sur leur site Web. Pourquoi son utilisation pourrait-elle finalement être interdite ? Décryptage.*
 
@@ -60,7 +61,7 @@ Ces informations vous permettront d'**optimiser le ciblage dans votre stratégie
 
 Vous trouverez également le chemin que les visiteurs empruntent généralement lorsqu'ils accèdent à votre site web, c'est ce qu'on appelle le "flux de comportement"
 
-![google-analytics-parcours-utilisateur](https://user-images.githubusercontent.com/115170752/196377526-2d2b9ec3-0303-438a-847d-470ce054977b.png)
+![google analytics parcours-utilisateur](/images/google_analytics/google-analytics-parcours-utilisateur.png)
 
 
 Une section non négligeable présente également dans Google Analytics est la **vitesse du site** (temps de chargement). Cet onglet permet de déterminer les zones du site qui doivent être optimisées en raison d'une vitesse anormalement lente. Voici quelques metrics :  
