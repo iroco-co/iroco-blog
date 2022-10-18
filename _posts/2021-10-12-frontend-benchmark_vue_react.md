@@ -1,10 +1,12 @@
 ---
 layout: post
 title: Benchmark vuejs vs. reactjs (2/3)
+description: Vue.js contre React, le match
 author:
   display_name: Bruno Thomas
 categories:
-- dev
+- Sous le capot
+- Avancé
 tags:
 - reactjs
 - vuejs
