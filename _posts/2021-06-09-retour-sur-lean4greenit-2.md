@@ -1,10 +1,12 @@
 ---
 layout: post
 title: L'écoconception et le "software craftsmanship" ?
+description: L'éco-conception, uniquement un problème d'optimisation ?
 author:
   display_name: Bruno Thomas
 categories:
-- dev
+- Décryptage
+- Grand public
 tags:
 - greenIT
 comments: true
