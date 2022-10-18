@@ -6,7 +6,7 @@ author:
   display_name: Bruno Thomas
 categories: 
 - Décryptage
-- Niveau de lecture grand public
+- Grand public
 tags:
 - greenIT
 comments: true
