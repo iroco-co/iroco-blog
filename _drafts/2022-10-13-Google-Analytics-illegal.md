@@ -61,7 +61,7 @@ Ces informations vous permettront d'**optimiser le ciblage dans votre stratégie
 
 Vous trouverez également le chemin que les visiteurs empruntent généralement lorsqu'ils accèdent à votre site web, c'est ce qu'on appelle le "flux de comportement"
 
-![google analytics parcours-utilisateur](/images/google_analytics/google-analytics-parcours-utilisateur.png)
+![google analytics parcours utilisateur |crédit image : limpide blog ](/images/google_analytics/google-analytics-parcours-utilisateur.png)
 
 
 Une section non négligeable présente également dans Google Analytics est la **vitesse du site** (temps de chargement). Cet onglet permet de déterminer les zones du site qui doivent être optimisées en raison d'une vitesse anormalement lente. Voici quelques metrics :  
