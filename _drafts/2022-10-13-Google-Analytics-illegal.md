@@ -89,43 +89,35 @@ Selon le [baromètre France Num](https://www.francenum.gouv.fr/guides-et-conseil
 
 ## Pourquoi Google Analytics pourrait-il être interdit en Europe ?
 
-En février 2022, la [CNIL](https://www.cnil.fr/fr/cookies-et-autres-traceurs/regles/google-analytics-et-transferts-de-donnees-comment-mettre-son-outil-de-mesure-daudience-en-conformite) (Commission nationale de l'informatique et des libertés) considérait l'utilisation de Google Analytics comme illicite en transférant et en **exposant illégalement des données européennes** aux États-Unis, violant ainsi le **règlement européen sur la protection des données**(RGPD).Cependant, prédire la fin de Google Analytics n'est pas aussi simple qu'il n'y paraît.
+En février 2022, la [CNIL](https://www.cnil.fr/fr/cookies-et-autres-traceurs/regles/google-analytics-et-transferts-de-donnees-comment-mettre-son-outil-de-mesure-daudience-en-conformite) (Commission nationale de l'informatique et des libertés, chargée en France de veiller au respect des droits de l'homme et de la vie privée par les acteurs du numérique) considérait l'utilisation de Google Analytics comme illicite en transférant et en **exposant illégalement des données européennes** aux États-Unis, violant ainsi le **règlement européen sur la protection des données** (RGPD). Cependant, prédire la fin de Google Analytics n'est pas aussi simple qu'il n'y paraît.
 
 ## Quelles sont les menaces européennes actuelles contre Google Analytics ?
 
-Tout a commencé lorsque le Centre européen pour les droits numériques([NOYB](https://noyb.eu/fr)) a déposé une plainte contre NetDoktor, une société autrichienne d'informations médicales qui utilisait des cookies de Google Analytics.
+L'affaire a commencé lorsque le Centre européen pour les droits numériques ([NOYB](https://noyb.eu/fr)) a déposé une plainte contre NetDoktor, une société autrichienne d'informations médicales qui utilisait des cookies de Google Analytics. Le 22 décembre 2021, l'Agence autrichienne de protection des données (DPA) a conclu que l'utilisation de Google Analytics **violait le RGPD** car la société NetDoktor n'avait pas correctement configuré le masquage des adresses IP, ce qui peut permettre une identification précise des utilisateurs.
 
-Le 22 décembre 2021, l'Agence autrichienne de protection des données (DPA) a conclu que l'utilisation de Google Analytics violait la **RGPD** car la société NetDoktor n'avait pas correctement configuré le masquage des adresses IP, ce qui peut permettre une identification précise des utilisateurs.
-
-En outre, la CNIL a critiqué  le transfert des données suivies  par Google vers les États-Unis en ne restreignant pas suffisamment l'accès aux données aux agences de renseignement américaines.
+En outre, la CNIL a critiqué  le transfert vers les États-Unis des données collectées par Google, qui ne restreint pas suffisamment l'accès des agences de renseignement américaines à ces données.
 
 ## La France va-t-elle interdire Google Analytics ?
 
-Pour l'instant, l'Autriche est le seul pays européen à avoir déclaré l'utilisation de Google Analytics comme illégale.
+Pour l'instant, l'Autriche est le seul pays européen à avoir déclaré illégale l'utilisation de Google Analytics.
 
-En ce qui concerne la France, la CNIL n'avise officiellement les propriétaires de sites Web utilisant Google Analytics que de cesser d'utiliser la plate-forme ou de trouver d'autres **outils de suivi des données conformes du RGPD** et n'envoyant pas de données en dehors de l'Europe.
+En ce qui concerne la France, la CNIL se contente de conseiller officiellement aux propriétaires de sites web utilisant Google Analytics de cesser d'utiliser la plate-forme ou de trouver d'autres **outils de suivi des données conformes du RGPD** et n'envoyant pas de données en dehors de l'Europe.
 
-Si Google Analytics est effectivement interdit en Europe, cela affectera des millions de sites web européens qui s'appuient sur la plateforme de Google pour le **suivi des données** et affectera des fournisseurs tels que Stripe (plateforme de paiement par internet pour professionnels), dont l'infrastructure est située et opère aux États-Unis.
+Si Google Analytics est effectivement interdit en Europe, cela affectera des millions de sites web européens qui s'appuient sur la plateforme de Google pour le **suivi des données**. Cela affectera également des fournisseurs de services tels que Stripe (plateforme de paiement par internet pour professionnels), dont l'infrastructure est située et opère aux États-Unis.
 
-À long terme, il y aura deux options : soit les États-Unis modifient leurs lois de surveillance pour renforcer leurs entreprises technologiques, soit les fournisseurs américains devront héberger les données des utilisateurs européens en Europe.
+À long terme, deux options se dessinent : soit la modification par les États-Unis de leurs lois de surveillance, soit l'hébergement par les fournisseurs de services américains des données des utilisateurs européens en Europe.
 
-## Quel est l'avenir de Google Analytics en Europe ?
+## Quel est l'avenir de l'analyse web en Europe ?
 
-De nombreuses entreprises en Europe doivent se demander si Google Analytics doit être supprimé de leurs sites web ou s'exposer à des sanctions. Au lieu d'attendre que les lois soient appliquées, les sociétés devraient commencer à travailler de manière éthique et trouver des[ alternatives à Google Analytics validées par la CNIL](https://www.cnil.fr/fr/cookies-et-autres-traceurs/regles/cookies-solutions-pour-les-outils-de-mesure-daudience)qui respectent **les lois ePrivacy et de RGPD**.
+De nombreuses entreprises européennes se demandent si Google Analytics doit être supprimé de leurs sites web ou si elles seront exposées à des sanctions. Plutôt que d'attendre que la loi évolue en ce sens, pourquoi ne pas adopter dès maintenant des [alternatives éthiques à Google Analytics validées par la CNIL](https://www.cnil.fr/fr/cookies-et-autres-traceurs/regles/cookies-solutions-pour-les-outils-de-mesure-daudience), qui respectent **les lois ePrivacy et de RGPD** ?
 
-Depuis juin 2022, une solution aurait été trouvée par la CNIL pour continuer à utiliser Google Analytics, la proxyfication.
+Pour les entreprises qui souhaitent continuer à utiliser Google Analytics, la CNIL recommande la [proxyfication](https://www.cnil.fr/sites/default/files/atoms/files/statistiques_avec_proxyfication.pdf). Cependant, sa mise en œuvre de manière valable "peut se révéler coûteuse et complexe et ne permet pas toujours de répondre aux besoins opérationnels des professionnels. Pour éviter ces difficultés, il est également possible pour les professionnels de recourir à une solution ne réalisant pas de transferts de données personnelles en dehors de l’Union européenne" déclare la [CNIL](https://www.cnil.fr/fr/cookies-et-autres-traceurs/regles/google-analytics-et-transferts-de-donnees-comment-mettre-son-outil-de-mesure-daudience-en-conformite).
 
-https://www.cnil.fr/sites/default/files/atoms/files/statistiques_avec_proxyfication.pdf
+## Et chez Iroco ?
 
-Cependant, la mise en œuvre pour que la proxyfication soit valable "peut se révéler coûteuse et complexe et ne permet pas toujours de répondre aux besoins opérationnels des professionnels. Pour éviter ces difficultés, il est également possible pour les professionnels de recourir à une solution ne réalisant pas de transferts de données personnelles en dehors de l’Union européenne." Déclare la [CNIL](https://www.cnil.fr/fr/cookies-et-autres-traceurs/regles/google-analytics-et-transferts-de-donnees-comment-mettre-son-outil-de-mesure-daudience-en-conformite).
+Chez Iroco, nous utilisons **Matomo** (anciennement Piwik), un logiciel libre et open source afin d'assurer la **sécurité des données de nos visiteurs**.
 
-Chez Iroco, nous utilisons **Matomo**, un logiciel libre et open source (anciennement Piwik) afin d'assurer la **sécurité des données de nos visiteurs**.
+Cette solution nous permet d'assurer un suivi qualitatif de nos données web tout en étant respectueux de la vie privée de nos visiteurs : les données sont **anonymisées** et ne sont pas transmises en dehors de l'Union Européenne, dans le respect du RGPD.
 
-Les avantages de cette solution :
-
-* Respectueux des données et de la vie privée (les données sont anonymisées et non transmises hors UE)
-* RGPD compliant
-* Disponible en Cloud ou On-Premise
-* Un suivi qualitatif des données
 
 Sources : [Les Échos](https://www.lesechos.fr/tech-medias/hightech/lutilisation-de-google-analytics-enfreint-le-droit-europeen-selon-la-cnil-1386157) | [CNIL](https://www.cnil.fr/fr/utilisation-de-google-analytics-et-transferts-de-donnees-vers-les-etats-unis-la-cnil-met-en-demeure)
