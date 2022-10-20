@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Google Analytics est-il illégal en France ?
-description: La CNIL a annoncé la mise en demeure des sites utilisant Google Analytics, pour non-respect des règles du RGPD sur la protection des données. Quelles en sont les conséquences ?
+description: La CNIL a annoncé en février 2022 la mise en demeure des sites utilisant Google Analytics, pour non-respect des règles du RGPD sur la protection des données. Quelles en sont les conséquences ?
 author:
   display_name: Iroco
 categories:
 - Décryptage
-- Niveau de lecture : grand public
+- Niveau de lecture grand public
 tags:
 - Google Analytics
 - Données personnelles et confidentialité
@@ -14,18 +14,18 @@ tags:
 ---
 ![google analytics monitoring](/images/google_analytics/google-analytics-monitoring.png)
 
-*Google Analytics est une plateforme de statistiques Web lancée en 2005 par Google du groupe Alphabet. On estime que 80% du marché mondial l'utilisent pour analyser le trafic sur leur site Web. Pourquoi son utilisation pourrait-elle finalement être interdite ? Décryptage.*
+*Google Analytics est une plateforme de statistiques Web lancée en 2005 par Google. On estime que 80% des sites web dans le monde l'utilisent pour analyser leur trafic. Pourquoi son utilisation pourrait-elle finalement être interdite ? Décryptage.*
 
 ## Google Analytics : qu'est-ce que c'est ?
 
 [Google Analytics](https://analytics.google.com/analytics/web/)
-est un service d'**analyse Web** qui fournit des statistiques et des outils d'analyse à des fins d'optimisation des moteurs de recherche (SEO) et de marketing. Ce service est disponible gratuitement pour toute personne possédant un compte Google.
+est un service d'**analyse web** qui fournit des statistiques de fréquentation et des outils d'analyse permettant d'améliorer son référencement naturel dans les moteurs de recherche (*search engine optimization* ou SEO) et de marketing. Ce service est disponible gratuitement dès lors qu'on possède un compte Google.
 
-Il est utilisé particulièrement par les TPE/PME afin d'obtenir diverses **données**, qui peuvent être exploitées pour **améliorer les campagnes marketing** et ainsi **augmenter le trafic d'un site web**.
+Il est utilisé particulièrement par les petites et moyennes entreprises (TPE et PME) afin d'obtenir diverses **données**, qui peuvent être exploitées pour **améliorer les campagnes marketing** et ainsi **augmenter le trafic d'un site web**.
 
-## Comment fonctionne Google Analytics ?
+## Comment fonctionne l'analyse web ?
 
-**Google Analytics** acquiert les données utilisateur de chaque visiteur d'un site Web via un "**code Javascript**" qui est installé sur chaque page.
+Les services d'analyse web, dont **Google Analytics**, acquièrent les données utilisateur de chaque visiteur d'un site web afin d'analyser le comportement de ces visiteurs. Dans le cas de Google Analytics, cela se fait via un **code Javascript** installé sur chaque page du site.
 
 ````javascript
 <script>
@@ -39,59 +39,57 @@ Il est utilisé particulièrement par les TPE/PME afin d'obtenir diverses **donn
 </script>
 ````
 
-Le code Javascript est ni plus ni moins qu'un "**traceur**" ou plus communément un **cookie** (fichier témoin) qui est **stocké sur votre ordinateur ou votre téléphone** par les sites que vous avez visités afin de **recueillir des informations**. Cependant, le système ne peut pas collecter de données pour les utilisateurs qui les désactivent.
+Le code Javascript n'est ni plus ni moins qu'un **traceur**, ou plus communément un **cookie** (fichier témoin), qui génère un fichier **stocké sur votre ordinateur ou votre téléphone** afin de **recueillir des informations sur votre navigation web**. Cependant, le système ne peut pas collecter de données pour les utilisateurs qui désactivent les cookies.
 
-Google Analytics peut alors générer des rapports personnalisables pour suivre et visualiser deux types d'informations: des données d'acquisitions et des données de comportements.
+Sur la base de ces données de navigation, Google Analytics et les autres outils d'analyse web peuvent alors générer des rapports personnalisables servant notamment à suivre et à visualiser deux types d'informations : les **données d'acquisition** et les **données de comportement**.
 
-**Les données d'acquisitions** sont basées sur "comment votre trafic arrive sur votre site internet".
+**Les données d'acquisition** sont basées sur la manière dont les visiteurs arrivent sur votre site internet et incluent par exemple :
 
-* Les canaux d'acquisition (déterminer d'où viennent les visiteurs : publicité, réseaux sociaux, google...)
-* Les appareils utilisés pour se connecter (mobile, desktop, tablettes)
-* Les données démographiques (âge, genre, centres d'intérêt..)
+* le canal d'acquisition, qui détermine comment un visiteur donné est arrivé sur votre site : a-t-il cliqué sur l'une de vos publicités, a-t-il suivi un lien sur un réseau social, vous a-t-il trouvé dans son moteur de recherche ?
+* l'appareil utilisé pour se connecter : un smartphone, un ordinateur, une tablette...
+* des données démographiques : âge, genre, centres d'intérêt...
 
-Ces informations vous permettront d'**optimiser le ciblage dans votre stratégie d'acquisition de leads et d'ambassadeurs**. Par exemple modifier l'âge ciblé dans vos publicités pour correspondre aux visiteurs de votre site internet.
+Ces informations permettent d'**optimiser le ciblage dans une stratégie d'acquisition de prospects et d'ambassadeurs** : on peut par exemple modifier l'âge ciblé dans une publicité pour correspondre à l'âge des visiteurs du site internet.
 
-**Les données sur le comportement de l'utilisateur** quant à elle vous permettront de comprendre comment vos visiteurs se comportent réellement sur votre site web.
+**Les données sur le comportement de l'utilisateur** permettent quant à elles de comprendre comment les visiteurs se comportent réellement sur votre site web. Elles incluent :
 
-* Le nombre d'utilisateurs
-* Le nombre de sessions (nombre de connexions sur le site)
-* La durée moyenne des sessions
-* Les pages vues
-* Le taux de rebond (pourcentage de visiteurs qui visitent une seule page du site avant d'en sortir)
+* le nombre de visiteurs ;
+* le nombre de sessions, c'est-à-dire le nombre de fois où un visiteur se connecte sur le site ;
+* la durée moyenne des sessions ;
+* les pages vues par l'utilisateur ;
+* le taux de rebond, c'est-à-dire le pourcentage de visiteurs qui visitent une seule page du site avant d'en sortir.
 
-Vous trouverez également le chemin que les visiteurs empruntent généralement lorsqu'ils accèdent à votre site web, c'est ce qu'on appelle le "flux de comportement"
+On trouve également dans ces données le chemin que les visiteurs empruntent généralement lorsqu'ils accèdent au site web : c'est ce qu'on appelle le "flux de comportement" :
 
 ![google analytics parcours utilisateur |crédit image : limpide blog ](/images/google_analytics/google-analytics-parcours-utilisateur.png)
 
+Une autre outil important proposé par les services d'analyse web est la mesure de la **vitesse du site**. Cet outil permet de déterminer les zones du site qui devraient être optimisées en raison d'une vitesse de chargement anormalement lente, en se basant sur les données suivantes :  
 
-Une section non négligeable présente également dans Google Analytics est la **vitesse du site** (temps de chargement). Cet onglet permet de déterminer les zones du site qui doivent être optimisées en raison d'une vitesse anormalement lente. Voici quelques metrics :  
+* le temps de chargement moyen des pages ;
+* le temps de redirection moyen ;
+* le temps moyen passé en recherche de domaine (recherche DNS) pour une page ;
+* le temps moyen de téléchargement d'une page donnée ; etc.
 
-* Temps de chargement moyen des pages
-* Temps de redirection moyen
-* Temps moyen de recherche de domaine (temps moyen passé en recherche DNS pour une page)
-* Temps moyen de téléchargement d'une page
-* ...
+En plus des informations de base fournies par le service, il est souvent possible de **définir des informations personnalisées et uniques** telles que par exemple la mesure de la fluidité d'un achat pour un site de e-commerce. Cela peut aider à identifier des problèmes d'expérience utilisateur, comme par exemple un processus de paiement trop compliqué.
 
-En plus des informations "de base" fournies par Analytics, nous pouvons également **définir des objectifs personnalisés et uniques** tels que "effectuer un achat" (dans le cadre d'un site e-commerce). Cela peut vous aider à trouver des accrocs, comme un processus de paiement compliqué.
+En clair, les outils d'analyse d'audience permettent de :
 
-En clair, les outils d'analyse d'audience vous permettront de :
-
-* Trouver vos sources de trafic (comment les internautes découvrent-ils mon site ?)
-* Comprendre les fluctuations de vos visites (pourquoi il y a eu  une baisse ?)
-* Monitorer l'évolution de votre site internet (la refonte de mon site internet a-t-elle un impact ?)
-* Identifier les pages les plus consultées (y a-t-il un problème avec mon contenu ?)
-* Mieux comprendre mon audience (quelles sont ses attentes, ses recherches, mobile ou desktop ? ...)
-* Évaluez la fidélisation des internautes (nombre de visiteurs, reviendront-ils ? Si oui, où ?)
-* Optimiser son SEO (échantillon des mots-clés et savoir où votre site est visible dans les résultats)
-* Évaluer la vitesse de chargement des pages (vitesse moyenne de chargement des pages, mais aussi des informations pour l'améliorer)
+* identifier vos sources de trafic (comment les internautes découvrent-ils votre site ?)
+* mieux comprendre les fluctuations de vos visites (pourquoi y a-t-il eu une baisse ou une hausse ?)
+* suivre l'évolution de votre site internet (quel impact la refonte de votre site a-t-elle eue ?)
+* identifier les pages les plus consultées (y a-t-il un problème avec votre contenu ?)
+* mieux comprendre votre audience (quelles sont ses attentes, ses recherches, ses pratiques de navigation ...)
+* évaluer la fidélisation des internautes (combien de visiteurs, reviendront-ils ? Si oui, où ?)
+* optimiser son référencement dans les moteurs de recherche (quels mots-clés vos visiteurs ont-ils tapé dans leur moteur de recherche pour arriver sur votre site ? où votre site est-il visible dans les résultats ?)
+* évaluer la vitesse de chargement des pages (quelle est la vitesse moyenne de chargement des pages ? comment l'améliorer ?)
 
 ## Pourquoi est-il essentiel pour une entreprise d'utiliser un outil d'analyse web ?
 
-Selon le [baromètre France Num](https://www.francenum.gouv.fr/guides-et-conseils/strategie-numerique/barometre-france-num-2021-le-numerique-dans-les-tpe-pme-0), **66% des TPE/PME disposent d'un site internet en 2021**. Par conséquent, il est primordial de connaître les détails de ce que font les internautes lorsqu'ils visitent votre site web : combien de temps ils y restent et quelles pages ils visitent. C'est pourquoi l'analyse web est un outil puissant pour étudier le comportement des visiteurs, suivre et mesurer chaque action marketing, et donc **mesurer votre retour sur investissement (ROI)**.
+Selon le [baromètre France Num](https://www.francenum.gouv.fr/guides-et-conseils/strategie-numerique/barometre-france-num-2021-le-numerique-dans-les-tpe-pme-0), **66% des TPE et PME disposent d'un site internet en 2021**. Pour ces entreprises, il est primordial de connaître les détails de ce que font les internautes lorsqu'ils visitent leur site web : combien de temps y restent-ils ? Quelles pages visitent-ils ? C'est pourquoi l'analyse web est un outil puissant pour étudier le comportement des visiteurs, suivre et mesurer le résultat de chaque action marketing, et donc pour **mesurer son retour sur investissement (ROI)**.
 
 ## Pourquoi Google Analytics pourrait-il être interdit en Europe ?
 
-En février 2022, la [CNIL](https://www.cnil.fr/fr/cookies-et-autres-traceurs/regles/google-analytics-et-transferts-de-donnees-comment-mettre-son-outil-de-mesure-daudience-en-conformite) (Commission nationale de l'informatique et des libertés) considérerait l'utilisation de Google Analytics comme illicite en transférant et en **exposant illégalement des données européennes** aux États-Unis, violant ainsi le **règlement européen sur la protection des données**(RGPD).Cependant, prédire la fin de Google Analytics n'est pas aussi simple qu'il n'y paraît.
+En février 2022, la [CNIL](https://www.cnil.fr/fr/cookies-et-autres-traceurs/regles/google-analytics-et-transferts-de-donnees-comment-mettre-son-outil-de-mesure-daudience-en-conformite) (Commission nationale de l'informatique et des libertés) considérait l'utilisation de Google Analytics comme illicite en transférant et en **exposant illégalement des données européennes** aux États-Unis, violant ainsi le **règlement européen sur la protection des données**(RGPD).Cependant, prédire la fin de Google Analytics n'est pas aussi simple qu'il n'y paraît.
 
 ## Quelles sont les menaces européennes actuelles contre Google Analytics ?
 
