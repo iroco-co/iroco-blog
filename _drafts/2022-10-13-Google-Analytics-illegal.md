@@ -63,7 +63,7 @@ On trouve également dans ces données le chemin que les visiteurs empruntent g�
 
 ![google analytics parcours utilisateur |crédit image : limpide blog ](/images/google_analytics/google-analytics-parcours-utilisateur.png)
 
-Une autre outil important proposé par les services d'analyse web est la mesure de la **vitesse du site**. Cet outil permet de déterminer les zones du site qui devraient être optimisées en raison d'une vitesse de chargement anormalement lente, en se basant sur les données suivantes :  
+Un autre outil important proposé par les services d'analyse web est la mesure de la **vitesse du site**. Cet outil permet de déterminer les zones du site qui devraient être optimisées en raison d'une vitesse de chargement anormalement lente, en se basant sur les données suivantes :  
 
 * le temps de chargement moyen des pages ;
 * le temps de redirection moyen ;
