@@ -47,7 +47,8 @@ Quelques dates clés sur l’histoire de l’e-mail :
 [Selon Statista](https://fr.statista.com/statistiques/583905/nombre-d-e-mails-par-jour-dans-le-monde--2019/), environ 319,6 milliards d’e-mails étaient envoyés et reçus chaque jour en 2021 et devraient dépasser **376,4 milliards en 2025**. 
 
 Aperçu d'une adresse e-mail : 
-hello@iroco.fr.png
+![aperçu d'un e-mail](/images/fonctionnement-email/Aperçu-email.png)
+
 
 - La partie avant le “@“ contient l’alias, l’utilisateur, le groupe ou le service d’une entreprise. Dans notre exemple “hello” est le département du support d’Iroco.
 - “@“ (arobase) est un séparateur dans l’adresse e-mail, il est requis pour toutes les adresses e-mail SMTP. 
@@ -166,4 +167,4 @@ Les destinataires doivent être prudents lorsqu'ils ouvrent des messages HTML ou
 
 Pour afficher l'intégralité de la source d'un message électronique, vous pouvez cliquer sur l'icône "Afficher la source" en haut à droite dans le mode d'affichage du message.
 
-Sources : [Namecheap](https://www.namecheap.com/guru-guides/how-does-email-work/)| [Université de Rennes](https://urfist.univ-rennes2.fr/messagerie_electronique_fonctionnement) 
+Sources : [Namecheap](https://www.namecheap.com/guru-guides/how-does-email-work/) | [Université de Rennes](https://urfist.univ-rennes2.fr/messagerie_electronique_fonctionnement) 
