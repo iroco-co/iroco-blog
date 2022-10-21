@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Google Analytics est-il illégal en France ?
-description: La CNIL a annoncé en février 2022 la mise en demeure des sites utilisant Google Analytics, pour non-respect des règles du RGPD sur la protection des données. Quelles en sont les conséquences ?
+description: La CNIL a annoncé la mise en demeure des sites utilisant Google Analytics, pour non-respect du RGPD. Quelles en sont les conséquences ?
 author:
   display_name: Iroco
 categories:
