@@ -12,7 +12,7 @@ tags:
 - Données personnelles et confidentialité
 - RGPD
 ---
-![google analytics monitoring](/images/google_analytics/google-analytics-monitoring.png)
+![google analytics monitoring](/images/google_analytics/google-analytics-monitoring.jpg)
 
 *Google Analytics est une plateforme de statistiques Web lancée en 2005 par Google. On estime que 80% des sites web dans le monde l'utilisent pour analyser leur trafic. Pourquoi son utilisation pourrait-elle finalement être interdite ? Décryptage.*
 
