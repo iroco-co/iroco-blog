@@ -61,7 +61,8 @@ Ces informations permettent d'**optimiser le ciblage dans une stratégie d'acqui
 
 On trouve également dans ces données le chemin que les visiteurs empruntent généralement lorsqu'ils accèdent au site web : c'est ce qu'on appelle le "flux de comportement" :
 
-![google analytics parcours utilisateur |crédit image : limpide blog](/images/google_analytics/google-analytics-parcours-utilisateur.png)
+![google analytics parcours utilisateur](/images/google_analytics/google-analytics-parcours-utilisateur.png)
+*crédit image : limpide blog*
 
 Un autre outil important proposé par les services d'analyse web est la mesure de la **vitesse du site**. Cet outil permet de déterminer les zones du site qui devraient être optimisées en raison d'une vitesse de chargement anormalement lente, en se basant sur les données suivantes :  
 
