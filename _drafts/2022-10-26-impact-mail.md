@@ -37,7 +37,7 @@ Selon lui, un mail avec une pièce jointe (1 Mo) rédigé sur ordinateur avec un
 
 Pour plus de détails, voici le tableau sur la base de ses recherches sur l’empreinte carbone de différents types d’e-mails :  
 
-![Tableau comparatif empreinte carbone d'un e-mail](/images/poids-email/tableau-comparatif-empreinte-carbone-email.png)
+![Tableau comparatif empreinte carbone d'un e-mail](/images/poids-email/tableau-comparatif-empreinte-carbone-email .png)
 
 Ces estimations sont moins élevées que celles l’[ADEME en 2011 sur les impacts environnementaux de la communication par voie électronique](https://presse.ademe.fr/files/acv_ntic_synthese_resultats.pdf) car les appareils utilisés ainsi que **les data centers deviennent plus efficaces au fil du temps.**  
 
