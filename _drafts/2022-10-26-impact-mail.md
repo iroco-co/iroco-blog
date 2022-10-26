@@ -67,7 +67,7 @@ D’ailleurs selon [Science Focus](https://www.sciencefocus.com/planet-earth/the
 
 D’après le [rapport de suivi des centres de données et des réseaux de transmission de données](https://www.iea.org/reports/data-centres-and-data-transmission-networks)(numérisation), la consommation mondiale d’électricité dans **les data centers en 2021 représenterait entre 220-320 TWh**, soit environ 0,9-1,3% de la demande finale mondiale d’électricité (sans prendre en compte l’exploitation minière de crypto-monnaie, qui était de 100-140 TWh en 2021). 
 
-![Empreinte carbonne totale du numérique mondial](/images/poids-email/empreinte-carbone totale-numérique-mondial.png)
+![Empreinte carbonne totale du numérique mondial](/images/poids-email/graphique-transfert-stockage-email.png)
 
 Bien que la consommation d'électricité des centres de données à l'échelle mondiale n'ait augmenté que modérément, certaines nations connaissent une croissance rapide. Par exemple, la consommation d'électricité dans les data centers en Irlande a [plus que triplé depuis 2015](https://www.cso.ie/en/releasesandpublications/ep/p-dcmec/datacentresmeteredelectricityconsumption2021/keyfindings/), ce qui équivaut à 14 % de la consommation totale d'électricité en 2021. Au Danemark, la consommation d'énergie dans les centres de données [devrait tripler d'ici 2025](https://ens.dk/sites/ens.dk/files/Analyser/6a_kf22_forudsaetningsnotat_-_datacentre.pdf) pour représenter environ 7 % de la consommation d'électricité du pays.
 
