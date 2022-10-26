@@ -13,6 +13,7 @@ tags:
 - Green IT 
 ---
 ![Illustration e-mail](/images/poids-email/poids-email.jpg)
+
 *Avec l'avènement des applications de messagerie, l’entrée en vigueur du RGPD ou encore l’hégémonie des réseaux sociaux, l’e-mail reste un canal de communication privilégié avec plus de 319,6 milliards d’e-mails qui sont envoyés et reçus quotidiennement et devraient dépasser 376,4 milliards en 2025. Quelle est son empreinte carbone ? Quelle quantité d’énergie est utilisée ? Comment pouvons-nous la réduire ? Analyse.*
 
 ## Quelle est l'empreinte carbone d'un e-mail ?
@@ -36,7 +37,7 @@ Selon lui, un mail avec une pièce jointe (1 Mo) rédigé sur ordinateur avec un
 
 Pour plus de détails, voici le tableau sur la base de ses recherches sur l’empreinte carbone de différents types d’e-mails :  
 
-![T ableau comparatif empreinte carbone d'un e-mail](/images/poids-email/tableau-comparatif-empreinte-carbone-email .png)
+![Tableau comparatif empreinte carbone d'un e-mail](/images/poids-email/tableau-comparatif-empreinte-carbone-email.png)
 
 Ces estimations sont moins élevées que celles l’[ADEME en 2011 sur les impacts environnementaux de la communication par voie électronique](https://presse.ademe.fr/files/acv_ntic_synthese_resultats.pdf) car les appareils utilisés ainsi que **les data centers deviennent plus efficaces au fil du temps.**  
 
@@ -66,7 +67,7 @@ D’ailleurs selon [Science Focus](https://www.sciencefocus.com/planet-earth/the
 
 D’après le [rapport de suivi des centres de données et des réseaux de transmission de données](https://www.iea.org/reports/data-centres-and-data-transmission-networks)(numérisation), la consommation mondiale d’électricité dans **les data centers en 2021 représenterait entre 220-320 TWh**, soit environ 0,9-1,3% de la demande finale mondiale d’électricité (sans prendre en compte l’exploitation minière de crypto-monnaie, qui était de 100-140 TWh en 2021). 
 
-Empreinte carbone totale du numérique mondial.png
+![Empreinte carbonne totale du numérique mondial](/images/poids-email/empreinte-carbone totale-numérique-mondial.png)
 
 Bien que la consommation d'électricité des centres de données à l'échelle mondiale n'ait augmenté que modérément, certaines nations connaissent une croissance rapide. Par exemple, la consommation d'électricité dans les data centers en Irlande a [plus que triplé depuis 2015](https://www.cso.ie/en/releasesandpublications/ep/p-dcmec/datacentresmeteredelectricityconsumption2021/keyfindings/), ce qui équivaut à 14 % de la consommation totale d'électricité en 2021. Au Danemark, la consommation d'énergie dans les centres de données [devrait tripler d'ici 2025](https://ens.dk/sites/ens.dk/files/Analyser/6a_kf22_forudsaetningsnotat_-_datacentre.pdf) pour représenter environ 7 % de la consommation d'électricité du pays.
 
@@ -86,7 +87,7 @@ Selon les recherches de **Basile Fighiera**, lorsqu’on détaille l’empreinte
 
 * Stockage des e-mails chez l’expéditeur et le destinataire : 0,5 %. 
 
-Empreinte carbone d'un e-mail 4.png
+![détails empreinte carbone d'un e-mail](/images/poids-email/details-empreinte-carbone-email.png)
 
 En novembre dernier, nous vous avions[ suggéré quelques publications de référence sur le numérique responsable](https://blog.iroco.co/publications-reference-numerique-responsable/) comme la [synthèse de l’étude de GreenIT](https://www.greenit.fr/wp-content/uploads/2019/10/2019-10-GREENIT-etude_EENM-synthese-accessible.VF_.pdf) sur l’empreinte environnementale des technologies numériques mondiales, qui mettait en évidence les constats suivants : **34 milliards d’équipements peuplent le monde en 2019 pour 4,1 milliards d’utilisateurs, soit 8 équipements par utilisateur.** 
 
