@@ -37,7 +37,7 @@ Selon lui, un mail avec une pièce jointe (1 Mo) rédigé sur ordinateur avec un
 
 Pour plus de détails, voici le tableau sur la base de ses recherches sur l’empreinte carbone de différents types d’e-mails :  
 
-![Tableau comparatif empreinte carbone d'un e-mail](/images/poids-email/tableau-comparatif-empreinte-carbone-email .png)
+![Tableau comparatif empreinte carbone d'un e-mail](/images/poids-email/tableau-empreinte-carbone-email.png)
 
 Ces estimations sont moins élevées que celles l’[ADEME en 2011 sur les impacts environnementaux de la communication par voie électronique](https://presse.ademe.fr/files/acv_ntic_synthese_resultats.pdf) car les appareils utilisés ainsi que **les data centers deviennent plus efficaces au fil du temps.**  
 
@@ -130,7 +130,7 @@ Pour maintenir un volume d’e-mails relativement bas et ainsi éviter une surch
 
 D’ailleurs, selon [Statista](https://www.statista.com/statistics/1270424/daily-spam-volume-global/), près de 283 milliards d'e-mails de spam ont été transmis par jour en entre octobre 2020 et septembre 2021 sur un total de 336,41 milliards d'e-mails envoyés. Si chaque personne supprimait seulement 10 de ces e-mails, elle pourrait économiser de l'espace de stockage et des kilowatts d'énergie. 
 
-Pour vous aider à nettoyer efficacement votre boîte mail, nous vous recommandons d’utiliser l’outil gratuit[CleanFox](https://www.cleanfox.io).
+Pour vous aider à nettoyer efficacement votre boîte mail, nous vous recommandons d’utiliser l’outil gratuit [CleanFox](https://www.cleanfox.io).
 
 ### 6. Raisonner l’envoi d’e-mails 
 * Écrire de manière concise et garder les messages aussi brefs que possible  
