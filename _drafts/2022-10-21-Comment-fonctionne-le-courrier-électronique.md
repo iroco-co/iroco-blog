@@ -93,8 +93,7 @@ Si vous vivez au 21ème siècle, il est très probable vous envoyez et recevez d
 
 L'**envoi d'un courrier électronique** semble si simple : vous définissez l'adresse e-mail de la personne à qui vous souhaitez envoyer un e-mail, rédigez votre message et cliquez sur 'Envoyer’.
 
-![fonctionnement simple e-mail](/images/fonctionnement-email/fonctionnement-simple-mail.png)
-![Intéractions SMTP](/images/fonctionnement-email/Interactions-SMTP.jpg)
+![fonctionnement simple e-mail](/images/fonctionnement-email/fonctionnement-simple-email.png)
 
 C'est vrai dans une certaine mesure, mais c’est beaucoup plus complexe que cela. Pour la plupart des utilisateurs, il est inutile de comprendre son fonctionnement pour l’utiliser, cependant, si vous êtes intéressé par la façon dont ces messages entrent et sortent de votre boîte de réception, restez avec nous.
 
@@ -108,7 +107,8 @@ Quelques définitions au préalable :
 
 ## Comment fonctionne le courrier électronique ?
 
-![fonctionnement complexe e-mail.png](/images/fonctionnement-email/fonctionnement-complexe-email.png)
+![fonctionnement complexe e-mail.png](/images/fonctionnement-email/fonctionnement-complexe-mail.png)
+![Intéractions SMTP](/images/fonctionnement-email/Interactions-SMTP.jpg)
 
 ### 1 - Envoi du mail et vérifications
 
