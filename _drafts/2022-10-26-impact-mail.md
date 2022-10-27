@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Pollution numérique : quel est le vrai impact d’un e-mail ? 
+title: Pollution numérique, quel est le vrai impact d’un e-mail ? 
 description: On estime qu'une personne utilise en moyenne 3,3g de CO2e par e-mails. Comment pouvons-nous réduire notre empreinte carbone numérique ? 
 author:
   display_name: Iroco
 categories:
 - Décryptage
-- Niveau de lecture : grand public
+- Grand public
 tags:
 - E-mail
 - Empreinte carbone 
