@@ -6,7 +6,7 @@ author:
   display_name: Iroco
 categories:
 - Décryptage
-- Niveau de lecture grand public
+- Grand public
 tags:
 - Google Analytics
 - Données personnelles et confidentialité

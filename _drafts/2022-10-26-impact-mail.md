@@ -73,7 +73,7 @@ Bien que la consommation d'électricité des centres de données à l'échelle m
 
 ## Courriel : d’où vient notre empreinte carbone du numérique  ?
 
-Selon les recherches de **Basile Fighiera**, lorsqu’on détaille l’empreinte carbone d’un mail avec une pièce jointe (1 Mo) écrit sur ordinateur avec une connexion Wi-Fi à 1 destinataire, les 3,3 gCO2e émis se répartissent de la façon suivante :
+Selon les recherches de [Basile Fighiera ](https://www.sami.eco/blog/empreinte-carbone-email), lorsqu’on détaille l’empreinte carbone d’un mail avec une pièce jointe (1 Mo) écrit sur ordinateur avec une connexion Wi-Fi à 1 destinataire, les 3,3 gCO2e émis se répartissent de la façon suivante :
 
 * Amortissement de la fabrication des ordinateurs utilisés pour écrire des e-mails  : 69 % de l’empreinte carbone
 
@@ -138,7 +138,7 @@ Pour vous aider à nettoyer efficacement votre boîte mail, nous vous recommando
 * Préférez la communication verbale ou l’envoi par SMS
 * Copiez moins de personnes dans les courriels : envoyez un message seulement à ceux qui ont réellement besoin de l'information
 
-##Comment optimiser le poids des images pour vos e-mails ? 
+## Comment optimiser le poids des images pour vos e-mails ? 
 
 Pour être lu rapidement, **le poids total d’un e-mail doit être d’environ 500/800 Ko**.
 
