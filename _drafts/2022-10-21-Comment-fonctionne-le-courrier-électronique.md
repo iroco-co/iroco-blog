@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Comment fonctionne le courrier électronique ? 
-description: Savez-vous exactement comment fonctionne le courrier électronique (e-mail) ? Dans cet article, découvrez chaque étape : SMTP, Imap, Pop3. 
+description: Savez-vous exactement comment fonctionne le courrier électronique (e-mail) ? Dans cet article, découvrez chaque étape, SMTP, Imap, Pop3. 
 author:
   display_name: Iroco
 categories:
 - Décryptage
-- Niveau de lecture : grand public
+- Grand public
 tags:
 - E-mail
 - SMTP
