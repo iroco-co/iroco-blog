@@ -38,8 +38,6 @@ Quelques dates clés sur l’histoire de l’e-mail :
 
 - 2011 : 3,1 milliards d’adresses mails dans le monde sont recensées.
 
-- 2012 : l’e-mail devient le mode de communication principal sur smartphone grâce à l’arrivée du Responsive Design ***### A préciser ? ###***
-
 [Selon Statista](https://fr.statista.com/statistiques/583905/nombre-d-e-mails-par-jour-dans-le-monde--2019/), environ 319,6 milliards d’e-mails étaient envoyés et reçus chaque jour en 2021 et devraient dépasser **376,4 milliards en 2025**.
 
 Aperçu d'une adresse e-mail :
@@ -83,9 +81,9 @@ Le **client de messagerie** est un logiciel qui doit être installé, vos e-mail
 | -----   | -----------------    |
 | **Accessible** depuis n’importe quel appareil avec un navigateur internet | Installation et configuration d'une application (outlook, Thundebird, Mail pour MacOS) |
 | Configuration plus ergonomique (utilisateur/mot de passe) | **Plus efficace** : protocole optimisé pour le transfert de texte |
-| **Aucune mise à jour**  à effectuer | maintenance de l'app de mail |
+| **Aucune mise à jour**  à effectuer | Maintenance de l'app de mail |
 | Basé sur le protocole **[JMAP](https://jmap.io)** et **HTTP** | Basé sur les protocoles **IMAP**/**SMTP** |
-| Utilisation en ligne (sauf fonctionnalité fournie par l'app) | utilisation hors ligne possible |
+| Utilisation en ligne (sauf fonctionnalité fournie par l'app) | Utilisation hors ligne possible |
 
 ## Comment envoyer et recevoir un message électronique ?
 
