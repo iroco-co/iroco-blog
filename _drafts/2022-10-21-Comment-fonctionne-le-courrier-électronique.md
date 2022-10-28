@@ -82,7 +82,7 @@ Le **client de messagerie** est un logiciel qui doit être installé, vos e-mail
 | **Accessible** depuis n’importe quel appareil avec un navigateur internet | Installation et configuration d'une application (outlook, Thundebird, Mail pour MacOS) |
 | Configuration plus ergonomique (utilisateur/mot de passe) | **Plus efficace** : protocole optimisé pour le transfert de texte |
 | **Aucune mise à jour**  à effectuer | Maintenance de l'app de mail |
-| Basé sur le protocole **[JMAP](https://jmap.io)** et **HTTP** | Basé sur les protocoles **IMAP**/**SMTP** |
+| Basé sur le protocole **[JMAP](https://jmap.io)** et **HTTP** |Basé sur les protocoles **IMAP**/**SMTP** |
 | Utilisation en ligne (sauf fonctionnalité fournie par l'app) | Utilisation hors ligne possible |
 
 ## Comment envoyer et recevoir un message électronique ?
