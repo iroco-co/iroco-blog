@@ -63,7 +63,7 @@ L’e-mail est également un excellent exemple de l'**effet de rebond**, dans le
 
 D’ailleurs selon [Science Focus](https://www.sciencefocus.com/planet-earth/the-thought-experiment-what-is-the-carbon-footprint-of-an-email/#:~:text=Sending%2065%20emails%20is%20roughly,emails%20they%20send%20and%20receive.&text=Globally%2C%20the%20world), l'envoi d'un e-mail utilise environ 1,7 % de l'énergie nécessaire pour livrer une lettre papier, ce qui prouve que **le courrier électronique est certainement une option plus écologique que le courrier postal**. Étant donné que seulement 5 % du réseau électrique mondial provient de sources renouvelables, cela signifie que **la plupart de nos courriels sont alimentés par des combustibles fossiles.**
 
-![Empreinte carbonne : lettre vs email vs sms ](/images/poids-email/lettre-vs-email-vs-sms.jpg)
+![Empreinte carbonne : lettre vs email vs sms ](/images/poids-email/lettre-email-sms.jpg)
 
 D’après le [rapport de suivi des centres de données et des réseaux de transmission de données](https://www.iea.org/reports/data-centres-and-data-transmission-networks)(numérisation), la consommation mondiale d’électricité dans **les data centers en 2021 représenterait entre 220-320 TWh**, soit environ 0,9-1,3% de la demande finale mondiale d’électricité (sans prendre en compte l’exploitation minière de crypto-monnaie, qui était de 100-140 TWh en 2021). 
 
