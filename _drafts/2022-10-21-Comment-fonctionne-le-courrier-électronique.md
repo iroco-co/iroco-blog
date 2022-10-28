@@ -108,8 +108,21 @@ Quelques définitions au préalable :
 ## Comment fonctionne le courrier électronique ?
 
 ![fonctionnement complexe e-mail.png](/images/fonctionnement-email/fonctionnement-complexe-email.jpg)
+
+1. Gabriel ouvre son app de messagerie (MUA) Thundebird pour inviter Emma à sa pendaison de crémaillère, samedi soir.
+2. Il rédige son mail et appuie sur le bouton envoyer
+3. Le MUA contact le MTA chez Iroco qui met en file d'attente le mail de Gabriel.
+4. Le MTA d'Iroco contacte le MTA d'Emma (Google)
+5. Une conversation en découle entre les 2 MTA
+
 ![Intéractions SMTP](/images/fonctionnement-email/Interactions-SMTP.jpg)
 
+6. Quand le MTA de chez Google a fermé la connexion, il envoie le message au MDA de Emma qu’il notifie par le biais de son MUA
+7. Emma voit une notification sur son mobile “nouveau message de Gabriel”
+8. Elle clique sur ses messages et son MUA cherche le contenu du mail sur le MDA et l’affiche sur son écran.
+9. Emma se rend donc samedi soir à la crémaillère de Gabriel
+
+---------------------------------------
 ### 1 - Envoi du mail et vérifications
 
 Pour envoyer et recevoir des messages électroniques, vous pouvez utiliser un “**client de messagerie**" (MUA). Un serveur stocke et délivre vos messages, qui sont dans la plupart des cas hébergés par un ISP (Internet service provider), ou en français un fournisseur de services internet (FAI) comme Orange, SFR, Bouygues Telecom par exemple.
