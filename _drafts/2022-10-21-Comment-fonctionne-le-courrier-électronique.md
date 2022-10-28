@@ -108,17 +108,17 @@ Quelques définitions au préalable :
 ![fonctionnement complexe e-mail.png](/images/fonctionnement-email/fonctionnement-complexe-email.jpg)
 
 1. Gabriel ouvre son app de messagerie (MUA) Thundebird pour inviter Emma à sa pendaison de crémaillère, samedi soir.
-2. Il rédige son mail et appuie sur le bouton envoyer
-3. Le MUA contact le MTA chez Iroco qui met en file d'attente le mail de Gabriel.
-4. Le MTA d'Iroco contacte le MTA d'Emma (Google)
-5. En découle une conversation entre les 2 MTA
+Il rédige son mail et appuie sur le bouton envoyer
+Le MUA contact le MTA chez Iroco qui met en file d'attente le mail de Gabriel.
+Le MTA d'Iroco contacte le MTA d'Emma (Google)
+2. En découle une conversation entre les 2 MTA
 
 ![Intéractions SMTP](/images/fonctionnement-email/Interactions-SMTP.jpg)
 
-6. Quand le MTA de chez Google a fermé la connexion, il envoie le message au MDA de Emma qu’il notifie par le biais de son MUA
-7. Emma voit une notification sur son mobile “nouveau message de Gabriel”
-8. Elle clique sur ses messages et son MUA cherche le contenu du mail sur le MDA et l’affiche sur son écran.
-9. Après avoir lu le mail de Gabriel, Emma décide d'accepter son invitation.
+3.Quand le MTA de chez Google a fermé la connexion, il envoie le message au MDA de Emma qui la notifie par le biais de son MUA
+Emma voit une notification sur son mobile “nouveau message de Gabriel”
+Elle clique sur ses messages et son MUA cherche le contenu du mail sur le MDA et l’affiche sur son écran.
+Après avoir lu le mail de Gabriel, Emma décide d'accepter son invitation.
 
 ## Comment se compose un message électronique ?
 Les e-mails se composent de deux sections principales  : l’en-tête et le corps.
