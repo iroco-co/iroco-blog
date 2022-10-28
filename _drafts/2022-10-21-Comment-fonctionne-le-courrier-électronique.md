@@ -111,7 +111,7 @@ Quelques définitions au préalable :
 2. Il rédige son mail et appuie sur le bouton envoyer
 3. Le MUA contact le MTA chez Iroco qui met en file d'attente le mail de Gabriel.
 4. Le MTA d'Iroco contacte le MTA d'Emma (Google)
-5. Une conversation en découle entre les 2 MTA
+5. En découle une conversation entre les 2 MTA
 
 ![Intéractions SMTP](/images/fonctionnement-email/Interactions-SMTP.jpg)
 
