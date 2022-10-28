@@ -115,9 +115,9 @@ Le MTA d'Iroco contacte le MTA d'Emma (Google).
 
 ![Intéractions SMTP](/images/fonctionnement-email/Interactions-SMTP.jpg)
 
-3.Quand le MTA de chez Google a fermé la connexion, il envoie le message au MDA de Emma qui la notifie par le biais de son MUA.
+3. Quand le MTA de chez Google a fermé la connexion, il envoie le message au MDA de Emma qui la notifie par le biais de son MUA.
 Emma voit une notification sur son mobile “nouveau message de Gabriel”.
-Elle clique sur ses messages et son MUA cherche le contenu du mail sur le MDA et l’affiche sur son écran.
+Elle clique dessus et son MUA cherche le contenu du mail sur le MDA et l’affiche sur son écran.
 Après avoir lu le mail de Gabriel, Emma décide d'accepter son invitation.
 
 ## Comment se compose un message électronique ?
