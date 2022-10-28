@@ -120,39 +120,7 @@ Quelques définitions au préalable :
 6. Quand le MTA de chez Google a fermé la connexion, il envoie le message au MDA de Emma qu’il notifie par le biais de son MUA
 7. Emma voit une notification sur son mobile “nouveau message de Gabriel”
 8. Elle clique sur ses messages et son MUA cherche le contenu du mail sur le MDA et l’affiche sur son écran.
-9. Emma se rend donc samedi soir à la crémaillère de Gabriel
-
----------------------------------------
-### 1 - Envoi du mail et vérifications
-
-Pour envoyer et recevoir des messages électroniques, vous pouvez utiliser un “**client de messagerie**" (MUA). Un serveur stocke et délivre vos messages, qui sont dans la plupart des cas hébergés par un ISP (Internet service provider), ou en français un fournisseur de services internet (FAI) comme Orange, SFR, Bouygues Telecom par exemple.
-
-Lors de l'envoi d'un e-mail, le message  est acheminé d'un serveur à l'autre via le **SMTP** (Simple Mail Transfer Protocol) jusqu'à ce qu'il passe  au serveur SMTP sortant, transférant l’**e-mail au format MIME** (norme industrielle de messagerie électronique).
-
-**Cloud réseau** : un e-mail peut rencontrer un nuage de réseau au sein d'une grande entreprise, d’un FAI, ou Internet. Le cloud réseau peut englober une multitude de serveurs de messagerie, de serveurs DNS, de routeurs, etc. Ces appareils peuvent être **protégés par des pare-feu, des filtres anti-spam,etc**.
-
-File d’attente des e-mails : si un e-mail est adressé à quelqu’un d’une autre entreprise, il entre dans une file d’attente d’e-mails, s’il y a un volume élevé de courrier dans la file d'attente (soit parce qu'il y a beaucoup de messages, soit parce que les messages sont anormalement volumineux, soit les deux), le message sera retardé dans la file d’attente jusqu’à ce que le **MTA** traite les messages qui le précèdent.
-
-### 2 — Transfert du mail
-Lors du transfert d'un e-mail, le **MTA expéditeur** gère tous les aspects de la distribution du courrier jusqu'à ce que le message soit accepté ou rejeté par le **MTA destinataire**.
-
-Au fur et à mesure que l'e-mail efface la file d'attente, il entre dans le **cloud du réseau Internet**  et est acheminé le long de la chaîne de serveurs d'hôte à hôte. La plupart des e-mails empruntent un chemin qui dépend de la disponibilité du serveur (un message peut emprunter des chemins différents).
-
-Afin de trouver l’**adresse IP** et la boîte aux lettres du destinataire, le MTA doit parcourir le DNS (système de noms de domaine), une sorte d’annuaire d’Internet, qui se compose d'un ensemble de serveurs répartis sur Internet.
-
-Une fois parcouru, il traduit l’adresse e-mail du destinataire par exemple hello@iroco.fr en une adresse IP comme “50.669.36.80”. Une fois que l'IP associée a été trouvée, il vérifie s'il existe un serveur d'échange de courrier (MX) pour le domaine qui détaille où le message doit aller.
-
-L'**enregistrement MX** est un enregistrement de ressource qui spécifie le serveur de messagerie d'un nom de domaine. Une fois localisé, le serveur SMTP enverra le message à ce serveur.
-
-Pare-feu, filtres anti-spam et anti-virus : un e-mail peut être transféré vers plusieurs MTA au sein d'un réseau cloud et est susceptible d'être transmis à au moins un pare-feu avant d'atteindre sa destination.Un e-mail rencontrant un pare-feu peut être testé par des **filtres anti-spam et anti-virus** avant d'être autorisé à passer à l'intérieur du pare-feu. Ces filtres testent pour voir si le message est qualifié de spam ou de **logiciel malveillant** .
-
-Si le message contient des logiciels malveillants, le fichier est généralement mis en quarantaine et l'expéditeur en est averti. Si le message est identifié comme **spam**, il sera probablement supprimé sans en avertir l'expéditeur.Le spam est difficile à détecter car il peut prendre de nombreuses formes différentes.
-
-Les **filtres anti-spam** sont donc testés sur un large éventail de critères et ont tendance à classer à tort un nombre important de messages comme spam, en particulier les messages provenant de newsletter.
-
-### 3 — Réception & lecture du mail
-
-Une fois que le **MTA du destinataire** accepte la livraison, le MTA appelle le MDA local pour le stocker (au bon emplacement) afin que l'utilisateur puisse le récupérer (via **POP3, IMAP4** ou autre).
+9. Emma peut se rendre samedi soir à la crémaillère de Gabriel
 
 ## Comment se compose un message électronique ?
 Les e-mails se composent de deux sections principales  : l’en-tête et le corps.
