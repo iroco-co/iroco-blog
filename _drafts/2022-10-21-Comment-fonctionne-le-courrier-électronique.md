@@ -107,7 +107,7 @@ Quelques définitions au préalable :
 
 ## Comment fonctionne le courrier électronique ?
 
-![fonctionnement complexe e-mail.png](/images/fonctionnement-email/fonctionnement-complexe-mail.png)
+![fonctionnement complexe e-mail.png](/images/fonctionnement-email/fonctionnement-complexe-email.jpg)
 ![Intéractions SMTP](/images/fonctionnement-email/Interactions-SMTP.jpg)
 
 ### 1 - Envoi du mail et vérifications
