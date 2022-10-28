@@ -118,7 +118,7 @@ Quelques définitions au préalable :
 6. Quand le MTA de chez Google a fermé la connexion, il envoie le message au MDA de Emma qu’il notifie par le biais de son MUA
 7. Emma voit une notification sur son mobile “nouveau message de Gabriel”
 8. Elle clique sur ses messages et son MUA cherche le contenu du mail sur le MDA et l’affiche sur son écran.
-9. Emma peut se rendre samedi soir à la crémaillère de Gabriel
+9. Après avoir lu le mail de Gabriel, Emma décide d'accepter son invitation.
 
 ## Comment se compose un message électronique ?
 Les e-mails se composent de deux sections principales  : l’en-tête et le corps.
