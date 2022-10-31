@@ -12,6 +12,8 @@ tags:
 - SMTP
 - Imap
 ---
+![e-mails connectés](/images/fonctionnement-email/iroco-fonctionnement-email.jpg)
+
 *60 % de la population française utilise l’e-mail avec près de 1.4 milliard d’envois par jour. Mais vous êtes-vous déjà demandé comment cela fonctionne lorsque vous appuyez sur "envoyer" ? Tour d’horizon.*
 
 ## L’e-mail, une histoire qui dure depuis 60 ans
