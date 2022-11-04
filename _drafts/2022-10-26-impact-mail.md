@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pollution numérique, quel est le vrai impact d’un e-mail ? 
-description: On estime qu'une personne utilise en moyenne 3,3g de CO2e par e-mails. Comment pouvons-nous réduire notre empreinte carbone numérique ? 
+description: On estime qu'un email envoyé émet en moyenne 3,3g d'équivalent CO2. Comment pouvons-nous réduire notre empreinte carbone numérique ? 
 author:
   display_name: Iroco
 categories:
@@ -14,38 +14,29 @@ tags:
 ---
 ![Illustration e-mail](/images/poids-email/poids-email.jpg)
 
-*Avec l'avènement des applications de messagerie, l’entrée en vigueur du RGPD ou encore l’hégémonie des réseaux sociaux, l’e-mail reste un canal de communication privilégié avec plus de 319,6 milliards d’e-mails qui sont envoyés et reçus quotidiennement et devraient dépasser 376,4 milliards en 2025. Quelle est son empreinte carbone ? Quelle quantité d’énergie est utilisée ? Comment pouvons-nous la réduire ? Analyse.*
+*Malgré l'avènement des applications de messagerie instantanée et l'influence grandissante des réseaux sociaux, l’e-mail reste un canal de communication privilégié : plus de 319,6 milliards d’e-mails sont envoyés et reçus quotidiennement et ce nombre devrait dépasser 376,4 milliards en 2025. Que sait-on de son empreinte carbone ? Et de sa consommation d'énergie ? Comment pouvons-nous les réduire ? Analyse.*
 
 ## Quelle est l'empreinte carbone d'un e-mail ?
 
-Bien que les e-mails puissent sembler inoffensifs, l'**impact collectif de milliards d’e-mails n’est pas anodin**. 
+Bien que les e-mails puissent à première vue sembler inoffensifs d'un point de vue environnemental, l'**impact collectif de milliards d’e-mails n’est pas anodin**. 
 
-Calculer les émissions d’un e-mail n'est pas une tâche aisée. Alors, **comment mesurer l'empreinte carbone totale d'un e-mail ?**  Plusieurs facteurs doivent être pris en compte : 
+Calculer les émissions de gaz à effet de serre générés par un e-mail n'est pas une tâche aisée. Alors, **comment mesurer l'empreinte carbone totale d'un e-mail ?**  Plusieurs facteurs doivent être pris en compte : 
 
-* L’appareil utilisé : smartphone, ordinateur, tablette…
+* L’appareil utilisé : écrit-on depuis un smartphone, un ordinateur, une tablette… ?
 * La longueur du message ;
 * Le temps qu'il a fallu à l'expéditeur pour l'écrire et au lecteur pour le consulter ;
-* L’expéditeur a-t-il ajouté des pièces jointes : photos, fichiers volumineux, une signature comprenant le logo de l'entreprise ? 
-* L’énergie employée pour l'envoyer ;
-* L’efficacité des différents centres de données qu'il traverse
+* Les éventuelles pièces jointes : l’expéditeur a-t-il ajouté des photos, des fichiers volumineux, une signature comprenant le logo de l'entreprise ? 
+* Le type de réseau utilisé : wifi, 3G, 4G... ;
+* Le nombre de destinataires ;
+* La nature des différents centres de données qu'il traverse...
 
 Tous ces critères ont un impact. 
 
-La dernière étude sur le cycle de vie des e-mails a été menée par [Basile Fighiera](https://www.linkedin.com/in/basile-fighiera-b05805163/), consultant-formateur en stratégie bas-carbone et sobriété numérique. 
+Une étude sur le cycle de vie des e-mails a été menée par [Basile Fighiera](https://www.linkedin.com/in/basile-fighiera-b05805163/), consultant-formateur en stratégie bas-carbone et sobriété numérique. Selon lui, un mail avec une pièce jointe de 1 Mo, rédigé sur ordinateur avec une connexion Wi-Fi et envoyé à 1 destinataire émettra par exemple l'équivalent de **3,3 g de CO2e (équivalent CO2)** et un mail court sans pièce jointe de 10 Ko, rédigé sur ordinateur avec une connexion Wi-Fi et envoyé à 10 destinataires émettra quant à lui 4,9 gCO2e. 
 
-Selon lui, un mail avec une pièce jointe (1 Mo) rédigé sur ordinateur avec une connexion Wi-Fi à 1 destinataire diffusera **3,3 gCO2e** et un mail court sans pièce jointe (10 Ko) rédigé sur ordinateur avec une connexion Wi-Fi à 10 destinataires émettra 4,9 gCO2e. 
+Ces estimations sont notablement moins élevées que celles proposées par l’[ADEME en 2011 sur les impacts environnementaux de la communication par voie électronique](https://presse.ademe.fr/files/acv_ntic_synthese_resultats.pdf), probablement du fait de l'amélioration des méthodes de calcul et des données disponibles.  
 
-Pour plus de détails, voici le tableau sur la base de ses recherches sur l’empreinte carbone de différents types d’e-mails :  
-
-![Tableau comparatif empreinte carbone d'un e-mail](/images/poids-email/tableau-empreinte-carbone-email.png)
-
-Ces estimations sont moins élevées que celles l’[ADEME en 2011 sur les impacts environnementaux de la communication par voie électronique](https://presse.ademe.fr/files/acv_ntic_synthese_resultats.pdf) car les appareils utilisés ainsi que **les data centers deviennent plus efficaces au fil du temps.**  
-
-Selon la dernière version du livre de Mike Berners-Lee (spécialiste de la mesure d’empreinte carbone) « [How Bad are Bananas ? : The Carbon Footprint of Everything](https://howbadarebananas.com) » (2020), **l’empreinte carbone moyenne d'un message électronique est de 0,3 g de CO2e.** 
-
-Le nombre baisse s'il est envoyé d'un téléphone à l'autre (0,2 g de CO2e), ou s'il s'agit d'un spam qui est récupéré par le filtre de votre boîte de réception (0,3 g de CO2e).
-
-Les chiffres augmentent s'il comporte un e-mail qui prend dix minutes à écrire et trois secondes à lire (17 g de CO2e), ou s'il a une image ou une pièce jointe (50 g de CO2e). 
+La dernière version du livre de Mike Berners-Lee (spécialiste de la mesure d’empreinte carbone) « [How Bad are Bananas ? : The Carbon Footprint of Everything](https://howbadarebananas.com) » (2020) propose quant à elle **une empreinte carbone moyenne d'un message électronique de 0,3 g de CO2e.** Ce nombre baisse s'il est envoyé d'un téléphone à l'autre (0,2 g de CO2e), ou s'il s'agit d'un spam qui est récupéré par le filtre de votre boîte de réception (0,3 g de CO2e). Il augmente en revanche s'il comporte un e-mail qui prend dix minutes à écrire et trois secondes à lire (17 g de CO2e), ou s'il a une image ou une pièce jointe (50 g de CO2e). 
 
 ![Empreinte carbonne d'un e-mail](/images/poids-email/empreinte-carbone-email.jpg)
 
