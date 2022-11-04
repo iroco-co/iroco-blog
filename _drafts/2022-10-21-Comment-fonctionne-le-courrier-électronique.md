@@ -20,7 +20,7 @@ tags:
 
 L'histoire de l'e-mail commence en 1971 avec un ingénieur américain, Ray Tomlinson, qui développe le **système de messagerie** en réseau ARPANET (ancêtre de l’Internet d'aujourd’hui) pour le ministère de la Défense des États-Unis et adopte le symbole @ pour les adresses. Les machines utilisées sont multi-utilisateurs. Les machines sont identifiées par leur adresse IP sur le réseau, et le symbole @ permet alors de préciser l'utilisateur de la  machine à qui le message est destiné. Pour la petite anecdote, le **courrier électronique** ne s’appelait pas encore e-mail, mais Netmail pour Network Mail. 
 
-Après le développement du DNS, le système de noms de domaine que nous utilisons couramment aujourd'hui, les adresses e-mail prennent le format loginname@host.domain.
+Après le développement du DNS, le système de noms de domaine que nous utilisons couramment aujourd'hui, les adresses e-mail prennent le format loginname[at]host.domain.
 
 7 ans plus tard, en mai 1978, Gary Thuerk envoie ce qui est considéré comme le premier **spam** de l'histoire à près de 600 personnes. Vous pouvez retrouver la reproduction de celui-ci sur [le blog de Brad Templetons](https://www.templetons.com/brad/spamreact.html), l’un des pionniers du web.  
 
