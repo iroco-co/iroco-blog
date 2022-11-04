@@ -1,0 +1,117 @@
+---
+layout: post
+title: Cybermenaces, pourquoi le spam électronique peut-être dangereux ?
+description:
+author:
+  display_name: Iroco
+categories:
+- Décryptage
+- Grand public
+tags:
+- E-mail
+- Cybermenace
+- Spam
+---
+![e-mails spams](/images/spam/spam.jpg)
+*Plus de la moitié des e-mails circulant dans le monde s’avèrent être du spam. Cette cybermenace est envoyée en grande quantité par des cybercriminels, des spammeurs qui tentent d’obtenir vos informations personnelles à votre insu. Que faire et comment lutter contre le spam ? C’est ce que nous allons découvrir dans cet article.*
+
+## Qu'est-ce que le spam ?
+
+Selon le dispositif national d'assistance aux victimes d'actes de cybermalveillance ([Cybermalveillance.gouv.fr](https://www.cybermalveillance.gouv.fr/tous-nos-contenus/fiches-reflexes/spam-electronique)), la définition du spam est la suivante : 
+
+> Le spam électronique, également appelé courrier indésirable ou pourriel, désigne une communication électronique non sollicitée à des fins publicitaires, commerciales ou malveillantes. Dans la majorité des cas, il s’agit de messages de prospection commerciale ne respectant pas les obligations légales en matière de consentement des destinataires, mais il peut également revêtir un caractère malveillant : astuces pour gagner de l’argent, sollicitation pour transférer des fonds ou encore tentatives d’hameçonnage (phishing en anglais).Les expéditeurs de spams ciblent essentiellement les comptes de messagerie, mais peuvent aussi utiliser les messageries instantanées ou les réseaux sociaux. Un spam électronique peut parfois même contenir un logiciel malveillant (un rançongiciel par exemple) qui pourrait permettre d’utiliser ou de bloquer votre appareil à votre insu.
+
+C’est une réalité, tout le monde a rencontré du spam à un moment donné de sa vie.Le spamming consomme énormément de ressources, pénalisant à la fois les organisations (FAI) et les particuliers (utilisateurs finaux). Nous pouvons dire que nous sommes des citoyens avertis et bien informés, que nous sommes préparés et par conséquent que le taux de réussite des spammeurs est très faible. 
+
+Mais le spam est avant tout une histoire de chiffres : envoyer des millions d'e-mails en quelques secondes est si lucratif qu'un infime pourcentage de destinataires suffit. Selon l’expert en cybersécurité, Caisco Talos Intelligence, 320 milliards de mails spams sont expédiés chaque jour. 
+
+### Les différentes formes de spam 
+
+Cependant, il existe une distinction entre le spam et le courrier indésirable, bien que les deux soient étroitement liés. 
+
+- Les courriels commerciaux non sollicités (UCE - Unsolicited Commercial Email) : sont inoffensifs et, dans la plupart des cas ce sont des e-mails envoyés à des fins marketing qui obstruent votre boîte de réception. 
+
+- Les courriels de masse non sollicités (UBE - Unsolicited Bulk Email) : ont tendance à traiter de sujets plus insidieux (politiques, religieux, sexuels, etc.), créant souvent un piège soit par le Catfishing (individu qui usurpe la plupart du temps l'identité d'une entreprise ou d'une organisation pour obtenir des informations personnelles) ou en incitant les utilisateurs avec des offres trop alléchantes.
+
+![Catfishing](/images/spam/Catfishing-Social.png)
+(crédit image : NordVPN)
+
+Il est également utile de diviser le spam en deux catégories distinctes : 
+
+1. Le spam qui tente de voler vos données par le biais de l'hameçonnage 
+2. Le spam qui infecte votre ordinateur avec des logiciels malveillants ou des rançongiciels.
+
+Les deux peuvent causer un préjudice non négligeable aussi bien pour les particuliers que les entreprises notamment sur l’aspect financier. Vous ne devez pas répondre à ces e-mails à moins d'être sûr qu'ils proviennent d'une source fiable, car le spam ne peut pas être arrêté, mais il y a certaines choses qui peuvent être faites pour s’en prémunir. 
+
+## Comment se protéger contre le spam ? 
+
+La première règle pour empêcher le spam d’endommager votre ordinateur ou de voler vos données est évidemment de ne pas ouvrir et répondre aux spams que vous soupçonnez d'être des escroqueries. Même si vous ouvrez un e-mail, ne téléchargez pas ou ne cliquez sur aucun lien ou fichier à l'intérieur du spam, car ils peuvent contenir des virus ou des logiciels espions. 
+
+Voici quelques conseils pour identifier le courrier indésirable :
+
+* Méfiez-vous toujours des e-mails que vous recevez de personnes que vous ne connaissez pas;
+
+
+* Examinez l'objet et le message du mail à la recherche de fautes d’orthographe, de grammaire, ou de caractères étranges (par exemple un 0 à la place d’un o) qui sont conçues pour tromper les filtres anti-spam;
+
+
+* Vérifiez les URL et les adresses e-mail, les spammeurs peuvent dupliquer la mise en page d’entreprises qui vous est familière;
+
+
+* Méfiez-vous des e-mails demandant des informations de connexion ou des renseignements personnels;
+
+
+* Vérifiez en ligne les [dernières escroqueries par courrier indésirable](https://securelist.com/category/spam-and-phishing-reports/).
+
+Quelques conseils additionnels : 
+
+* Ne cliquez pas sur le lien “se désabonner” : les spammeurs envoient de faux courriels de désabonnement dans le but de collecter des adresses e-mail actives;
+
+* Assurez-vous que vous utilisez la dernière version de votre navigateur Web pour des raisons de sécurité;
+
+* Ne répondez pas aux e-mails provenant de sources inconnues;
+
+* Utilisez des filtres anti-spam;
+
+* Ne montrez jamais votre adresse e-mail publiquement (les spammeurs ont des robots d'exploration avec des opérations de “crawling” pour récolter de nouvelles données);
+
+* Créez des alias de messagerie pour rediriger les messages reçus vers votre compte de messagerie principal;
+
+* Utilisez des outils anti-spam comme [Mailinblack](https://www.mailinblack.com/en/), [Spamfighter](https://www.spamfighter.com/SPAMfighter/Lang_FR/Download_Download.asp), [Altospam](https://www.altospam.com), etc.;
+
+* Vérifiez auprès de votre FAI ( Fournisseurs d’Accès à Internet) s’il existe un logiciel de filtrage anti-spam;
+
+* Ne menacez pas les spammeurs (dans certaines conditions générales, ce qu'ils font est légalement autorisé) : en les menaçant, vous vous exposez à des poursuites judiciaires;
+
+*  Exécutez régulièrement des vérificateurs d’antivirus et de logiciels espions.
+
+Les internautes avisés d'aujourd'hui sont plus susceptibles de considérer le polluriel comme une nuisance que comme un véritable danger, mais les coûts élevés associés et la sophistication croissante du spam garantissent également que la menace demeure. 
+
+En effet, d’autres technologies pourraient rendre la détection du spam plus difficile comme les deepfakes et l’IA. 
+
+![deepfake](/images/spam/deepfake.jpg)
+(crédit image : Portail de l'IE)
+
+> Nous sommes entrés dans une ère où nous ne pouvons plus faire confiance à nos propres boîtes de réception
+a déclaré Max Heinemeyer, Chief Product Officer chez Darktrace, une société anglo-américaine spécialisée dans la cyberdéfense. 
+
+En plus des messages qui encombrent nos boîtes de réception, il existe d'autres types de spams. Les spammeurs utilisent également des applications de messagerie (Messenger, Whats’app…), des résultats de recherche, les réseaux sociaux, des robots qui promeuvent des liens vers de faux témoignages, des articles erronés, de sites qui vendent des produits douteux (pilule magique qui retarde le grisonnement…) 
+
+Ceux-ci pourraient être programmés par des humains, mais il serait plus rentable si ces bots étaient automatisés, et encore plus convaincant serait d'utiliser l'intelligence artificielle pour répondre aux humains.
+
+> Les cybercriminels sont des innovateurs, ils sont toujours à la recherche de nouveaux moyens d'atteindre plus de victimes, plus rapidement pour finalement gagner plus d'argent
+a déclaré Heinemeyer.
+
+L'IA facilite également la création de "deepfakes”, des images, sons, ou des vidéos qui ont été modifiées/générées numériquement pour tromper les cybernautes en détournant sciemment l’image ou la voix d’un individu (hypertrucage)…
+
+Cette technique frauduleuse touche principalement les personnalités publiques : acteurs, hommes politiques, pour nuire à sa crédibilité/réputation et peut engendrer des désinformations diffamatoires. 
+
+Du point de vue du cybernaute, parfois, le contenu peut être une personne créer artificiellement, idéal pour concevoir un avatar de toutes pièces sur les réseaux sociaux, mais la même idée peut être appliquée au texte ou aux images pour créer du spam pensé spécialement pour vous.
+
+### Les perspectives du spam 
+
+Malgré des efforts organisationnels, techniques et juridiques, le contrôle des pourriels est très difficile, notamment en raison de l'ampleur du phénomène (des millions de messages circulent chaque jour). L’ingénierie progresse, de grandes multinationales comme Google utilise un outil open source de Machine learning "[TensorFlow](https://www.tensorflow.org/?hl=fr)", Twitter a acquis la start-up Fabula AI pour manier l'IA contre le spam et les abus, et Microsoft continue à investir dans les technologies anti-spam basées sur l'IA pour améliorer son filtre…
+
+Le spam se propage et il devient plus intelligent heureusement, nous avons les mêmes outils pour nous battre. Rester vigilant face à ces menaces est le meilleur moyen de stopper le pourriel. 
+
+Source : [Altospam ](https://www.altospam.com/glossaire/spam.php)| [Économie.gouv ](https://www.economie.gouv.fr/entreprises/comment-lutter-contre-spams)
