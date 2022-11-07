@@ -7,5 +7,6 @@ name: bruno
 
 Quelques liens :
 
-* [mon profil github](https://github.com/bamthomas)
-* [mon profil LinkedIn](https://fr.linkedin.com/in/bamthomas)
+* [github](https://github.com/bamthomas)
+* [LinkedIn](https://fr.linkedin.com/in/bamthomas)
+* <a rel="me" href="https://mastodon.social/@bthomas">Mastodon</a>
