@@ -117,6 +117,6 @@ Emma voit une notification sur son mobile : “Nouveau message de Gabriel”.
 Elle clique dessus et son MUA cherche le contenu du mail sur le MDA et l’affiche sur son écran.
 Après avoir lu le mail de Gabriel, Emma décide d'accepter son invitation.
 
-On espère que ces explications vous aideront à y voir un peu plus clair sur le fonctionnement des e-mails.
+On espère que ces explications vous aideront à y voir un peu plus clair sur le fonctionnement des e-mails !
 
 Sources : [Namecheap](https://www.namecheap.com/guru-guides/how-does-email-work/) | [Université de Rennes](https://urfist.univ-rennes2.fr/messagerie_electronique_fonctionnement)
