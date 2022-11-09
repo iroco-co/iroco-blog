@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sobriété numérique, doit-on abandonner la signature d’e-mail ?
-description:Les signatures d'e-mails peuvent être un réel atout marketing. Mais dans une démarche de sobriété numérique, doit-on l'abandonner pour autant ?
+description: Les signatures d'e-mails peuvent être un réel atout marketing. Mais dans une démarche de sobriété numérique, doit-on l'abandonner pour autant ?
 author:
   display_name: Iroco
 categories:
@@ -70,7 +70,7 @@ Ces résultats nous indiquent qu'une signature électronique professionnelle est
 
 Une enquête a d'ailleurs été réalisée par [NewOldStamp](https://newoldstamp.com/email-marketing-report/) qui met en évidence les performances du marketing avec signature électronique : 
 
-METTRE IMG STAT
+![Statistiques signature e-mail](/images/signature_email/statistiques-signature-email.jpg)
 
 * Clics - 79 % des répondants ;
 * Courriels envoyés - 40 % ;
