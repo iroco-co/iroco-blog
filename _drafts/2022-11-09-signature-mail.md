@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sobriété numérique, doit-on abandonner la signature d’e-mail ?
-description:Les signatures d'e-mails peuvent être un réel atout marketing. Mais dans une démarche de sobriété numérique, doit-on l'abandonner pour autant ?
+description: Les signatures d'e-mails peuvent être un réel atout marketing. Mais dans une démarche de sobriété numérique, doit-on l'abandonner pour autant ?
 author:
   display_name: Iroco
 categories:
@@ -70,7 +70,7 @@ Ces résultats nous indiquent qu'une signature électronique professionnelle est
 
 Une enquête a d'ailleurs été réalisée par [NewOldStamp](https://newoldstamp.com/email-marketing-report/) qui met en évidence les performances du marketing avec signature électronique : 
 
-METTRE IMG STAT
+![Statistiques signature e-mail](/images/signature_email/statistiques-signature-email.jpg)
 
 * Clics - 79 % des répondants ;
 * Courriels envoyés - 40 % ;
@@ -101,13 +101,13 @@ L’e-mail est également un excellent exemple de l'effet de rebond, dans lequel
 
 D’ailleurs selon [Science Focus](https://www.sciencefocus.com/planet-earth/the-thought-experiment-what-is-the-carbon-footprint-of-an-email/#:~:text=Sending%2065%20emails%20is%20roughly,emails%20they%20send%20and%20receive.&text=Globally%2C%20the%20world), l'envoi d'un e-mail utilise environ 1,7 % de l'énergie nécessaire pour livrer une lettre papier, ce qui prouve que le courrier électronique est certainement une option plus écologique que le courrier postal. Étant donné que seulement 5 % du réseau électrique mondial provient de sources renouvelables, cela signifie que la plupart de nos courriels sont alimentés par des combustibles fossiles.
 
-IMG EMPREINTE CARBONE LETTRE VS EMAIL VS SMS 
+![Empreinte carbonne : lettre vs email vs sms ](/images/poids-email/lettre-email-sms.jpg)
   
 En novembre dernier, nous vous avions [suggéré quelques publications de référence sur le numérique responsable](https://blog.iroco.co/publications-reference-numerique-responsable/) comme la [synthèse de l’étude de GreenIT](https://www.greenit.fr/wp-content/uploads/2019/10/2019-10-GREENIT-etude_EENM-synthese-accessible.VF_.pdf) sur l’empreinte environnementale des technologies numériques mondiales, qui mettait en évidence les constats suivants : 34 milliards d’équipements peuplent le monde en 2019 pour 4,1 milliards d’utilisateurs, soit 8 équipements par utilisateur.
 
 Selon les recherches de [Basile Fighiera](https://www.sami.eco/blog/empreinte-carbone-email), lorsqu’on détaille l’empreinte carbone d’un mail avec une pièce jointe (1 Mo) écrit sur ordinateur avec une connexion Wi-Fi à 1 destinataire, les 3,3 gCO2e émis se répartissent de la façon suivante :
 
-IMG TABLEAU BASILE 
+![détails empreinte carbone d'un e-mail](/images/poids-email/details-empreinte-carbone-email.png) 
 
 L’amortissement de la fabrication d’un ordinateur expéditeur et récepteur représente donc 92% de l’empreinte carbone d'un e-mail !
 
@@ -154,7 +154,17 @@ Pour des mails dans une démarche d'éco-conception, le choix des polices est un
 
  Les polices natives sont le choix par défaut, installées directement sur le système d'exploitation de votre appareil et offrent une variété d'options. Parmi les exemples, citons Arial, Times New Roman, Garamond, Courrier New, Verdana. 
  
- IMG DES POLICES (NOM DE LA POLICE ÉCRITE DANS LA POLICE)
+ ````javascript
+<script>
+@font-face {
+  font-family: Arial;
+  font-family: Times New Roman;
+  font-family: Garamond;
+  font-family: Courrier New;
+  font-family: Verdana;
+  }
+</script>
+````
 
 Bien sûr, vous pouvez opter pour un type de police customisée, mais assurez-vous qu'il est cohérent avec votre image de marque et qu'il s'affiche correctement sur différents appareils.
 
