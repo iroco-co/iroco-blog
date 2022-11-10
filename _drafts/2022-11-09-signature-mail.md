@@ -12,7 +12,7 @@ tags:
 - Communication
 - Entreprise
 ---
-![Illustration e-mail](/images/poids-email/poids-email.jpg)
+![Signature e-mail](/images/signature_email/Header-signature-email.jpg)
 
 *Les signatures d'e-mails sont considérées comme une carte de visite des plus professionnelles et peuvent être un réel atout marketing pour une entreprise. [82 % des spécialistes du marketing](https://www.mediapost.com/publications/article/350372/brands-turn-to-email-signatures-for-marketing-stu.html) utilisent les signatures de courrier électronique pour accroître la notoriété et la réputation d’une marque.
 De plus, une bonne signature contenant des liens et d'autres coordonnées peut générer du trafic vers votre site Web et générer des prospects. Examinons les tendances et les éléments essentiels des signatures d’e-mails pour une utilisation raisonnée.*
