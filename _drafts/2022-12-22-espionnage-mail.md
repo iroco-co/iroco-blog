@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Votre application de messagerie vous espionne-t-elle ?
-description:Dans un monde numérique où la surveillance est omniprésente, beaucoup de gens ne se rendent pas compte que leur boîte mail est espionnée.Pourquoi?
+description: Dans un monde numérique où la surveillance est omniprésente, beaucoup de gens ne se rendent pas compte que leur boîte mail est espionnée.Pourquoi?
 author:
   display_name: Iroco
 categories:
@@ -12,9 +12,7 @@ tags:
 - Surveillance 
 - Données personnelles et confidentialité
 ---
-
-![Homme en train d'espionner par une fenêtre avec des jumelles
-](/images/espionnage-mail.png)
+![Homme en train d'espionner par une fenêtre avec des jumelles](/images/espionnage-mail.png)
 
 *La CIA, le FSB, le MI6, La DGSE… Depuis des siècles, les nations ont fait appel à des espions au motif de la sécurité intérieure ou publique. Il y a même des mentions d’espions dans la Bible. Mais pourquoi en tant que simple citoyen avons-nous l’impression d’être surveillés ?*
 
