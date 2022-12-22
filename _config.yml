@@ -1,6 +1,6 @@
 # Jekyll configuration
-name: Le blog d'Iroco 
-title: Le blog d'Iroco 
+name: Le blog d'Iroco
+title: Le blog d'Iroco
 email: hello@iroco.fr
 description: Blog sur l'écoconception logicielle, le GreenIT et le numérique responsable
 
@@ -13,6 +13,9 @@ baseurl: "" # the subpath of your site
 twitter_username: IrocoDigital
 github_username:  iroco-co
 github: 'iroco-co/iroco.github.io'
+mastodon:
+ - username: iroco
+   instance: mastodon.social
 
 # Build settings
 markdown: kramdown
