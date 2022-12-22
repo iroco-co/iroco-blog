@@ -89,7 +89,7 @@ D’ailleurs lors d’un atelier de l’ACM (Association for Computing Machinery
 
 Ce qui est de plus en plus préoccupant ce sont les nombreuses **violations de données** au cours des dernières années.. [La CNIL](https://www.cnil.fr/fr/diffusion-de-donnees-piratees-la-suite-dune-cyberattaque-quels-sont-les-risques-et-les-precautions) a eu une hausse significative en 2021 par rapport à 2020 (+ 79 % de notifications de violation de données soit 5 037) et représente un **coup financier de plusieurs millions pour les entreprises françaises** comme le montre très bien l’étude menée par la filiale sécurité d’IBM (voir l’image ci-dessous).
 
-![Étude de la filiale sécurité d’IBM sur le coup financier des entreprises françaises et dans le monde sur les violations de données au cours des dernières années](/images/spy-email/ibm-etude.png)
+![Data Breach, chiffres clés : Monde VS France. Source : IBM Security / Ponemon Institute](/images/spy-email/ibm-etude.png)
 
 Ces nombreuses **data breaches** ne concernent pas que des TPE/PME. Voici une partie émergée de l’iceberg :
 
