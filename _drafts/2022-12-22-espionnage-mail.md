@@ -12,7 +12,7 @@ tags:
 - Surveillance 
 - Données personnelles et confidentialité
 ---
-![Homme en train d'espionner par une fenêtre avec des jumelles](/images/espionnage-mail.png)
+![Homme en train d'espionner par une fenêtre avec des jumelles](/images/spy-email/espionnage-mail.png)
 
 *La CIA, le FSB, le MI6, La DGSE… Depuis des siècles, les nations ont fait appel à des espions au motif de la sécurité intérieure ou publique. Il y a même des mentions d’espions dans la Bible. Mais pourquoi en tant que simple citoyen avons-nous l’impression d’être surveillés ?*
 
@@ -28,7 +28,7 @@ Notre **boîte de réception** ne fait pas exception, il y a beaucoup d'argent �
 
 D’ailleurs en évoquant **CleanFox**, il faut savoir que c’est un service développé par Foxintelligence qui est une société d'études de marché sur l’e-commerce qui **commercialise des données à des fins statistiques**. En vous inscrivant à Cleanfox, vous faites partie du panel de consommateurs en ligne de Foxintelligence. Voici leurs procédés : 
 
-![Processus de collecte de données statistiques de la société Foxintelligence ](/images/processus-collecte-data.png)
+![Processus de collecte de données statistiques de la société Foxintelligence ](/images/spy-email/processus-collecte-data.png)
 
 1. Les utilisateurs de CleanFox sont incités à rejoindre le panel en connectant leur boîte mail;
 2. Les reçus électroniques des e-mails sont extraits et anonymisés;
@@ -89,7 +89,7 @@ D’ailleurs lors d’un atelier de l’ACM (Association for Computing Machinery
 
 Ce qui est de plus en plus préoccupant ce sont les nombreuses **violations de données** au cours des dernières années.. [La CNIL](https://www.cnil.fr/fr/diffusion-de-donnees-piratees-la-suite-dune-cyberattaque-quels-sont-les-risques-et-les-precautions) a eu une hausse significative en 2021 par rapport à 2020 (+ 79 % de notifications de violation de données soit 5 037) et représente un **coup financier de plusieurs millions pour les entreprises françaises** comme le montre très bien l’étude menée par la filiale sécurité d’IBM (voir l’image ci-dessous).
 
-![Étude de la filiale sécurité d’IBM sur le coup financier des entreprises françaises et dans le monde sur les violations de données au cours des dernières années](/images/ibm-etude.png)
+![Étude de la filiale sécurité d’IBM sur le coup financier des entreprises françaises et dans le monde sur les violations de données au cours des dernières années](/images/spy-email/ibm-etude.png)
 
 Ces nombreuses **data breaches** ne concernent pas que des TPE/PME. Voici une partie émergée de l’iceberg :
 
@@ -136,3 +136,5 @@ Le respect des données et de la vie privée fait partie intégrante de [nos eng
 En ce qui nous concerne, c’est votre vie privée, votre anonymat et votre sécurité. On ne se soucie pas de vos comportements d’achat, de vos habitudes de visionnage YouTube, de vos reçus chez la FNAC, de votre Playlist Spotify…
 
 En fait, nous ne nous préoccupons que d’une seule chose : vous proposez un **service de mail responsable** : transparent, respectueux de vos données et de la planète, hébergé en France.
+
+Sources : [Le Figaro](https://www.lefigaro.fr/secteur/high-tech/2018/08/29/32001-20180829ARTFIG00181-yahoo-analyse-les-boites-mails-de-ses-utilisateurs-a-des-fins-publicitaires.php) | [Malekal](https://www.malekal.com/limites-anonymisation-donnees/)
