@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pourquoi avoir plusieurs comptes de messagerie ?
-description:Combien de comptes de messagerie devez-vous avoir ? En général, utiliser plus d'une adresse électronique est très utile pour mieux s’organiser. Découvrez tous les avantages. 
+description: Combien de comptes de messagerie devez-vous avoir ? En général, utiliser plus d'une adresse électronique est très utile pour mieux s’organiser. Découvrez tous les avantages. 
 author:
   display_name: Iroco
 categories:
