@@ -98,7 +98,7 @@ Ne pas faire :
 
 ## Comment ne pas tomber dans les spams avec le CCI ? 
 
-Que vous envoyiez des newsletters ou des e-mails en masse, vous devez vous assurer que votre message atteint les destinataires et qu'il n'est pas marqué comme du spam. Le mode d'envoi restant le même, peu importent les champs utilisés (À, CC, CCI) le spam dépend surtout de la configuration du serveur SMTP du destinataire et n'a aucunes incidence sur la délivrabilité des e-mails.
+Que vous envoyiez des newsletters ou des e-mails en masse, vous devez vous assurer que votre message atteint les destinataires et qu'il n'est pas marqué comme du spam. Le mode d'envoi restant le même, peu importent les champs utilisés (À, CC, CCI) le spam dépend surtout de la configuration du [serveur SMTP](https://blog.iroco.co/comment-fonctionne-le-courrier-%C3%A9lectronique/) du destinataire et n'a aucunes incidence sur la délivrabilité des e-mails.
 
 Il existe divers outils disponibles pour tester et avoir des indicateurs comme le site https://www.mail-tester.com/
 
@@ -107,3 +107,5 @@ Il existe divers outils disponibles pour tester et avoir des indicateurs comme l
 ## Conclusion 
 
 CCI est une fonctionnalité populaire disponible dans la majorité des MUA. Cependant, vous devez faire attention à ne pas l'utiliser trop souvent pour ne pas vous retrouver dans une situation délicate ou vous retrouver en spam.
+
+Source :[Captainverify](https://captainverify.com/fr/blog/email-difference-cc-cci.html) 
