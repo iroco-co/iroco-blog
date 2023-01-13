@@ -14,7 +14,7 @@ tags:
 ---
 ![Illustration de l'article](/images/difference-cc-cci/cc-cci-email.png)
 
-Les champs CC et CCI sont deux champs standards au même titre que le champ “À”, mais ils remplissent des fonctions très différentes. La confusion entre les deux peut conduire à des situations délicates. Dans cet article, nous expliquerons comment les différencier et quand les utiliser. 
+*Les champs CC et CCI sont deux champs standards au même titre que le champ “À”, mais ils remplissent des fonctions très différentes. La confusion entre les deux peut conduire à des situations délicates. Dans cet article, nous expliquerons comment les différencier et quand les utiliser.*
 
 ## Courrier électronique : que signifient CC et CCI ?
 
