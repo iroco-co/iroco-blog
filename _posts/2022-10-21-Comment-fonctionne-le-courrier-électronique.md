@@ -5,7 +5,7 @@ description: Mais au fait, savez-vous vraiment comment fonctionne le courrier é
 author:
   display_name: Iroco
 categories:
-- Décryptage
+- Sous le capot
 - Grand public
 tags:
 - E-mail
