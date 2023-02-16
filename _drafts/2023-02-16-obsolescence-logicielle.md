@@ -53,7 +53,7 @@ En adoptant des solutions durables et en faisant des choix éclairés, vous pouv
 
 ### Exemples de cas d'obsolescence logicielle
 
-![Illustration de l'article](/images/obsolescence/brooks-stevens.png)
+![Illustration de l'article](/images/obsolescence/obsolescence-brooks-stevens.png)
 
 En matière d'obsolescence, le meilleur exemple est le cartel de Pheobus. Ce groupe d’industriels d'ampoules électriques se sont associés en 1924 pour **réguler la production** et la vente de leurs produits. 
 
@@ -87,4 +87,4 @@ Démontrer l'existence d'une obsolescence programmée peut être difficile à d�
 
 En fin de compte, l'obsolescence programmée est un problème complexe qui **nécessite une approche à plusieurs niveaux** impliquant les gouvernements, les fabricants, les consommateurs et les organisations de la société civile. La standardisation est l'un des nombreux outils qui peuvent être utilisés pour lutter contre cette pratique, mais il est également important de **promouvoir une consommation responsable**, de **soutenir** les entreprises qui adoptent des pratiques durables et de continuer à **faire pression** pour des réglementations plus strictes.
 
-Sources : [Hop](https://www.halteobsolescence.org/quest-ce-que-lobsolescence-logicielle/)| [Mtaterre](https://mtaterre.fr/dossiers/pourquoi-nos-produits-durent-ils-de-moins-en-moins-longtemps/lobsolescence-programmee-cest) 
+Sources : [Hop](https://www.halteobsolescence.org/quest-ce-que-lobsolescence-logicielle/) | [Mtaterre](https://mtaterre.fr/dossiers/pourquoi-nos-produits-durent-ils-de-moins-en-moins-longtemps/lobsolescence-programmee-cest) 
