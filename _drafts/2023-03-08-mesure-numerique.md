@@ -124,8 +124,6 @@ La phase de **fabrication des terminaux** (tous équipements) représente chaque
 
 Selon le [rapport Digital](https://datareportal.com/reports/digital-2023-france) 2023 France, par jour, en moyenne, les français.es passent…
 
-<iframe style="border: 1px solid #777;" src="https://indd.adobe.com/embed/72af1e05-0012-48f9-967e-97bb56f3ef5c?startpage=1&allowFullscreen=true" width="525px" height="371px" frameborder="0" allowfullscreen=""></iframe>
-
 * 5h26 sur internet ;
 
 * 1h55 sur les réseaux sociaux ;
