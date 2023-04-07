@@ -1,6 +1,7 @@
 ---
 layout: page
 title: À propos
+description: Iroco est une boîte mail éco-conçu et open source qui respecte vos données, développé et hébergé en France.
 permalink: /about/
 ---
 
