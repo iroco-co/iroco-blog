@@ -21,18 +21,19 @@ Et si le futur numérique n'était pas aussi sombre qu'on nous le prédisait ? A
 Voici ceux que nous avons utilisés pour cette première édition qui était, avouons-le, (un peu) expérimentale :
 - Des participant.e.s motivé.e.s pour passer un bon moment, déjà sensibilisé.e.s au sujet du numérique responsable un peu, beaucoup... ou pas du tout !
 - Un maître de cérémonie en la personne d'[Adrien Tardif](https://ponsamaro.substack.com/about), romancier, facilitateur et créateur de ZEFs (Zones d'Expérimentation des Futurs) ;
-- Un lieu pour nous accueillir : l'écoworking le 47, où l'équipe d'Iroco a posé ses valises depuis un moment déjà ;
+- Un lieu pour nous accueillir : l'écoworking [le 47](https://opencollective.com/le-47), où l'équipe d'Iroco a posé ses valises depuis un moment déjà ;
 - 3h de temps pour échanger, réfléchir, rigoler, raconter des histoires très sérieuses ou pas du tout ;
 - Un apéro pour sustenter les cerveaux en ébullition et finir l'atelier sur une touche (encore plus) conviviale !
+
 C'est Adrien qui a conçu le déroulé de l'atelier, dont nous avons nourri le contenu avec notre vision d'un numérique souhaitable et avec les nombreuses questions que nous souhaitions explorer.
 
 ## Nourrir une compréhension du numérique souhaitable
 
-Première étape de l'atelier : faire connaissance et échanger sur nos conceptions respectives de valeurs telles que la frugalité, la convivialité, le techno-discernement. Première surprise (qui n'en est pas vraiment une) : nous n'avons pas tous la même vision des choses... et c'est tant mieux ! Car se confronter à d'autres perceptions que les siennes permet d'enrichir la compréhension que nous avons de ces enjeux complexes qu'il est souvent difficile de définir d'une seule manière. Et les points de vue pluriels représentent autant de champs des possibles à explorer, de manière fictionnelle comme ici ou bien réelle.
+Première étape de l'atelier : **faire connaissance et échanger** sur nos conceptions respectives de valeurs telles que la frugalité, la convivialité, le techno-discernement. Première surprise (qui n'en est pas vraiment une) : nous n'avons pas tous la même vision des choses... et c'est tant mieux ! Car se confronter à d'autres perceptions que les siennes permet d'enrichir la compréhension que nous avons de ces enjeux complexes qu'il est souvent difficile de définir d'une seule manière. Et les points de vue pluriels représentent autant de champs des possibles à explorer, de manière fictionnelle comme ici ou bien réelle.
 
-Deuxième étape : construire des récits. Grâce à une recette concoctée par Adrien et que nous ne dévoilerons pas ici, les participant.e.s réparti.e.s par groupes de 3 s'emparent d'une proposition de contexte, de personnages et d'événements perturbateurs pour imaginer les péripéties de leurs héros en 2030. Les idées fusent, les rebondissements s'enchaînent, les histoires se construisent pendant près d'une heure. 
+Deuxième étape : **construire des récits**. Grâce à une recette concoctée par Adrien et que nous ne dévoilerons pas ici, les participant.e.s réparti.e.s par groupes de 3 s'emparent d'une proposition de contexte, de personnages et d'événements perturbateurs pour imaginer les péripéties de leurs héros en 2030. Les idées fusent, les rebondissements s'enchaînent, les histoires se construisent pendant près d'une heure. 
 
-Puis vient le moment que tout le monde attend : chaque groupe dévoile son récit à l'assemblée, les participant.e.s prenant tour à tour la parole pour raconter les péripéties de leurs personnages dans ce futur imaginé. Sans entrer dans le détail de chaque récit, sachez qu'on y parle d'archipels de communautés, d'autonomie numérique, de matériel recyclé, de réseau cuivre et de réseau hertzien, de coopération et d'autonomisation vs. compétition et d'un dilemme cornélien entre éviter que le monde ne change et s'adapter à un monde bouleversé. Le tout ponctué de "attends on avait dit qu'il se passait quoi à ce moment déjà ?" et des applaudissements de l'assemblée !
+Puis vient le moment que tout le monde attend : chaque groupe **dévoile son récit** à l'assemblée, les participant.e.s prenant tour à tour la parole pour raconter les péripéties de leurs personnages dans ce futur imaginé. Sans entrer dans le détail de chaque récit, sachez qu'on y parle d'archipels de communautés, d'autonomie numérique, de matériel recyclé, de réseau cuivre et de réseau hertzien, de coopération et d'autonomisation vs. compétition et d'un dilemme cornélien entre éviter que le monde ne change et s'adapter à un monde bouleversé. Le tout ponctué de "attends on avait dit qu'il se passait quoi à ce moment déjà ?" et des applaudissements de l'assemblée !
 
 ## Et après ?
 
