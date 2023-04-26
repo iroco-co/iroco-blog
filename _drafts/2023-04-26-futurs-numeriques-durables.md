@@ -13,6 +13,7 @@ tags:
 - Fiction
 - Futurs numériques
 ---
+![Les participant.e.s au travail](/images/atelier/Atelier_futurs_numériques.jpg)
 
 Et si le futur numérique n'était pas aussi sombre qu'on nous le prédisait ? A l'heure où de plus en plus de voix s'élèvent pour dénoncer (à raison) la facture environnementale de plus en plus salée de notre utilisation du numérique, où les ressources nécessaires à la fabrication de notre infrastructure digitale s'épuisent et où des scientifiques très sérieux estiment possible que le développement de l'intelligence artificielle amène l'extinction de l'humanité, est-il possible d'imaginer un autre futur numérique, plus convivial, plus sobre et plus désirable ? C'est cette possibilité que nous avons choisi d'explorer sous le prisme de la fiction à travers un atelier prospectif et ludique qui a vu les participant.e.s se projeter en 2030. Retour sur cette première édition réussie.
 
