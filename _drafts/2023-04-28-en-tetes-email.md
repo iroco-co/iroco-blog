@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tout ce que vous devez savoir sur les en-têtes d'e-mails
-description: Découvrez tout ce qu'il faut savoir sur les en-têtes d'e-mails : leur utilité, leur structure, comment les lire et les analyser.
+description: Découvrez tout ce qu'il faut savoir sur les en-têtes d'e-mails, leur utilité, leur structure, comment les lire et les analyser.
 author:
   display_name: Iroco
 categories:
@@ -10,8 +10,9 @@ categories:
 tags:
 - Numérique
 - E-mail
-- SMTP
+- Communication
 ---
+
 ![Illustration de l'article](/images/en-têtes-email/en-têtes-email.png)
 
 *Les en-têtes d'e-mails peuvent sembler énigmatiques, mais contiennent en réalité de précieuses informations pour les utilisateurs. Savoir les lire et les comprendre peut aider à  identifier les spams et à mieux comprendre le processus de communication par courriel. Dans cet article, nous explorerons tout ce que vous devez savoir sur les en-têtes d'e-mails, de leur structure à leur analyse.*
@@ -43,15 +44,20 @@ Voici un exemple concret dans Thundebird :
 
 1. Sélectionnez l’e-mail qui comporte l’en-tête de message que vous souhaitez afficher ;
 
+
 ![Illustration de l'article](/images/en-têtes-email/en-têtes-1.png)
+
 
 2. Cliquez sur "Autres" puis "Afficher la source" ;  
 
+ 
  ![Illustration de l'article](/images/en-têtes-email/en-têtes-2.png)
+ 
 
 3. Une nouvelle fenêtre s’ouvre affichant l’en-tête le plus long dans son format HTML d'origine. Vous pourrez voir les détails de l’en-tête tels que les statuts d’authentification, les adresses IP, la version MIME et la signature DKIM.
 
- ![Illustration de l'article](/images/en-têtes-email/en-têtes-3.png)
+ 
+![Illustration de l'article](/images/en-têtes-email/en-têtes-3.png)
 
 
     De : nom de l'expéditeur <adresse e-mail de l'expéditeur>
