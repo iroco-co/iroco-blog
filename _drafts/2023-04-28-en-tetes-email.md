@@ -45,19 +45,19 @@ Voici un exemple concret dans Thundebird :
 1. Sélectionnez l’e-mail qui comporte l’en-tête de message que vous souhaitez afficher ;
 
 
-![Illustration de l'article](/images/en-têtes-email/en-têtes-1.png)
+![Illustration de l'article](/images/en-tetes-email/en-tetes-1.png)
 
 
 2. Cliquez sur "Autres" puis "Afficher la source" ;  
 
  
- ![Illustration de l'article](/images/en-têtes-email/en-têtes-2.png)
+ ![Illustration de l'article](/images/en-tetes-email/en-tetes-2.png)
  
 
 3. Une nouvelle fenêtre s’ouvre affichant l’en-tête le plus long dans son format HTML d'origine. Vous pourrez voir les détails de l’en-tête tels que les statuts d’authentification, les adresses IP, la version MIME et la signature DKIM.
 
  
-![Illustration de l'article](/images/en-têtes-email/en-têtes-3.png)
+![Illustration de l'article](/images/en-tetes-email/en-tetes-3.png)
 
 
     De : nom de l'expéditeur <adresse e-mail de l'expéditeur>
