@@ -13,7 +13,7 @@ tags:
 - Communication
 ---
 
-![Illustration de l'article](/images/en-têtes-email/en-têtes-email.png)
+![Illustration de l'article](/images/en-tetes-email/en-tetes-email.png)
 
 *Les en-têtes d'e-mails peuvent sembler énigmatiques, mais contiennent en réalité de précieuses informations pour les utilisateurs. Savoir les lire et les comprendre peut aider à  identifier les spams et à mieux comprendre le processus de communication par courriel. Dans cet article, nous explorerons tout ce que vous devez savoir sur les en-têtes d'e-mails, de leur structure à leur analyse.*
 
