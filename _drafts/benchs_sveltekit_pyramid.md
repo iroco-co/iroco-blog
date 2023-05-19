@@ -77,7 +77,7 @@ Cette fois-ci, la différence est faible (283ms v.s. 270ms soit ~4%) à l'avanta
 
 Nous constatons globalement que l'app répond aussi bien qu'en python. Nous voyons également qu'il y a des marges d'amélioration pour le la partie crypto qui nous permettraient de faire encore mieux.
 
-Cela dit, quand bien même nous améliorerions les performances de l'app, nous savons que c'est uniquement sur le scope 2 que nous nous situons (c'est à dire principalement la consommation électrique des serveurs. Or cela ne représente qu'une part infime de l'impact environnemental de nos services.
+Cela dit, quand bien même nous améliorerions les performances de l'app, nous savons que c'est uniquement sur le scope 2 que nous nous situons (c'est à dire principalement la consommation électrique des serveurs). Or cela ne représente qu'une part infime de l'impact environnemental de nos services.
 
 # Tests de compatibilité
 
