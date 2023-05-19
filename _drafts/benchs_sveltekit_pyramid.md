@@ -47,7 +47,7 @@ Première surprise, nodejs fait beaucoup moins bien que python :
 
 ![résultats ab login](https://raw.githubusercontent.com/iroco-co/pyramid-sveltekit-benchmark/main/docs/images/benchs/login_ab_chart.png)
 
-Peut-être est-ce du à la partie cryptographique lors de la construction du JWT. Nous essayons de modifier le code des deux apps pour aller juste chercher l'utilisateur en base de données :
+Peut-être est-ce dû à la partie cryptographique lors de la construction du JWT. Nous essayons de modifier le code des deux apps pour aller juste chercher l'utilisateur en base de données :
 
 ![résultats ab get user](https://raw.githubusercontent.com/iroco-co/pyramid-sveltekit-benchmark/main/docs/images/benchs/get_user_ab_chart.png)
 
@@ -104,6 +104,6 @@ Comment pourrait-on évaluer l'impact de ce changement ? Une méthode pourrait �
 
 Nous ne sommes pas allés jusqu'à faire cette estimation.
 
-Est-ce que vous auriez des idées pour mesurer l'impact environnemental d'une extension du nombre d'équipements compatible d'un service internet ?
+Est-ce que vous auriez des idées pour mesurer l'impact environnemental d'une extension du nombre d'équipements compatibles d'un service internet ?
 
 Retrouvez la présentation liée à cet article [ici](https://iroco-co.github.io/pyramid-sveltekit-benchmark).
