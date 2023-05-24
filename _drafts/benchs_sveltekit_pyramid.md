@@ -62,7 +62,7 @@ Nous avons utilisé Sélénium avec JMeter pour tester la totalité de l'applica
 
 ![bench fullstack](https://raw.githubusercontent.com/iroco-co/pyramid-sveltekit-benchmark/main/docs/images/jmeter-selenium.png)
 
-Cette fois-ci, nous avons comparé la performance des deux implémentations en utilisant comme mesure de référence le **délai moyen de chargement par le navigateur** pour le scénario suivant :
+Cette fois-ci, nous avons comparé la performance des deux implémentations en utilisant comme mesure de référence le **délai moyen de chargement par le navigateur** pour le scénario suivant (plus le délai est court, plus l'application est performante) :
 
 * Login utilisateur
 * Navigation (100 fois)
