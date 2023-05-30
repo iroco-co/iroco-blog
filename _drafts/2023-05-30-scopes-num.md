@@ -14,6 +14,8 @@ tags:
 
 ![Illustration de l'article](/images/scopes-num/scopes-num.png)
 
+
+
 *Les scopes 1, 2 et 3 dans le numérique jouent un rôle essentiel pour réduire notre empreinte carbone et adopter des pratiques durables. Comprendre ces scopes est la clé d'une transition réussie vers une économie numérique plus respectueuse de l'environnement. Découvrez comment intégrer ces scopes dans votre stratégie et contribuer à la construction d'un avenir plus vert.*
 
 ## Comprendre les scopes dans la comptabilité environnementale
@@ -28,7 +30,10 @@ Les scopes 1, 2 et 3 sont les trois classes principales utilisées pour mesurer 
 
 Chacun de ces scopes se concentre sur des sources d'émissions spécifiques et offre des opportunités uniques pour la réduction des émissions. Jusqu'à récemment, seules les émissions directes (scope 1) et les émissions indirectes liées à l'énergie consommée (scope 2) étaient prises en compte dans les bilans d'émissions de gaz à effet de serre ([BEGES](https://www.ecologie.gouv.fr/decret-bilan-des-emissions-gaz-effet-serre-beges)). Cependant, cela ne représentait pas toujours pleinement l'impact réel des organisations sur le climat. Cette nouvelle réglementation vise à garantir une évaluation plus complète de l'empreinte carbone et à favoriser des actions efficaces pour réduire leur impact environnemental.
 
+
 ![Scopes et étapes du cycle de vie des équipements dans la chaine de valeur Cloud Microsoft - A new approach for Scope 3 emissions transparency – Microsoft 2021](/images/scopes-num/scopes-acv-microsoft.png)
+
+
 
 Le scope 1 correspond aux émissions directes d'une entreprise, c'est-à-dire celles provenant de sources contrôlées et appartenant à l'organisation elle-même. Dans le secteur numérique, les émissions directes peuvent être générées par les centres de données, les équipements informatiques, les flottes de véhicules utilisés pour les livraisons, etc. Ces émissions peuvent représenter une part significative de l'empreinte carbone d'une entreprise numérique.
 
