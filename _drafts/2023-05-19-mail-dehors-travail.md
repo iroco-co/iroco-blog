@@ -27,6 +27,8 @@ Selon la première étude de l'[Observatoire de l'infobésité et de la collabor
 
 ## Le droit à la déconnexion 
 
+Le droit à la déconnexion, protégé par la loi, permet aux salariés de ne pas être disponibles en dehors de leurs heures d’activité, préservant ainsi leur vie personnelle et leur temps de repos. En cas de non-respect de ce droit par l'employeur, il est possible de faire appel à un avocat. La jurisprudence a également confirmé l'obligation des entreprises d'indemniser les salariés contraints d'être disponibles pendant leurs congés. Bien que le Code du travail ne définisse pas précisément ce droit, il doit être négocié entre les entreprises et les représentants du personnel, ce qui peut entraîner des variations d'une société à une autre.
+
 Malgré l'inscription du droit à la déconnexion dans le Code du travail français depuis le 1er janvier 2017 ([Loi El Khomri](https://travail-emploi.gouv.fr/archives/archives-courantes/loi-travail-2016/les-principales-mesures-de-la-loi-travail/article/droit-a-la-deconnexion)), il est regrettable de constater que cette mesure n'est pas encore pleinement respectée par de nombreux employeurs. 
 
 Une [enquête réalisée par le moteur de recherche Qapa](https://www.usinenouvelle.com/article/etude-vacances-quand-les-femmes-deconnectent-les-hommes-se-plaignent.N564667) (2019) a mis en lumière les disparités entre hommes et femmes en ce qui concerne le respect du droit à la déconnexion.
