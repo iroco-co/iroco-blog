@@ -25,6 +25,20 @@ Avec la prolifération des smartphones et des ordinateurs portables, la frontiè
 
 Selon la première étude de l'[Observatoire de l'infobésité et de la collaboration numérique](https://www.infobesite.org/referentiel-annuel-de-l-oicn), les salariés reçoivent en moyenne 29 courriels par jour, n'en envoient que 8, tandis que les dirigeants en reçoivent 66. De nombreux courriels sont jugés non essentiels, qualifiés de "bruit numérique". Environ 30% sont dus à la copie, 25% au "répondre à tous", 18% au transfert et 17% à des échanges excessifs. L'Observatoire recommande d'utiliser le téléphone ou le tchat pour des échanges de plus de trois messages.
 
+## Le droit à la déconnexion 
+
+Malgré l'inscription du droit à la déconnexion dans le Code du travail français depuis le 1er janvier 2017 ([Loi El Khomri](https://travail-emploi.gouv.fr/archives/archives-courantes/loi-travail-2016/les-principales-mesures-de-la-loi-travail/article/droit-a-la-deconnexion)), il est regrettable de constater que cette mesure n'est pas encore pleinement respectée par de nombreux employeurs. 
+
+Une [enquête réalisée par le moteur de recherche Qapa](https://www.usinenouvelle.com/article/etude-vacances-quand-les-femmes-deconnectent-les-hommes-se-plaignent.N564667) (2019) a mis en lumière les disparités entre hommes et femmes en ce qui concerne le respect du droit à la déconnexion.
+
+Les résultats sont frappants : 78 % des femmes déclarent réussir à décrocher pendant leurs congés d'été, tandis que seulement 56 % des hommes y parviennent.
+
+De plus, les femmes sont proportionnellement moins nombreuses (53 %) que les hommes (69 %) à estimer que le travail est plus présent pendant les vacances qu'auparavant. 
+
+Ces chiffres soulignent une inégalité persistante dans la capacité à se déconnecter et mettent en évidence l'importance de sensibiliser tous les individus, quel que soit leur genre, à l'importance de préserver un équilibre entre vie professionnelle et vie personnelle.
+
+Voici quelques bonnes pratiques à adopter : 
+
 ## Définir des limites
 
 Pour éviter d'être constamment pris dans le tourbillon des
