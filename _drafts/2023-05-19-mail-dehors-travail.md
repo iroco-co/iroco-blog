@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Gestion des e-mails professionnels en dehors du travail - Comment trouver l'équilibre ?
-description: Découvrez comment trouver l'équilibre entre vie professionnelle et vie personnelle en gérant efficacement vos e-mails professionnels en dehors du bureau. 
+description: Préservez la frontière entre vie professionnelle et vie personnelle en gérant efficacement vos e-mails professionnels en dehors du bureau. 
 author:
   display_name: Iroco
 categories:
@@ -59,7 +59,7 @@ Lorsque vous êtes en congé et que vous ne pouvez pas répondre immédiatement 
 
 Explorez les paramètres de votre client de messagerie pour configurer une réponse automatique. Cette fonctionnalité vous permet d'envoyer un message préétabli aux personnes qui vous enverront un e-mail pendant vos congés, les renseignant que vous n'êtes pas disponible et que vous répondrez dès que possible. Assurez-vous d'inclure des informations claires sur votre absence et rassurez les expéditeurs sur le fait que vous traiterez leur demande une fois que vous serez de retour au bureau. 
 
-## Identifier les e-mails urgents et importants
+## Identifier les e-mails urgents et importants... et les autres
 
 Si vous devez absolument consulter vos messages en dehors des heures de travail (mais posez-vous la question de savoir si c'est bien indispensable !), prenez un moment pour passer en revue les courriels que vous recevez et déterminer leur urgence et leur importance. Identifiez ceux qui requièrent une action immédiate et ceux qui peuvent être traités plus tard afin d'empiéter le moins possible sur votre temps personnel. Configurez des dossiers ou des étiquettes dans votre client de messagerie pour classer les e-mails que vous recevez : par exemple, vous pouvez créer un dossier intitulé "À traiter ultérieurement" ou utiliser des étiquettes telles qu'"En attente" ou "À lire".
 
