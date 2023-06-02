@@ -13,7 +13,7 @@ tags:
 ---
 
 
-![Illustration de l'article](/images/CardDAV-CalDAV.png)
+![Illustration de l'article](/images/caldav-carddav/CardDAV-CalDAV.png)
 
 
 *Vous êtes-vous déjà demandé comment synchroniser et gérer vos contacts et calendriers sur différents appareils ? C'est là que CardDAV et CalDAV entrent en jeu. Dans cet article, plongez dans le monde de ces protocoles de synchronisation et découvrez comment ils peuvent simplifier votre vie en assurant la cohérence de vos données.*
