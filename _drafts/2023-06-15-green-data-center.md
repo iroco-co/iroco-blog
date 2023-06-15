@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pourquoi choisir un service d'hébergement engagé pour vos e-mails  
-description: Découvrez pourquoi choisir un service d'hébergement engagé pour vos e-mails : impact environnemental positif et sécurité renforcée. 
+description: Découvrez pourquoi choisir un service d'hébergement engagé pour vos e-mails - impact environnemental positif et sécurité renforcée. 
 author:
   display_name: Iroco
 categories:
