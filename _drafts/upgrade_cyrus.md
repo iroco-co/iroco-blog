@@ -22,4 +22,4 @@ Cette *PR* [a été intégrée au code de cyrus](https://github.com/cyrusimap/cy
 
 Nous avons suivi scrupuleusement la procédure de migration [décrite par la doc de cyus](https://www.cyrusimap.org/imap/download/upgrade.html?highlight=migration). Cette migration s'est déroulée sans problème directement sur le serveur.
 
-Il y a quelques jours, la version 3.8.0 a été publiée à son tour, nous allons suivre cette montée de version également pour bénéficier des dernières fonctionnalités et corrections de bugs.
+Il y a quelques jours, une nouvelle version 3.8.0 a été publiée. Nous allons la mettre cette montée de version également pour bénéficier des dernières fonctionnalités et corrections de bugs. Deux versions stables en 3 mois, qui a dit que le mail n'évoluait pas ?
