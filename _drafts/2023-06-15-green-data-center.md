@@ -5,7 +5,8 @@ description: Découvrez pourquoi choisir un service d'hébergement engagé pour 
 author:
   display_name: Iroco
 categories:
-- Expert
+- Grand public
+- Décryptage
 tags:
 - Green It
 - Hébergeur
