@@ -19,8 +19,6 @@ La décision de mettre à jour notre serveur IMAP Cyrus vers la version 3.6 a é
 
 Tout d'abord, cette version introduit une fonctionnalité de décodage des Json Web Tokens directement par Cyrus pour la partie HTTP. Cette amélioration majeure offre une sécurité accrue et simplifie la gestion des autorisations d'accès. Les Json Web Tokens sont maintenant décodés automatiquement par Cyrus, ce qui facilite grandement l'interaction avec les applications tierces.
 
-De plus, la version 3.6 de Cyrus propose des performances améliorées, ce qui se traduit par une vitesse de traitement plus rapide des requêtes IMAP. Les utilisateurs disposeront d'une expérience de messagerie plus fluide et réactive.
-
 ## Le défi du décodage des Json Web Tokens
 
 Cependant, malgré les avantages indéniables du décodage des Json Web Tokens, cette fonctionnalité initiale était limitée à deux champs dans la *payload* du token : la date à laquelle le token a été émis (ce qui permet de rejeter des jetons au-delà d'un certain temps configurable dans cyrus), et le sujet (qui contient le mail de l'utilisateur). Cette restriction posait problème, car nous avions besoin d'inclure des informations supplémentaires telles que le rôle de l'utilisateur et la date d'expiration dans ces tokens. 
