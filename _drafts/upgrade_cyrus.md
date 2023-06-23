@@ -39,10 +39,7 @@ La migration vers la version 3.6.1 de Cyrus s'est déroulée sans accroc. Nous a
 
 ## Une évolution constante pour notre infrastructure de messagerie
 
-La mise à jour de notre serveur IMAP Cyrus en version 3.6.1 marque une étape cruciale dans l'amélioration de notre infrastructure de messagerie. Les fonctionnalités avancées, telles que le décodage des Json Web Tokens et les performances améliorées, renforcent la sécurité, l'efficacité et la convivialité de notre système.
-
-Cette migration réussie souligne l'importance de l'innovation continue dans le domaine de la messagerie électronique. Deux versions majeures en 3 mois qui a dit que le mail n'évoluait pas ?
-
+La mise à jour de notre serveur IMAP Cyrus en version 3.6.1 marque une étape cruciale dans l'amélioration de notre infrastructure de messagerie. Cette migration réussie souligne l'importance de l'innovation continue dans le domaine de la messagerie électronique. Deux versions majeures en 3 mois qui a dit que le mail n'évoluait pas ?
 
 ***
 
