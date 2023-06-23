@@ -35,7 +35,7 @@ Quelques jours plus tard, nous avons reçu une excellente nouvelle : notre *Pull
 
 ## Procédure de migration et mise à jour du serveur
 
-La migration vers la version 3.6.1 de Cyrus s'est déroulée sans accroc. Nous avons suivi attentivement la [procédure recommandée](https://www.cyrusimap.org/imap/download/upgrade.html?highlight=migration), que nous avons répétée une première fois sur notre plateforme de pré-production avant de l'éxécuter sur la production.
+La migration vers la version 3.6.1 de Cyrus s'est déroulée sans accroc. Nous avons suivi attentivement la [procédure recommandée](https://www.cyrusimap.org/imap/download/upgrade.html?highlight=migration), que nous avons répétée une première fois sur notre plateforme de pré-production avant de l'exécuter sur la production.
 
 Il y a quelques jours, la version 3.8.0 a été publiée à son tour. L'upgrade est plus simple à faire dans une version plus récente du système d'exploitation (problème de version de dépendances). Nous sommes passés de la Debian 11 à la [Debian 12](https://www.debian.org/News/2023/20230610). Merci aux développeurs ayant travaillé sur cette montée de version qui a été très bien préparée : nous n'avons eu aucun obstacle dans cette opération toujours délicate. À présent nous allons pouvoir installer la 3.8.0 de Cyrus pour bénéficier des dernières fonctionnalités et corrections de bugs.
 
