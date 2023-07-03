@@ -10,6 +10,8 @@ tags:
 - Conférences
 ---
 
+![Illustration de l'article](/images/becdemain-maintenant/Demain_speker.png.png)
+
 Jeudi dernier, nous sommes allés à la conférence "[Demain c'est maintenant !](https://www.demain-maintenant.fr/)" pour laquelle nous avons fait un retour sur nos cheminements dans le numérique responsable, en particulier autour du mail. Nous avons retenu 4 thèmes :
 
 # Bifurcation, déclic, sens du travail
