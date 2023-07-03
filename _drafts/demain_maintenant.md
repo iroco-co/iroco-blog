@@ -32,7 +32,7 @@ Mais que cette évolution des personnes présentes soit due à un déclic où un
 
 C'était l'occasion d'en discuter avec Laurent Bossavit à midi, notamment de la différence entre le travail réel (celui que je fais tous les jours, que je connais, que je peux ressentir physiquement) et le travail prescrit (par exemple par un manager : "Tu n'as qu'à faire telle tâche de telle manière pour arriver à un résultat qui m'intéresse" avec des systèmes de valorisation différents, ou des échéances autres). Il nous a donné une référence à ce sujet : "[L'Entreprise contre la Connaissance du Travail Réel ?](https://www.editions-harmattan.fr/livre-l_entreprise_contre_la_connaissance_du_travail_reel_l_humain_d_abord_ou_le_syndrome_du_sacrifie_en_premier_ibrahima_fall-9782140319990-76174.html)".
 
-Pourquoi plusieurs personnes ont-elles parlé de leur ressenti d'aller au travail "la boule au ventre" ?
+Plusieurs personnes ont également parlé de leur ressenti d'aller au travail "la boule au ventre".
 
 # Fresques partout, fresques toujours
 
@@ -76,4 +76,4 @@ Dans cette présentation il a aussi été question d'un autre pas de côté : la
 
 # Les récits d'un futur souhaitable
 
-De la keynote sur les "Nouveaux Récits" en passant par l'objectif de "faire émerger et mettre oeuvre de nouveaux récits écologiques" de Renaissance Ecologique, il aura beaucoup été question de récits de futurs souhaitables pour limiter l'éco-anxiété des enfants (et des moins jeunes), et donner des alternatives au "business as usual". Nous allons d'ailleurs discuter de ces sujets la semaine prochaine lors de la conférence [SICT 2023](https://www.sictdoctoralschool.com/). Nous vous en dirons plus bientôt !
+De la keynote sur les "Nouveaux Récits" en passant par l'objectif de "faire émerger et mettre oeuvre de nouveaux récits écologiques" de Renaissance Ecologique, il aura beaucoup été question de récits de futurs souhaitables pour limiter l'éco-anxiété des enfants (et des moins jeunes), et donner des alternatives au "business as usual". Nous allons d'ailleurs discuter de ces sujets la semaine prochaine lors de la conférence [SICT 2023](https://www.sictdoctoralschool.com/program-2023). Nous vous en dirons plus bientôt !
