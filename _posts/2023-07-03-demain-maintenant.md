@@ -80,3 +80,6 @@ Dans cette présentation il a aussi été question d'un autre pas de côté : la
 # Les récits d'un futur souhaitable
 
 De la keynote sur les "Nouveaux Récits" en passant par l'objectif de "faire émerger et mettre oeuvre de nouveaux récits écologiques" de Renaissance Ecologique, il aura beaucoup été question de récits de futurs souhaitables pour limiter l'éco-anxiété des enfants (et des moins jeunes), et donner des alternatives au "business as usual". Nous allons d'ailleurs discuter de ces sujets la semaine prochaine lors de la conférence [SICT 2023](https://www.sictdoctoralschool.com/program-2023). Nous vous en dirons plus bientôt !
+
+
+*EDIT (04/07/23 11h) : changement de l'illustration*
