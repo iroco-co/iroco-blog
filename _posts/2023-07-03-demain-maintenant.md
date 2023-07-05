@@ -11,7 +11,7 @@ tags:
 ---
 
 ![Illustration de l'article](/images/demain-maintenant/demain_c_maintenant.jpeg)
-*la première fois qu'une conférence nous donne des graines*
+*C'est la première fois qu'une conférence nous offre des graines !*
 
 Jeudi dernier, nous sommes allés à la conférence "[Demain c'est maintenant !](https://www.demain-maintenant.fr/)" pour laquelle nous avons fait un retour sur nos cheminements dans le numérique responsable, en particulier autour du mail. Nous ne revenons pas sur ce que nous avons dit, c'est un résumé de ce que vous pouvez trouver sur ce blog à propos des limites de l'optimisation logicielle. Nous avons retenu 4 thèmes :
 
