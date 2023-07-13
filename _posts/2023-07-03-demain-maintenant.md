@@ -2,7 +2,7 @@
 layout: post
 title: Retour sur la conférence "Demain c'est maintenant !"
 author:
-  display_name: Iroco
+  display_name: iroco
 categories:
 - Grand public
 tags:
