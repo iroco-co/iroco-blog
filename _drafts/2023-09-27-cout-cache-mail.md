@@ -59,7 +59,7 @@ Heureusement, il existe des alternatives. Des services de messagerie axés sur l
 
 Si vous choisissez de continuer à utiliser des services de messagerie gratuits, prenez des précautions. Vérifiez et ajustez les paramètres de confidentialité pour minimiser la collecte de données. Bien que les ajustements de confidentialité puissent limiter la collecte de données dans une certaine mesure, il est difficile d'atteindre un niveau de protection totale de la vie privée sur ces plateformes.
 
-*[Google aura menti au sujet du chiffrement de WhatsApp sur Drive](https://www.journaldugeek.com/2021/10/25/google-aura-menti-au-sujet-du-chiffrage-de-whatsapp-sur-drive/)
+* [Google aura menti au sujet du chiffrement de WhatsApp sur Drive](https://www.journaldugeek.com/2021/10/25/google-aura-menti-au-sujet-du-chiffrage-de-whatsapp-sur-drive/)
 
 ## Conclusion
 
