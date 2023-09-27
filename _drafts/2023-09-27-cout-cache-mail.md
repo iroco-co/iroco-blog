@@ -27,6 +27,7 @@ Les publicités ciblées sont le pain quotidien des services de messagerie gratu
  Un exemple emblématique de cette pratique est le modèle économique de Gmail.En 2022, [Google a généré des revenus publicitaires de 224,47 milliards de dollars américains](https://www.statista.com/statistics/266249/advertising-revenue-of-google/) en exploitant sa plate-forme Google Ads. Cette plate-forme offre aux annonceurs la possibilité de diffuser des annonces, des listes de produits et des offres de services sur le vaste réseau publicitaire de Google, qui comprend ses propriétés, des sites partenaires et des applications, pour atteindre les utilisateurs d'Internet.
 
  ![Schéma Google ads](images/cout-cacher/google-gmail-ads.png)
+ 
 
 ## Les données collectées
 
