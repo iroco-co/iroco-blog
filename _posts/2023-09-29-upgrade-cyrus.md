@@ -26,7 +26,10 @@ Cette dernière amélioration offre une sécurité accrue et simplifie la gestio
 
 Malgré les avantages indéniables du décodage des JSON Web Tokens par Cyrus, cette fonctionnalité était initialement limitée à deux champs dans la charge utile (*payload*) du token : la date à laquelle le token a été émis (ce qui permet de rejeter des jetons au-delà d'un certain temps configurable dans cyrus), et le sujet (qui contient le mail de l'utilisateur). Cette restriction posait problème, car nous avions besoin d'inclure des informations supplémentaires telles que le rôle de l'utilisateur et la date d'expiration dans ces tokens.
 
-Pour résoudre cette limitation, nous avons décidé de proposer une modification du code de Cyrus. Nous avons rédigé une _Pull Request_ *[![pull request](images/migration_cyrus/pull_request.png)](https://github.com/cyrusimap/cyrus-imapd/pull/4515)* détaillée, expliquant en quoi l'ajout de ces champs supplémentaires était essentiel pour répondre à nos besoins spécifiques. Cette proposition a été soumise à l'équipe de développement de Cyrus dans l'espoir d'une intégration future.
+Pour résoudre cette limitation, nous avons décidé de proposer une modification du code de Cyrus. Nous avons rédigé une _Pull Request_ détaillée, expliquant en quoi l'ajout de ces champs supplémentaires était essentiel pour répondre à nos besoins spécifiques.
+*[![pull request](images/migration_cyrus/pull_request.png)](https://github.com/cyrusimap/cyrus-imapd/pull/4515)*  
+
+Cette proposition a été soumise à l'équipe de développement de Cyrus dans l'espoir d'une intégration future.
 
 ## L’intégration de la Pull Request et la résolution du problème
 
