@@ -15,7 +15,7 @@ tags:
 *La souveraineté numérique, un terme qui résonne de plus en plus dans notre société hyper-connectée. Dans cet article, nous allons plonger dans l'univers complexe de la souveraineté numérique, explorer ses multiples facettes et comprendre pourquoi elle revêt une importance cruciale à l'ère de la connectivité globale.*
 
 
-![Illustration de l'article](/images/souverainete_num/souveraineté numérique.png)
+![Illustration de l'article](/images/souveraineté numérique1.png)
 
 ## Souveraineté numérique : Comprendre les Fondements
 
