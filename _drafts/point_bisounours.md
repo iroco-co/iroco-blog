@@ -6,8 +6,8 @@ author:
 categories:
 - Décryptage
 tags:
-- benchmark
-- backend
+- réflexions
+
 ---
 
 *Vous-êtes vous déjà vu répondre dans une discussion sur des changements de mode de vie ou de travail "on ne vit pas dans le monde des bisounours", "il y a la vie réelle, la vraie vie” ? Cette remarque humoristique n'est pas si badine que cela. Proposition d'interprétation.*
