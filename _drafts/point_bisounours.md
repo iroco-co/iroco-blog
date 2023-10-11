@@ -32,7 +32,8 @@ Cela fait 5 ans à présent que nous travaillons sur le changement du monde qui 
 
 - une position de _statu quo_. L'interlocuteur est bousculé dans son mode de vie, son socle sociétal, il ne veut pas en changer.
 
-L'épisode de Sismique [« Regarder mes peurs en face »](https://www.sismique.fr/post/inspiration-regarder-mes-peurs-en-face) nous interroge. N'est-ce pas la peur finalement qu'on retrouve dans ce point Bisounours ? La peur devant l'agilité, la peur devant le changement climatique.
+L'épisode de Sismique [« Regarder mes peurs en face »](https://www.sismique.fr/post/inspiration-regarder-mes-peurs-en-face) nous interroge. N'est-ce pas la peur finalement qu'on retrouve dans ce point Bisounours ? La peur devant l'agilité, la peur devant le changement éco-systémique.
 
 Comment réagir devant un tel défit, devant l'abandon d'un modèle, d'un récit, d'un "cocon technologique" ?
+
 Comment atténuer ces peurs, les apprivoiser, vivre avec elles ?
