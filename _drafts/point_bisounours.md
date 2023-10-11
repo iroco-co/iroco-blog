@@ -32,9 +32,9 @@ Cela fait 5 ans à présent que nous travaillons sur le changement du monde qui 
 
 - une position de _statu quo_. L'interlocuteur·ice est bousculé·e dans son mode de vie, son socle sociétal, iel ne veut pas en changer.
 
-L'épisode de Sismique [« Regarder mes peurs en face »](https://www.sismique.fr/post/inspiration-regarder-mes-peurs-en-face) nous interroge. N'est-ce pas la peur finalement qu'on retrouve dans ce point Bisounours ? La peur devant l'agilité, la peur devant le changement éco-systémique.
+L'épisode de Sismique [« Regarder mes peurs en face »](https://www.sismique.fr/post/inspiration-regarder-mes-peurs-en-face) nous interroge. N'est-ce pas la peur finalement qu'on retrouve dans ce point Bisounours ? La peur devant l'agilité, la peur devant le changement éco-systémique ?
 
-[Qu'est-ce que "le Réel"](https://www.youtube.com/watch?v=EC3qHdMB4_o), quelle est ta définition du réel ?
+[Qu'est-ce que "le Réel"](https://www.youtube.com/watch?v=EC3qHdMB4_o), quelle est ta définition du Réel ? Aurait-on pu demander au PDG de Total.
 
 Comment réagir devant un tel défit, devant l'abandon d'un modèle, d'un récit, d'un "cocon technologique" ?
 
