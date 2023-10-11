@@ -26,7 +26,7 @@ Et puis je n'ai plus entendu cette expression, changements managériaux, adoptio
 
 Cela fait 5 ans à présent que nous travaillons sur le changement du monde qui nous entoure, notamment dans le domaine de l'informatique. Cette expression nous revient à nouveau. En reconnaissant ce motif, deux choses nous sont apparues :
 
-- une position de surplomb : tu ne vis pas dans la "vraie vie", la vie des adultes dans laquelle tout le monde n'est pas gentil. C'est un retournement de situation : la personne qui ne comprend pas ce qui se passe indique à son interlocuteur·ice qu'iel a encore bien des choses à apprendre. Patrick Pouyamé à Jean Jouzel à franchi le point Bisounous :
+- une position de surplomb : tu ne vis pas dans la "vraie vie", la vie des adultes dans laquelle tout le monde n'est pas gentil. C'est un retournement de situation : la personne qui ne comprend pas ce qui se passe indique à son interlocuteur·ice qu'iel a encore bien des choses à apprendre. Patrick Pouyamé à Jean Jouzel a franchi le point Bisounous :
 
 > « Je connais et je respecte l’avis des scientifiques, le problème c’est qu’il y a la “vie réelle”. […] Cette transition, je suis désolé Jean, elle prendra du temps. […] Je dois assurer la sécurité d’approvisionnement au coût le plus efficace. »
 
