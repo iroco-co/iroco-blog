@@ -12,7 +12,7 @@ tags:
 
 *Vous-êtes vous déjà vu répondre dans une discussion sur des changements de mode de vie ou de travail "on ne vit pas dans le monde des bisounours", "il y a la vie réelle, la vraie vie” ? Cette remarque humoristique n'est pas si badine que cela. Proposition d'interprétation.*
 
-Aux alentours de 2010, en plein virage vers l'[Agile](http://referentiel.institut-agile.fr/) chez Orange Business Service, nous étions en train de changer d'une manière importante les manières de travailler. Points quotidiens, hebdomadaires, rétrospectives. A cette époque une expression revenait souvent chez les contempteurs de nos expérimentations :
+Aux alentours de 2010, en plein virage vers l'[Agile](http://referentiel.institut-agile.fr/) chez Orange Business Service, nous étions en train de changer d'une manière importante les méthodes de travail. Points quotidiens, hebdomadaires, rétrospectives. A cette époque une expression revenait souvent chez les contempteurs de nos expérimentations :
 
 > "Ah mais vous vivez dans le monde des bisounours".
 
