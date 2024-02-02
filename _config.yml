@@ -3,7 +3,7 @@ name: Le blog d'Iroco
 title: Le blog d'Iroco
 email: hello@iroco.fr
 description: Blog sur l'écoconception logicielle, le GreenIT et le numérique responsable
-
+lang: fr
 timezone: Europe/Paris
 
 # url is currently only used for the RSS feed in feed.xml
