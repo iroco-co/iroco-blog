@@ -6,9 +6,11 @@ author:
   display_name: Marc Bouvier
 categories:
   - Sous le capot
+  - Avancé
 tags:
   - Refactoring
   - Accessibilité
+  - Design System
 ---
 
 *Nous avons récemment changé notre façon de documenter le Design System des outils de l’écosystème autour d’Iroco. Dans cet article un peu technique, nous expliquons les raisons de ce changement. Nous décrivons notre démarche pour comparer quelques alternatives. Nous concluons avec les raisons de notre choix final.*
