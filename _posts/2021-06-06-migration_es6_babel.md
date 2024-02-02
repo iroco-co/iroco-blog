@@ -10,7 +10,7 @@ categories:
 tags:
 - javascript
 - es6
-- refactoring
+- Refactoring
 - greenIT
 comments: true
 ---

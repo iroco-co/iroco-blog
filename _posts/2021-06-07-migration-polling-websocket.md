@@ -9,7 +9,7 @@ categories:
 - Avancé
 tags:
 - javascript
-- refactoring
+- Refactoring
 - greenIT
 comments: true
 ---
