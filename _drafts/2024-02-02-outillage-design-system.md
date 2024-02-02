@@ -13,11 +13,16 @@ tags:
   - Design System
 ---
 
-*Nous avons récemment changé notre façon de documenter le Design System des outils de l’écosystème autour d’Iroco. Dans cet article un peu technique, nous expliquons les raisons de ce changement. Nous décrivons notre démarche pour comparer quelques alternatives. Nous concluons avec les raisons de notre choix final.*
+*Nous avons récemment changé notre façon de documenter le Design System des outils de l’écosystème autour d’Iroco.
+Dans cet article un peu technique, nous expliquons les raisons de ce changement. 
+Nous décrivons notre démarche pour comparer quelques alternatives. 
+Nous concluons avec les raisons de notre choix final.*
 
 ## Pourquoi un Design System ?
 
-[Iroco][iroco-landing] se décompose en plusieurs outils[^1]. Nous avons observé de la redondance (copier-coller) sur leur identité visuelle. Ça nous demande un effort conséquent quand nous devons mettre à jour l’apparence visuelle et la répercuter sur les différents outils. 
+[Iroco][iroco-landing] se décompose en plusieurs outils[^1]. 
+Nous avons observé de la redondance (copier-coller) sur leur identité visuelle. 
+Ça nous demande un effort conséquent quand nous devons mettre à jour l’apparence visuelle et la répercuter sur les différents outils. 
 
 [iroco-landing]: https://iroco.co
 
@@ -26,7 +31,8 @@ tags:
 [iroco-landing]: https://iroco.co
 [iroco-app]: https://app.iroco.co
 
-Pour rendre réutilisable cette identité visuelle, nous avons mis en place un Design System[^2]. Voici [à quoi il ressemble][iroco-ui-2024-01-12] le 12 janvier 2024.
+Pour rendre réutilisable cette identité visuelle, nous avons mis en place un Design System[^2]. 
+Voici [à quoi il ressemble][iroco-ui-2024-01-12] le 12 janvier 2024.
 
 [^2]: Design System, aussi appelé "Système de Design" ou encore "Système de conception". C’est une collection de composants web prêts à l’emploi, en général accompagnée de guides de style, d’images et parfois de typographies. Un Design System permet souvent d’avoir une identité visuelle cohérente entre plusieurs applications d’une même marque, organisation ou encore produit.
 
@@ -46,13 +52,15 @@ Après quelques recherches, la liste des candidats a été réduite aux 2 outils
 
 Pour décider de l’outil à adopter, nous avons construit un Spike[^3] dans le but de comparer les 2 solutions sur les critères que nous allions découvrir en partie lors de l’expérimentation.
 
-[^3]: Un Spike est une courte expérimentation pour vérifier rapidement la faisabilité d'une solution. [Spike Solution][xp-spike-solution]
+[^3]: Une [Spike Solution][xp-spike-solution] est une courte expérimentation pour vérifier rapidement la faisabilité d'une solution. 
 
 [xp-spike-solution]: https://web.archive.org/web/20240118212527/http://www.extremeprogramming.org/rules/spike.html
 
-Comme souvent, nous avons organisé cette session sous la forme de Pair-Programming[^4] en utilisant la "Mikado Method"[^5] pour structurer notre exploration. Aussi cela nous permettrait d’arrêter l’expérimentation si un critère important n’était pas rempli pour un ou pour l’autre candidat.
+Comme souvent, nous avons organisé cette session sous la forme de Pair-Programming[^4] en utilisant la "Mikado Method"[^5] pour structurer notre exploration. 
+Aussi cela nous permettrait d’arrêter l’expérimentation si un critère important n’était pas rempli pour un ou pour l’autre candidat.
 
 [^4]: [Pair-Programming][xp-pair-programming], aussi appelé binômage, consiste à travailler à 2 sur le même problème. Nous aimons bien cette approche, car nous y trouvons plusieurs avantages : compréhension partagée du problème, nous apprenons beaucoup de choses, relecture en direct, moins d’erreurs.
+
 [^5]: [Mikado Method ][mikado-method]: La méthode Mikado est une approche visuelle partant d’un problème où on explore des solutions en remontant ses dépendances (prérequis). Cette technique permet de faciliter la résolution de problèmes complexes comme : le refactoring, le debugging, l’exploration de solutions. Elle nous est très utile pour explorer des idées et éviter de nous éparpiller en pouvant revenir sur nos pas.
 
 [xp-pair-programming]: https://web.archive.org/web/20240108010754/http://www.extremeprogramming.org/rules/pair.html
@@ -80,21 +88,26 @@ Nous avons été très agréablement surpris par la facilité à démarrer un pr
 
 [^6]: CLI : Outil en ligne de commandes
 
-La [documentation de démarrage](https://storybook.js.org/docs/get-started/install) est assez concise et efficace à l'heure où j'écris cet article et permet de choisir avec quelle technologie utiliser Storybook. Nous avons choisi le "parfum" Svelte.
+La [documentation de démarrage](https://storybook.js.org/docs/get-started/install) est assez concise et efficace à l'heure où j'écris cet article et permet de choisir avec quelle technologie utiliser Storybook. 
+Nous avons choisi le "parfum" Svelte.
 
 [Une fois initialisé](https://github.com/iroco-co/iroco-ui/pull/4/commits/3e0a5d12fe34daef2c7fafffa958daec4e54cebe), l'outil propose un squelette simple avec quelques exemples et une documentation sous la forme d’un fichier ["Configure.mdx"](https://github.com/iroco-co/iroco-ui/pull/4/commits/3e0a5d12fe34daef2c7fafffa958daec4e54cebe#diff-cad826cca64452dfc7386369bb63481b8daf8ec62b17494551427c7b1c496ebd)
 
 Nous avons [nettoyé certains exemples](https://github.com/iroco-co/iroco-ui/pull/4/commits/bfd07fd0e0a7cbe63dd8075ce65f831e37ee698f) pour réduire le bruit.
 
-L’étape d’après : brancher un de nos propres composants ! Ce sera le bouton. Nous nous inspirons de l’exemple de bouton déjà présent.
+L’étape d’après : brancher un de nos propres composants ! Ce sera le bouton. 
+Nous nous inspirons de l’exemple de bouton déjà présent.
 
-Nous avons ajouté l’addon [`@storybook/addon-svelte-csf`](https://storybook.js.org/addons/@storybook/addon-svelte-csf) qui nous permet d'écrire la documentation sous la forme de fichier svelte. Pour ce faire, nous avons quelque peu [modifié la configuration](https://github.com/iroco-co/iroco-ui/pull/4/commits/23f96ca5319a35947fc06e8c67410185529a2878) pour que storybook interprète les fichiers de documentation svelte.
+Nous avons ajouté l’addon [`@storybook/addon-svelte-csf`](https://storybook.js.org/addons/@storybook/addon-svelte-csf) qui nous permet d'écrire la documentation sous la forme de fichier svelte. 
+Pour ce faire, nous avons quelque peu [modifié la configuration](https://github.com/iroco-co/iroco-ui/pull/4/commits/23f96ca5319a35947fc06e8c67410185529a2878) pour que storybook interprète les fichiers de documentation svelte.
 
 Écrire [notre première spécification pour le bouton](https://github.com/iroco-co/iroco-ui/pull/4/commits/23f96ca5319a35947fc06e8c67410185529a2878#diff-40b36718642a1b7c33552aa520ea28b28b884faf3104007ab342287f9ba90010) est finalement assez compact et concis.
 
-Il aurait été sympa d'avoir une forme de complétion via le typage pour l'objet `meta` qui décrit le composant à documenter. Nous avons du nous référer régulièrement à [la documentation en ligne](https://storybook.js.org/docs/writing-stories) pour écrire cette première histoire.
+Il aurait été sympa d'avoir une forme de complétion via le typage pour l'objet `meta` qui décrit le composant à documenter. 
+Nous avons du nous référer régulièrement à [la documentation en ligne](https://storybook.js.org/docs/writing-stories) pour écrire cette première histoire.
 
-Le système de template est assez bien fait et permet de créer facilement des variations sans avoir à réécrire le composant complètement. On ne modifie que ce qui varie.
+Le système de template est assez bien fait et permet de créer facilement des variations sans avoir à réécrire le composant complètement. 
+On ne modifie que ce qui varie.
 
 Les contrôles et certains event handlers peuvent être définis dans des balises script.
 
@@ -130,7 +143,9 @@ Les contrôles et certains event handlers peuvent être définis dans des balise
 </script>
 ```
 
-Les templates sont définis à l’aide de composants Svelte. On voit ici que les arguments sont passés de manière générique. Ce qui semble rendre possible d’en faire des variations partielles (voir plus bas).
+Les templates sont définis à l’aide de composants Svelte. 
+On voit ici que les arguments sont passés de manière générique. 
+Ce qui semble rendre possible d’en faire des variations partielles (voir plus bas).
 
 ```html
 
@@ -150,7 +165,8 @@ Les templates sont définis à l’aide de composants Svelte. On voit ici que le
 </Story>
 ```
 
-Nous avons ajouté [des contrôles](https://github.com/iroco-co/iroco-ui/pull/4/commits/23f96ca5319a35947fc06e8c67410185529a2878) permettant de faire varier les attributs d’un composant même en dehors de variations. Par exemples des listes de sélection pour faire varier les attributs `kind` et `size` de notre bouton.
+Nous avons ajouté [des contrôles](https://github.com/iroco-co/iroco-ui/pull/4/commits/23f96ca5319a35947fc06e8c67410185529a2878) permettant de faire varier les attributs d’un composant même en dehors de variations. 
+Par exemples des listes de sélection pour faire varier les attributs `kind` et `size` de notre bouton.
 
 ```js
     export const meta = {
@@ -182,12 +198,14 @@ Storybook propose des fonctionnalités intéressantes parmi lesquelles :
 
 - Un aperçu permettant de simuler les dimensions d’un appareil mobile
 - La simulation de déficience visuelle (pour vérifier certains aspects d’[Accessibilité][tag-accessibilite])
-- La simulation de certains événements du navigateur (`:active`, `:hover`, `:visited` ) qui d’habitude se retrouve dans les outils de développeur des navigateurs web. Ce qui rend accessible ces paramètres à des utilisateurs non techniques
+- La simulation de certains événements du navigateur (`:active`, `:hover`, `:visited` ) qui d’habitude se retrouve dans les outils de développeur des navigateurs web. 
+  Ce qui rend accessible ces paramètres à des utilisateurs non techniques
 - Un onglet d'accessibilité qui permet d'indiquer la conformité de certains critères d'accessibilité
 
 [tag-accessibilite]:/tags/#Accessibilité-ref
 
-Cette quantité considérable de capacité a probablement considérablement influé sur le choix final.
+Il y a pléthore d'extensions.
+Cela a probablement considérablement influé sur notre choix final.
 
 [Storybook est très connu](https://github.com/storybookjs/storybook) et maintenu : plus de 80 000 étoiles Github.
 
@@ -207,7 +225,8 @@ Cette quantité considérable de capacité a probablement considérablement infl
 
 Nous avons ensuite essayé [Histoire][histoire].
 
-Histoire gravite autour de l'écosystème de VueJs et s'appuie sur ViteJs pour assembler le contenu. L'outil vante sa rapidité qui est historiquement un problème de Storybook.
+Histoire gravite autour de l'écosystème de VueJs et s'appuie sur ViteJs pour assembler le contenu. 
+L'outil vante sa rapidité qui est historiquement un problème de Storybook.
 
 Nous avons de prime abord été un peu déçus par le démarrage qui manquait de clarté.
 
@@ -262,7 +281,8 @@ Nous n’avons pas eu de difficultés à documenter un composant.
 </Hst.Story>
 ```
 
-Contrairement à Storybook, les contrôles sont également définis à l’aide de composants Svelte. Ce qui offre une expérience un peu plus unifiée et plus proche de code Svelte.
+Contrairement à Storybook, les contrôles sont également définis à l’aide de composants Svelte. 
+Cela offre une expérience un peu plus unifiée et plus proche de code Svelte.
 
 Les attributs sont clairement associés aux variables définies dans la partie script.
 Ce qui rend la documentation assez explicite.
@@ -301,21 +321,28 @@ Ce qui rend la documentation assez explicite.
 </Hst.Story>
 ```
 
-Histoire est théoriquement capable de générer des templates dynamiques du code source : "Auto-CodeGen". C’est-à-dire qu’on peut jouer avec les contrôles pour modifier les attributs (ex. `kind` ou `size` dans l’exemple de notre bouton) et afficher le code à copier. C'est probablement une fonctionnalité qui fonctionne mieux sur des composants [VueJs][vuejs]. Nous n’avons cependant pas réussi à le faire fonctionner lors de notre expérimentation.
+Histoire est théoriquement capable de générer des templates dynamiques du code source : "Auto-CodeGen". 
+C’est-à-dire qu’on peut jouer avec les contrôles pour modifier les attributs (ex. `kind` ou `size` dans l’exemple de notre bouton) et afficher le code à copier. 
+C'est probablement une fonctionnalité qui fonctionne mieux sur des composants [VueJs][vuejs]. 
+Nous n’avons cependant pas réussi à le faire fonctionner lors de notre expérimentation.
 
 [vuejs]: https://vuejs.org/
 
-Histoire propose une fonctionnalité expérimentale assez intéressante : "Auto-Docs". Celle-ci permet de générer une documentation et des contrôles automatiquement en analysant les composants importés. Cela permet de gagner un peu de temps quand on commence de documenter un composant.
+Histoire propose une fonctionnalité expérimentale assez intéressante : "Auto-Docs". 
+Celle-ci permet de générer une documentation et des contrôles automatiquement en analysant les composants importés. 
+Cela permet de gagner un peu de temps quand on commence de documenter un composant.
 
 Le statut de support de ces fonctionnalités peut être retrouvé [sur cette page](https://histoire.dev/guide/getting-started.html#supported-frameworks).
 
-Comme Storybook, Histoire permet de faire varier la dimension de la zone d'affichage pour simuler des appareils mobiles. Par contre, nous n’avons pas trouvé de fonctionnalités d’accessibilité plus avancées.
+Comme Storybook, Histoire permet de faire varier la dimension de la zone d'affichage pour simuler des appareils mobiles. 
+Par contre, nous n’avons pas trouvé de fonctionnalités d’accessibilité plus avancées.
 
 Si Histoire dispose de moins de fonctionnalités que Storybook, l’interface nous parait un peu moins chargée visuellement.
 
 Avec une fonctionnalité de composants dynamique un peu intégrée, on peut imaginer que des binômages entre des développeurs et des experts d’expérience utilisateur puissent être fluidifiées.
 
-Histoire propose [quelques plugins](https://histoire.dev/guide/plugins/official.html) qui servent notamment à supporter des frameworks de test automatisé. S'il est limité, on peut imaginer que ce catalogue vienne à s’étoffer quand Histoire sera plus adopté.
+Histoire propose [quelques plugins](https://histoire.dev/guide/plugins/official.html) qui servent notamment à supporter des frameworks de test automatisé. 
+S'il est limité, on peut imaginer que ce catalogue vienne à s’étoffer quand Histoire sera plus adopté.
 
 [Le projet Histoire](https://github.com/histoire-dev/histoire) avoisine les 3 000 étoiles Github.
 
@@ -336,13 +363,15 @@ Histoire propose [quelques plugins](https://histoire.dev/guide/plugins/official.
 
 ### Storybook
 
-Storybook est établi et a une quantité considérable de fonctionnalités et d'extensions. Il est selon nous plus probable que des contributeurs maitrisent cet outil.
+Storybook est établi et a une quantité considérable de fonctionnalités et d'extensions. 
+Il est selon nous plus probable que des contributeurs maitrisent cet outil.
 
 Nous pressentons une courbe d’apprentissage qui nécessite de passer du temps régulièrement dans la documentation.
 
 Nous avons pu "échafauder" Storybook assez simplement et de façon quasiment complètement automatisée.
 
-Le code permettant de décrire des "stories" s'éloigne assez de code qu'on pourrait écrire en production. On ne peut pas vraiment copier-coller de code depuis le code de documentation.
+Le code permettant de décrire des "stories" s'éloigne assez de code qu'on pourrait écrire en production. 
+On ne peut pas vraiment copier-coller de code depuis le code de documentation.
 
 Les fonctionnalités autour de l’accessibilité sont très intéressantes pour notre contexte.
 
@@ -354,11 +383,15 @@ Histoire dispose pour le moment de peu de fonctionnalités.
 
 Nous trouvons son interface graphique moins chargée que Storybook.
 
-Nous avons trouvé la documentation succincte. Nous avons trouvé qu’Histoire était plutôt intuitif à utiliser, car le code est assez similaire de code qu’on écrirait en production.
+Nous avons trouvé la documentation succincte. 
+Nous avons trouvé qu’Histoire était plutôt intuitif à utiliser, car le code est assez similaire de code qu’on écrirait en production.
 
-L’outil vante sa rapidité. Lors de nos essais, nous n'avons pas ressenti que ce critère pouvait avoir une importance. Peut-être qu’un usage plus prolongé nous ferait changer d'avis?
+L’outil vante sa rapidité. 
+Lors de nos essais, nous n'avons pas ressenti que ce critère pouvait avoir une importance. 
+Peut-être qu’un usage plus prolongé nous ferait changer d'avis?
 
-Les fonctionnalités de génération de documentation à partir des composants importés et code dynamique sont prometteuses. Nous trouvons qu’elles manquent de maturité.
+Les fonctionnalités de génération de documentation à partir des composants importés et code dynamique sont prometteuses. 
+Nous trouvons qu’elles manquent de maturité.
 
 ### Notre choix
 
