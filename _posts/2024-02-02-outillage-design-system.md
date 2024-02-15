@@ -411,4 +411,4 @@ Nous avons volontairement laissé une branche ouverte sur le [spike de Histoire]
 
 Le board Miro que nous avons construit est également [disponible en lecture](https://miro.com/app/board/uXjVNCxGGLM=/?share_link_id=395188175322).
 
-
+***
