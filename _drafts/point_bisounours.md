@@ -39,3 +39,11 @@ L'épisode de Sismique [« Regarder mes peurs en face »](https://www.sismique.f
 Comment réagir devant un tel défit, devant l'abandon d'un modèle, d'un récit, d'un "cocon technologique" ?
 
 Comment atténuer ces peurs, les apprivoiser, vivre avec elles ?
+
+Chez Iroco, nous tâchons de questionner ces expressions "dans la vraie vie...", "c'est du bon sens". Quand elles apparaîssent au détour d'une phrase, c'est probablement que nous touchons à quelque chose d'important.
+
+Mais pour aller plus loin, j'aurais envie de dire _[Primum non nocere](https://fr.wikipedia.org/wiki/Primum_non_nocere)_ i.e. "**ne pas nuire**". Et comme ce que nous faisons est basé sur l'utilisation de machines, qui par construction, usage, nuisent à la planète, c'est une forme de nocivité constitutive de notre activité. Alors reprenons les mots de Corine Morel Darleux :
+
+> Entraver le désastre en cours, actionner les freins d'urgence : ce sera là notre révolution. Dans un monde qui court à sa perte, cette redéfinition du caractère révolutionnaire semblera peut-être trop fade à certains parmi les plus martiaux ; à moi elle paraît lumineuse.
+
+Peut-on éviter de ["numériser"](https://beta.designersethiques.org/thematique-ecoconception/quand-faut-il-numeriser) notre monde, voire le "dénumériser" ? À l'image d'un _coach_ qui a pour but de s'effacer, de devenir inutile. Si c'est le cas nous accompagnerons ce mouvement quitte à fermer nos services. En attendant nous essaierons de tirer le meilleur de ces machines, de les rendre utile au plus grand nombre et de les faire durer le plus longtemps possible.
