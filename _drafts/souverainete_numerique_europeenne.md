@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pour une souveraineté européenne du numérique : aller plus loin que le RGPD
+title: Pour une souveraineté européenne du numérique. Aller plus loin que le RGPD ?
 description: Pourrait-on avoir un registre des acteurs malveillants sur l'internet Européen ?
 author:
   display_name: Iroco
