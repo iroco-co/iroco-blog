@@ -37,3 +37,5 @@ Nous avons choisi pour Iroco, une unité qui nous a paru réaliste :
 > Communiquer par mail pendant une semaine avec 10 personnes
 
 Vous découvrirez alors dans les articles suivants ce que nous avons fait de cette unité fonctionnelle afin d'estimer son impact, les différents scénarii d'usage, les flux, et les méthodes utilisées.
+
+Pour les impatients, ou ceux qui veulent directement plonger dans le vif du sujet, vous pouvez télécharger [l'étude ici](/images/ACV/ACV-mail-Hubblo-Iroco-01032024.pdf).
