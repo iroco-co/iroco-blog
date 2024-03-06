@@ -16,11 +16,13 @@ Ce post introduit une série d'articles, qui vous amènera également sur [le bl
 
 > Mais qu'est-ce qu'une "ACV" ?
 
-C'est une méthode d'évaluation des impacts sur l'environnement de l'ensemble du cycle de vie d'un produit ou d'un service. Elle permet de quantifier sur un ou plusieurs critères (pour les ACV "multicritères"), les externalités environnementales de ce produit ou service. Par exemple :
+C'est une méthode d'évaluation des impacts sur l'environnement de l'ensemble du cycle de vie d'un produit ou d'un service. Elle permet de quantifier sur un ou plusieurs critères (pour les ACV "multicritères"), les externalités environnementales de ce produit ou service. Par exemple pour notre étude nous retiendrons:
 
-- la quantité de gaz à effet de serre émise (en Kg équivalent CO2 kgCO2eq)
-- la quantité de matières abiotiques puisée (minerais en Kg d’équivalents d’antimoine kgSbeq)
-- la quantité d'énergie primaire consommée (en mégajoules MJ)
+- Changement climatique (en Kg équivalent CO2 kgCO2eq)
+- L'épuisement des ressources naturelles (minérales et métaux en Kg d’équivalents d’antimoine kgSbeq)
+- L'acidification de l'air (mol H+ eq) 
+- Les émissions de particules fines (Disease incidence)
+- Les radiations ionisantes (en  kBq U235 eq) 
 
 Elle se déroule en quatre phases :
 
