@@ -3,7 +3,7 @@ layout: post
 title: Introduction de l'ACV mail
 description: Découvrez notre nouvelle série d'articles sur l'analyse de cycle de vie en partenariat avec Hubblo et l'ADEME.
 author:
-  display_name: Iroco
+  display_name: iroco
 categories:
 - Grand public
 tags:
@@ -38,4 +38,4 @@ Nous avons choisi pour Iroco, une unité qui nous a paru réaliste :
 
 Vous découvrirez alors dans les articles suivants ce que nous avons fait de cette unité fonctionnelle afin d'estimer son impact, les différents scénarii d'usage, les flux, et les méthodes utilisées.
 
-Pour les impatients, ou ceux qui veulent directement plonger dans le vif du sujet, vous pouvez télécharger [l'étude ici](/images/ACV/ACV-mail-Hubblo-Iroco-01032024.pdf).
+Pour les impatients, ou ceux qui veulent directement plonger dans le vif du sujet, vous pouvez [télécharger l'étude ici](/images/ACV/ACV-mail-Hubblo-Iroco-01032024.pdf).
