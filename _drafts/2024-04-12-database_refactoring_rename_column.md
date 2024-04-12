@@ -1103,9 +1103,11 @@ Comme nous travaillons en binômage[^3] et que nous partageons une propriété c
 
 [pair-programming]: http://www.extremeprogramming.org/rules/pair.html
 
-[^4]: La propriété collective du code, aussi connue sous le nom ["Collective Ownership"][collective-ownership] est un principe visant à s'assurer que suffisamment de membres de l'équipe ont une connaissance du code. Et aussi que le code est la propriété de l'équipe et pas des contributeurs individuels. On souhaite ainsi réduire le [Facteur d'autobus][bus-factor] et d'éviter que des personnes deviennent bloquantes pour l'avancée de l'équipe.
+[^4]: La propriété collective du code, aussi connue sous le nom ["Collective Ownership"][collective-ownership] est un principe visant à s'assurer que suffisamment de membres de l'équipe ont une connaissance du code. En faisant du code la propriété de l'équipe et pas des contributeurs individuels, on favorise une discipline de [programmation avec moins d'égo][programmation-sans-ego]. On souhaite ainsi réduire le [Facteur d'autobus][bus-factor] et d'éviter que des personnes deviennent bloquantes pour l'avancée de l'équipe.
 
 [collective-ownership]: http://www.extremeprogramming.org/rules/collective.html
+
+[programmation-sans-ego]: https://fr.wikipedia.org/wiki/Programmation_sans_ego
 
 [bus-factor]: https://fr.wikipedia.org/wiki/Facteur_d%27autobus
 
