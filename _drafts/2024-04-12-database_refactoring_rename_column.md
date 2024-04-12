@@ -1114,5 +1114,12 @@ Cela dit, nous pensons qu'il est important de savoir faire ce type d'évolution 
 - En pratiquant lorsque ce n'est pas critique, nous serons prêt si ça le devient
 - Nous savons mieux estimer les impacts de l'approche simple (`rename()` de knex[^1]) et de l'approche "Evolutionary Database"[^2]
 
+Au final, nous allons certainement utiliser le rename de knex. 
+
+La fonctionnalité concernée par ce refactoring n'est utilisée que par nous-même. Nous préférons éviter d'ajouter de la complexité dans nos migrations. 
+Cela pour garder notre conception [la plus simple possible][simplicity-in-xp].
+
+[simplicity-in-xp]: http://www.extremeprogramming.org/rules/simple.html
+
 ---
 
