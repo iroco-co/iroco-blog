@@ -1107,7 +1107,10 @@ Comme nous travaillons en binômage[^3] et que nous partageons une propriété c
 
 [collective-ownership]: http://www.extremeprogramming.org/rules/collective.html
 
-[programmation-sans-ego]: https://fr.wikipedia.org/wiki/Programmation_sans_ego
+[programmation-sans-ego]: [fiche wikipedia][programmation-sans-ego-wikipedia], [The Ten Commandments of Egoless Programming][programmation-sans-ego-10-commandments]
+
+[programmation-sans-ego-wikipedia]: https://fr.wikipedia.org/wiki/Programmation_sans_ego
+[programmation-sans-ego-10-commandments]: https://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/
 
 [bus-factor]: https://fr.wikipedia.org/wiki/Facteur_d%27autobus
 
