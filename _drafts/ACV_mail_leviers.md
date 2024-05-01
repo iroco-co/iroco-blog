@@ -10,7 +10,7 @@ tags:
 - ACV Mail
 ---
 
-_Nous avons rapidement compris que l'optimisation de l'usage du mail n'allait pas changer de manière importante son impact environnemental puisque les impact les plus importants sont ceux du matériel (serveurs, infrastructure réseau, mobiles, ordinateurs portables, de bureau, tablettes). Nous voulions alors saisir l'opportunité de la réalisation d'une Analyse de Cycle de Vie pour creuser d'autres pistes sur des changements d'usage ou des temporalités différentes._
+_Nous avons rapidement compris que l'optimisation de l'usage du mail n'allait pas changer de manière drastique son impact environnemental puisque les effets les plus importants sont ceux du matériel (serveurs, infrastructure réseau, mobiles, ordinateurs portables, de bureau, tablettes). Nous voulions alors saisir l'opportunité de la réalisation d'une Analyse de Cycle de Vie pour creuser d'autres pistes sur des changements d'usage ou des temporalités différentes._
 
 Au départ d'Iroco était l'optimisation. L'hypothèse était que la diminution de la charge machine, de l'usage de la mémoire, du réseau allait limiter l'impact environnemental. Et puis nous avons appris sur le sujet du numérique responsable (ou acceptable) grâce à [Boavizta](http://boavizta.org/) entre autre, et compris que les impacts les plus importants du numérique étaient ailleurs :
 * par ex ~80% des gaz à effet de serre sont du scope 3 c'est à dire la construction et le recyclage des équipements informatiques ;
@@ -48,7 +48,7 @@ Enfin pour diminuer le remplacement des terminaux, leur recyclage et leur fabric
 
 Nous partons de mesures (taille, pièce jointes, destinataires) faites sur un échantillon de mail relevés sur notre serveur pour 3 utilisateurs typiques du service pendant une semaine. Et voila! "Il ne reste plus qu'à" modéliser ces scénarii avec cet échantillon !
 
-Pour la méthodologie il s'agit dans cet article de la méthode "traditionnelle" dite attributionnelle (ACV-A). Cette méthode caractérise les impacts de de l'unité fonctionnelle (ici l'envoi et la réception de mail pour un utilisateur à une dizaine d'interlocuteurs) relativement à l'ensemble de la technosphère. La méthode conséquentielle adopte une approche de type "delta" : on pense un changement par rapport à l'état actuel et ses impacts sur différents critères environnementaux [^3].
+Pour la méthodologie il s'agit dans cet article de la méthode "traditionnelle" dite attributionnelle (ACV-A). Cette méthode caractérise les impacts de de l'unité fonctionnelle (ici l'envoi et la réception de mail pour un utilisateur à une dizaine d'interlocuteurs pendant une semaine) relativement à l'ensemble de la technosphère. La méthode conséquentielle adopte une approche de type "delta" : on pense un changement par rapport à l'état actuel et ses impacts sur différents critères environnementaux [^3].
 
 [^3]: cf cet article sur notre ACV par David Ekchajzer de [Hubblo](https://hubblo.org) [Counting environmental impacts using attributional and consequential approaches](https://hubblo.org/blog/attributional-vs-consequential/)
 
