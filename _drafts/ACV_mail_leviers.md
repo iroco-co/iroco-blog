@@ -17,7 +17,7 @@ Au départ d'Iroco était l'optimisation. L'hypothèse était que la diminution 
 * l'utilisation de l'eau et des minerais est principalement liée à la fabrication ;
 * la pollution également.
 
-[^1]: voir [Manifeste pour un alternumérisme radical](https://louisderrac.com/2023/10/manifeste-pour-un-alternumerisme-radical-v1/)
+[^1]: voir [Manifeste pour un alternumérisme radical](https://louisderrac.com/2023/10/manifeste-pour-un-alternumerisme-radical-v1/) qui part du constat que le numérique a toujours un impact négatif et donc n'est pas responsable, pour définir le "numérique acceptable" dont on connaît les effets délétères, mais qu'on accepte par compromis au regard de la valeur que le service rend.
 
 L'étude de l'Analyse du Cycle de Vie du mail nous permettait d'aller plus loin que l'optimisation. Nous avons commencé par détailler tous les paramètres qui représentent des impacts pour les traitements informatique du mail, afin de définir plusieurs scénarii qui seront ensuite comparés dans l'étude :
 
@@ -42,7 +42,7 @@ Nous savons déjà qu'au niveau exploitation, il existe des différences importa
 
 L'impact carbone par kilowatt/heure est aussi sujet à une variabilité importante[^3]. Il peut fluctuer entre 25g avec des production d'énergie décarbonées (EnR, nucléaire) et 800g avec une production d'électricité à base de centrales thermiques au charbon. Un facteur 32. Sur la même hypothèse d'urgence de message nous pourrions décaler dans le temps la délivrance des messages non urgents en attendant un mix énergétique optimum, ou des sous-charges dans l'infrastructure électrique. Comme il existait avant des timbres de couleurs et prix différents pour le courrier en fonction du temps d'acheminement. Voici notre second scénario "déplacement de la demande dans le temps".
 
-[^3]: [electricitymaps.com](https://app.electricitymaps.com/map) est un site qui donne la quantité de carbone émise par KW/h par pays en temps réel
+[^3]: [electricitymaps.com](https://app.electricitymaps.com/map) est un site qui donne la quantité de carbone émise par KW/h par pays en temps réel.
 
 Toujours sur la temporalité du mail, le dimensionnement d'une infrastructure informatique est conçu pour absorber les pics d'utilisation. Du coup l'infrastructure est soit surdimensionnée, soit adaptative à la demande de charge (en scalabilité élastique). En lissant les pics de traitement des messages dans le temps, nous pourrions limiter le nombre de serveurs à fabriquer, recycler, et leur usage d'énergie lors de leur utilisation (même en scalabilité élastique). Ce sera notre troisième levier "Diminution du dimensionnement de l'infrastructure".
 
@@ -50,9 +50,9 @@ Enfin pour diminuer le remplacement des terminaux, leur recyclage et leur fabric
 
 Nous partons de mesures (taille, pièce jointes, destinataires) faites sur un échantillon de mail relevés sur notre serveur pour 3 utilisateurs typiques du service pendant une semaine. Et voila! "Il ne reste plus qu'à" modéliser ces scénarii avec cet échantillon !
 
-Pour la méthodologie il s'agit dans cet article de la méthode "traditionnelle" dite attributionnelle (ACV-A). Cette méthode caractérise les impacts de de l'unité fonctionnelle (ici l'envoi et la réception de mail pour un utilisateur à une dizaine d'interlocuteurs pendant une semaine) relativement à l'ensemble de la technosphère. La méthode conséquentielle adopte une approche de type "delta" : on pense un changement par rapport à l'état actuel et ses impacts sur différents critères environnementaux [^4].
+Pour la méthodologie il s'agit dans cet article de la méthode "traditionnelle" dite attributionnelle (ACV-A). Cette méthode caractérise les impacts de l'unité fonctionnelle (ici l'envoi et la réception de mail pour un utilisateur à une dizaine d'interlocuteurs pendant une semaine) relativement à l'ensemble de la technosphère. La méthode conséquentielle adopte une approche de type "delta" : on pense un changement par rapport à l'état actuel et ses impacts sur différents critères environnementaux [^4].
 
-[^4]: cf cet article sur notre ACV par David Ekchajzer de [Hubblo](https://hubblo.org) [Counting environmental impacts using attributional and consequential approaches](https://hubblo.org/blog/attributional-vs-consequential/)
+[^4]: cf cet article sur notre ACV par David Ekchajzer de [Hubblo](https://hubblo.org) [Counting environmental impacts using attributional and consequential approaches](https://hubblo.org/blog/attributional-vs-consequential/) qui présente les différences entre ACV attributionnelle et conséquentielle.
 
 Vous pourrez retrouver les résultats par levier dans le rapport final [^5]. En synthèse si on scénarise ces différents leviers selon 3 niveaux différents :
 
