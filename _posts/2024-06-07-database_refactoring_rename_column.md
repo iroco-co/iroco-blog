@@ -17,7 +17,9 @@ tags:
   - Evolutionary Architecture
 ---
 
-Problème du jour, nous souhaitons renommer une colonne dans une table de notre schéma SQL.
+Problème du jour, nous souhaitons renommer une colonne dans une table de notre schéma SQL. 
+Problème simple ou compliqué ?
+Explorons les enjeux et impacts potentiels de cette action à priori anodine.
 
 Voici ce que nous voulons faire : renommer `certificate.ts` -> `certificate.updated_time` pour clarifier la signification de cette colonne.
 
