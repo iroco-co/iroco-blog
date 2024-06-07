@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Refactoring de base de données — renommer une colonne
+title: Refactoring de base de données — Renommer une colonne
 description: Explorons le refactoring de base de données en nous appuyant sur les techniques d'architecture évolutionnaire et de déploiement continu.
 author:
   display_name: iroco
@@ -19,7 +19,7 @@ tags:
 
 Problème du jour, nous souhaitons renommer une colonne dans une table de notre schéma SQL. 
 Problème simple ou compliqué ?
-Explorons les enjeux et impacts potentiels de cette action à priori anodine.
+Explorons les enjeux et impacts potentiels de cette action à priori anodine par l’angle de l’architecture évolutive et du déploiement continu.
 
 Voici ce que nous voulons faire : renommer `certificate.ts` -> `certificate.updated_time` pour clarifier la signification de cette colonne.
 
