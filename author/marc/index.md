@@ -1,9 +1,10 @@
 ---
 layout: default
 name: marc
+display_name: Marc Bouvier
 ---
 
-# Marc Bouvier
+# {{ page.display_name }}
 
 Quelques liens :
 
@@ -12,9 +13,16 @@ Quelques liens :
 * [blog](https://baldir.fr)
 * [LinkedIn](https://fr.linkedin.com/in/profileofmarcbouvier)
 * <a rel="me" href="https://pouet.chapril.org/@marc_bouvier">Mastodon</a>
-
+ 
 
 ## Articles
 
-- [Refactoring de base de données — Renommer une colonne](/database_refactoring_rename_column/)
-- [Migration du Design System des outils Iroco](/outillage-design-system/)
+<!--
+TODO : maybe generalize ?
+{% assign posts = site.posts | where_exp : "post" , "post.author.display_name == page.display_name "  %}
+-->
+
+<!-- {% for post in posts %} -->
+- [{{ post.title }}]({{ post.url}})
+<!-- {% endfor %} -->
+
