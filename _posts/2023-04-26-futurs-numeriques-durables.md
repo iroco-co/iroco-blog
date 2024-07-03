@@ -50,4 +50,4 @@ Avant l'apéro, un dernier tour de table pour recueillir les ressentis de chacun
 
 > "J'ai le sentiment qu'on est au début de quelque chose."
 
-*Si vous souhaitez être tenu.e au courant de nos prochains ateliers et événements, n'hésitez pas à vous [abonner à notre newsletter](https://iroco.co/newsletter). Chaque premier mercredi du mois, vous recevrez dans votre boîte mail l'actualité du numérique responsable et des nouvelles de nos projets.*
+*Si vous souhaitez être tenu.e au courant de nos prochains ateliers et événements, n'hésitez pas à vous [abonner à notre newsletter](https://iroco.co/newsletter). Toutes les 2 à 4 semaines, vous recevrez dans votre boîte mail une sélection d'actualités sur le numérique responsable et des nouvelles de nos projets.*
