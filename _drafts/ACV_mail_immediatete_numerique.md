@@ -46,4 +46,4 @@ Retrouvez les autres articles de la série :
 - La description des [leviers](/acv-mail-leviers/)
 - Le facteur de la taille de l'[infrastructure](/acv-mail-infrastructure/)
 - La durée de vie des [terminaux](/acv-mail-duree-de-vie-terminaux/)
-- Ansi que l'[étude complète](/images/ACV/ACV-mail-Hubblo-Iroco-01032024.pdf).
+- Ainsi que l'[étude complète](/images/ACV/ACV-mail-Hubblo-Iroco-01032024.pdf).
