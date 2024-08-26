@@ -34,7 +34,7 @@ Les résultats du lissage de charge sur les différents facteurs est le suivant 
 
 A l’échelle de l’Unité Fonctionnelle, les variations d’impacts restent significatives (de 10 à 29%) lorsque la diminution de l’infrastructure de traitement atteint les 50%. Cela revient à diminuer la quantité de resources nécessaires à la mise en oeuvre du serivce (énergie, matières premières de frabrication des serveurs, eau, liquides de refroidissement, etc.) et finalement à faire preuve d'une certaine forme de sobriété d'hébergement.
 
-C'est un sujet important pour Iroco qui a des impacts sur le périmètre fonctionnel et la qualité de service. Cela poste des questions :
+C'est un sujet important pour Iroco qui a des impacts sur le périmètre fonctionnel et la qualité de service. Cela pose des questions :
 
 - Quel niveau de qualité de service est acceptable pour les utilisateurs du mail ?
 - Comment serait reçue une fonction d'envoi de mail _différé_ ?
