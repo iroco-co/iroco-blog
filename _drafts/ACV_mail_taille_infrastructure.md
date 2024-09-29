@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Quel est l'impact de la taille de l'infrastructure ?
+title: Quel est l'impact de la taille de l'infrastructure&nbsp;?
 description: Dans l'ACV comparative réalisée avec Hubblo, nous avons quantifié l'impact de la taille de l'infrastructure sur l'environnement.
 author:
   display_name: iroco
