@@ -10,12 +10,13 @@ timezone: Europe/Paris
 url: https://blog.iroco.co
 
 baseurl: "" # the subpath of your site
-twitter_username: IrocoDigital
 github_username:  iroco-co
 github: 'iroco-co/iroco.github.io'
+
 mastodon:
- - username: iroco
-   instance: mastodon.social
+  - mastodon.social:
+    instance: 'mastodon.social'
+    username: 'iroco'
 
 # Build settings
 markdown: kramdown
