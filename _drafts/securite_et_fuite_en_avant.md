@@ -1,15 +1,17 @@
 ---
 layout: post
-title: Sécurité et fuite en avant du numérique
-description: La rapidité du déploiement du numérique s'est-il fait au détriment de sa régulation ?
+title: Les inscriptions sont à nouveau ouvertes !
+description: Après des mésaventures avec un groupe de spammeurs nous avons du renforcer les contôles d'inscription pour notre service.
 author:
   display_name: Iroco
 categories:
 - Grand public
 tags:
-- sécurité
+- sécurité, spam
 ---
+_Nous venons de réouvrir les inscriptions sur Iroco après avoir été victime d'attaques d'un groupe de spammeurs. Nous avons du renforcer les contôles lors de l'inscription et ajouter un paiemnet initial. Nous en avons aussi profité pour nous adapter au nouveau fonctionnemnent de l'interface de paiement de notre partenaire GoCardless. Voici le résumé de nos aventures en 3 épisodes._
 
+# Premier épisode (03/03/2024)
 
 Il y a à peu près un mois, nous avons subi une attaque d'un groupe de spam, probablement localisé en Russie (de nombreuses sources géographiques différentes convergent vers des domaines et IP Russes). Ils ont utilisé notre plateforme pour envoyer des messages d'hameçonnage (phishing). Ces messages ont été repérés par les autres plateformes de messagerie qui à leur tour nous ont signalé comme serveur de spam.
 
@@ -31,7 +33,7 @@ Pour avons alors pris des contre-mesures pour palier à ce problème :
 
 Ces bases de référencements d'adresses frauduleuses sont une mutualisation de nombreux acteurs du monde entier, qui exposent des services en ligne et qui notifient de manière automatique (avec [fail2ban](http://www.fail2ban.org/) par ex) ou manuelle ces attaques. C'est très utile pour anticiper la protection des serveurs.
 
-Ok super. En prenant un peu de recul avec l'écoute d'un des derniers épisodes de Techologie sur les [Incompatibilités des transitions numérique et écologique](https://techologie.net/episodes/86-transitions-numerique-et-ecologique-incompatibles/), plein de questions pointent leur nez :
+En prenant un peu de recul avec l'écoute d'un des derniers épisodes de Techologie sur les [Incompatibilités des transitions numérique et écologique](https://techologie.net/episodes/86-transitions-numerique-et-ecologique-incompatibles/), plein de questions nous viennent à l'esprit :
 
 * Quel surplus d'énergie est nécessaire pour se protéger de la malveillance. Plus globalement, que représente la quantité d'énergie de la malveillance dans le numérique ?
 * Qu'arrive-t-il aux adresses IP une fois que les spammeurs les abandonnent ?
@@ -40,24 +42,50 @@ Ok super. En prenant un peu de recul avec l'écoute d'un des derniers épisodes 
 
 Commençons avec l'utilisation de la technologie à des fins de défense :
 
-* téléchargement toutes les 3 heures d'un fichier de près de 60K adresses IP. Ajout à [iptables](https://netfilter.org/projects/iptables/index.html). Ce qui fait que le filtrage de toutes les requêtes IP légitimes sont considérablement alourdi ;
+* téléchargement toutes les 3 heures d'un fichier de près de 60K adresses IP. Ajout à [iptables](https://netfilter.org/projects/iptables/index.html). Ce qui fait que le filtrage de chaque requête IP légitimes est considérablement alourdi pour le kernel (même si c'est très efficace) ;
 * remontée de tous les bannissements au service de référencement (une requête HTTP par bannissement) ;
 * envoi d'une requête HTTP pour chaque inscription pour vérifier l'état de l'adresse d'inscription ;
 * calcul d'une preuve de travail (Proof of Work) pour la soumission du formulaire d'inscription (ce qui revient à faire tourner une machine pour rien);
-* complexification de la base de code pour ajouter ces fonctionnalités.
+* complexification de la base de code pour ajouter ces fonctionnalités ;
 
-Notons que ces "surplus" concernent le _runtime_ des machines, et donc sont des problèmes d'optimisation avec les limites qu'on connaît quand on compare avec la production et le recyclages de ces machines. Mais quand même si on pense à l'ensemble des machines mobilisées (et produites) pour faire tourner ces robots qui tentent en permanence de se connecter sur différents serveurs pour récupérer des adresses mail (ou autres failles PHP, Web...), la puissance utilisée pour se défendre de ces attaques, on doit atteindre un montant non négligeable d'énergie brûlée pour un résultat discutable.
+Notons que ces "surplus" concernent le _runtime_ des machines, et donc sont des problèmes d'optimisation avec les limites qu'on connaît quand on compare avec la production et le recyclages de ces machines. Quand même : si on pense à l'ensemble des machines mobilisées (et produites) pour faire tourner ces robots qui tentent en permanence de se connecter sur différents serveurs pour récupérer des adresses mail (ou autres failles PHP, Web...), la puissance utilisée pour se défendre de ces attaques, on doit atteindre un montant non négligeable d'énergie brûlée pour un résultat malveillant. Enfin, il y a aussi le volume de spam qui est estimé à la moitié du volume global.
 
 > Qu'arrive-t-il aux adresses IP une fois que les spammeurs les abandonnent ?
 
-Réponse, rien. Elles sont recyclées pour d'autres utilisateurs, qui probablement vont se faire bloquer de temps en temps sans comprendre pourquoi, car leur adresse sera toujours présente dans des listes noires. Étant donné que ces registres sont privés, que peuvent-ils faire de ces informations ? Porter plainte ? Outre des enquêtes parfois compliquées, ce serait assumer des coûts qui n'apportent rien à leur modèle d'affaire. Ce qui nous amène à la question suivante :
+Réponse, rien. Elles sont recyclées pour d'autres utilisateurs, qui probablement vont se faire bloquer de temps en temps sans comprendre pourquoi, car leur adresse sera toujours présente dans des listes noires. Étant donné que ces registres sont privés, que peuvent-ils faire de ces informations ? Ce qui nous amène à la question suivante :
 
 > Pourquoi devons-nous payer un service de protection privé ?
 
-Et oui ces services de mutualisation des menaces sont utiles. Mais pourquoi n'existe-t-il pas en Europe un service public qui protège les citoyens de ces attaques, et surtout qui donne une suite à ces attaques. L'Europe a-t-elle la légitimité et la puissance de frappe pour avoir des impacts diplomatiques, commerciaux, techniques sur les acteurs de ces nuisances ?
+Ces services de mutualisation des attaques sont utiles. Alors pourquoi n'existe-t-il pas en Europe un service public qui protège les citoyens de ces attaques, et surtout qui donne une suite à ces attaques (en utlisant les bases d'IP) ?. La France, L'Europe a-t-elle le pouvoir politique et technique pour agir contre les acteurs de ces nuisances ?
 
 > Comment en est-on arrivé là ?
 
-Internet ferait penser à l'utilisation sans code de la route de l'automobile. Imaginez un trafic automobile n'ayant aucune signalisation, des conducteurs cachés derrière des vitres teintées qui font ce qu'ils veulent, provoquent des accidents, écrasent des piétons. Des entreprises privées publient des listes payantes de plaques d'immatriculation "à risque" basées sur des signalisations de citoyens. Nous avons chacun nos apps qui nous préviennent quand un véhicule potentiellement dangereux approche. Vous pouvez racheter un véhicule ayant fait un carnage sans le savoir et sans changer de plaque.
+Internet ferait penser à l'utilisation sans code de la route de l'automobile. Imaginez un trafic automobile n'ayant aucune signalisation, des conducteurs cachés derrière des vitres teintées qui font ce qu'ils veulent, provoquent des accidents, écrasent des piétons. Des entreprises privées publient des listes payantes de plaques d'immatriculation "à risque" basées sur des signalisations de citoyens. Nous avons chacun nos apps qui nous préviennent quand un véhicule potentiellement dangereux approche. Vous pouvez racheter un véhicule ayant fait un carnage sans le savoir, sans changer de plaque.
 
-Est-ce le caractère dématérialisé, sans dommages physiques qui a pu favoriser le désintérêt du législateur à poser des règles ? Est-ce lié à l'esprit libertaire des cyber-communautés qui ont refusé de payer, de réglementer (spoiler elles ont fini par payer, que ce soit avec leurs cartes de crédit ou avec leurs données) ? Est-ce le développement si rapide que les entités politiques n'ont pas su s'adapter ? Est-ce son côté global qui a dépassé les limites géographiques des États ? Comment le libéralisme des années Reagan, la pensée économique de Chicago ont-elles pu influencer l'encadrement d'Internet ? La régulation a-t-elle été perçue comme un frein à l'e-innovation ?
+Pourquoi les législateurs n'investissent pas plus cet espace virtuel ? En quoi l'esprit libertaire du début d'Internet a-t-il pu avoir un rôle ? Comment les politiques publiques pourraient s'adapter suffisemment rapidement aux évolutions des services numériques ? Comment articuler le caractère global d'Internet et les limites géographiques des États ?
+
+# Deuxième épisode (06/07/2024)
+
+Nos modifications n'empêchent pas les inscriptions au service car ils utilisent de multiples prestataires fournisseurs de machines virtuelles dans plusieurs pays. Du coup les adresses ne sont pas encore connues des registres d'IP malveillantes. Ils profitent de la période d'essai gratuite pour créer plusieurs adresses mails qu'ils peuvent utiliser plus tard pour des campagnes de spam ou phishing.
+
+Or dans l'observation des inscriptions, cette période d'essai ne sert pas à des futures utilisateurs pour tester le service : le mail est un service standard, nos utlisateurs prennent directement l'abonnement. Nous décidons de supprimer cette fonctionnalité, qui sert essentiellement des mauvais usages du service.
+
+Nous remettons alors l'abonnement mensuel et redéployons une nouvelle version de l'app. Pendant un mois et demi nous n'avons plus de problèmes.
+
+Et puis, début juillet nous voyons 3 comptes créés avec des adresses suspectes. Les comptes banquaires associés sont en Finlande. Les IP d'un opérateur marocain ressemblent aussi à celles que nous avons déjà observées lors d'attaques précédentes. Bingo. Quelque temps plus tard, 10 adresses sont créées avec des noms générés aléatoirement, avec de faux comptes banquaires. Nous avons alors des pénalités de notre prestataire de paiement.
+
+Le premier compte était un compte banquaire qui semble réel. Ils ont probablement réalisé que le paiement intervenant en fin de mois, ils pouvaient annuler le mandat en cours de mois. Et puis ils ont testé l'inscription avec un faux compte banquaire et constaté que ça marchait également.
+
+Pour éviter de passer trop de temps à surveiller le service, nous fermons les inscriptions.
+
+Que faire maintenant ?
+
+# Troisième épisode
+
+Nous discutons avec GoCardless (notre prestataire de paiement), pour voir commment bloquer ces inscriptions. Ils nous proposent une offre légèrement plus onéreuse mais qui ajoute des vérifications bancaires et techniques pour éviter les comptes frauduleux.
+
+Nous décidons également de faire un paiement immédiat lors de l'inscription pour tester la validité du compte bancaire. Nous étudions le fonctionnement de l'interface GoCardless pour effectuer ce paiement, et nous nous rendons compte que les modalités d'interraction ont changé. GoCardless propose un mode asynchrone en envoyant les événements banquaires en temps réel chez nous sur une url de service.
+
+Nous changeons complètement l'app Iroco pour le paiement en passant du mode synchrone (quand l'utilisateur revient chez nous après le tunel de paiement, nous avions les statuts des opérations) à un mode asynchrone : lors du retour nous ne savons pas si les opérations se sont bien déroulées. Nous devons attendre les événements du paiement initial, et de l'abonnement pour déterminer si le compte utilisateur est valide ou pas. Nous implémentons une machine à état pour éviter de faires des erreurs de gestion de compte. Cela nous permettra également de désactiver un compte si l'abonnement est interrompu ou si un autre incident bancaire intervient.
+
+Cela nous aura occupé pendant l'été, et nous avons pu enfin ouvrir à nouveau les inscriptions avec une nouvelle version de l'application \o/.
