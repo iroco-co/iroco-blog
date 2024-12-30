@@ -10,6 +10,8 @@ tags:
 - ACV Mail
 ---
 
+_Dans notre série d'articles sur l'ACV mail réalisée avec [Hubblo](https://hubblo.org/) et l'[ADEME](https://www.ademe.fr/), nous nous intéressons dans ce dernier volet à l'impact de la réduction de l'obsolescence logicielle sur l'efficacité environnementale de nos services._
+
 ## Levier 4 : Compatibilité du service mail avec les terminaux utilisateurs
 
 Pour ce dernier levier, on fait l'hypothèse qu'en ayant des applications compatibles avec des terminaux anciens, l'utilisation du service permet aux utilisateurs de conserver leurs terminaux (mobiles, tablettes, laptops) plus longtemps, comparativement à un service incompatible.
@@ -37,3 +39,26 @@ On obtient les résultats suivants :
 
 
 ![Graph des résultats de l'ACV-A](/images/ACV/resultats_attributionnel.png)
+
+## Conclusion de l'étude et recommandations
+
+| Levier | Attributionnel | Conséquentiel court terme | Conséquentiel long terme | Effet |
+|:-------|:---------------|:--------------------------|:-------------------------|:------|
+| Levier 1 : Modification dynamique du réseau d’accès | oui | oui | oui | faible |
+| Levier 2 : Déplacement de la demande dans le temps | non | oui | oui | faible |
+| Levier 3 : Diminution du dimensionnement de l’infrastructure | oui | non | non | moyen |
+| Levier 4 : Rétro-compatibilité du service mail avec les terminaux utilisateurs | oui | non | oui | important |
+
+Étant donnée la taille réduite des données d'un mail, nous avons constaté que la temporisation dans le temps pour l'envoi d'un mail (réseau fixe côté client, ou mix énergétique favorable côté serveur) n'avait pas beaucoup d'impact. L'impact des emails n'est pas lié aux conséquences directes de l'envoi mais dans l'ensemble de la chaîne de valeur liée à son fonctionnement général (leviers 1 et 2).
+
+Le lissage de charge représente un impact plus significatif. Nous gardons en mémoire cette possibilité dans le développement de l'activité d'Iroco, notamment car les délais d'envoi pour ce lissage sont réduits.
+
+Enfin l'étude confirme que la lutte contre l'obsolescence des terminaux est un champ important. Cet aspect est relatif à une portion congrue (pour Iroco) qu'est le web, puisque nous déployons un service qui se base sur les protocoles mail (IMAP, SMTP) qui ont très peu évolué depuis leur publication. Nous allons continuer de tester nos interfaces web avec des anciens terminaux pour vérifier la compatibilité avec la *stack* que nous utilisons.
+
+## Participation à la réduction de l’immédiateté du numérique : un cinquième levier à valoriser&nbsp;?
+
+Si certains leviers, permis par une évolution asynchrone des usages, ont montré un faible impact sur le service mail, leur application à des services plus intensifs en données, comme la vidéo en streaming, apparaît prometteuse.
+
+Cela illustre bien l’enjeu de réduire l’immédiateté des usages numériques. Il faut à la fois réfléchir à la réalité des besoins, et travailler sur les leviers techniques “juste nécessaires” pour stopper la croissance des infrastructures.
+
+Ces travaux et réflexions de l'ACV vont dans ce sens. Ils peuvent inspirer d’autres acteurs à implémenter des services numériques compatibles avec les limites planétaires.
