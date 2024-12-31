@@ -9,7 +9,7 @@ categories:
 tags:
 - sécurité, spam
 ---
-_Nous venons de réouvrir les inscriptions sur Iroco après avoir été victime d'attaques d'un groupe de spammeurs. Nous avons du renforcer les contôles lors de l'inscription et ajouter un paiemnet initial. Nous en avons aussi profité pour nous adapter au nouveau fonctionnemnent de l'interface de paiement de notre partenaire GoCardless. Voici le résumé de nos aventures en 3 épisodes._
+_Nous venons de rouvrir les inscriptions sur Iroco après avoir été victime d'attaques d'un groupe de spammeurs. Nous avons du renforcer les contrôles lors de l'inscription et ajouter un paiement initial. Nous en avons aussi profité pour nous adapter au nouveau fonctionnement de l'interface de paiement de notre partenaire GoCardless. Voici le résumé de nos aventures en 3 épisodes._
 
 # Premier épisode (03/03/2024)
 
@@ -56,25 +56,25 @@ Réponse, rien. Elles sont recyclées pour d'autres utilisateurs, qui probableme
 
 > Pourquoi devons-nous payer un service de protection privé ?
 
-Ces services de mutualisation des attaques sont utiles. Alors pourquoi n'existe-t-il pas en Europe un service public qui protège les citoyens de ces attaques, et surtout qui donne une suite à ces attaques (en utlisant les bases d'IP) ?. La France, L'Europe a-t-elle le pouvoir politique et technique pour agir contre les acteurs de ces nuisances ?
+Ces services de mutualisation des attaques sont utiles. Alors pourquoi n'existe-t-il pas en Europe un service public qui protège les citoyens de ces attaques, et surtout qui donne une suite à ces attaques (en utilisant les bases d'IP) ?. La France, L'Europe a-t-elle le pouvoir politique et technique pour agir contre les acteurs de ces nuisances ?
 
 > Comment en est-on arrivé là ?
 
 Internet ferait penser à l'utilisation sans code de la route de l'automobile. Imaginez un trafic automobile n'ayant aucune signalisation, des conducteurs cachés derrière des vitres teintées qui font ce qu'ils veulent, provoquent des accidents, écrasent des piétons. Des entreprises privées publient des listes payantes de plaques d'immatriculation "à risque" basées sur des signalisations de citoyens. Nous avons chacun nos apps qui nous préviennent quand un véhicule potentiellement dangereux approche. Vous pouvez racheter un véhicule ayant fait un carnage sans le savoir, sans changer de plaque.
 
-Pourquoi les législateurs n'investissent pas plus cet espace virtuel ? En quoi l'esprit libertaire du début d'Internet a-t-il pu avoir un rôle ? Comment les politiques publiques pourraient s'adapter suffisemment rapidement aux évolutions des services numériques ? Comment articuler le caractère global d'Internet et les limites géographiques des États ?
+Pourquoi les législateurs n'investissent pas plus cet espace virtuel ? En quoi l'esprit libertaire du début d'Internet a-t-il pu avoir un rôle ? Comment les politiques publiques pourraient s'adapter suffisamment rapidement aux évolutions des services numériques ? Comment articuler le caractère global d'Internet et les limites géographiques des États ?
 
 # Deuxième épisode (06/07/2024)
 
 Nos modifications n'empêchent pas les inscriptions au service car ils utilisent de multiples prestataires fournisseurs de machines virtuelles dans plusieurs pays. Du coup les adresses ne sont pas encore connues des registres d'IP malveillantes. Ils profitent de la période d'essai gratuite pour créer plusieurs adresses mails qu'ils peuvent utiliser plus tard pour des campagnes de spam ou phishing.
 
-Or dans l'observation des inscriptions, cette période d'essai ne sert pas à des futures utilisateurs pour tester le service : le mail est un service standard, nos utlisateurs prennent directement l'abonnement. Nous décidons de supprimer cette fonctionnalité, qui sert essentiellement des mauvais usages du service.
+Or dans l'observation des inscriptions, cette période d'essai ne sert pas à des futures utilisateurs pour tester le service : le mail est un service standard, nos utilisateurs prennent directement l'abonnement. Nous décidons de supprimer cette fonctionnalité, qui sert essentiellement des mauvais usages du service.
 
 Nous remettons alors l'abonnement mensuel et redéployons une nouvelle version de l'app. Pendant un mois et demi nous n'avons plus de problèmes.
 
-Et puis, début juillet nous voyons 3 comptes créés avec des adresses suspectes. Les comptes banquaires associés sont en Finlande. Les IP d'un opérateur marocain ressemblent aussi à celles que nous avons déjà observées lors d'attaques précédentes. Bingo. Quelque temps plus tard, 10 adresses sont créées avec des noms générés aléatoirement, avec de faux comptes banquaires. Nous avons alors des pénalités de notre prestataire de paiement.
+Et puis, début juillet nous voyons 3 comptes créés avec des adresses suspectes. Les comptes bancaires associés sont en Finlande. Les IP d'un opérateur marocain ressemblent aussi à celles que nous avons déjà observées lors d'attaques précédentes. Bingo. Quelque temps plus tard, 10 adresses sont créées avec des noms générés aléatoirement, avec de faux comptes bancaires. Nous avons alors des pénalités de notre prestataire de paiement.
 
-Le premier compte était un compte banquaire qui semble réel. Ils ont probablement réalisé que le paiement intervenant en fin de mois, ils pouvaient annuler le mandat en cours de mois. Et puis ils ont testé l'inscription avec un faux compte banquaire et constaté que ça marchait également.
+Le premier compte était un compte bancaire qui semble réel. Ils ont probablement réalisé que le paiement intervenant en fin de mois, ils pouvaient annuler le mandat en cours de mois. Et puis ils ont testé l'inscription avec un faux compte bancaire et constaté que ça marchait également.
 
 Pour éviter de passer trop de temps à surveiller le service, nous fermons les inscriptions.
 
@@ -82,10 +82,10 @@ Que faire maintenant ?
 
 # Troisième épisode
 
-Nous discutons avec GoCardless (notre prestataire de paiement), pour voir commment bloquer ces inscriptions. Ils nous proposent une offre légèrement plus onéreuse mais qui ajoute des vérifications bancaires et techniques pour éviter les comptes frauduleux.
+Nous discutons avec GoCardless (notre prestataire de paiement), pour voir comment bloquer ces inscriptions. Ils nous proposent une offre légèrement plus onéreuse mais qui ajoute des vérifications bancaires et techniques pour éviter les comptes frauduleux.
 
-Nous décidons également de faire un paiement immédiat lors de l'inscription pour tester la validité du compte bancaire. Nous étudions le fonctionnement de l'interface GoCardless pour effectuer ce paiement, et nous nous rendons compte que les modalités d'interraction ont changé. GoCardless propose un mode asynchrone en envoyant les événements banquaires en temps réel chez nous sur une url de service.
+Nous décidons également de faire un paiement immédiat lors de l'inscription pour tester la validité du compte bancaire. Nous étudions le fonctionnement de l'interface GoCardless pour effectuer ce paiement, et nous nous rendons compte que les modalités d’interaction ont changé. GoCardless propose un mode asynchrone en envoyant les événements bancaires en temps réel chez nous sur une url de service.
 
-Nous changeons complètement l'app Iroco pour le paiement en passant du mode synchrone (quand l'utilisateur revient chez nous après le tunel de paiement, nous avions les statuts des opérations) à un mode asynchrone : lors du retour nous ne savons pas si les opérations se sont bien déroulées. Nous devons attendre les événements du paiement initial, et de l'abonnement pour déterminer si le compte utilisateur est valide ou pas. Nous implémentons une machine à état pour éviter de faires des erreurs de gestion de compte. Cela nous permettra également de désactiver un compte si l'abonnement est interrompu ou si un autre incident bancaire intervient.
+Nous changeons complètement l'app Iroco pour le paiement en passant du mode synchrone (quand l'utilisateur revient chez nous après le tunnel de paiement, nous avions les statuts des opérations) à un mode asynchrone : lors du retour nous ne savons pas si les opérations se sont bien déroulées. Nous devons attendre les événements du paiement initial, et de l'abonnement pour déterminer si le compte utilisateur est valide ou pas. Nous implémentons une machine à état pour éviter de faire des erreurs de gestion de compte. Cela nous permettra également de désactiver un compte si l'abonnement est interrompu ou si un autre incident bancaire intervient.
 
 Cela nous aura occupé pendant l'été, et nous avons pu enfin ouvrir à nouveau les inscriptions avec une nouvelle version de l'application \o/.
