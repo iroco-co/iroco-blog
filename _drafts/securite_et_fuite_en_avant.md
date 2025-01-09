@@ -84,7 +84,7 @@ Que faire maintenant ?
 
 Nous discutons avec GoCardless (notre prestataire de paiement), pour voir comment bloquer ces inscriptions. Ils nous proposent une offre légèrement plus onéreuse mais qui ajoute des vérifications bancaires et techniques pour éviter les comptes frauduleux.
 
-Nous décidons également de faire un paiement immédiat lors de l'inscription pour tester la validité du compte bancaire. Nous étudions le fonctionnement de l'interface GoCardless pour effectuer ce paiement, et nous nous rendons compte que les modalités d’interaction ont changé. GoCardless propose un mode asynchrone en envoyant les événements bancaires en temps réel chez nous sur une url de service.
+Nous décidons également de faire un paiement immédiat lors de l'inscription pour tester la validité du compte bancaire. Nous étudions le fonctionnement de l'interface GoCardless pour effectuer ce paiement, et nous nous rendons compte que les modalités d’interaction ont changé. GoCardless propose un mode asynchrone en envoyant les événements bancaires en temps réel chez nous sur une URL de service.
 
 Nous changeons complètement l'app Iroco pour le paiement en passant du mode synchrone (quand l'utilisateur revient chez nous après le tunnel de paiement, nous avions les statuts des opérations) à un mode asynchrone : lors du retour nous ne savons pas si les opérations se sont bien déroulées. Nous devons attendre les événements du paiement initial, et de l'abonnement pour déterminer si le compte utilisateur est valide ou pas. Nous implémentons une machine à état pour éviter de faire des erreurs de gestion de compte. Cela nous permettra également de désactiver un compte si l'abonnement est interrompu ou si un autre incident bancaire intervient.
 
