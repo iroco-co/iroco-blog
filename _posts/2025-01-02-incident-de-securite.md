@@ -5,7 +5,7 @@ description: Après des mésaventures avec un groupe de spammeurs nous avons du 
 author:
   display_name: Iroco
 categories:
-- Grand public
+- Sous le capot
 tags:
 - sécurité, spam
 ---
