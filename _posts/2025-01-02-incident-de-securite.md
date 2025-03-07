@@ -33,14 +33,14 @@ Pour avons alors pris des contre-mesures pour palier à ce problème :
 
 Ces bases de référencements d'adresses frauduleuses sont une mutualisation de nombreux acteurs du monde entier, qui exposent des services en ligne et qui notifient de manière automatique (avec [fail2ban](http://www.fail2ban.org/) par ex) ou manuelle ces attaques. C'est très utile pour anticiper la protection des serveurs.
 
-En prenant un peu de recul avec l'écoute d'un des derniers épisodes de Techologie sur les [Incompatibilités des transitions numérique et écologique](https://techologie.net/episodes/86-transitions-numerique-et-ecologique-incompatibles/), plein de questions nous viennent à l'esprit :
+En prenant un peu de recul avec l'écoute d'un des derniers épisodes de Techologie sur les [Incompatibilités des transitions numérique et écologique](https://techologie.net/episodes/86-transitions-numerique-et-ecologique-incompatibles/), des questions se posent :
 
 * Quel surplus d'énergie est nécessaire pour se protéger de la malveillance. Plus globalement, que représente la quantité d'énergie de la malveillance dans le numérique ?
 * Qu'arrive-t-il aux adresses IP une fois que les spammeurs les abandonnent ?
 * Pourquoi devons-nous payer un service de protection privé ?
 * Comment en est-on arrivé là ? Que font les États ?
 
-Commençons avec l'utilisation de la technologie à des fins de défense :
+Commençons avec le coût de notre contre mesures :
 
 * téléchargement toutes les 3 heures d'un fichier de près de 60K adresses IP. Ajout à [iptables](https://netfilter.org/projects/iptables/index.html). Ce qui fait que le filtrage de chaque requête IP légitimes est considérablement alourdi pour le kernel (même si c'est très efficace) ;
 * remontée de tous les bannissements au service de référencement (une requête HTTP par bannissement) ;
@@ -52,11 +52,11 @@ Notons que ces "surplus" concernent le _runtime_ des machines, et donc sont des 
 
 > Qu'arrive-t-il aux adresses IP une fois que les spammeurs les abandonnent ?
 
-Réponse, rien. Elles sont recyclées pour d'autres utilisateurs, qui probablement vont se faire bloquer de temps en temps sans comprendre pourquoi, car leur adresse sera toujours présente dans des listes noires. Étant donné que ces registres sont privés, que peuvent-ils faire de ces informations ? Ce qui nous amène à la question suivante :
+Probablement rien. Elles sont recyclées pour d'autres utilisateurs, qui risquent se faire bloquer de temps en temps sans comprendre pourquoi, car leur adresse sera toujours présente dans des listes noires. Étant donné que ces registres sont privés, que peuvent-ils faire de ces informations ? Ce qui nous amène à la question suivante :
 
 > Pourquoi devons-nous payer un service de protection privé ?
 
-Ces services de mutualisation des attaques sont utiles. Alors pourquoi n'existe-t-il pas en Europe un service public qui protège les citoyens de ces attaques, et surtout qui donne une suite à ces attaques (en utilisant les bases d'IP) ?. La France, L'Europe a-t-elle le pouvoir politique et technique pour agir contre les acteurs de ces nuisances ?
+Ces services de mutualisation des attaques sont utiles. Alors pourquoi n'existe-t-il pas en Europe un service public qui protège les citoyens de ces attaques, et surtout qui leur donne une suite  (en utilisant les bases d'IP) ? La France, L'Europe ont-elles les pouvoirs technique, politique et diplomatique pour agir contre les acteurs de ces nuisances ?
 
 > Comment en est-on arrivé là ?
 
