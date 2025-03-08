@@ -39,6 +39,8 @@ Ce marché fait partie intégrante de l'événement, pour bien intégrer le num�
 
 Après une brève introduction expliquant l'importance du marché, la matinée a débuté avec un entretien entre Taufik et Rania pour préciser les contours de la problématique.
 
+![Alternative Worlds](/images/alternative-worlds1/alternatives-worlds-1-7.jpg  "Alternative Worlds")
+
 Le premier objectif est de réaliser à quel point le récit de la modernité du 21e siècle oublie des pans entiers de l'histoire des inventions technologiques. Le deuxième est de prendre conscience de la matérialité du numérique, et regarder sous ce prisme l'histoire des flux de matières dans l'émergence du commerce mondial depuis la première révolution industrielle. On peut citer Fabien Lebrun dans son ouvrage "[Barbarie Numérique](https://www.babelio.com/livres/Lebrun-Barbarie-numerique-Le-Congo-sacrifie-pour-un-mond/1665848)" :
 
 > Les Big Techs héritent de 5 siècles de domination économique, idéologique et technologique. Ils s'inscrivent à plein au sein de l'histoire du capitalisme. Ils en sont les principaux acteurs et gagnants. Une histoire longue inscrit les seigneurs du numérique en droite ligne des premiers capitalistes héritiers des colons (...)
