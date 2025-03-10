@@ -16,7 +16,7 @@ Lorsque nous avions rencontré Rania au 47 il y a environ un an, elle nous avait
 
 ![Alternative Worlds](/images/alternative-worlds1/alternatives-worlds-1-1.jpg  "Alternative Worlds")
 
-Ce cycle de conférences/ateliers _Alternative worlds_nous propose d'explorer cette question ensemble. 
+Ce cycle de conférences/ateliers  _Alternative worlds_ nous propose d'explorer cette question ensemble. 
 
 > Que signifie, "décoloniser la tech", à une époque où elle est dominée par l’hégémonie des entreprises américaines, avec le regard bienveillant de la plupart des Etats qui utilisent ces technologies, pour les services publics du quotidien comme pour la surveillance des citoyen·n·e·s ? 
 
@@ -35,7 +35,7 @@ Nous avons été une cinquantaine au plus (pendant de l'après midi) pour évoqu
 
 ![Alternative Worlds](/images/alternative-worlds1/alternatives-worlds-1-4.jpg  "Alternative Worlds")
 
-Ce marché fait partie intégrante de l'événement, pour bien intégrer le numérique qui sera au coeur des discussions avec le monde réel de ceux qui font avec leurs mains. Comment considérer la technologie dans la vie de tous les jours en passant à côté également des créateurs d'imaginaires par l'expression artistique ?
+Ce marché fait partie intégrante de l'événement, pour bien insérer le numérique  avec le monde réel de ceux qui font avec leurs mains. Comment considérer la technologie dans la vie de tous les jours en passant à côté des créateurs d'imaginaires par l'expression artistique ?
 
 Après une brève introduction expliquant l'importance du marché, la matinée a débuté avec un entretien entre Taufik et Rania pour préciser les contours de la problématique.
 
