@@ -225,6 +225,13 @@
 
 .post-content, .home {
   margin-bottom: $spacing-unit;
+  h1 {
+    @include relative-font-size(2.375);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(2.125);
+    }
+  }
 
   h2 {
     @include relative-font-size(2);
