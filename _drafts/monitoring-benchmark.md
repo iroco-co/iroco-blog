@@ -155,4 +155,45 @@ Cela s'explique par le fait que Collectd envoie des paquets plus volumineux, con
 ### Conclusion
 
 Collectd s'avère être le plus performant en termes d'utilisation CPU et de bande passante. Il est également très simple à configurer et à utiliser.  
-C'est donc **le choix le plus adapté** pour notre application, qui ne nécessite pas de fonctionnalités avancées de monitoring. **Collectd incarne l'efficacité et la simplicité.**
+
+---
+
+# Conclusion
+
+Ce tableau récapitulatif synthétise les principaux avantages et inconvénients de Collectd et Vector d'après notre expérience :
+
+| Critères                              | Collectd                                   | Vector                                        |
+|---------------------------------------|--------------------------------------------|-----------------------------------------------|
+| **Communauté**                        | Large                                      | Moyenne                                       |
+| **Documentation**                     | Complète                                   | Complète                                      |
+| **Versatilité**                       | Moyenne                                    | Élevée                                        |
+| **Simplicité d'installation**         | Élevée (installé via apt)                    | Bonne (installation par script curl)          |
+| **Configuration**                     | Petits projets → Simple / Gros projets → Complexe | Petits projets → Moyenne / Gros projets → Moyenne |
+| **Courbe d'apprentissage**            | Faible                                     | Moyenne                                       |
+| **Rôles Ansible existants**           | Oui                                        | Oui                                           |
+| **Compatibilité avec d'autres outils**| Moyenne                                    | Élevée                                        |
+
+## Versatilité (fonctionnalités, paramétrabilité)
+
+- **Collectd** reste un outil très simple et robuste. Il comporte cependant un grand nombre de plugins qui permettent de l'adapter à de nombreux cas d'utilisation. Toutefois, l'utilisation de ces plugins peut rendre la configuration et la maintenabilité plus complexes.
+- **Vector** offre une très grande configurabilité. Il a été possible de configurer le protocole de communication, le format des données, les filtres, etc. De plus, il possède son propre langage, le VRL (Vector Remap Language), qui permet de parser, filtrer et transformer les données de manière très précise.
+
+## Simplicité d'installation
+
+- **Collectd** est très simple à installer car il est directement géré par le gestionnaire de paquets (apt). Cependant, il est nécessaire d'installer les plugins pour des cas d'utilisation spécifiques.
+- **Vector** est légèrement plus complexe à installer. Il s'installe via une requête curl pour télécharger le script d'installation, ce qui permet de l'installer en une seule commande.
+
+## Simplicité de configuration
+
+- **Collectd** est très simple à configurer lorsque le nombre de plugins reste limité. La complexité de la configuration augmente avec le nombre de plugins utilisés.
+- **Vector** est plus complexe à configurer en raison de son importante versatilité, mais il offre une très grande flexibilité nativement. Il permet de configurer le protocole de communication, le format des données, les filtres, etc.
+
+## Courbe d'apprentissage
+
+- Selon notre expérience, **Collectd** est plus simple à prendre en main. Moins de recherches ont été nécessaires pour comprendre son fonctionnement et la configuration par défaut des protocoles de communication convenait à nos besoins.
+- Pour **Vector**, il a été nécessaire d'effectuer des recherches plus approfondies afin de développer une configuration correspondant à nos besoins.
+
+## Compatibilité avec d'autres outils
+
+- **Collectd** s'appuie sur une compatibilité éprouvée avec les outils traditionnels de surveillance (Nagios, Ganglia, etc.).
+- **Vector** offre une intégration plus fluide et moderne avec de nombreux outils d'observabilité contemporains (Elasticsearch, Kafka, AWS S3, Splunk, etc.).
