@@ -101,7 +101,7 @@ L’e-mail est également un excellent exemple de l'effet de rebond, dans lequel
 
 D’ailleurs selon [Science Focus](https://www.sciencefocus.com/planet-earth/the-thought-experiment-what-is-the-carbon-footprint-of-an-email/#:~:text=Sending%2065%20emails%20is%20roughly,emails%20they%20send%20and%20receive.&text=Globally%2C%20the%20world), l'envoi d'un e-mail utilise environ 1,7 % de l'énergie nécessaire pour livrer une lettre papier, ce qui prouve que le courrier électronique est certainement une option plus écologique que le courrier postal. Étant donné que seulement 5 % du réseau électrique mondial provient de sources renouvelables, cela signifie que la plupart de nos courriels sont alimentés par des combustibles fossiles.
 
-![Empreinte carbonne : lettre vs email vs sms ](/images/poids-email/lettre-email-sms.jpg)
+![Empreinte carbonne : lettre vs email vs sms ](/images/poids-email/lettre-email-sms.png)
   
 En novembre dernier, nous vous avions [suggéré quelques publications de référence sur le numérique responsable](https://blog.iroco.co/publications-reference-numerique-responsable/) comme la [synthèse de l’étude de GreenIT](https://www.greenit.fr/wp-content/uploads/2019/10/2019-10-GREENIT-etude_EENM-synthese-accessible.VF_.pdf) sur l’empreinte environnementale des technologies numériques mondiales, qui mettait en évidence les constats suivants : 34 milliards d’équipements peuplent le monde en 2019 pour 4,1 milliards d’utilisateurs, soit 8 équipements par utilisateur.
 
