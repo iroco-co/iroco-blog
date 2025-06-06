@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Benchmark de différents outils de monitoring
+title: Benchmark de différents agents de monitoring
 author:
   display_name: Iroco
 categories:
