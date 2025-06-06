@@ -12,7 +12,7 @@ tags:
 # Nagios
 
 ## Présentation
-[![Exemple de dashboard de Grafana](../../images/monitoring-dasboard-benchmark/Pres_nagios.png)](https://www.grafana.com/)
+[![Exemple de dashboard de Grafana](../../images/monitoring-dasboard-benchmark/Pres_nagios.png)](https://www.nagios.org/)
 (Nous n'avons pas trouvé d'option open-source pour un dashboard moderne de Nagios. Nous sommes donc resté sur l'interface disponible depuis le docker officiel de Nagios)
   - **Description** : Né en 1999, Nagios s’appuie sur une configuration textuelle (nombreux fichiers de conf) avec un noyau central et un vaste écosystème de plugins pour surveiller les services réseau, les hôtes et équipements. Originellement open-source, il est aujourd'hui partiellement open-source (licence GPLv2) avec des plugins payants. Il est souvent utilisé dans les entreprises pour sa robustesse et sa fiabilité, mais son interface web est vieillissante et peu intuitive. Il est compatible avec un grand nombre de logiciels différents, mais nécessite une configuration complexe pour fonctionner correctement. 
 
@@ -32,12 +32,12 @@ tags:
 - **Utilitaire tiers**:
   - Nous avons du installer l'utilitaire [**collectd-nagios**](https://www.collectd.org/documentation/manpages/collectd-nagios.html) qui permet de convertir les données de Collectd en un format que Nagios peut comprendre.
 - **Création de script**:
-  -  Nous avons du créer un plugin [**check_collectd_combined.sh**](https://github.com/iroco-co/bench-monitoring-dashboard/blob/main/nagios/Custom-Nagios-Plugins/check_collectd_combined.sh) qui permet de récupérer les données de Collectd. Il fait appel à l'utilitaire [**collectd-nagios**](https://www.collectd.org/documentation/manpages/collectd-nagios.html) pour convertir les données de Collectd en un format que Nagios peut comprendre. Puis le plugin combine les données appartenant à un même service pour les afficher dans le même graphique.
+  -  Nous avons créé un script [**check_collectd_combined.sh**](https://github.com/iroco-co/bench-monitoring-dashboard/blob/main/nagios/Custom-Nagios-Plugins/check_collectd_combined.sh) pour récupérer des métriques multi-critères (Comme la CPU: user/system/idle). 
 - **Fichiers de configuration**:
-  - [**/etc/nagios/objects/templates.cfg**](https://github.com/iroco-co/bench-monitoring-dashboard/blob/main/nagios/nagios/etc/objects/templates.cfg) : Fichier de configuration des templates. M'a permis de configurer le template de tous les services utilisés par collectd (fréquence, type).
-  - [**/etc/nagios/objects/localhost.cfg**](https://github.com/iroco-co/bench-monitoring-dashboard/blob/main/nagios/nagios/etc/objects/localhost.cfg) : Fichier de configuration de l'hôte local. M'a permis de configurer les services Network, FileSystème CPU et RAM basé sur mon template.
-  - [**/etc/nagios/objects/commands.cfg**](https://github.com/iroco-co/bench-monitoring-dashboard/blob/main/nagios/nagios/etc/objects/commands.cfg) : Fichier de configuration des commandes. M'a permis de configurer les commandes qui seront exécutés par les services Network, FileSystème CPU et RAM. Ici, nous avons du faire appel au plugin [**check_collectd_combined.sh**](https://github.com/iroco-co/bench-monitoring-dashboard/blob/main/nagios/Custom-Nagios-Plugins/check_collectd_combined.sh) pour récupérer les données de Collectd.
-  - [**/etc/nagiosgraph/nagiosgraph.conf**](https://github.com/iroco-co/bench-monitoring-dashboard/blob/main/nagios/nagiosgraph/etc/nagiosgraph.conf) : Fichier de configuration des graphiques et des bdd en time series RRDTool utilisé par NagiosGraph. M'a permis de configurer les graphiques qui seront affichés dans l'interface web de NagiosGraph.
+  - [**/etc/nagios/objects/templates.cfg**](https://github.com/iroco-co/bench-monitoring-dashboard/blob/main/nagios/nagios/etc/objects/templates.cfg) : Fichier de configuration des templates qui nous a permis de configurer le template de tous les services utilisés par collectd (fréquence, type).
+  - [**/etc/nagios/objects/localhost.cfg**](https://github.com/iroco-co/bench-monitoring-dashboard/blob/main/nagios/nagios/etc/objects/localhost.cfg) : Fichier de configuration de l'hôte local qui nous a permis de configurer les services Network, FileSystème CPU et RAM basé sur mon template.
+  - [**/etc/nagios/objects/commands.cfg**](https://github.com/iroco-co/bench-monitoring-dashboard/blob/main/nagios/nagios/etc/objects/commands.cfg) : Fichier de configuration des commandes qui nous a permis de configurer les commandes qui seront exécutés par les services Network, FileSystème CPU et RAM. Ici, nous avons du faire appel au plugin [**check_collectd_combined.sh**](https://github.com/iroco-co/bench-monitoring-dashboard/blob/main/nagios/Custom-Nagios-Plugins/check_collectd_combined.sh) pour récupérer les données de Collectd.
+  - [**/etc/nagiosgraph/nagiosgraph.conf**](https://github.com/iroco-co/bench-monitoring-dashboard/blob/main/nagios/nagiosgraph/etc/nagiosgraph.conf) : Fichier de configuration des graphiques et des bdd en time series RRDTool utilisé par NagiosGraph qui nous a permis de configurer les graphiques qui seront affichés dans l'interface web de NagiosGraph.
 ## Résultats
 
 ### Observations

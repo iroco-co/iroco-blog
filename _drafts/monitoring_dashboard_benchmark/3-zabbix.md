@@ -33,7 +33,7 @@ tags:
 - **Utilitaire tiers**: 
   - Nous avons du installer l'utilitaire [**zabbix-sender**](https://www.zabbix.com/documentation/current/en/manpages/zabbix_sender) pour envoyer les données de Collectd à Zabbix. Cet utilitaire permet d'envoyer des données à Zabbix en utilisant le protocole Zabbix trapper.
 - **Création de script**:
-  - Il m'a également été nécessaire de créer un script [**zabbix-sender.sh**](https://github.com/iroco-co/bench-monitoring-dashboard/blob/main/src/zabbix-sender.sh) qui convertit les données de Collectd en un format que [**zabbix-sender**](https://www.zabbix.com/documentation/current/en/manpages/zabbix_sender) peut comprendre. Ce script est exécuté par collectd à chaque fois que les datas sont mesurés et fait appel [**zabbix-sender**](https://www.zabbix.com/documentation/current/en/manpages/zabbix_sender).
+  - Il nous a également été nécessaire de créer un script [**zabbix-sender.sh**](https://github.com/iroco-co/bench-monitoring-dashboard/blob/main/src/zabbix-sender.sh) qui convertit les données de Collectd en un format que [**zabbix-sender**](https://www.zabbix.com/documentation/current/en/manpages/zabbix_sender) peut comprendre. Ce script est exécuté par collectd à chaque fois que les datas sont mesurés et fait appel [**zabbix-sender**](https://www.zabbix.com/documentation/current/en/manpages/zabbix_sender).
 
 ## Résultats
 
