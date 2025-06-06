@@ -10,6 +10,7 @@ tags:
 - monitoring
 ---
 # Introduction
+
 ## Contexte et enjeux
 
 Nous avons fait un premier benchmark sur les outils de monitoring de collecte de métriques. Nous cherchons maintenant à évaluer les outils de monitoring de type dashboard compatibles avec les outils de collecte de métriques que nous avons testés précédemment.
@@ -46,7 +47,6 @@ L'objectif est de tester chaque outil sur ces trois métriques afin de détermin
 
 ## Démarche méthodologique
  
-
 ### Mise en place du test
 
   Affin de simplifier grandement la configuration et l'installation de chaque outil, nous avons choisi d'utiliser des conteneurs Docker. Cela nous permet de tester chaque outil dans un environnement isolé et de garantir que les résultats sont comparables.
