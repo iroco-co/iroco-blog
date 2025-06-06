@@ -13,7 +13,7 @@ tags:
 
 ## Présentation
 
-[![Exemple de dashboard de Grafana](../../images/monitoring-dasboard-benchmark/Pres_graphite+grafana.png)](https://www.grafana.com/)
+[![Exemple de dashboard de Grafana](../images/monitoring-dasboard-benchmark/Pres_graphite+grafana.png)](https://www.grafana.com/)
   - [**Graphite**](https://graphiteapp.org/) : 
     - **Description** : Conçu en 2006 pour collecter, stocker (via Whisper) et visualiser des séries temporelles de données grâce à Carbon et une interface web Graphite-Web. C'est un logiciel open-source plutôt modulaire (on peut changer whisper par d'autres technos si besoin) et reste compatible avec un grand nombre de logiciels différents. Il reste cependant limité dans ses capacités avec sa configuration de base (pas d'alerting) et son interface web est vieillissante.
     - **Docker** : Il existe une image docker officiel de Graphite. Elle est disponible sur [Github](https://github.com/graphite-project/docker-graphite-statsd)
@@ -23,7 +23,7 @@ tags:
 
 ## Structure
 
-[![Schéma descriptif du fonctionnement de Graphite + Grafana](../../images/monitoring-dasboard-benchmark/Schema_graphite+grafana.png)](https://graphiteapp.org/)
+[![Schéma descriptif du fonctionnement de Graphite + Grafana](../images/monitoring-dasboard-benchmark/Schema_graphite+grafana.png)](https://graphiteapp.org/)
 - [**Graphite**](https://graphiteapp.org/) : Logiciel de stockage et de gestion de données temporelles modulaire.
 - [**Carbon**](https://graphite.readthedocs.io/en/latest/carbon-daemons.html) : Composant principale de [**Graphite**](https://graphiteapp.org/) permettant la reception et la gestion des métriques collectées. Sa compatibilité avec **collectd** nous permet de nous passer d'utilitaire externe.
 - [**Whisper**](https://graphite.readthedocs.io/en/latest/whisper.html) : Composant de [**Graphite**](https://graphiteapp.org/) fournissant le stockage de données temporelles. (peut être remplacé par d'autres technologies si besoin)
@@ -46,10 +46,10 @@ tags:
 ### Performances
 
   - **CPU** : 
-    - [Graphique CPU de Graphite + Grafana](../../images/monitoring-dasboard-benchmark/graphite+grafana_cpu_usage.png)
+    - [Graphique CPU de Graphite + Grafana](../images/monitoring-dasboard-benchmark/graphite+grafana_cpu_usage.png)
     - Graphite + Grafana semble être peu gourmand en CPU. On observe une utilisation moyenne de **16%** du CPU. De plus, son utilisation est stable dans le temps malgré une légère augmentation.
   - **RAM** :
-    - [Graphique RAM de Graphite + Grafana](../../images/monitoring-dasboard-benchmark/graphite+grafana_memory_usage.png)
+    - [Graphique RAM de Graphite + Grafana](../images/monitoring-dasboard-benchmark/graphite+grafana_memory_usage.png)
     - Graphite + Grafana semble être peu gourmand en RAM. On observe une utilisation moyenne de **3,88%** de la RAM. De plus, son utilisation est stable dans le temps malgré une très légère augmentation.
 
 ### Conclusion

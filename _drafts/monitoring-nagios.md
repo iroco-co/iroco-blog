@@ -13,7 +13,7 @@ tags:
 
 ## Présentation
 
-[![Exemple de dashboard de Grafana](../../images/monitoring-dasboard-benchmark/Pres_nagios.png)](https://www.nagios.org/)
+[![Exemple de dashboard de Grafana](../images/monitoring-dasboard-benchmark/Pres_nagios.png)](https://www.nagios.org/)
 (Nous n'avons pas trouvé d'option open-source pour un dashboard moderne de Nagios. Nous sommes donc resté sur l'interface disponible depuis le docker officiel de Nagios)
   - **Description** : Né en 1999, Nagios s’appuie sur une configuration textuelle (nombreux fichiers de conf) avec un noyau central et un vaste écosystème de plugins pour surveiller les services réseau, les hôtes et équipements. Originellement open-source, il est aujourd'hui partiellement open-source (licence GPLv2) avec des plugins payants. Il est souvent utilisé dans les entreprises pour sa robustesse et sa fiabilité, mais son interface web est vieillissante et peu intuitive. Il est compatible avec un grand nombre de logiciels différents, mais nécessite une configuration complexe pour fonctionner correctement. 
 
@@ -23,7 +23,7 @@ tags:
 
 ## Structure
 
-[![Schéma descriptif du fonctionnement de Nagios](../../images/monitoring-dasboard-benchmark/Schema_nagios.png)](https://www.nagios.org/)
+[![Schéma descriptif du fonctionnement de Nagios](../images/monitoring-dasboard-benchmark/Schema_nagios.png)](https://www.nagios.org/)
 
   - **Nagios-Core** : Gère la surveillance des métriques, les utilisateurs et les notifications. Fournie l'interface web.
   - **Nagiosgraph** : Utilise **RRDTool** pour stocker les données en séries temporelles et générer des graphiques.
@@ -51,10 +51,10 @@ tags:
 ### Performances
 
   - **CPU** : 
-    - [Graphique CPU de Nagios](../../images/monitoring-dasboard-benchmark/nagios_cpu_usage.png)
+    - [Graphique CPU de Nagios](../images/monitoring-dasboard-benchmark/nagios_cpu_usage.png)
     - Nagios semble être peu gourmand en CPU. On observe une utilisation moyenne de **24%** du CPU. De plus, son utilisation est stable dans le temps, ce qui est un bon point pour la fiabilité de l'outil.
   - **RAM** :
-    - [Graphique RAM de Nagios](../../images/monitoring-dasboard-benchmark/nagios_memory_usage.png)
+    - [Graphique RAM de Nagios](../images/monitoring-dasboard-benchmark/nagios_memory_usage.png)
     - Nagios semble être peu gourmand en RAM. On observe une utilisation moyenne de **3,52%** de la RAM. De plus, son utilisation est stable dans le temps, malgré une très légère augmentation au cours du temps.
 
 ### Conclusion
