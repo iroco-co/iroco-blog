@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Benchmark de différents outils de monitoring dashboard
+title: Benchmark monitoring - Graphite + Grafana
 author:
   display_name: Iroco
 categories:
@@ -39,10 +39,10 @@ tags:
 
 ### Performances
   - **CPU** : 
-    [![Graphique CPU de Graphite + Grafana](../../images/monitoring-dasboard-benchmark/graphite+grafana_cpu_usage.png)]()
+    - [![Graphique CPU de Graphite + Grafana](../../images/monitoring-dasboard-benchmark/graphite+grafana_cpu_usage.png)]()
     - Graphite + Grafana semble être peu gourmand en CPU. On observe une utilisation moyenne de **16%** du CPU. De plus, son utilisation est stable dans le temps malgré une légère augmentation.
   - **RAM** :
-    [![Graphique RAM de Graphite + Grafana](../../images/monitoring-dasboard-benchmark/graphite+grafana_memory_usage.png)]()
+    - [![Graphique RAM de Graphite + Grafana](../../images/monitoring-dasboard-benchmark/graphite+grafana_memory_usage.png)]()
     - Graphite + Grafana semble être peu gourmand en RAM. On observe une utilisation moyenne de **3,88%** de la RAM. De plus, son utilisation est stable dans le temps malgré une très légère augmentation.
 
 ### Conclusion

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Benchmark de différents outils de monitoring dashboard
+title: Benchmark monitoring - Conclusion
 author:
   display_name: Iroco
 categories:
@@ -23,7 +23,7 @@ Chaque graphique ci-dessous représente la moyenne des mesures prises toutes les
   
 ### RAM
 [![Graphique RAM de tous les outils](../../images/monitoring-dasboard-benchmark/graph_memory_usage.png)]()
-- Concernant la RAM, **Zabbix** est encore l'outil le plus gourmand avec une moyenne de **4,67%** d'utilisation RAM. La différence est moins marquée que pour l'utilisation CPU avec **Nagios** à **3,52%** et **Graphite + Grafana** qui a une moyenne de **3,88%**d'utilisation RAM. La mesure témoin donne **3,51%** d'utilisation sans outils en fonctionnement, ce qui nous donne une
+- Concernant la RAM, **Zabbix** est encore l'outil le plus gourmand avec une moyenne de **4,67%** d'utilisation RAM. La différence est moins marquée que pour l'utilisation CPU avec **Nagios** à **3,52%** et **Graphite + Grafana** qui a une moyenne de **3,88%** d'utilisation RAM. La mesure témoin donne **3,51%** d'utilisation sans outils en fonctionnement, ce qui nous donne une
 approximation à:
   - **Zabbix** : **1,59%** d'utilisation RAM
   - **Nagios** : **0,01%** d'utilisation RAM 

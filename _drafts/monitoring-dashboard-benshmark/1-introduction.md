@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Benchmark de différents outils de monitoring dashboard
+title: Benchmark monitoring - Introduction
 author:
   display_name: Iroco
 categories:

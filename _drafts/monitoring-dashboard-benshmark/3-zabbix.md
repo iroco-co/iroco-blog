@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Benchmark de différents outils de monitoring dashboard
+title: Benchmark monitoring - Zabbix
 author:
   display_name: Iroco
 categories:
@@ -41,10 +41,10 @@ tags:
 
 ### Performances
   - **CPU** : 
-    [![Graphique CPU de Zabbix](../../images/monitoring-dasboard-benchmark/zabbix_cpu_usage.png)]()
+    - [![Graphique CPU de Zabbix](../../images/monitoring-dasboard-benchmark/zabbix_cpu_usage.png)]()
     - Zabbix semble être très gourmand en CPU. On observe de très fortes variations de l'utilisation du CPU, avec des pics à plus de 200% d'utilisation. La moyenne d'utilisation du CPU est de **160%**.
   - **RAM** :
-    [![Graphique RAM de Zabbix](../../images/monitoring-dasboard-benchmark/zabbix_memory_usage.png)]()
+    - [![Graphique RAM de Zabbix](../../images/monitoring-dasboard-benchmark/zabbix_memory_usage.png)]()
     - Zabbix semble être peu gourmand en RAM. On observe une utilisation moyenne de **4,67%** de la RAM. Cependant, on observe une légère augmentation de l'utilisation de la RAM au fil du temps, ce qui peut être dû à la gestion des données dans la base de données. Cela pourrait causer des problèmes de performance à long terme.
 
 ### Conclusion

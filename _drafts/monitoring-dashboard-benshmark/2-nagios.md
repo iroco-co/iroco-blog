@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Benchmark de différents outils de monitoring dashboard
+title: Benchmark monitoring - Nagios
 author:
   display_name: Iroco
 categories:
@@ -44,10 +44,10 @@ tags:
 
 ### Performances
   - **CPU** : 
-    [![Graphique CPU de Nagios](../../images/monitoring-dasboard-benchmark/nagios_cpu_usage.png)]()
+    - [![Graphique CPU de Nagios](../../images/monitoring-dasboard-benchmark/nagios_cpu_usage.png)]()
     - Nagios semble être peu gourmand en CPU. On observe une utilisation moyenne de **24%** du CPU. De plus, son utilisation est stable dans le temps, ce qui est un bon point pour la fiabilité de l'outil.
   - **RAM** :
-  - [![Graphique RAM de Nagios](../../images/monitoring-dasboard-benchmark/nagios_memory_usage.png)]()
+    - [![Graphique RAM de Nagios](../../images/monitoring-dasboard-benchmark/nagios_memory_usage.png)]()
     - Nagios semble être peu gourmand en RAM. On observe une utilisation moyenne de **3,52%** de la RAM. De plus, son utilisation est stable dans le temps, malgré une très légère augmentation au cours du temps.
 
 ### Conclusion
