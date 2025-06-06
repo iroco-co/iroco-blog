@@ -31,8 +31,8 @@ tags:
 - **Fichiers de configuration** : (Graphite)
   - [**/opt/graphite/conf/storage-schemas.conf**](https://github.com/iroco-co/bench-monitoring-dashboard/blob/main/graphite/conf/storage-schemas.conf) : Fichier de configuration des schémas de stockage. M'a permis de configurer la gestion de la rétention des données envoyées par Collectd.
 - **Interface Web / BDD** : (Grafana)
-  - [**Data Source**](http://localhost:3000/connections/datasources) : J'ai du ajouter une source de données Graphite dans Grafana. Cela permet à Grafana de se connecter à Graphite et d'explorer les données envoyées par Collectd.
-  - [**Dashboard**](http://localhost:3000/dashboards) : J'ai créé un dashboard pour visualiser les données collectées par Collectd. J'ai du configurer chaque graphique pour qu'il utilise les données envoyées par Collectd. Grafana permet d'explorer automatiquement les métriques disponibles dans Graphite, ce qui simplifie la création de graphiques.
+  - [**Data Source**](http://localhost:3000/connections/datasources) : Nous avons du ajouter une source de données Graphite dans Grafana. Cela permet à Grafana de se connecter à Graphite et d'explorer les données envoyées par Collectd.
+  - [**Dashboard**](http://localhost:3000/dashboards) : Nous avons créé un dashboard pour visualiser les données collectées par Collectd. Nous avons du configurer chaque graphique pour qu'il utilise les données envoyées par Collectd. Grafana permet d'explorer automatiquement les métriques disponibles dans Graphite, ce qui simplifie la création de graphiques.
 
 ## Résultats
 ### Observations
@@ -40,10 +40,10 @@ tags:
 
 ### Performances
   - **CPU** : 
-    - [![Graphique CPU de Graphite + Grafana](../../images/monitoring-dasboard-benchmark/graphite+grafana_cpu_usage.png)]()
+    - [Graphique CPU de Graphite + Grafana](../../images/monitoring-dasboard-benchmark/graphite+grafana_cpu_usage.png)
     - Graphite + Grafana semble être peu gourmand en CPU. On observe une utilisation moyenne de **16%** du CPU. De plus, son utilisation est stable dans le temps malgré une légère augmentation.
   - **RAM** :
-    - [![Graphique RAM de Graphite + Grafana](../../images/monitoring-dasboard-benchmark/graphite+grafana_memory_usage.png)]()
+    - [Graphique RAM de Graphite + Grafana](../../images/monitoring-dasboard-benchmark/graphite+grafana_memory_usage.png)
     - Graphite + Grafana semble être peu gourmand en RAM. On observe une utilisation moyenne de **3,88%** de la RAM. De plus, son utilisation est stable dans le temps malgré une très légère augmentation.
 
 ### Conclusion

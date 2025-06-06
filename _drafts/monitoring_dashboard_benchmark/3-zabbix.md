@@ -27,11 +27,11 @@ tags:
 
 ## Configuration
 - **Interface Web / BDD** :
-  - [**Data Collection/Hosts**](http://localhost/zabbix.php?action=host.list) : J'ai du créer un hôte pour mon serveur de test.
-  - **Data Collection/Hosts/items** : J'ai du créer des items pour chaque métrique que je voulais surveiller (CPU, RAM, Réseau). J'ai du configurer chaque item pour qu'il utilise le type de données **Zabbix trapper** et le type de données **Collectd**. Cela permet à Zabbix de collecter les données envoyées par Collectd.
-  - [**Dashboard**](http://localhost/zabbix.php?action=dashboard.view): J'ai créé un graph par groupe de métriques (CPU, RAM, Réseau; Disk File) pour visualiser les données collectées par Collectd. J'ai du configurer chaque graphique pour qu'il utilise les items que j'ai créés précédemment.
+  - [**Data Collection/Hosts**](http://localhost/zabbix.php?action=host.list) : Nous avons du créer un hôte pour mon serveur de test.
+  - **Data Collection/Hosts/items** : Nous avons du créer des items pour chaque métrique que nous voulions surveiller (CPU, RAM, Réseau). Nous avons du configurer chaque item pour qu'il utilise le type de données **Zabbix trapper** et le type de données **Collectd**. Cela permet à Zabbix de collecter les données envoyées par Collectd.
+  - [**Dashboard**](http://localhost/zabbix.php?action=dashboard.view): Nous avons créé un graph par groupe de métriques (CPU, RAM, Réseau; Disk File) pour visualiser les données collectées par Collectd. Nous avons du configurer chaque graphique pour qu'il utilise les items que nous avons créés précédemment.
 - **Utilitaire tiers**: 
-  - J'ai du installer l'utilitaire [**zabbix-sender**](https://www.zabbix.com/documentation/current/en/manpages/zabbix_sender) pour envoyer les données de Collectd à Zabbix. Cet utilitaire permet d'envoyer des données à Zabbix en utilisant le protocole Zabbix trapper.
+  - Nous avons du installer l'utilitaire [**zabbix-sender**](https://www.zabbix.com/documentation/current/en/manpages/zabbix_sender) pour envoyer les données de Collectd à Zabbix. Cet utilitaire permet d'envoyer des données à Zabbix en utilisant le protocole Zabbix trapper.
 - **Création de script**:
   - Il m'a également été nécessaire de créer un script [**zabbix-sender.sh**](https://github.com/iroco-co/bench-monitoring-dashboard/blob/main/src/zabbix-sender.sh) qui convertit les données de Collectd en un format que [**zabbix-sender**](https://www.zabbix.com/documentation/current/en/manpages/zabbix_sender) peut comprendre. Ce script est exécuté par collectd à chaque fois que les datas sont mesurés et fait appel [**zabbix-sender**](https://www.zabbix.com/documentation/current/en/manpages/zabbix_sender).
 
@@ -42,10 +42,10 @@ tags:
 
 ### Performances
   - **CPU** : 
-    - [![Graphique CPU de Zabbix](../../images/monitoring-dasboard-benchmark/zabbix_cpu_usage.png)]()
+    - [Graphique CPU de Zabbix](../../images/monitoring-dasboard-benchmark/zabbix_cpu_usage.png)
     - Zabbix semble être très gourmand en CPU. On observe de très fortes variations de l'utilisation du CPU, avec des pics à plus de 200% d'utilisation. La moyenne d'utilisation du CPU est de **160%**.
   - **RAM** :
-    - [![Graphique RAM de Zabbix](../../images/monitoring-dasboard-benchmark/zabbix_memory_usage.png)]()
+    - [Graphique RAM de Zabbix](../../images/monitoring-dasboard-benchmark/zabbix_memory_usage.png)
     - Zabbix semble être peu gourmand en RAM. On observe une utilisation moyenne de **4,67%** de la RAM. Cependant, on observe une légère augmentation de l'utilisation de la RAM au fil du temps, ce qui peut être dû à la gestion des données dans la base de données. Cela pourrait causer des problèmes de performance à long terme.
 
 ### Conclusion
