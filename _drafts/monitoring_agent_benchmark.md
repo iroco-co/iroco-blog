@@ -7,6 +7,7 @@ categories:
 - Sous le capot
 tags:
 - benchmark
+- monitoring
 ---
 # Introduction
 ## Contexte et enjeux

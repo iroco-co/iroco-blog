@@ -7,6 +7,7 @@ categories:
 - Sous le capot
 tags:
 - benchmark
+- monitoring
 ---
 # Nagios
 
