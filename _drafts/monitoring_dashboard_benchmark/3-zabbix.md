@@ -27,7 +27,7 @@ tags:
 
 ## Configuration
 - **Interface Web / BDD** :
-  - [**Data Collection/Hosts**](http://localhost/zabbix.php?action=host.list) : Nous avons du créer un hôte pour mon serveur de test.
+  - [**Data Collection/Hosts**](http://localhost/zabbix.php?action=host.list) : Nous avons du créer un hôte pour notre serveur de test.
   - **Data Collection/Hosts/items** : Nous avons du créer des items pour chaque métrique que nous voulions surveiller (CPU, RAM, Réseau). Nous avons du configurer chaque item pour qu'il utilise le type de données **Zabbix trapper** et le type de données **Collectd**. Cela permet à Zabbix de collecter les données envoyées par Collectd.
   - [**Dashboard**](http://localhost/zabbix.php?action=dashboard.view): Nous avons créé un graph par groupe de métriques (CPU, RAM, Réseau; Disk File) pour visualiser les données collectées par Collectd. Nous avons du configurer chaque graphique pour qu'il utilise les items que nous avons créés précédemment.
 - **Utilitaire tiers**: 

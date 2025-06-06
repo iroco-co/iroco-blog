@@ -29,7 +29,7 @@ tags:
 
 ## Configuration
 - **Fichiers de configuration** : (Graphite)
-  - [**/opt/graphite/conf/storage-schemas.conf**](https://github.com/iroco-co/bench-monitoring-dashboard/blob/main/graphite/conf/storage-schemas.conf) : Fichier de configuration des schémas de stockage qui nous a permis de configurer la gestion de la rétention des données envoyées par Collectd.
+  - [**/opt/graphite/conf/storage-schemas.conf**](https://github.com/iroco-co/bench-monitoring-dashboard/blob/main/graphite/conf/storage-schemas.conf) : Fichier de configuration des schémas de stockage pour la configuration de la gestion de la rétention des données envoyées par Collectd.
 - **Interface Web / BDD** : (Grafana)
   - [**Data Source**](http://localhost:3000/connections/datasources) : Nous avons du ajouter une source de données Graphite dans Grafana. Cela permet à Grafana de se connecter à Graphite et d'explorer les données envoyées par Collectd.
   - [**Dashboard**](http://localhost:3000/dashboards) : Nous avons créé un dashboard pour visualiser les données collectées par Collectd. Nous avons du configurer chaque graphique pour qu'il utilise les données envoyées par Collectd. Grafana permet d'explorer automatiquement les métriques disponibles dans Graphite, ce qui simplifie la création de graphiques.
