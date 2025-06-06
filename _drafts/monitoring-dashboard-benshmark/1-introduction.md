@@ -17,8 +17,16 @@ Nous avons choisi de nous concentrer sur deux outils de monitoring : **Collectd*
 Nous avons fait le choix d'utiliser la version dockerisé officielle des outils de monitoring pour simplifier la configuration et l'installation. Cela nous permet de tester chaque outil dans un environnement isolé et de garantir que les résultats sont comparables. De plus, il existe déjà des images Docker officielles pour chacun de ces outils, ce qui permet de gagner du temps lors de la configuration initiale.
 
 
-## Les outils à étudier
+## Les solutions à étudier
 
+Chaque solution de monitoring doit avoir les caractéristiques suivantes :
+- Être compatible avec **Collectd** ou **Vector** pour la collecte de métriques.
+- Fournir une **interface web**.
+- Permettre la création de **graphiques** personnalisés et donc de **stocker les données temporelles**.
+- Être capable de gérer des **alertes**.
+- Être capable de gérer des **utilisateurs** et des permissions.
+- Être **open-source** ou avoir une version open-source.
+  
 Nous nous sommes concentrés sur trois solutions de dashboard open-source, qui sont souvent utilisées pour visualiser les données collectées par des outils de monitoring :
 - **Nagios**
 - **Zabbix**
