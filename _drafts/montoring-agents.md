@@ -10,16 +10,33 @@ tags:
 - monitoring
 ---
 # Introduction
+
 ## Contexte et enjeux
 
-Afin de faire évoluer le produit Iroco dans une optique de numérique durable et responsable, nous devons choisir un outil de monitoring qui sera la base de décisions structurelles à long terme. Ce choix n'est pas anodin, puisqu'il impactera directement l'avenir du développement de l'application. Notre démarche se fonde sur des critères objectifs et mesurables afin de garantir une décision éclairée.
+Afin de faire évoluer le produit Iroco dans une optique de numérique durable et responsable, nous devons choisir un outil de monitoring qui sera la base de décisions structurelles à long terme. Ce choix n'est pas anodin, puisqu'il impactera directement l'avenir de l'architecture de la plateforme.
 
-## Les outils en compétition
+### Push v.s. Pull
+
+Un système de monitoring peut aller chercher ses données régulièrement (*polling*) de manière centralisée sur chaque machine ou être en attente des données envoyées par chaque serveur. Dans le premier cas, n parle de système de monitoring en mode *pull* et dans le deuxième cas en mode push.
+Il est aussi possible de faire les deux en mème temps.
+Pour plus de détails: [Pull or Push: How to Select Monitoring Systems?](https://www.alibabacloud.com/blog/pull-or-push-how-to-select-monitoring-systems_599007)
+
+Les tests de cette série d'articles sont plus orientés **push** pour plusieurs raisons: 
+
+- Nous préférons l'aspect *bottom-up* de la démarche push en adaptant pour chaque type de machine les évènements qui seront envoyés (serveur mail, serveur web, serveur de bdd, ... ).
+- Il existe une multitude de moyens et d'interlocuteurs différents pour envoyer les évènements les plus pertinents à l'instant où ils se produisent (reverse proxy, serveur backend, système d'exploitation, ... ).
+- Dans les cas où le *pull* est le plus approprié, rien ne l’empêche d'exposer des sondes (SNMP, JMX, ... ), et d'aller lire dessus de manière centralisée.
+
+C'est une orientation relative à notre contexte de petite structure avec une stack sans orchestrateur de docker (Kubernetes). La question de push ou pull est complexe et cela reste au final une question de compromis. Et qui sait? si vous envisagez un système pull, vous trouverez peut-être dans cette série d'article des informations qui vous intéresseront.
+
+Si vous avez des remarques, questions ou recommandations, nous sommes preneurs de vos retours. 
+
+## Les outils étudiés
 
 Nous nous sommes concentrés sur deux solutions de monitoring :
 
 - **Collectd** : Réputé pour sa légèreté et sa simplicité d'utilisation (*boring tech*).  
-- **Vector** : Un outil plus récent et complet, offrant potentiellement plus de fonctionnalités (*hipe tech*).
+- **Vector** : Un outil plus récent et complet, offrant potentiellement plus de fonctionnalités.
 
 ## Objectifs du benchmark
 
@@ -31,20 +48,31 @@ Notre benchmark vise principalement à identifier l'outil le moins consommateur 
 
 L'objectif est de tester chaque outil sur ces trois métriques afin de déterminer lequel offre le meilleur compromis entre performance et consommation.
 
+Nous commençons par l'agent car c'est ce service qui sera répliqué sur chaque machine et qui aura donc le plus d'impact sur la consommation globale.
+
 ## Démarche méthodologique
 
 Afin de tester l'utilisation de l'outil de monitoring, nous devons simuler une situation d'utilisation réelle.
 
-Nous avons donc lancé une instance observatrice de l'outil, un agent chargé de collecter et envoyer des données, ainsi qu'un agrégateur chargé de les recevoir. Nous avons choisi de réaliser le benchmark uniquement sur l'instance agent, car c'est celle qui devra être répliquée sur chaque machine et qui aura donc le plus d'impact sur la consommation globale.
+Nous avons utilisé deux machines différentes:
+
+- Une qui fait tourner l'agent chargé de collecter et envoyer des données.
+- Une machine qui fait tourner l'agrégateur qui reçoit les données. 
+  
+Nous plaçons les sondes logicielles suivantes:
+  - CPU: avec les statistiques système dans `/proc/stat`
+  - Mémoire: avec la commande `free`
+  - Réseau: avec la commande `sar`
+
+Pour plus de détails voir le script [suivant](https://github.com/iroco-co/monitoring-benchmark/blob/main/src/collect_data.sh).
 
 ### Mise en place du test
 
-Pour réaliser ce benchmark, nous avons besoin de deux machines distinctes :  
-1. Une pour les **agents**, sur laquelle sera effectué le benchmark.  
-2. Une pour les **agrégateurs**, qui recevra les données envoyées.  
+Pour l’exécution de l'agent, nous avons utilisé un laptop *Dell Latitude 7490* avec *32 Go de RAM* sous *Ubuntu 24.04.2 LTS*.
 
-Nous ne cherchons pas introduire de la charge avec un injecteur, mais simplement à observer l'impact du collecteur de metrique sur la machine en relative isolation.
 Nous avons choisi **rrdtool** pour l'historisation des données de bench collectées car il permet une collecte simple et très optimisée des données, minimisant ainsi son impact sur les résultats. De plus, il intègre un outil de génération de graphiques nativement.
+
+Nous n'induisons pas de charge avec un injecteur, mais nous observons l'impact du collecteur de métriques sur la machine en isolation (avec les services de base de l'OS).
 
 ### Conditions du test
 
@@ -60,17 +88,15 @@ De plus, nous avons enregistré les données **5 secondes avant et 5 secondes ap
 
 ### Déroulement du benchmark
 
-Pour assurer une évaluation rigoureuse et reproductible, nous avons mis en place un benchmark complet basé sur plusieurs scripts Bash :
+Pour assurer la reproductibilité des observations, nous avons mis en place le système de scripte suivant :
 
-- **Configuration des agents** : Deux scripts distincts configurent respectivement Collectd et Vector en tant qu'agents.  
-- **Lancement des agrégateurs** : Deux scripts distincts exécutent et lancent Collectd et Vector en tant qu'agrégateurs (ces scripts doivent être lancés sur une autre machine).  
-- **Collecte des données** : Un script dédié assure la collecte des métriques avec *rrdtool*.  
+- **Configuration des agents** : Deux scripts distincts configurent respectivement [Collectd](https://github.com/iroco-co/monitoring-benchmark/blob/main/src/collectd_config.sh) et [Vector](https://github.com/iroco-co/monitoring-benchmark/blob/main/src/vector_config.sh) en tant qu'agents.  
+- **Lancement des agrégateurs** : Deux scripts distincts exécutent et lancent [Collectd](https://github.com/iroco-co/monitoring-benchmark/blob/main/src/collectd_aggregator.sh) et [Vector](https://github.com/iroco-co/monitoring-benchmark/blob/main/src/vector_aggregator.sh) en tant qu'agrégateurs (ces scripts doivent être lancés sur une autre machine).  
+- **Collecte des données** : Un [script dédié](https://github.com/iroco-co/monitoring-benchmark/blob/main/src/collect_data.sh) assure la collecte des métriques avec [*rrdtool*](https://oss.oetiker.ch/rrdtool/).  
 - **Génération des graphiques** :  
-  - Un premier script génère des graphiques pour chaque métrique de chaque outil.  
-  - Un second script superpose les courbes des deux outils pour une même métrique sur un seul graphique.  
-- **Déroulé du benchmark** : Un script principal orchestre l'ensemble du processus, en enchaînant les étapes de configuration, de collecte et de génération des graphiques.  
-
-Les graphiques ainsi générés offrent une visualisation claire des performances de chaque outil, facilitant l'analyse des résultats et la prise de décision finale.
+  - Un [premier script](https://github.com/iroco-co/monitoring-benchmark/blob/main/src/generate_graph.sh) génère des graphiques pour chaque métrique de chaque outil.  
+  - Un [second script](https://github.com/iroco-co/monitoring-benchmark/blob/main/src/agregate_graph.sh) superpose les courbes des deux outils pour une même métrique sur un seul graphique.  
+- **Déroulé du benchmark** : Un [script principal](https://github.com/iroco-co/monitoring-benchmark/blob/main/src/benchmark.sh) orchestre l'ensemble du processus, en enchaînant les étapes de configuration, de collecte et de génération des graphiques.  
 
 ---
 
@@ -78,45 +104,41 @@ Les graphiques ainsi générés offrent une visualisation claire des performance
 
 ## Présentation
 
-Vector est un framework de monitoring performant écrit en Rust. Il offre une très grande configurabilité et est compatible avec la plupart des nouvelles technologies (ex : Prometheus, Elasticsearch).
+Vector est un framework de monitoring performant écrit en Rust. Il offre une très grande configurabilité et est compatible avec la plupart des nouvelles technologies (ex : Prometheus, Elasticsearch, GrafanaCloud).
 
 Il permet à la fois de collecter, filtrer, envoyer et agréger les données, ce qui en fait un outil très complet.
-
-Nous avons également dû filtrer les données envoyées afin de ne transmettre que les informations pertinentes.
 
 Nous avions l'intuition que cette forte configurabilité et ce grand nombre de fonctionnalités auront nécessairement un impact sur les performances.
 
 ## Configuration
 
-Afin d'être au plus proche du fonctionnement de Collectd, nous avons configuré Vector pour une communication en UDP.
+Afin d'être au plus proche du fonctionnement de Collectd, nous avons [configuré Vector](https://github.com/iroco-co/monitoring-benchmark/blob/main/src/vector_config.sh) pour une communication en UDP.
 
-Nous devions également choisir un type d'encodage des données. Vector propose plusieurs options, et nous avons décidé de tester les performances de trois encodages standards : **CSV**, **Protobuf** et **JSON**.
+Nous devions également choisir un type d'encodage des données. Vector en propose, nous avons décidé de tester les performances de trois encodages standards : **CSV**, **Protobuf** et **JSON**.
 
 ## Résultats
 
-Nous avons réalisé plusieurs tests afin de nous assurer de la cohérence des résultats.
-
 ### CPU
 
-En ce qui concerne l'utilisation CPU, nous avons constaté une très faible différence entre les différents encodages, avec un léger avantage pour le format **CSV**, suivi de **Protobuf** et enfin **JSON**.
+![Graphique comparatif d'utilisation CPU](../images/monitoring-benchmark/vector/cpu_usage.png)
 
-<img src="../images/monitoring-benchmark/vector/cpu_usage.png"/>
+Nous avons constaté une très faible différence entre les différents encodages, avec un léger avantage pour le format **CSV**, suivi de **Protobuf** et enfin **JSON**.
 
 ### Mémoire
 
-En ce qui concerne l'utilisation mémoire, nous n'avons pas observé de différence significative entre les formats.
+![Graphique comparatif d'utilisation mémoire](../images/monitoring-benchmark/vector/memory_usage.png)
 
-<img src="../images/monitoring-benchmark/vector/memory_usage.png"/>
+Nous n'avons pas observé de différence significative entre les formats.
 
 ### Réseau
 
-Concernant l'utilisation réseau, nous avons observé une différence significative entre les formats. Le format **CSV** est celui qui consomme le moins de bande passante, suivi de près par **Protobuf**. Le format **JSON**, en revanche, consomme près de **trois fois plus** de bande passante que les deux autres.
+![Graphique comparatif d'utilisation réseau](../images/monitoring-benchmark/vector/network_usage.png)
 
-<img src="../images/monitoring-benchmark/vector/network_usage.png"/>
+Le format **CSV** est celui qui consomme le moins de bande passante, suivi de près par **Protobuf**. Le format **JSON**, en revanche, est **trois fois plus** intensif.
 
-### Conclusion
+### Note
 
-Pour la configuration de Vector, le format **CSV** semble être le plus économe en bande passante et le plus performant en termes d'utilisation CPU. De plus, il est très simple à configurer et à utiliser, comparé à **Protobuf**, qui arrive en deuxième position.
+Lors de nos différentes recherches de fonctionnement et de compréhension de l'outil, il semble que vector soit plus adapté à des environments de type cloud/Kubernetes. Cela apparaît notamment sur la liste des [*sinks*](https://vector.dev/docs/reference/configuration/sinks/) (destinations/transports) de Vector.
 
 ---
 
@@ -124,38 +146,38 @@ Pour la configuration de Vector, le format **CSV** semble être le plus économe
 
 ## Présentation
 
-Collectd est un outil de monitoring très léger et simple d'utilisation. Il est largement utilisé dans le monde de l'open source et bénéficie d'une documentation complète. Écrit en C, il est particulièrement performant tout en restant facile à configurer et à utiliser.
+Collectd est un outil de monitoring très léger et simple d'utilisation. Il est largement utilisé dans le monde de l'open source et bénéficie d'une documentation complète. Écrit en C, il est particulièrement performant.
 
 ## Configuration
 
-La configuration de Collectd est plus simple que celle de Vector. Il utilise son propre système d'encodage de données, optimisé pour la performance. Les seules configurations nécessaires ont été de choisir les types de données à envoyer ainsi que l'intervalle d'envoi des données (1 par seconde).
+Contrairement à Vector, Collectd utilise son propre système d'encodage de données, optimisé pour la performance. Les seules configurations nécessaires ont été de choisir les types de données à envoyer ainsi que l'intervalle d'envoi des données (1 par seconde).
 
 ## Résultats
 
-Nous avons réalisé plusieurs tests afin de nous assurer de la cohérence des résultats.
-
 ### CPU
 
-Concernant l'utilisation CPU, nous avons observé une faible différence entre Collectd et Vector en format CSV, avec un avantage pour **Collectd**, qui reste plus performant.
+![Graphique comparatif d'utilisation CPU](../images/monitoring-benchmark/collectd_vector/cpu_usage.png)
 
-<img src="../images/monitoring-benchmark/collectd_vector/cpu_usage.png"/>
+Nous avons observé une faible différence entre Collectd et Vector en format CSV, avec un léger avantage pour **Collectd**.
 
 ### Mémoire
 
-Concernant l'utilisation mémoire, nous n'avons pas observé de différence significative entre les deux outils.
+![Graphique comparatif d'utilisation mémoire](../images/monitoring-benchmark/collectd_vector/memory_usage.png)
 
-<img src="../images/monitoring-benchmark/collectd_vector/memory_usage.png"/>
+Nous n'avons pas observé de différence significative entre les deux outils.
 
 ### Réseau
 
-Concernant l'utilisation réseau, nous avons observé une différence significative entre les deux outils. **Collectd consomme beaucoup moins de bande passante que Vector en moyenne.**  
-Cela s'explique par le fait que Collectd envoie des paquets plus volumineux, contenant plus de données par paquet, mais à une fréquence moins élevée que Vector. Ce mode de fonctionnement rend le protocole plus économe en bande passante.
+![Graphique comparatif d'utilisation network](../images/monitoring-benchmark/collectd_vector/network_usage.png)
 
-<img src="../images/monitoring-benchmark/collectd_vector/network_usage.png"/>
+Le mode d'envoi de Collectd et de Vector sont différents :
+Collectd envoi les indicateurs de manière groupée. On peut le voir par les créneaux bleus. Tandis que vector envoi les données continuellement.
 
-### Conclusion
+Les moyennes montrent un léger avantage pour Collectd mais qui reste négligeable vue la quantité de donnée (~4 ko/s).
 
-Collectd s'avère être le plus performant en termes d'utilisation CPU et de bande passante. Il est également très simple à configurer et à utiliser.  
+## Note
+
+Collectd est un système très versatile. La communauté a [créé plus de 100 plugins](https://github.com/collectd/collectd/wiki/Table-of-Plugins) qui lui permettent de récupérer des métriques pour grand nombre de services et de protocoles.
 
 ---
 
@@ -167,34 +189,38 @@ Ce tableau récapitulatif synthétise les principaux avantages et inconvénients
 |---------------------------------------|--------------------------------------------|-----------------------------------------------|
 | **Communauté**                        | Large                                      | Moyenne                                       |
 | **Documentation**                     | Complète                                   | Complète                                      |
-| **Versatilité**                       | Moyenne                                    | Élevée                                        |
-| **Simplicité d'installation**         | Élevée (installé via apt)                    | Bonne (installation par script curl)          |
-| **Configuration**                     | Petits projets → Simple / Gros projets → Complexe | Petits projets → Moyenne / Gros projets → Moyenne |
+| **Versatilité**                       | Élevé pour la récolte de métriques         | Élevé pour traitement des flux de métriques                                        |
+| **Simplicité d'installation**         | Élevée (installé via apt)                  | Bonne (installation par script curl)          |
+| **Configuration**                     | Petits projets → Simple / Gros projets → Complexe | Petits projets → Moyenne / Gros projets → Bonne |
 | **Courbe d'apprentissage**            | Faible                                     | Moyenne                                       |
 | **Rôles Ansible existants**           | Oui                                        | Oui                                           |
-| **Compatibilité avec d'autres outils**| Moyenne                                    | Élevée                                        |
+| **Compatibilité avec d'autres outils**| Élevé                                    | Élevé (orienté cloud)                                        |
 
 ## Versatilité (fonctionnalités, paramétrabilité)
 
-- **Collectd** reste un outil très simple et robuste. Il comporte cependant un grand nombre de plugins qui permettent de l'adapter à de nombreux cas d'utilisation. Toutefois, l'utilisation de ces plugins peut rendre la configuration et la maintenabilité plus complexes.
+- **Collectd** reste un outil très simple et robuste. Il comporte cependant un grand nombre de plugins qui permettent de l'adapter à de nombreux cas d'utilisation. Toutefois, l'utilisation de ces plugins peut rendre la configuration et la maintenabilité plus complexes étant donné que chaque serveur aura une collecte différente.
 - **Vector** offre une très grande configurabilité. Il a été possible de configurer le protocole de communication, le format des données, les filtres, etc. De plus, il possède son propre langage, le VRL (Vector Remap Language), qui permet de parser, filtrer et transformer les données de manière très précise.
 
 ## Simplicité d'installation
 
 - **Collectd** est très simple à installer car il est directement géré par le gestionnaire de paquets (apt). Cependant, il est nécessaire d'installer les plugins pour des cas d'utilisation spécifiques.
-- **Vector** est légèrement plus complexe à installer. Il s'installe via une requête curl pour télécharger le script d'installation, ce qui permet de l'installer en une seule commande.
+- **Vector** s'installe via une requête curl pour télécharger le script d'installation.
 
 ## Simplicité de configuration
 
-- **Collectd** est très simple à configurer lorsque le nombre de plugins reste limité. La complexité de la configuration augmente avec le nombre de plugins utilisés.
-- **Vector** est plus complexe à configurer en raison de son importante versatilité, mais il offre une très grande flexibilité nativement. Il permet de configurer le protocole de communication, le format des données, les filtres, etc.
+- **Collectd** est simple à configurer. Cependant, chaque plugin a sa propre configuration ce qui augmente la combinatoire des type de serveur/plugins.
+- **Vector** offre une très grande flexibilité nativement. Il permet de configurer le protocole de communication, le format des données, les filtres, etc.
 
 ## Courbe d'apprentissage
 
-- Selon notre expérience, **Collectd** est plus simple à prendre en main. Moins de recherches ont été nécessaires pour comprendre son fonctionnement et la configuration par défaut des protocoles de communication convenait à nos besoins.
-- Pour **Vector**, il a été nécessaire d'effectuer des recherches plus approfondies afin de développer une configuration correspondant à nos besoins.
+- **Collectd** est plus simple à prendre en main. Moins de recherches ont été nécessaires pour comprendre son fonctionnement et la configuration par défaut des protocoles de communication convenait à nos besoins.
+- Pour **Vector**, la création d'une configuration correspondant à nos besoins nous a demandé plus d'efforts.
 
 ## Compatibilité avec d'autres outils
 
 - **Collectd** s'appuie sur une compatibilité éprouvée avec les outils traditionnels de surveillance (Nagios, Ganglia, etc.).
 - **Vector** offre une intégration plus fluide et moderne avec de nombreux outils d'observabilité contemporains (Elasticsearch, Kafka, AWS S3, Splunk, etc.).
+
+## Notre choix
+
+Compte tenu de notre infrastructure qui n'est pas (encore?) basée sur Kubernetes, et étant donné la similarité des performances des deux outils, nous optons pour l'utilisation de l'outil Collectd.
