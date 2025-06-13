@@ -29,30 +29,31 @@ tags:
 
 ## Configuration
 
-- **Interface Web / BDD** :
-  - [**Data Collection/Hosts**](http://localhost/zabbix.php?action=host.list) : Nous avons du créer un hôte pour notre serveur de test.
-  - **Data Collection/Hosts/items** : Nous avons du créer des items pour chaque métrique que nous voulions surveiller (CPU, RAM, Réseau). Nous avons du configurer chaque item pour qu'il utilise le type de données **Zabbix trapper** et le type de données **Collectd**. Cela permet à Zabbix de collecter les données envoyées par Collectd.
-  - [**Dashboard**](http://localhost/zabbix.php?action=dashboard.view): Nous avons créé un graph par groupe de métriques (CPU, RAM, Réseau; Disk File) pour visualiser les données collectées par Collectd. Nous avons du configurer chaque graphique pour qu'il utilise les items que nous avons créés précédemment.
+- **Interface Web / BDD** (*Zabbix peut également être configuré via des fichiers de config*):
+  - [**Data Collection/Hosts**](http://localhost/zabbix.php?action=host.list) : Nous avons créé un hôte pour notre serveur de test.
+  - **Data Collection/Hosts/items** : Nous avons créé des items pour chaque métrique que nous voulions surveiller (CPU, RAM, Réseau). Puis, nous avons configuré chaque item pour qu'il utilise le type de données **Zabbix trapper** et le type de données **Collectd** ce qui permet à Zabbix de collecter les données envoyées par Collectd.
+  - [**Dashboard**](http://localhost/zabbix.php?action=dashboard.view): Nous avons créé un graph par groupe de métriques (CPU, RAM, Réseau, Disk File) pour visualiser les données collectées par Collectd. Nous avons ensuite dû configurer chaque graphique pour qu'il utilise les items que nous avons créés précédemment.
 - **Utilitaire tiers**: 
-  - Nous avons du installer l'utilitaire [**zabbix-sender**](https://www.zabbix.com/documentation/current/en/manpages/zabbix_sender) pour envoyer les données de Collectd à Zabbix. Cet utilitaire permet d'envoyer des données à Zabbix en utilisant le protocole Zabbix trapper.
+  - Nous avons installé l'utilitaire [**zabbix-sender**](https://www.zabbix.com/documentation/current/en/manpages/zabbix_sender) pour envoyer les données depuis Collectd vers Zabbix. Cet utilitaire permet d'envoyer des données à Zabbix en utilisant le protocole Zabbix trapper.
 - **Création de script**:
-  - Il nous a également été nécessaire de créer un script [**zabbix-sender.sh**](https://github.com/iroco-co/bench-monitoring-dashboard/blob/main/src/zabbix-sender.sh) qui convertit les données de Collectd en un format que [**zabbix-sender**](https://www.zabbix.com/documentation/current/en/manpages/zabbix_sender) peut comprendre. Ce script est exécuté par collectd à chaque fois que les datas sont mesurés et fait appel [**zabbix-sender**](https://www.zabbix.com/documentation/current/en/manpages/zabbix_sender).
+  - Il nous a également été nécessaire de créer un script [**zabbix-sender.sh**](https://github.com/iroco-co/bench-monitoring-dashboard/blob/main/src/zabbix-sender.sh) pour convertir les données de Collectd en un format que [**zabbix-sender**](https://www.zabbix.com/documentation/current/en/manpages/zabbix_sender) peut comprendre. Ce script est exécuté par collectd à chaque fois que les datas sont mesurés.
 
 ## Résultats
 
 ### Observations 
 
-  Une première observation est qu'il n'existe pas de solution simple pour intégrer Collectd et zabbix. Cependant, il existe un utilitaire, [**zabbix-sender**](https://www.zabbix.com/documentation/current/en/manpages/zabbix_sender), qui permet d'envoyer des données de Collectd à Zabbix. Cela nécessite une configuration supplémentaire et le développement d'un script pour convertir les données de Collectd en un format que Zabbix peut comprendre. Cependant, cela permet d'utiliser Collectd pour surveiller les hôtes et les services dans Zabbix. La configuration de zabbix doit être modifiée à chaque ajout de variable observée dans Collectd.
+  Une première observation est qu'il n'existe pas de solution simple pour intégrer Collectd et zabbix. Cependant, il existe un utilitaire, [**zabbix-sender**](https://www.zabbix.com/documentation/current/en/manpages/zabbix_sender), qui le permet avec un peu de configuration. La configuration de zabbix doit être modifiée à chaque ajout de variable observée dans Collectd ce qui peut être lourd en cas d'évolution du système.
+Zabbix peut être configuré, soit via l'interface web, soit par fichier de conf ce qui le rend assez flexible aux modifications.
 
 ### Performances
 
   - **CPU** : 
-    - [Graphique CPU de Zabbix](../images/monitoring-dasboard-benchmark/zabbix_cpu_usage.png)
-    - Zabbix semble être très gourmand en CPU. On observe de très fortes variations de l'utilisation du CPU, avec des pics à plus de 200% d'utilisation. La moyenne d'utilisation du CPU est de **160%**.
+    - ![Graphique CPU de Zabbix](../images/monitoring-dasboard-benchmark/zabbix_cpu_usage.png)
+    - Zabbix semble être très gourmand en CPU. On en observe de très fortes variations, avec des pics à plus de 200%. La moyenne d'utilisation CPU est de **160%**.
   - **RAM** :
-    - [Graphique RAM de Zabbix](../images/monitoring-dasboard-benchmark/zabbix_memory_usage.png)
-    - Zabbix semble être peu gourmand en RAM. On observe une utilisation moyenne de **4,67%** de la RAM. Cependant, on observe une légère augmentation de l'utilisation de la RAM au fil du temps, ce qui peut être dû à la gestion des données dans la base de données. Cela pourrait causer des problèmes de performance à long terme.
+    - ![Graphique RAM de Zabbix](../images/monitoring-dasboard-benchmark/zabbix_memory_usage.png)
+    - Zabbix semble être peu gourmand en RAM. On en observe une utilisation moyenne de **4,67%** . Cependant, il reste une légère augmentation de l'utilisation de la RAM au fil du temps, ce qui pourrait causer des problèmes de performance à long terme. Nous soupçonnons que cela vient de la gestion des données dans la base de données.
 
 ### Conclusion
 
-Zabbix est un outil de monitoring complet et moderne, mais il est gourmand en CPU. Il nécessite une configuration supplémentaire pour intégrer Collectd, ce qui peut être une difficulté supplémentaire en ce qui concerne la maintenabilité. Mis à part cela, Zabbix reste plutôt simple à configurer. Il offre une interface web moderne et une grande flexibilité dans la configuration des graphiques et des alertes. Il est compatible avec les bases de données MySQL et PostgreSQL, ce qui permet de stocker les données de manière efficace. Il faudra cependant veiller à la gestion de la mémoire à long terme pour éviter les problèmes de performance. Zabbix est entièrement open-source, ce qui est un bon point selon nos critères.
+Zabbix est un outil de monitoring complet et moderne, mais il est gourmand en CPU. Il nécessite une configuration supplémentaire pour intégrer Collectd, ce qui peut être une difficulté supplémentaire en ce qui concerne la maintenabilité. Mis à part cela, Zabbix reste assez simple à configurer. Il offre une interface web moderne et une grande flexibilité dans la configuration des graphiques et des alertes. Il est compatible avec les bases de données MySQL et PostgreSQL, ce qui laisse le choix de la technologie de stockage. Il faudra cependant veiller à la gestion de la mémoire à long terme pour éviter les problèmes de performance. Zabbix est entièrement open-source, ce qui est un bon point selon nos critères.
