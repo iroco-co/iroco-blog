@@ -17,23 +17,23 @@ Afin de faire évoluer le produit Iroco dans une optique de numérique durable e
 
 ### Push v.s. Pull
 
-Un système de monitoring peut aller chercher ses données régulièrement (*polling*) de manière centralisée sur chaque machine ou être en attente des données envoyées par chaque serveur. Dans le premier cas, n parle de système de monitoring en mode *pull* et dans le deuxième cas en mode push.
+Un système de monitoring peut aller chercher ses données régulièrement (*polling*) de manière centralisée sur chaque machine ou être en attente des données envoyées par chaque serveur. Dans le premier cas, on parle de système de monitoring en mode *pull* et dans le deuxième cas de mode push.
 Il est aussi possible de faire les deux en mème temps.
 Pour plus de détails: [Pull or Push: How to Select Monitoring Systems?](https://www.alibabacloud.com/blog/pull-or-push-how-to-select-monitoring-systems_599007)
 
-Les tests de cette série d'articles sont plus orientés **push** pour plusieurs raisons: 
+Les tests de cette série d'articles sont plus orientés **push** pour plusieurs raisons:
 
 - Nous préférons l'aspect *bottom-up* de la démarche push en adaptant pour chaque type de machine les évènements qui seront envoyés (serveur mail, serveur web, serveur de bdd, ... ).
 - Il existe une multitude de moyens et d'interlocuteurs différents pour envoyer les évènements les plus pertinents à l'instant où ils se produisent (reverse proxy, serveur backend, système d'exploitation, ... ).
 - Dans les cas où le *pull* est le plus approprié, rien ne l’empêche d'exposer des sondes (SNMP, JMX, ... ), et d'aller lire dessus de manière centralisée.
 
-C'est une orientation relative à notre contexte de petite structure avec une stack sans orchestrateur de docker (Kubernetes). La question de push ou pull est complexe et cela reste au final une question de compromis. Et qui sait? si vous envisagez un système pull, vous trouverez peut-être dans cette série d'article des informations qui vous intéresseront.
+C'est une orientation relative à notre contexte de petite structure avec une stack sans orchestrateur docker (Kubernetes). La question de push ou pull est complexe et cela reste au final une question de compromis. Et qui sait ? si vous envisagez un système pull, vous trouverez peut-être dans cette série d'article des informations qui vous intéresseront.
 
-Si vous avez des remarques, questions ou recommandations, nous sommes preneurs de vos retours. 
+Si vous avez des remarques, questions ou recommandations, nous sommes preneurs de vos retours.
 
 ## Les outils étudiés
 
-Nous nous sommes concentrés sur deux solutions de monitoring :
+Pour les agents, nous nous sommes concentrés sur deux solutions de monitoring :
 
 - **Collectd** : Réputé pour sa légèreté et sa simplicité d'utilisation (*boring tech*).  
 - **Vector** : Un outil plus récent et complet, offrant potentiellement plus de fonctionnalités.
@@ -57,8 +57,8 @@ Afin de tester l'utilisation de l'outil de monitoring, nous devons simuler une s
 Nous avons utilisé deux machines différentes:
 
 - Une qui fait tourner l'agent chargé de collecter et envoyer des données.
-- Une machine qui fait tourner l'agrégateur qui reçoit les données. 
-  
+- Une machine qui fait tourner l'agrégateur qui reçoit les données.
+
 Nous plaçons les sondes logicielles suivantes:
   - CPU: avec les statistiques système dans `/proc/stat`
   - Mémoire: avec la commande `free`
@@ -84,7 +84,7 @@ Pour assurer l'équité des tests, les deux outils doivent réaliser des tâches
 
 Pour obtenir des résultats interprétables et identifier d'éventuelles fuites mémoire, nous avons décidé de tester les outils dans des conditions plus exigeantes que leur future utilisation en production. Ainsi, nous avons configuré l'envoi des métriques **une fois par seconde** lors des différents tests.
 
-De plus, nous avons enregistré les données **5 secondes avant et 5 secondes après** chaque test afin d'observer l'impact du démarrage de l'outil sur les graphiques.
+De plus, nous avons enregistré les données **5 secondes avant et 5 secondes après** chaque test afin d'observer l'impact du démarrage de l'outil sur les performances de la machine.
 
 ### Déroulement du benchmark
 
@@ -104,7 +104,7 @@ Pour assurer la reproductibilité des observations, nous avons mis en place le s
 
 ## Présentation
 
-Vector est un framework de monitoring performant écrit en Rust. Il offre une très grande configurabilité et est compatible avec la plupart des nouvelles technologies (ex : Prometheus, Elasticsearch, GrafanaCloud).
+Vector est un framework de monitoring performant écrit en Rust. Il offre une très grande configurabilité. Il est compatible avec la plupart des nouvelles technologies (ex : Prometheus, Elasticsearch, GrafanaCloud).
 
 Il permet à la fois de collecter, filtrer, envoyer et agréger les données, ce qui en fait un outil très complet.
 
@@ -198,8 +198,8 @@ Ce tableau récapitulatif synthétise les principaux avantages et inconvénients
 
 ## Versatilité (fonctionnalités, paramétrabilité)
 
-- **Collectd** reste un outil très simple et robuste. Il comporte cependant un grand nombre de plugins qui permettent de l'adapter à de nombreux cas d'utilisation. Toutefois, l'utilisation de ces plugins peut rendre la configuration et la maintenabilité plus complexes étant donné que chaque serveur aura une collecte différente.
-- **Vector** offre une très grande configurabilité. Il a été possible de configurer le protocole de communication, le format des données, les filtres, etc. De plus, il possède son propre langage, le VRL (Vector Remap Language), qui permet de parser, filtrer et transformer les données de manière très précise.
+- **Collectd** reste un outil très simple et robuste. Il comporte cependant un grand nombre de plugins qui permettent de l'adapter à de nombreux cas d'utilisation. Toutefois, l'utilisation de ces plugins peut rendre la configuration et la maintenabilité plus complexes étant donné que chaque type de serveur aura une collecte différente ;
+- **Vector** offre une très grande configurabilité. Il a été possible de configurer le protocole de communication, le format des données, les filtres, etc. De plus, il possède son propre langage, le VRL (Vector Remap Language), qui permet de parser, filtrer et transformer les données de manière très fine.
 
 ## Simplicité d'installation
 
@@ -218,9 +218,9 @@ Ce tableau récapitulatif synthétise les principaux avantages et inconvénients
 
 ## Compatibilité avec d'autres outils
 
-- **Collectd** s'appuie sur une compatibilité éprouvée avec les outils traditionnels de surveillance (Nagios, Ganglia, etc.).
+- **Collectd** s'appuie sur une compatibilité éprouvée avec les outils traditionnels de surveillance (Nagios, [Ganglia](https://github.com/ganglia/), etc.).
 - **Vector** offre une intégration plus fluide et moderne avec de nombreux outils d'observabilité contemporains (Elasticsearch, Kafka, AWS S3, Splunk, etc.).
 
 ## Notre choix
 
-Compte tenu de notre infrastructure qui n'est pas (encore?) basée sur Kubernetes, et étant donné la similarité des performances des deux outils, nous optons pour l'utilisation de l'outil Collectd.
+Compte tenu de notre infrastructure qui n'est pas (encore?) basée sur Kubernetes, et étant donné la similarité des performances des deux outils, nous optons pour l'utilisation de Collectd.
