@@ -48,10 +48,10 @@ Zabbix peut être configuré, soit via l'interface web, soit par fichier de conf
 ### Performances
 
   - **CPU** : 
-    - ![Graphique CPU de Zabbix](../images/monitoring-dasboard-benchmark/zabbix_cpu_usage.png)
+    - ![Graphique d'utilisation CPU de Zabbix sur les 8100 dernières secondes.](../images/monitoring-dasboard-benchmark/zabbix_cpu_usage.png)
     - Zabbix semble être très gourmand en CPU. On en observe de très fortes variations, avec des pics à plus de 200%. La moyenne d'utilisation CPU est de **160%**.
   - **RAM** :
-    - ![Graphique RAM de Zabbix](../images/monitoring-dasboard-benchmark/zabbix_memory_usage.png)
+    - ![Graphique d'utilisation mémoire de Zabbix sur les 8100 dernières secondes.](../images/monitoring-dasboard-benchmark/zabbix_memory_usage.png)
     - Zabbix semble être peu gourmand en RAM. On en observe une utilisation moyenne de **4,67%** . Cependant, il reste une légère augmentation de l'utilisation de la RAM au fil du temps, ce qui pourrait causer des problèmes de performance à long terme. Nous soupçonnons que cela vient de la gestion des données dans la base de données.
 
 ### Conclusion

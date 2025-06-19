@@ -47,10 +47,10 @@ tags:
 ### Performances
 
   - **CPU** : 
-    - ![Graphique CPU de Graphite + Grafana](../images/monitoring-dasboard-benchmark/graphite+grafana_cpu_usage.png)
+    - ![Graphique d'utilisation CPU de Graphite + Grafana sur les 8100 dernières secondes.](../images/monitoring-dasboard-benchmark/graphite+grafana_cpu_usage.png)
     - Graphite + Grafana semble être peu gourmand en CPU. On observe une utilisation moyenne de **16%** de celui-ci. De plus, son utilisation est stable dans le temps malgré une légère augmentation.
   - **RAM** :
-    - ![Graphique RAM de Graphite + Grafana](../images/monitoring-dasboard-benchmark/graphite+grafana_memory_usage.png)
+    - ![Graphique d'utilisation mémoire de Graphite + Grafana sur les 8100 dernières secondes.](../images/monitoring-dasboard-benchmark/graphite+grafana_memory_usage.png)
     - Graphite + Grafana semble être peu gourmand en RAM. On en observe une utilisation moyenne de **3,88%**. De plus, son utilisation est stable dans le temps malgré une très légère augmentation dans la durée.
 
 ### Conclusion

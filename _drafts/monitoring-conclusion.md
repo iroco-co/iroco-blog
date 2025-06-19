@@ -17,7 +17,7 @@ Chaque graphique ci-dessous représente la moyenne des mesures prises toutes les
 
 ### CPU
 
-![Graphique CPU de tous les outils](../images/monitoring-dasboard-benchmark/graph_cpu_usage.png)
+![Graphique comparatif de l'utilisation CPU des trois outils.](../images/monitoring-dasboard-benchmark/graph_cpu_usage.png)
 
 - On observe que **Zabbix** est l'outil le plus gourmand en CPU, et de loin avec une moyenne de **160%** d'utilisation. **Nagios** et **Graphite + Grafana** sont beaucoup moins gourmands avec une moyenne de **24%** d'utilisation CPU pour **Nagios** et **16%** pour **Graphite + Grafana**. Sachant que la mesure témoin donne **10%** d'utilisation sans outils en fonctionnement, cela nous donne une approximation à:
   - **Zabbix** : **150%** d'utilisation CPU
@@ -26,7 +26,7 @@ Chaque graphique ci-dessous représente la moyenne des mesures prises toutes les
   
 ### RAM
 
-![Graphique RAM de tous les outils](../images/monitoring-dasboard-benchmark/graph_memory_usage.png)
+![Graphique comparatif de l'utilisation mémoire des trois outils.](../images/monitoring-dasboard-benchmark/graph_memory_usage.png)
 - Concernant la RAM, **Zabbix** est encore l'outil le plus gourmand avec une moyenne de **4,67%** d'utilisation RAM. La différence est moins marquée que pour l'utilisation CPU avec **Nagios** à **3,52%** et **Graphite + Grafana** qui a une moyenne de **3,88%** d'utilisation RAM. La mesure témoin donne **3,51%** d'utilisation sans outils en fonctionnement, ce qui nous donne une
 approximation à:
   - **Zabbix** : **1,59%** d'utilisation RAM

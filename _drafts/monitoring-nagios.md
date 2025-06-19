@@ -50,10 +50,10 @@ tags:
 ### Performances
 
   - **CPU** : 
-    - ![Graphique CPU de Nagios](../images/monitoring-dasboard-benchmark/nagios_cpu_usage.png)
+    - ![Graphique d'utilisation CPU de Nagios sur les 8100 dernières secondes.](../images/monitoring-dasboard-benchmark/nagios_cpu_usage.png)
     - Nagios semble être peu gourmand en CPU. On observe une utilisation moyenne de **24%** de celui-ci. De plus, son utilisation est stable dans le temps, ce qui est un bon point pour la fiabilité de l'outil.
   - **RAM** :
-    - ![Graphique RAM de Nagios](../images/monitoring-dasboard-benchmark/nagios_memory_usage.png)
+    - ![Graphique d'utilisation mémoire de Nagios sur les 8100 dernières secondes.](../images/monitoring-dasboard-benchmark/nagios_memory_usage.png)
     - Nagios semble être peu gourmand en RAM. On en observe une utilisation moyenne de **3,52%**. De plus, son utilisation est stable dans le temps, malgré une très légère augmentation sur la durée.
 
 ### Conclusion
