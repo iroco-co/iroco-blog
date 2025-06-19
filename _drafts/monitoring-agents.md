@@ -124,34 +124,19 @@ Nous devions également choisir un type d'encodage des données. Vector en propo
 
 ### CPU
 
-![Graphique comparatif d'utilisation CPU
-  Utilisation CPU sur les 59 dernières secondes
-  vector-csv total cpu usage : Moyenne : 10,41 %
-  vector-json total cpu usage : Moyenne : 11,17 %
-  vector-protobuf total cpu usage : Moyenne : 11,08 %
-  ](../images/monitoring-benchmark/vector/cpu_usage.png)
+![Graphique comparatif d'utilisation CPU de l'agent Vector sur les 59 dernières secondes. Consommation CPU moyenne. Encodé en CSV : 10,41 %. Encodé en JSON : 11,17 %. Encodé en Protobuf : 11,08 %.](../images/monitoring-benchmark/vector/cpu_usage.png)
 
 Nous avons constaté une très faible différence entre les différents encodages, avec un léger avantage pour le format **CSV**, suivi de **Protobuf** et enfin **JSON**.
 
 ### Mémoire
 
-![Graphique comparatif d'utilisation mémoire
-  Utilisation Mémoire sur les 59 dernières secondes
-  vector-csv used memory : Moyenne : 3,76 %
-  vector-json used memory : Moyenne : 3,76 %
-  vector-protobuf used memory : Moyenne : 3,76 %
-  ](../images/monitoring-benchmark/vector/memory_usage.png)
+![Graphique comparatif d'utilisation mémoire de l'agent vector sur les 59 dernières secondes. Consommation mémoire moyenne. Encodé en CSV : 3,76 %. Encodé en JSON : 3,76 %. Encodé en protobuf : 3,76 %.](../images/monitoring-benchmark/vector/memory_usage.png)
 
 Nous n'avons pas observé de différence significative entre les formats.
 
 ### Réseau
 
-![Graphique comparatif d'utilisation réseau
-  Utilisation réseau sur les 59 dernières secondes
-  vector-csv upload: Moyenne : 4,54 kb/s
-  vector-json upload : Moyenne : 14,42 kb/s
-  vector-protobuf upload : Moyenne : 4,60 kb/s
-  ](../images/monitoring-benchmark/vector/network_usage.png)
+![Graphique comparatif de l'utilisation réseau en upload de l'agent vector sur les 59 dernières secondes. Consommation réseau moyenne. Encodé en CSV : 4,54 kb/s. Encodé en JSON : 14,42 kb/s. Encodé en protobuf : 4,60 kb/s.](../images/monitoring-benchmark/vector/network_usage.png)
 
 Le format **CSV** est celui qui consomme le moins de bande passante, suivi de près par **Protobuf**. Le format **JSON**, en revanche, est **trois fois plus** intensif.
 
@@ -175,31 +160,19 @@ Contrairement à Vector, Collectd utilise son propre système d'encodage de donn
 
 ### CPU
 
-![Graphique comparatif d'utilisation CPU
-  Utilisation CPU sur les 59 dernières secondes
-  collectd total cpu usage : Moyenne : 10,05 %
-  vector-csv total cpu usage : Moyenne : 10,41 %
-](../images/monitoring-benchmark/collectd_vector/cpu_usage.png)
+![Graphique comparatif d'utilisation CPU des agents sur les 59 dernières secondes. Consommation CPU moyenne. Vector encodé en CSV : 10,05 %. Collectd : 10,41 %.](../images/monitoring-benchmark/collectd_vector/cpu_usage.png)
 
 Nous avons observé une faible différence entre Collectd et Vector en format CSV, avec un léger avantage pour **Collectd**.
 
 ### Mémoire
 
-![Graphique comparatif d'utilisation mémoire
-  Utilisation Mémoire sur les 59 dernières secondes
-  collectd used memory : Moyenne : 3,76 %
-  vector-csv used memory : Moyenne : 3,76 %
-](../images/monitoring-benchmark/collectd_vector/memory_usage.png)
+![Graphique comparatif d'utilisation mémoire des agents sur les 59 dernières secondes. Consommation mémoire moyenne. Vector encodé en CSV : 3,76 %. Collectd : 3,76 %.](../images/monitoring-benchmark/collectd_vector/memory_usage.png)
 
 Nous n'avons pas observé de différence significative entre les deux outils.
 
 ### Réseau
 
-![Graphique comparatif d'utilisation réseau
-  Utilisation réseau sur les 59 dernières secondes
-  collectd upload : Moyenne : 4,13 kb/s
-  vector-csv upload : Moyenne : 4,54 kb/s
-  ](../images/monitoring-benchmark/collectd_vector/network_usage.png)
+![Graphique comparatif d'utilisation réseau en upload des agents sur les 59 dernières secondes. Consommation mémoire moyenne. Vector encodé en CSV : 4,13 %. Collectd : 4,54 %.](../images/monitoring-benchmark/collectd_vector/network_usage.png)
 
 Le mode d'envoi de Collectd et de Vector sont différents :
 Collectd envoi les indicateurs de manière groupée. On peut le voir par les créneaux bleus. Tandis que vector envoi les données continuellement.
