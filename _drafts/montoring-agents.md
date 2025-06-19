@@ -11,15 +11,19 @@ tags:
 ---
 # Introduction
 
+Le monitoring assure l'observabilité des systèmes informatiques. Il permet de recueillir, d'analyser et de visualiser les données relatives à l'état des serveurs, des applications et des réseaux. Il se présente généralement sous la forme d'agents installés sur chaque machine, qui collectent des métriques et les envoient à un serveur central, chargé de leur traitement (voir la suite de nos articles sur le monitoring). Cet article s'inscrit dans une série de benchmarks visant à évaluer différents outils de monitoring, en commençant par les agents de monitoring.
+
 ## Contexte et enjeux
 
-Afin de faire évoluer le produit Iroco dans une optique de numérique durable et responsable, nous devons choisir un outil de monitoring qui sera la base de décisions structurelles à long terme. Ce choix n'est pas anodin, puisqu'il impactera directement l'avenir de l'architecture de la plateforme.
+Afin de faire évoluer le produit Iroco dans une optique de numérique durable et responsable, nous devons choisir un outil de monitoring qui sera la base de décisions structurelles à long terme. Ce choix n'est pas anodin, puisqu'il impactera directement l'avenir de l'architecture de la plateforme. Nous allons donc tester plusieurs outils de monitoring pour identifier celui qui répondra le mieux à nos besoins. Pour cela, nous allons réaliser un benchmark de différents agents de monitoring.
 
 ### Push v.s. Pull
 
-Un système de monitoring peut aller chercher ses données régulièrement (*polling*) de manière centralisée sur chaque machine ou être en attente des données envoyées par chaque serveur. Dans le premier cas, on parle de système de monitoring en mode *pull* et dans le deuxième cas de mode push.
+Un système de monitoring peut aller chercher ses données régulièrement (*polling*) de manière centralisée sur chaque machine ou être en attente des données envoyées par chaque serveur. Dans le premier cas, on parle de système de monitoring en mode *pull* et dans le deuxième cas de mode *push*.
 Il est aussi possible de faire les deux en mème temps.
-Pour plus de détails: [Pull or Push: How to Select Monitoring Systems?](https://www.alibabacloud.com/blog/pull-or-push-how-to-select-monitoring-systems_599007)
+Pour plus de détails: [Pull or Push: How to Select Monitoring Systems ?](https://www.alibabacloud.com/blog/pull-or-push-how-to-select-monitoring-systems_599007)
+
+![Graphique descriptif push v.s. pull](../images/monitoring-benchmark/push-vs-pull.png)
 
 Les tests de cette série d'articles sont plus orientés **push** pour plusieurs raisons:
 
@@ -31,12 +35,12 @@ C'est une orientation relative à notre contexte de petite structure avec une st
 
 Si vous avez des remarques, questions ou recommandations, nous sommes preneurs de vos retours.
 
-## Les outils étudiés
+## Les outils étudiés dans cet article : agents de monitoring
 
-Pour les agents, nous nous sommes concentrés sur deux solutions de monitoring :
+Nous nous sommes concentrés sur deux solutions d'agents monitoring :
 
-- **Collectd** : Réputé pour sa légèreté et sa simplicité d'utilisation (*boring tech*).  
-- **Vector** : Un outil plus récent et complet, offrant potentiellement plus de fonctionnalités.
+- [**Collectd**](https://www.collectd.org/) : Réputé pour sa légèreté et sa simplicité d'utilisation (*boring tech*).  
+- [**Vector**](https://vector.dev/) : Un outil plus récent et complet, offrant potentiellement plus de fonctionnalités.
 
 ## Objectifs du benchmark
 
@@ -57,7 +61,7 @@ Afin de tester l'utilisation de l'outil de monitoring, nous devons simuler une s
 Nous avons utilisé deux machines différentes:
 
 - Une qui fait tourner l'agent chargé de collecter et envoyer des données.
-- Une machine qui fait tourner l'agrégateur qui reçoit les données.
+- Une qui fait tourner l'agrégateur qui reçoit les données.
 
 Nous plaçons les sondes logicielles suivantes:
   - CPU: avec les statistiques système dans `/proc/stat`
@@ -82,7 +86,7 @@ Pour assurer l'équité des tests, les deux outils doivent réaliser des tâches
 - Utilisation mémoire  
 - Utilisation réseau  
 
-Pour obtenir des résultats interprétables et identifier d'éventuelles fuites mémoire, nous avons décidé de tester les outils dans des conditions plus exigeantes que leur future utilisation en production. Ainsi, nous avons configuré l'envoi des métriques **une fois par seconde** lors des différents tests.
+Pour obtenir des résultats interprétables et identifier d'éventuelles fuites mémoire, nous avons décidé de tester les outils dans des conditions plus exigeantes que leur future utilisation en production. Ainsi, nous avons configuré l'envoi des métriques **une fois par seconde** lors des différents tests, là où nous visons **une fois toutes les 5 min** en production.
 
 De plus, nous avons enregistré les données **5 secondes avant et 5 secondes après** chaque test afin d'observer l'impact du démarrage de l'outil sur les performances de la machine.
 
@@ -120,19 +124,34 @@ Nous devions également choisir un type d'encodage des données. Vector en propo
 
 ### CPU
 
-![Graphique comparatif d'utilisation CPU](../images/monitoring-benchmark/vector/cpu_usage.png)
+![Graphique comparatif d'utilisation CPU
+  Utilisation CPU sur les 59 dernières secondes
+  vector-csv total cpu usage : Moyenne : 10,41 %
+  vector-json total cpu usage : Moyenne : 11,17 %
+  vector-protobuf total cpu usage : Moyenne : 11,08 %
+  ](../images/monitoring-benchmark/vector/cpu_usage.png)
 
 Nous avons constaté une très faible différence entre les différents encodages, avec un léger avantage pour le format **CSV**, suivi de **Protobuf** et enfin **JSON**.
 
 ### Mémoire
 
-![Graphique comparatif d'utilisation mémoire](../images/monitoring-benchmark/vector/memory_usage.png)
+![Graphique comparatif d'utilisation mémoire
+  Utilisation Mémoire sur les 59 dernières secondes
+  vector-csv used memory : Moyenne : 3,76 %
+  vector-json used memory : Moyenne : 3,76 %
+  vector-protobuf used memory : Moyenne : 3,76 %
+  ](../images/monitoring-benchmark/vector/memory_usage.png)
 
 Nous n'avons pas observé de différence significative entre les formats.
 
 ### Réseau
 
-![Graphique comparatif d'utilisation réseau](../images/monitoring-benchmark/vector/network_usage.png)
+![Graphique comparatif d'utilisation réseau
+  Utilisation réseau sur les 59 dernières secondes
+  vector-csv upload: Moyenne : 4,54 kb/s
+  vector-json upload : Moyenne : 14,42 kb/s
+  vector-protobuf upload : Moyenne : 4,60 kb/s
+  ](../images/monitoring-benchmark/vector/network_usage.png)
 
 Le format **CSV** est celui qui consomme le moins de bande passante, suivi de près par **Protobuf**. Le format **JSON**, en revanche, est **trois fois plus** intensif.
 
@@ -146,7 +165,7 @@ Lors de nos différentes recherches de fonctionnement et de compréhension de l'
 
 ## Présentation
 
-Collectd est un outil de monitoring très léger et simple d'utilisation. Il est largement utilisé dans le monde de l'open source et bénéficie d'une documentation complète. Écrit en C, il est particulièrement performant.
+Collectd est un outil de monitoring très léger et simple d'utilisation. Il est largement utilisé dans le monde de l'open source et bénéficie d'une documentation complète. [Il est écrit en C](https://github.com/collectd/collectd).
 
 ## Configuration
 
@@ -156,19 +175,31 @@ Contrairement à Vector, Collectd utilise son propre système d'encodage de donn
 
 ### CPU
 
-![Graphique comparatif d'utilisation CPU](../images/monitoring-benchmark/collectd_vector/cpu_usage.png)
+![Graphique comparatif d'utilisation CPU
+  Utilisation CPU sur les 59 dernières secondes
+  collectd total cpu usage : Moyenne : 10,05 %
+  vector-csv total cpu usage : Moyenne : 10,41 %
+](../images/monitoring-benchmark/collectd_vector/cpu_usage.png)
 
 Nous avons observé une faible différence entre Collectd et Vector en format CSV, avec un léger avantage pour **Collectd**.
 
 ### Mémoire
 
-![Graphique comparatif d'utilisation mémoire](../images/monitoring-benchmark/collectd_vector/memory_usage.png)
+![Graphique comparatif d'utilisation mémoire
+  Utilisation Mémoire sur les 59 dernières secondes
+  collectd used memory : Moyenne : 3,76 %
+  vector-csv used memory : Moyenne : 3,76 %
+](../images/monitoring-benchmark/collectd_vector/memory_usage.png)
 
 Nous n'avons pas observé de différence significative entre les deux outils.
 
 ### Réseau
 
-![Graphique comparatif d'utilisation network](../images/monitoring-benchmark/collectd_vector/network_usage.png)
+![Graphique comparatif d'utilisation réseau
+  Utilisation réseau sur les 59 dernières secondes
+  collectd upload : Moyenne : 4,13 kb/s
+  vector-csv upload : Moyenne : 4,54 kb/s
+  ](../images/monitoring-benchmark/collectd_vector/network_usage.png)
 
 Le mode d'envoi de Collectd et de Vector sont différents :
 Collectd envoi les indicateurs de manière groupée. On peut le voir par les créneaux bleus. Tandis que vector envoi les données continuellement.
@@ -190,8 +221,8 @@ Ce tableau récapitulatif synthétise les principaux avantages et inconvénients
 | **Communauté**                        | Large                                      | Moyenne                                       |
 | **Documentation**                     | Complète                                   | Complète                                      |
 | **Versatilité**                       | Élevé pour la récolte de métriques         | Élevé pour traitement des flux de métriques                                        |
-| **Simplicité d'installation**         | Élevée (installé via apt)                  | Bonne (installation par script curl)          |
-| **Configuration**                     | Petits projets → Simple / Gros projets → Complexe | Petits projets → Moyenne / Gros projets → Bonne |
+| **Simplicité d'installation**         | Élevée (installé via `apt`)                  | Bonne (installation par script `curl`)          |
+| **Configuration**                     | Petits projets → Simple <br> Gros projets → Complexe | Petits projets → Moyenne <br> Gros projets → Bonne |
 | **Courbe d'apprentissage**            | Faible                                     | Moyenne                                       |
 | **Rôles Ansible existants**           | Oui                                        | Oui                                           |
 | **Compatibilité avec d'autres outils**| Élevé                                    | Élevé (orienté cloud)                                        |
@@ -203,8 +234,8 @@ Ce tableau récapitulatif synthétise les principaux avantages et inconvénients
 
 ## Simplicité d'installation
 
-- **Collectd** est très simple à installer car il est directement géré par le gestionnaire de paquets (apt). Cependant, il est nécessaire d'installer les plugins pour des cas d'utilisation spécifiques.
-- **Vector** s'installe via une requête curl pour télécharger le script d'installation.
+- **Collectd** est très simple à installer car il est directement géré par le gestionnaire de paquets (`apt`). Cependant, il est nécessaire d'installer les plugins pour des cas d'utilisation spécifiques.
+- **Vector** s'installe via une requête `curl` pour télécharger le script d'installation.
 
 ## Simplicité de configuration
 
@@ -226,7 +257,7 @@ Ce tableau récapitulatif synthétise les principaux avantages et inconvénients
 Compte tenu de notre infrastructure qui n'est pas (encore?) basée sur Kubernetes, et étant donné la similarité des performances des deux outils, nous optons pour l'utilisation de Collectd.
 
 
-retrouvez les autres articles de cette série (à venir dans les prochains jours) : 
+Retrouvez les autres articles de cette série (à venir dans les prochains jours) : 
 - [Benchmark monitoring - Introduction](/monitoring-introduction/)
 - [Benchmark monitoring - Nagios](/monitoring-nagios/)
 - [Benchmark monitoring - Zabbix](/monitoring-zabbix/)
