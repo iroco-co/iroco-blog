@@ -193,12 +193,12 @@ Ce tableau récapitulatif synthétise les principaux avantages et inconvénients
 |---------------------------------------|--------------------------------------------|-----------------------------------------------|
 | **Communauté**                        | Large                                      | Moyenne                                       |
 | **Documentation**                     | Complète                                   | Complète                                      |
-| **Versatilité**                       | Élevé pour la récolte de métriques         | Élevé pour traitement des flux de métriques                                        |
+| **Versatilité**                       | Élevée pour la récolte de métriques         | Élevée pour traitement des flux de métriques                                        |
 | **Simplicité d'installation**         | Élevée (installé via `apt`)                  | Bonne (installation par script `curl`)          |
 | **Configuration**                     | Petits projets → Simple <br> Gros projets → Complexe | Petits projets → Moyenne <br> Gros projets → Bonne |
 | **Courbe d'apprentissage**            | Faible                                     | Moyenne                                       |
 | **Rôles Ansible existants**           | Oui                                        | Oui                                           |
-| **Compatibilité avec d'autres outils**| Élevé                                    | Élevé (orienté cloud)                                        |
+| **Compatibilité avec d'autres outils**| Élevée                                    | Élevée (orienté cloud)                                        |
 
 ## Versatilité (fonctionnalités, paramétrabilité)
 
