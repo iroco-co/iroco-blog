@@ -21,16 +21,16 @@ Chaque graphique ci-dessous représente la moyenne des mesures prises toutes les
 
 - On observe que **Zabbix** est l'outil le plus gourmand en CPU, et de loin avec une moyenne de **160%** d'utilisation. **Nagios** et **Graphite + Grafana** sont beaucoup moins gourmands avec une moyenne de **24%** d'utilisation CPU pour **Nagios** et **16%** pour **Graphite + Grafana**. Sachant que la mesure témoin donne **10%** d'utilisation sans outils en fonctionnement, cela nous donne une approximation à:
   - **Zabbix** : **150%** d'utilisation CPU
-  - **Nagios** : **14%** d'utilisation CPU 
+  - **Nagios** : **14%** d'utilisation CPU
   - **Graphite + Grafana** : **6%** d'utilisation CPU
-  
+
 ### RAM
 
 ![Graphique comparatif de l'utilisation mémoire des trois outils.](../images/monitoring-dasboard-benchmark/graph_memory_usage.png)
 - Concernant la RAM, **Zabbix** est encore l'outil le plus gourmand avec une moyenne de **4,67%** d'utilisation RAM. La différence est moins marquée que pour l'utilisation CPU avec **Nagios** à **3,52%** et **Graphite + Grafana** qui a une moyenne de **3,88%** d'utilisation RAM. La mesure témoin donne **3,51%** d'utilisation sans outils en fonctionnement, ce qui nous donne une
 approximation à:
   - **Zabbix** : **1,59%** d'utilisation RAM
-  - **Nagios** : **0,01%** d'utilisation RAM 
+  - **Nagios** : **0,01%** d'utilisation RAM
   - **Graphite + Grafana** : **0,44%** d'utilisation RAM
 
 ## Tableau récapitulatif des observations
@@ -45,6 +45,15 @@ approximation à:
 
 |Outil | points forts | points faibles |
 |---|---|---|
-| **Nagios** | 🟢 Très Bonnes performances <br> 🟢 Outil Approuvé | 🔴 Configuration complexe <br> 🔴 Interface vieillissante <br> 🔴 N'est pas compatible avec collectd nativement <br> 🔴 Documentation éparpillée <br> 🔴 N'est pas totalement OpenSource | 
+| **Nagios** | 🟢 Très Bonnes performances <br> 🟢 Outil Approuvé | 🔴 Configuration complexe <br> 🔴 Interface vieillissante <br> 🔴 N'est pas compatible avec collectd nativement <br> 🔴 Documentation éparpillée <br> 🔴 N'est pas totalement OpenSource |
 | **Zabbix** | 🟢 Interface moderne <br> 🟢  Documentation complète <br> 🟢  Plutôt simple à configurer <br> 🟢  Configuration | 🔴 Performances moyennes <br> 🔴 N'est pas compatible avec collectd nativement <br> 🔴 La configuration et les données sont stockées dans la mème bdd |
 | **Graphite + Grafana** | 🟢 Interface moderne <br> 🟢  Simple à configurer et à prendre en main <br> 🟢  Compatible avec collectd nativement (Permet l'exploration automatique des métriques disponibles) <br> 🟢  Modularité (Découplage stockage des données et génération de graphs) | 🔴 Performances moins bonne que nagios <br> 🔴  Nécessite deux outils pour fonctionner|
+
+Retrouvez les autres articles de cette série (à venir dans les prochains jours) :
+
+- [Benchmark monitoring - Agents](/monitoring-agents/)
+- [Benchmark monitoring - Introduction](/monitoring-introduction/)
+- [Benchmark monitoring - Nagios](/monitoring-nagios/)
+- [Benchmark monitoring - Zabbix](/monitoring-zabbix/)
+- [Benchmark monitoring - Graphite + Grafana](/monitoring-graphite/)
+- [Benchmark monitoring - InfluxDB + Grafana](/monitoring-influxdb)

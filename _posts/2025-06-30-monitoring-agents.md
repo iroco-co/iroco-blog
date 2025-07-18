@@ -231,8 +231,10 @@ Compte tenu de notre infrastructure qui n'est pas (encore?) basée sur Kubernete
 
 
 Retrouvez les autres articles de cette série (à venir dans les prochains jours) :
+
 - [Benchmark monitoring - Introduction](/monitoring-introduction/)
 - [Benchmark monitoring - Nagios](/monitoring-nagios/)
 - [Benchmark monitoring - Zabbix](/monitoring-zabbix/)
 - [Benchmark monitoring - Graphite + Grafana](/monitoring-graphite/)
+- [Benchmark monitoring - InfluxDB + Grafana](/monitoring-influxdb)
 - [Benchmark monitoring - Conclusion](/monitoring-conclusion/)
