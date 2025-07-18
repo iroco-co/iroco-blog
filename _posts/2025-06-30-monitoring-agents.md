@@ -23,7 +23,7 @@ Un système de monitoring peut aller chercher ses données régulièrement (*pol
 Il est aussi possible de faire les deux en mème temps.
 Pour plus de détails: [Pull or Push: How to Select Monitoring Systems ?](https://www.alibabacloud.com/blog/pull-or-push-how-to-select-monitoring-systems_599007)
 
-![Graphique descriptif push v.s. pull](../images/monitoring-benchmark/push-vs-pull.png)
+![Graphique descriptif push v.s. pull](/images/monitoring-benchmark/push-vs-pull.png)
 
 Les tests de cette série d'articles sont plus orientés **push** pour plusieurs raisons:
 
@@ -230,7 +230,7 @@ Ce tableau récapitulatif synthétise les principaux avantages et inconvénients
 Compte tenu de notre infrastructure qui n'est pas (encore?) basée sur Kubernetes, et étant donné la similarité des performances des deux outils, nous optons pour l'utilisation de Collectd.
 
 
-Retrouvez les autres articles de cette série (à venir dans les prochains jours) : 
+Retrouvez les autres articles de cette série (à venir dans les prochains jours) :
 - [Benchmark monitoring - Introduction](/monitoring-introduction/)
 - [Benchmark monitoring - Nagios](/monitoring-nagios/)
 - [Benchmark monitoring - Zabbix](/monitoring-zabbix/)
