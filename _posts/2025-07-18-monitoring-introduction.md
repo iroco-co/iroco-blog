@@ -67,7 +67,6 @@ Le benchmark doit être lancé sur une machine avec un minimum de processus en c
 Retrouvez les autres articles de cette série (à venir dans les prochains jours) :
 
 - [Benchmark monitoring - Agents](/monitoring-agents/)
-- [Benchmark monitoring - Introduction](/monitoring-introduction/)
 - [Benchmark monitoring - Nagios](/monitoring-nagios/)
 - [Benchmark monitoring - Zabbix](/monitoring-zabbix/)
 - [Benchmark monitoring - Graphite + Grafana](/monitoring-graphite/)
