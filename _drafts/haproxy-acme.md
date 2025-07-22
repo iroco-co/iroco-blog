@@ -72,7 +72,7 @@ La grande majorité des sites utilisent la méthode web/HTTP qui est plus simple
 
 Cette évolution permet de gérer les certificats uniquement par haproxy. De plus `acme.sh` a intégré l'utilisation de la socket d'administration haproxy ce qui fait que lorsque le certificat est créé ou renouvelé, haproxy est mis à jour dynamiquement. Plus besoin de redémarrer.  Voici la séquence qui est exécutée lors d'une création ou renouvellement de certificat : 
 
-![[méthode HTTP01 - ACME](/images/haproxy-acme/http01.drawio.png)
+[![méthode HTTP01 - ACME](/images/haproxy-acme/http01.drawio.png)](/images/haproxy-acme/http01.drawio.png)
 
 Elle est pas belle la vie ?
 
