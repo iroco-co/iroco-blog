@@ -12,7 +12,7 @@ tags:
 
 _Il y a 2 ans, les mainteneurs du système de scripts [acme.sh](https://github.com/acmesh-official/acme.sh) (Automated Certificate Management Environment) ont intégré [haproxy](https://www.haproxy.org/). Les développeurs de haproxy ont modifié le reverse proxy pour pouvoir gérer les certificats.  Pourquoi c'est important ?_
 
-![intégration haproxy - ACME](https://cdn.haproxy.com/img/containers/partner_integrations/2023/haproxy-and-lets-encrypt-improved-support-in-acme-sh/haproxy-and-lets-encrypt-image.png/c223cf3b8a29c8bb8ffb1d17771ed6ac/haproxy-and-lets-encrypt-image.png)
+[![intégration haproxy - ACME](https://cdn.haproxy.com/img/containers/partner_integrations/2023/haproxy-and-lets-encrypt-improved-support-in-acme-sh/haproxy-and-lets-encrypt-image.png/c223cf3b8a29c8bb8ffb1d17771ed6ac/haproxy-and-lets-encrypt-image.png)](https://www.haproxy.com/blog/haproxy-and-let-s-encrypt)
 
 Dans le fracas des IA, [web 3](https://tante.cc/2021/12/17/the-third-web/) et autres *buzzwords* à la mode, il est des changements qui passent inaperçus, alors qu'ils facilitent la vie et améliorent la qualité des services en ligne.  On peut penser par exemple à [io_uring](/io-uring/) et aujourd'hui on voudrais vous parler de l'intégration entre haproxy et le protocole ACME.
 
