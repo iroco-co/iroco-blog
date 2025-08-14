@@ -39,8 +39,8 @@ tags:
 
 ### Fichiers de configuration
 
-- [**/opt/graphite/conf/storage-schemas.conf** (Graphite)](https://github.com/iroco-co/bench-monitoring-dashboard/blob/main/graphite/conf/storage-schemas.conf) : Fichier de configuration des schémas de stockage pour la configuration de la gestion de la rétention des données envoyées par Collectd.
-- [**docker-compose.yaml**](https://github.com/iroco-co/bench-monitoring-dashboard/blob/main/docker-compose.yaml) : Docker compose pour lancer graphite, Grafana avec un Docker-Network pour la communication.
+- [**/opt/graphite/conf/storage-schemas.conf** (Graphite)](https://github.com/iroco-co/bench-monitoring-dashboard/blob/main/docker_grafana_graphite/graphite/conf/storage-schemas.conf) : Fichier de configuration des schémas de stockage pour la configuration de la gestion de la rétention des données envoyées par Collectd.
+- [**docker-compose.yaml**](https://github.com/iroco-co/bench-monitoring-dashboard/blob/main/docker_grafana_graphite/docker-compose.yaml) : Docker compose pour lancer graphite, Grafana avec un Docker-Network pour la communication.
 
 ### Interface Web / BDD (Grafana)
 
