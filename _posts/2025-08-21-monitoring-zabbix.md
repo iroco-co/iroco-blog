@@ -65,7 +65,7 @@ Pour la RAM c'est plus proche que ce que nous avions avec nagios : **4,67%** (na
 
 ### Conclusion
 
-Zabbix est un outil de monitoring complet et moderne, mais il est intensif en CPU. Il nécessite une configuration supplémentaire pour intégrer Collectd, ce qui peut être une difficulté supplémentaire en ce qui concerne la maintenabilité. Où bien il faut déployer l'[agent Zabbix](https://www.zabbix.com/download_agents) sur les serveurs à observer. Dans ce cas, il y a moins d'inter-opérabilité si on veut changer de système de supervision.
+Zabbix est un outil de monitoring complet et moderne, mais il est intensif en CPU. Il nécessite une configuration supplémentaire pour intégrer Collectd, ce qui peut être une difficulté supplémentaire en ce qui concerne la maintenabilité. Ou bien il faut déployer l'[agent Zabbix](https://www.zabbix.com/download_agents) sur les serveurs à observer. Dans ce cas, il y a moins d'inter-opérabilité si on veut changer de système de supervision.
 
 Mis à part cela, Zabbix reste assez simple à configurer. Il offre une interface web moderne et une grande flexibilité dans la configuration des graphiques et des alertes. Il est compatible avec les bases de données MySQL et PostgreSQL, ce qui laisse le choix de la technologie de stockage.  Zabbix est entièrement open-source, ce qui est un bon point selon nos critères.
 
