@@ -21,7 +21,7 @@ C’est en cherchant des alternatives à Graphite, compatibles avec Collectd et 
 [![Exemple de dashboard de Grafana](../images/monitoring-dasboard-benchmark/Pres_graphite+grafana.png)](https://www.grafana.com/)
 
 **Description** : InfluxDB est une base de données temporelle (time-series database) conçue en 2013 et optimisée pour la rapidité.  
-Il en existe aujourd'hui trois versions gratuites open source, chacune déclinée en version entreprise.  
+Il en existe aujourd'hui trois versions gratuites open source, chacune ayant sa version entreprise.  
 - **InfluxDB V1**, écrite en **Go**, est compatible nativement avec Collectd (sans intermédiaire) et n’intègre pas d’interface web.  
 - **InfluxDB V2** et **V3**, écrites en **Rust**, proposent une interface web intégrée, mais ne sont pas compatibles avec Collectd sans passer par l’agent **Telegraf**.  
 
@@ -64,21 +64,21 @@ Il est nativement compatible avec Collectd et Grafana, ce qui rend sa configurat
 
 [![Graphique d'utilisation CPU de Influxdb + Grafana sur les 3600 dernières secondes.](../images/monitoring-dasboard-benchmark/influxdb_cpu_usage.png)](../images/monitoring-dasboard-benchmark/influxdb_cpu_usage.png)
 
-Influxdb semble être moins gourmand en CPU que graphite. On observe une utilisation moyenne de **11,12%** pour influxdb contre **16,06%** pour graphite, soit une différence de **4,94%** de moins. De plus, son utilisation est stable dans le temps.
+Influxdb semble être peu gourmand en CPU avec une utilisation moyenne de **11,12%**.
 
 #### RAM
 
 [![Graphique d'utilisation mémoire de Influxdb + Grafana sur les 3600 dernières secondes.](../images/monitoring-dasboard-benchmark/influxdb_memory_usage.png)](../images/monitoring-dasboard-benchmark/influxdb_memory_usage.png)
 
-Influxdb semble être moins gourmand en RAM que graphite. On en observe une utilisation moyenne de **3,17%** pour influxdb contre **3,63%** pour graphite. De plus, on observe un légère meilleure stabilité dans la durée.
+Influxdb semble être peu gourmand en RAM avec une utilisation moyenne de **3,17%**.
 
 ### Conclusion
 
-InfluxDB V1 + Grafana est, à ce jour, la solution de monitoring qui semble la plus adaptée à nos besoins.  
-Le remplacement de Graphite par InfluxDB nous a permis de gagner en performances, en simplicité de modèle et de configuration, tout en réduisant considérablement les dépendances, ce qui simplifie l’installation et la maintenance.  
-
-De plus, cette solution se concentre uniquement sur nos besoins, sans fonctionnalités superflues.  
-La seule limite est de devoir nous contenter d’une version antérieure (bien qu’encore maintenue) d’InfluxDB pour bénéficier d’une compatibilité native avec Collectd. Nous espérons que cette version restera maintenue dans les années à venir.
+InfluxDB V1 a plusieurs avantages.
+C'est une solution qui se concentre uniquement sur nos besoins, sans fonctionnalités superflues.  
+Il n'y a pas de dépendances externes puisque influxdb se résume à un binaire. 
+Ses performances sont très bonnes que ce soit en utilisation CPU et RAM.
+La seule limite est que seule une version antérieure (bien qu’encore maintenue) d’InfluxDB est compatible nativement avec Collectd. Nous espérons que cette version restera maintenue dans les années à venir.
 
 ---
 
