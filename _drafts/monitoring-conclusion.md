@@ -20,8 +20,8 @@ Chaque graphique ci-dessous représente la moyenne des mesures prises toutes les
 [![Graphique comparatif de l'utilisation CPU des quatres outils.](../images/monitoring-dasboard-benchmark/nagios_graphite_zabbix_influxdb_cpu_usage.png)](../images/monitoring-dasboard-benchmark/nagios_graphite_zabbix_influxdb_cpu_usage.png)
 [![Graphique comparatif de l'utilisation CPU de nagios graphite et influxdb.](../images/monitoring-dasboard-benchmark/nagios_graphite_influxdb_cpu_usage.png)](../images/monitoring-dasboard-benchmark/nagios_graphite_influxdb_cpu_usage.png)
 
-On observe que **Zabbix** est l'outil le plus gourmand en CPU, et de loin avec une moyenne de **151%** d'utilisation. **Nagios** et **Graphite + Grafana** sont beaucoup moins gourmands avec une moyenne de **23%** d'utilisation CPU pour **Nagios**, **16%** pour **Graphite + Grafana** et **11,12** pour **Influxdb + Grafana**. Sachant que la mesure témoin donne **9,5%** d'utilisation sans outils en fonctionnement, cela nous donne une approximation à:
-  - **Zabbix** : **141,5%** d'utilisation CPU
+On observe que **Zabbix** est l'outil le plus gourmand en CPU, et de loin avec une moyenne de **153,62%** d'utilisation. **Nagios** et **Graphite + Grafana** sont beaucoup moins gourmands avec une moyenne de **23%** d'utilisation CPU pour **Nagios**, **16%** pour **Graphite + Grafana** et **11,12** pour **Influxdb + Grafana**. Sachant que la mesure témoin donne **9,5%** d'utilisation sans outils en fonctionnement, cela nous donne une approximation à:
+  - **Zabbix** : **142%** d'utilisation CPU
   - **Nagios** : **13%** d'utilisation CPU
   - **Graphite + Grafana** : **6,5%** d'utilisation CPU
   - **Influxdb + Grafana** : **1,5%** d'utilisation CPU

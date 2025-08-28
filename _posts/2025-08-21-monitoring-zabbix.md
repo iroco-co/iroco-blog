@@ -53,21 +53,25 @@ Zabbix peut être configuré, soit via l'interface web, soit par fichier de conf
 
 #### CPU
 
-[![Graphique d'utilisation CPU de Zabbix sur les 8100 dernières secondes.](../images/monitoring-dasboard-benchmark/zabbix_cpu_usage.png)](../images/monitoring-dasboard-benchmark/zabbix_cpu_usage.png)
+[![Graphique d'utilisation CPU de Zabbix sur les 3600 dernières secondes.](../images/monitoring-dasboard-benchmark/zabbix_cpu_usage.png)](../images/monitoring-dasboard-benchmark/zabbix_cpu_usage.png)
 
-Zabbix est plus gourmand en CPU que nagios. Par ailleurs on observe de très fortes variations, avec des pics à plus de 200%. La moyenne d'utilisation CPU est de **160%** là où nagios était à 24%.
+Zabbix est plus gourmand en CPU que nagios. Par ailleurs on observe de très fortes variations, avec des pics à plus de 200%. La moyenne d'utilisation CPU est de **153,62%** là où nagios était à 22,71%. Nous avons des doutes sur l'origine de cette consommation. Il est probable que cela vienne de la méthode que nous employons pour envoyer les données vers zabbix et non pas de zabbix lui mème (à confirmer).
 
 #### RAM
 
-[![Graphique d'utilisation mémoire de Zabbix sur les 8100 dernières secondes.](../images/monitoring-dasboard-benchmark/zabbix_memory_usage.png)](../images/monitoring-dasboard-benchmark/zabbix_memory_usage.png)
+[![Graphique d'utilisation mémoire de Zabbix sur les 3600 dernières secondes.](../images/monitoring-dasboard-benchmark/zabbix_memory_usage.png)](../images/monitoring-dasboard-benchmark/zabbix_memory_usage.png)
 
-Pour la RAM c'est plus proche que ce que nous avions avec nagios : **4,67%** (nagios : 3,5%) . Cependant, il reste une légère augmentation de l'utilisation de la RAM au fil du temps, ce qui pourrait causer des problèmes de performance à long terme. Nous faisons l'hypothèse que cela viendrait de la gestion des données qui serait montée en partie en RAM (à confirmer).
+Pour la RAM c'est plus proche que ce que nous avions avec nagios : **4,17%** (nagios : 2,99%) . Cependant, il reste une légère augmentation de l'utilisation de la RAM au fil du temps, ce qui pourrait causer des problèmes de performance à long terme. Nous faisons l'hypothèse que cela viendrait de la gestion des données qui serait montée en partie en RAM (à confirmer).
 
 ### Conclusion
 
-Zabbix est un outil de monitoring complet et moderne, mais il est intensif en CPU. Il nécessite une configuration supplémentaire pour intégrer Collectd, ce qui peut être une difficulté supplémentaire en ce qui concerne la maintenabilité. Ou bien il faut déployer l'[agent Zabbix](https://www.zabbix.com/download_agents) sur les serveurs à observer. Dans ce cas, il y a moins d'inter-opérabilité si on veut changer de système de supervision.
+Zabbix est un outil de monitoring complet et moderne, mais il est intensif en CPU. Il nécessite une configuration supplémentaire pour intégrer Collectd (probablement à l'origine de la forte consommation CPU), ce qui peut être une difficulté supplémentaire en ce qui concerne la maintenabilité. Ou bien il faut déployer l'[agent Zabbix](https://www.zabbix.com/download_agents) sur les serveurs à observer. Dans ce cas, il y a moins d'inter-opérabilité si on veut changer de système de supervision.
 
 Mis à part cela, Zabbix reste assez simple à configurer. Il offre une interface web moderne et une grande flexibilité dans la configuration des graphiques et des alertes. Il est compatible avec les bases de données MySQL et PostgreSQL, ce qui laisse le choix de la technologie de stockage.  Zabbix est entièrement open-source, ce qui est un bon point selon nos critères.
+
+ÉDITE (28/08/2025): 
+- nouveau tir pour clarifier les résultats CPU et RAM.
+- correction du scripte de benchmark mesure qui consommait de la mémoire.
 
 Retrouvez les autres articles de cette série (à venir dans les prochains jours) :
 
