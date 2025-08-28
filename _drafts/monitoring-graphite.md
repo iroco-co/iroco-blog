@@ -58,15 +58,15 @@ Une première observation est que Graphite et Collectd sont compatibles. En effe
 
 #### CPU
 
-[![Graphique d'utilisation CPU de Graphite + Grafana sur les 8100 dernières secondes.](../images/monitoring-dasboard-benchmark/graphite+grafana_cpu_usage.png)](../images/monitoring-dasboard-benchmark/graphite+grafana_cpu_usage.png)
+[![Graphique d'utilisation CPU de Graphite + Grafana sur les 3600 dernières secondes.](../images/monitoring-dasboard-benchmark/graphite+grafana_cpu_usage.png)](../images/monitoring-dasboard-benchmark/graphite+grafana_cpu_usage.png)
 
-Graphite + Grafana semble être peu gourmand en CPU. On observe une utilisation moyenne de **16%** de celui-ci. De plus, son utilisation est stable dans le temps malgré une légère augmentation.
+Graphite + Grafana semble être peu gourmand en CPU. On observe une utilisation moyenne de **16,06%** de celui-ci. De plus, son utilisation est stable dans le temps.
 
 #### RAM
 
-[![Graphique d'utilisation mémoire de Graphite + Grafana sur les 8100 dernières secondes.](../images/monitoring-dasboard-benchmark/graphite+grafana_memory_usage.png)](../images/monitoring-dasboard-benchmark/graphite+grafana_memory_usage.png)
+[![Graphique d'utilisation mémoire de Graphite + Grafana sur les 3600 dernières secondes.](../images/monitoring-dasboard-benchmark/graphite+grafana_memory_usage.png)](../images/monitoring-dasboard-benchmark/graphite+grafana_memory_usage.png)
 
-Graphite + Grafana semble être peu gourmand en RAM. On en observe une utilisation moyenne de **3,88%**. De plus, son utilisation est stable dans le temps malgré une très légère augmentation dans la durée.
+Graphite + Grafana semble être peu gourmand en RAM. On en observe une utilisation moyenne de **3,63%**. De plus, on observe un légère augmentation dans la durée. Nous faisons l'hypothèse que cela viendrait de la gestion des données qui serait montée en partie en RAM (à confirmer).
 
 ### Conclusion
 

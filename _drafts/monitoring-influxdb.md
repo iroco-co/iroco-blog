@@ -60,6 +60,17 @@ Il est nativement compatible avec Collectd et Grafana, ce qui rend sa configurat
 
 ### Performances
 
+#### CPU
+
+[![Graphique d'utilisation CPU de Influxdb + Grafana sur les 3600 dernières secondes.](../images/monitoring-dasboard-benchmark/influxdb_cpu_usage.png)](../images/monitoring-dasboard-benchmark/influxdb_cpu_usage.png)
+
+Influxdb semble être moins gourmand en CPU que graphite. On observe une utilisation moyenne de **11,12%** pour influxdb contre **16,06%** pour graphite, soit une différence de **4,94%** de moins. De plus, son utilisation est stable dans le temps.
+
+#### RAM
+
+[![Graphique d'utilisation mémoire de Influxdb + Grafana sur les 3600 dernières secondes.](../images/monitoring-dasboard-benchmark/influxdb_memory_usage.png)](../images/monitoring-dasboard-benchmark/influxdb_memory_usage.png)
+
+Influxdb semble être moins gourmand en RAM que graphite. On en observe une utilisation moyenne de **3,17%** pour influxdb contre **3,63%** pour graphite. De plus, on observe un légère meilleure stabilité dans la durée.
 
 ### Conclusion
 

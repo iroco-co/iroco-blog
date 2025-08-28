@@ -58,22 +58,24 @@ Une première observation est que Nagios et Collectd ne sont pas directement com
 
 #### CPU
 
-[![Graphique d'utilisation CPU de Nagios sur les 8100 dernières secondes.](/images/monitoring-dasboard-benchmark/nagios_cpu_usage.png)](/images/monitoring-dasboard-benchmark/nagios_cpu_usage.png)
+[![Graphique d'utilisation CPU de Nagios sur les 3600 dernières secondes.](/images/monitoring-dasboard-benchmark/nagios_cpu_usage.png)](/images/monitoring-dasboard-benchmark/nagios_cpu_usage.png)
 
-Nagios est peu gourmand en CPU. On observe une utilisation moyenne de **24%** de celui-ci. De plus, son utilisation est stable dans le temps, ce qui est un bon point pour la fiabilité de l'outil.
+Nagios est peu gourmand en CPU. On observe une utilisation moyenne de **22,71%** de celui-ci. De plus, son utilisation est stable dans le temps, ce qui est un bon point pour la fiabilité de l'outil.
 
 #### RAM
 
-[![Graphique d'utilisation mémoire de Nagios sur les 8100 dernières secondes.](/images/monitoring-dasboard-benchmark/nagios_memory_usage.png)](/images/monitoring-dasboard-benchmark/nagios_memory_usage.png)
+[![Graphique d'utilisation mémoire de Nagios sur les 3600 dernières secondes.](/images/monitoring-dasboard-benchmark/nagios_memory_usage.png)](/images/monitoring-dasboard-benchmark/nagios_memory_usage.png)
 
-Nagios est économe en RAM également. On en observe une utilisation moyenne de **3,52%**. De plus, son utilisation est stable dans le temps, malgré une très légère augmentation sur la durée.
-
-*Note*: les pics à la fin de l'enregistrement correspondent à l'arrêt du docker Nagios.
+Nagios est économe en RAM également. On en observe une utilisation moyenne de **2,99%**. De plus, son utilisation est stable dans le temps. Il ne semble pas y avoir de fuite mémoire
 
 ## Conclusion
 
 Nagios est un outil de monitoring robuste et fiable. Il offre de bonnes performances en termes de consommation CPU et RAM.
 Cependant, sa configuration avec de nombreux fichiers est statique, notamment pour intégrer Collectd. Dans sa version opensource l'interface web n'a pas beaucoup évolué et ne permet pas de créer simplement des dashboards.
+
+ÉDITE (28/08/2025): 
+- nouveau tir pour clarifier les résultats CPU et RAM.
+- correction du scripte de benchmark mesure qui consommait de la mémoire.
 
 Retrouvez les autres articles de cette série (à venir dans les prochains jours) :
 
