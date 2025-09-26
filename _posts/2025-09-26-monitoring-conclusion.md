@@ -11,11 +11,9 @@ tags:
 ---
 # Conclusion
 
-## Graphiques de performance
-
 Chaque graphique ci-dessous représente les mesures prises toutes les secondes et la moyenne des mesures sur une période d'une heure pour chaque outil de monitoring. Elles peuvent être comparées à une mesure témoin prise sans aucun outil de monitoring en fonctionnement (*empty*).
 
-### CPU
+## CPU
 
 [![Graphique comparatif de l'utilisation CPU des quatres outils.](../images/monitoring-dasboard-benchmark/nagios_graphite_zabbix_influxdb_cpu_usage.png)](../images/monitoring-dasboard-benchmark/nagios_graphite_zabbix_influxdb_cpu_usage.png)
 [![Graphique comparatif de l'utilisation CPU de nagios graphite et influxdb.](../images/monitoring-dasboard-benchmark/nagios_graphite_influxdb_cpu_usage.png)](../images/monitoring-dasboard-benchmark/nagios_graphite_influxdb_cpu_usage.png)
@@ -32,7 +30,7 @@ Sachant que la mesure témoin est de **9,5%** d'utilisation sans outils en fonct
   - **Graphite + Grafana** : **6,5%** d'utilisation CPU
   - **Influxdb + Grafana** : **1,5%** d'utilisation CPU
 
-### RAM
+## RAM
 
 [![Graphique comparatif de l'utilisation mémoire des quatres outils.](../images/monitoring-dasboard-benchmark/nagios_graphite_zabbix_influxdb_memory_usage.png)](../images/monitoring-dasboard-benchmark/nagios_graphite_zabbix_influxdb_memory_usage.png)
 
