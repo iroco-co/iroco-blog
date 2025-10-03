@@ -51,4 +51,6 @@ Si vous préférez être encadré, vous pouvez consulter l'[agenda du libre](htt
 
 ## Et pour notre collectif ?
 
-Nous organisons des ateliers de réflexion, des accompagnements, autour de la souveraineté du numérique en allant [au delà des systèmes d'exploitation des machines](https://iroco.codeberg.page/alterdigital/), et nous pouvons aussi vous aider si vous voulez migrer vos ordinateurs sur linux.
+Hormis les automatisations possibles avec des installations à distance, les options sont les mêmes.
+
+Nous organisons des ateliers de réflexion, des accompagnements, autour de la souveraineté du numérique en allant [au delà des systèmes d'exploitation des machines](https://iroco.codeberg.page/alterdigital/), et nous pouvons aussi vous aider si vous voulez migrer vos ordinateurs sous linux.
