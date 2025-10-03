@@ -40,3 +40,8 @@ Et si c'était l'occasion de passer à un vrai système d'exploitation, un syst�
 
 Généralement, pour savoir si c'est compatible avec votre machine et voir si une distribution est faite pour vous, vous pouvez télécharger une [image disque](https://fr.wikipedia.org/wiki/Image_disque) (ou fichier ISO), l'installer sur une clé USB (prenez une clé de 16Go) et démarrer votre ordinateur sur la clé. Vous pouvez alors essayer, voir si ça vous convient et ensuite un installateur sera présent pour mettre la distribution sur votre disque SSD ou disque dur.
 
+Si vous préférez être encadré, vous pouvez consulter l'[agenda du libre](https://www.agendadulibre.org/tags/install-party) et les "install parties" linux. [Nous en organisons](https://opencollective.com/le-47/events/install-party-f8324323) aussi au 47, et si vous voulez nous y retrouver en dehors de ces événements, envoyez nous un message mail à hello at iroco point fr.
+
+## Et pour notre collectif ?
+
+Nous organisons des ateliers de réflexion, des accompagnements, autour de la souveraineté du numérique en allant [au delà des systèmes d'exploitation des machines](https://iroco.codeberg.page/alterdigital/), et nous pouvons aussi vous aider si vous voulez migrer vos ordinateurs sur linux.
