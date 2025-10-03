@@ -16,7 +16,7 @@ Photo de [HI! ESTUDIO](https://unsplash.com/fr/@hiestudio?utm_content=creditCopy
 
 _Dans 10 jours, le 14 octobre, le support de windows 10 prendra fin. Il faudra soit payer une extension de garantie de 30€ pour un an (renouvelable jusqu'en 2028), soit passer à windows 11 si votre machine le permet. Une occasion de changer de système ?_
 
-Voilaaa, c'est fini ! Il fallait bien que ça arrive un jour, les fins de vies de windows sont toujours délicates pour les utlisateurs, forcés de faire la mise à jour de leur(s) ordinateur(s) et sans doute également pour Microsoft qui doit gérer le risque de voir des utilisateurs changer de système d'exploitation.
+Voilaaa, c'est fini ! Il fallait bien que ça arrive un jour, les fins de vies de windows sont toujours délicates pour les utilisateurs, forcés de faire la mise à jour de leur(s) ordinateur(s) et sans doute également pour Microsoft qui doit gérer le risque de voir des utilisateurs changer de système d'exploitation.
 
 Le 14 octobre, le support de Windows 10 prendra fin. Cela ne signifie pas pour autant que votre ordinateur va s'arrêter de fonctionner, mais les mises à jour de sécurité ne seront plus faites. Comme des failles sont découvertes en permanence, cela veut dire que votre ordinateur deviendra peu à peu moins robuste aux attaques de virus et autres malwares.
 
