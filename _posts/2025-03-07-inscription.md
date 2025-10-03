@@ -4,7 +4,7 @@ title: Inscription au service de mail
 author:
   display_name: Iroco
 categories:
-- Grand Public
+- Grand public
 tags:
 - iroco
 ---
