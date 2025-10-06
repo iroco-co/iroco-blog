@@ -5,7 +5,7 @@ author:
   display_name: Iroco
 categories:
   - Grand public
-tags
+tags:
   - Numérique responsable
 ---
 
