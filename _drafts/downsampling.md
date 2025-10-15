@@ -119,9 +119,9 @@ Voyons en détail ce que font ces requêtes selon la [doc infuxdb](https://docs.
 - `rp_config` : un _measurement_ `rp_config` créé pour la gestion de ces fenêtre. Nous créons 3 enregistrements dans ce _measurement_.
 - `idx=1` : c'est un tag d'index avec la valeur 1 (il n'est pas obligatoire mais il sert à ordonner les 3 différentes granularités)
 - `rp="autogen,start=0i,end=2592000000i` : ce sont les champs (_fields_)  du measurement. Rp est le nom de la RP, start et end définissent la taille de fenêtre (en ms) pour laquelle mapper la RP. Le `i` désigne le type de la donnée : un entier.
-- `-9223372036854775806` : c’est l’horodatage (timestamp) du point écrit. Obligatoire car influxdb ne peut stocker que des données temporelles. La faible valeur (-272M d'années) est choisie si loin dans le passé qu'elle ne pourra pas interférer avec d'autres données. Grafana ne la voit pas.
+- `-9223372036854775806` : c’est l’horodatage (timestamp) du point écrit (en ns). Obligatoire car influxdb ne peut stocker que des données temporelles. La faible valeur (-272 années) correspond à la [date minimale gérée par Influxdb](https://github.com/influxdata/influxdb-java/issues/626) (max 64 bits). Elle ne pourra pas interférer avec d'autres données. Grafana ne la voit pas.
 
-Une fois la RP `forever` ansi configurée, il suffit de créer une variable grafana qui récupère la bonne `rp_config` en fonction de la taille de la fenêtre d'affichage de grafana : 
+Une fois la RP `forever` ainsi configurée, il suffit de créer une variable grafana qui récupère la bonne `rp_config` en fonction de la taille de la fenêtre d'affichage de grafana : 
 
 ```sql
 SELECT rp FROM forever.rp_config WHERE $__to-$__from > start and $__to-$__from <= "end"
@@ -162,7 +162,7 @@ group_by:
 ```sql
 SELECT first(group_by) FROM forever.rp_config WHERE time >= (now() - ${__from}ms)
 ```
-- `first()`: permet de ne récupérer que le premier élément des `rp_config`  pour le début de fenêtre grafana  (non obligatoire mais permet d'adapter automatiquement à la résolution maximale disponible pour une date donnée)
+- `first()`: permet de ne récupérer que le premier élément des `rp_config`  pour le début de fenêtre grafana (non obligatoire mais permet d'adapter automatiquement à la résolution maximale disponible pour une date donnée)
 - `${__from}ms`: indique le début de la fenêtre temporelle grafana actuellement observée (ms est obligatoire pour rendre compatible avec `now`, sinon sera interprété en nanosecondes)
 - `now() - ${__from}ms`: calcul de la période avec la meilleure granularité dans influxdb
 - `WHERE time >= (now() - ${__from}ms)`: ne récupère que les données pour lesquelles `time` est supérieur au début de la fenêtre.
