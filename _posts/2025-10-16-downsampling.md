@@ -119,9 +119,9 @@ Voyons en détail ce que font ces requêtes selon la [doc infuxdb](https://docs.
 - `rp_config` : un _measurement_ `rp_config` créé pour la gestion de ces fenêtre. Nous créons 3 enregistrements dans ce _measurement_.
 - `idx=1` : c'est un tag d'index avec la valeur 1 (il n'est pas obligatoire mais il sert à ordonner les 3 différentes granularités)
 - `rp="autogen,start=0i,end=2592000000i` : ce sont les champs (_fields_)  du measurement. Rp est le nom de la RP, start et end définissent la taille de fenêtre (en ms) pour laquelle mapper la RP. Le `i` désigne le type de la donnée : un entier.
-- `-9223372036854775806` : c’est l’horodatage (timestamp) du point écrit (en ns). Obligatoire car influxdb ne peut stocker que des données temporelles. La faible valeur (-272 années) correspond à la [date minimale gérée par Influxdb](https://github.com/influxdata/influxdb-java/issues/626) (max 64 bits). Elle ne pourra pas interférer avec d'autres données. Grafana ne la voit pas.
+- `-9223372036854775806` : c’est l’horodatage (timestamp) du point écrit (en ns). Obligatoire car influxdb ne peut stocker que des données temporelles. La faible valeur (-292 années) correspond à la [date minimale gérée par Influxdb](https://github.com/influxdata/influxdb-java/issues/626) (max 64 bits). Elle ne pourra pas interférer avec d'autres données. Grafana ne la voit pas.
 
-Une fois la RP `forever` ainsi configurée, il suffit de créer une variable grafana qui récupère la bonne `rp_config` en fonction de la taille de la fenêtre d'affichage de grafana : 
+Une fois la RP `forever` ainsi configurée, nous créons une variable grafana qui récupère la bonne `rp_config` en fonction de la taille de la fenêtre d'affichage de grafana : 
 
 ```sql
 SELECT rp FROM forever.rp_config WHERE $__to-$__from > start and $__to-$__from <= "end"
@@ -133,7 +133,7 @@ Détaillons la requête :
 
 Il ne faut pas oublier de configurer le `Refresh` pour que la variable se mette à jour lorsque la fenêtre change.
 
-Il suffit ensuite d'appeler cette variable dans tous les graphiques.
+Nous appelons cette variable dans tous les graphiques.
 
 Bien qu'impressionnés par cette solution, après l'avoir testée, nous avons constaté quelques inconvénients : si on affiche les données d'un mois il y a un an, tout va bien, grafana fait la requête sur le _measurement_ `5_years.my_measurement`. Mais si on on zoom sur une période de une semaine, alors il va utiliser `autogen.my_measurement` et l'affichage est cassé. En d'autres termes il ne nous semble pas pertinent de faire dépendre la `rp_config`  de la taille de la fenêtre grafana.  Nous préférerions que celle-ci dépende plutôt de l'ancienneté de la plus ancienne variable affichée dans la fenêtre.
 
