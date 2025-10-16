@@ -15,8 +15,8 @@ Chaque graphique ci-dessous représente les mesures prises toutes les secondes e
 
 ## CPU
 
-[![Graphique comparatif de l'utilisation CPU des quatres outils.](../images/monitoring-dasboard-benchmark/nagios_graphite_zabbix_influxdb_cpu_usage.png)](../images/monitoring-dasboard-benchmark/nagios_graphite_zabbix_influxdb_cpu_usage.png)
-[![Graphique comparatif de l'utilisation CPU de nagios graphite et influxdb.](../images/monitoring-dasboard-benchmark/nagios_graphite_influxdb_cpu_usage.png)](../images/monitoring-dasboard-benchmark/nagios_graphite_influxdb_cpu_usage.png)
+[![Graphique comparatif de l'utilisation CPU des quatres outils.](/images/monitoring-dasboard-benchmark/nagios_graphite_zabbix_influxdb_cpu_usage.png)](/images/monitoring-dasboard-benchmark/nagios_graphite_zabbix_influxdb_cpu_usage.png)
+[![Graphique comparatif de l'utilisation CPU de nagios graphite et influxdb.](/images/monitoring-dasboard-benchmark/nagios_graphite_influxdb_cpu_usage.png)](/images/monitoring-dasboard-benchmark/nagios_graphite_influxdb_cpu_usage.png)
 
 Nous avons fait un deuxième graph pour éviter l'écrasement des données.
 
@@ -32,7 +32,7 @@ Sachant que la mesure témoin est de **9,5%** d'utilisation sans outils en fonct
 
 ## RAM
 
-[![Graphique comparatif de l'utilisation mémoire des quatres outils.](../images/monitoring-dasboard-benchmark/nagios_graphite_zabbix_influxdb_memory_usage.png)](../images/monitoring-dasboard-benchmark/nagios_graphite_zabbix_influxdb_memory_usage.png)
+[![Graphique comparatif de l'utilisation mémoire des quatres outils.](/images/monitoring-dasboard-benchmark/nagios_graphite_zabbix_influxdb_memory_usage.png)](/images/monitoring-dasboard-benchmark/nagios_graphite_zabbix_influxdb_memory_usage.png)
 
 Concernant la RAM, **Zabbix** est encore l'outil le plus intensif en mémoire avec une moyenne de **4,17%** d'utilisation RAM. La différence est moins marquée que pour le CPU avec **Nagios** à **2,99%**, **Graphite + Grafana** à **3,63%** et **Influxdb + Grafana** à **3,17**.
 

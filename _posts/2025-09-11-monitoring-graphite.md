@@ -13,7 +13,7 @@ tags:
 
 ## Présentation
 
-[![Exemple de dashboard de Grafana](../images/monitoring-dasboard-benchmark/Pres_graphite+grafana.png)](https://www.grafana.com/)
+[![Exemple de dashboard de Grafana](/images/monitoring-dasboard-benchmark/Pres_graphite+grafana.png)](https://www.grafana.com/)
 
 ### [Graphite](https://graphiteapp.org/)
 
@@ -29,7 +29,7 @@ tags:
 
 ## Structure
 
-[![Schéma descriptif du fonctionnement de Graphite + Grafana](../images/monitoring-dasboard-benchmark/Schema_graphite+grafana.png)](https://graphiteapp.org/)
+[![Schéma descriptif du fonctionnement de Graphite + Grafana](/images/monitoring-dasboard-benchmark/Schema_graphite+grafana.png)](https://graphiteapp.org/)
 - [**Graphite**](https://graphiteapp.org/) : logiciel de stockage et de gestion de données temporelles.
 - [**Carbon**](https://graphite.readthedocs.io/en/latest/carbon-daemons.html) : composant principale de [**Graphite**](https://graphiteapp.org/) permettant la reception et la gestion des métriques collectées. Sa compatibilité avec **collectd** nous permet de nous passer d'utilitaire externe.
 - [**Whisper**](https://graphite.readthedocs.io/en/latest/whisper.html) : composant de [**Graphite**](https://graphiteapp.org/) fournissant le stockage de données temporelles. (peut être remplacé par d'autres technologies si besoin)
@@ -58,13 +58,13 @@ Collectd envoie ses données à Carbon grâce au plugin [write_graphite](https:/
 
 #### CPU
 
-[![Graphique d'utilisation CPU de Graphite + Grafana sur les 3600 dernières secondes.](../images/monitoring-dasboard-benchmark/graphite+grafana_cpu_usage.png)](../images/monitoring-dasboard-benchmark/graphite+grafana_cpu_usage.png)
+[![Graphique d'utilisation CPU de Graphite + Grafana sur les 3600 dernières secondes.](/images/monitoring-dasboard-benchmark/graphite+grafana_cpu_usage.png)](/images/monitoring-dasboard-benchmark/graphite+grafana_cpu_usage.png)
 
 Graphite + Grafana sont moins consommateurs en CPU que Nagios et Zabix avec une utilisation moyenne de **16,06%**. On note une légère augmentation de la CPU sur l'heure de test. C'est peut-être lié à la "chauffe" du serveur qui doit se stabiliser dans le temps.
 
 #### RAM
 
-[![Graphique d'utilisation mémoire de Graphite + Grafana sur les 3600 dernières secondes.](../images/monitoring-dasboard-benchmark/graphite+grafana_memory_usage.png)](../images/monitoring-dasboard-benchmark/graphite+grafana_memory_usage.png)
+[![Graphique d'utilisation mémoire de Graphite + Grafana sur les 3600 dernières secondes.](/images/monitoring-dasboard-benchmark/graphite+grafana_memory_usage.png)](/images/monitoring-dasboard-benchmark/graphite+grafana_memory_usage.png)
 
 On en observe une utilisation moyenne de **3,63%** pour la RAM avec également un légère augmentation dans la durée. Comme pour les autres tests, nous faisons l'hypothèse que cela viendrait de les données qui seraient montée en partie en RAM.
 

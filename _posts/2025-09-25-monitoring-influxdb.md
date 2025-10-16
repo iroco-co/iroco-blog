@@ -19,7 +19,7 @@ C’est en cherchant des alternatives à Graphite, compatibles avec Collectd et 
 
 ## Présentation
 
-[![Exemple de dashboard de Grafana](../images/monitoring-dasboard-benchmark/Pres_graphite+grafana.png)](https://www.grafana.com/)
+[![Exemple de dashboard de Grafana](/images/monitoring-dasboard-benchmark/Pres_graphite+grafana.png)](https://www.grafana.com/)
 
 **Description** : InfluxDB est une base de données temporelle (time-series database) conçue en 2013 et optimisée pour la rapidité.  
 Il en existe aujourd'hui trois versions gratuites open source, chacune ayant sa version entreprise.  
@@ -33,7 +33,7 @@ Nous avons choisi la plus récente de la V1 : **influxdb:1.11.8**.
 
 ## Structure
 
-[![Schéma descriptif du fonctionnement de InfluxDB + Grafana](../images/monitoring-dasboard-benchmark/Schema_influxdb+grafana.png)](../images/monitoring-dasboard-benchmark/Schema_influxdb+grafana.png)
+[![Schéma descriptif du fonctionnement de InfluxDB + Grafana](/images/monitoring-dasboard-benchmark/Schema_influxdb+grafana.png)](/images/monitoring-dasboard-benchmark/Schema_influxdb+grafana.png)
 
 - [**InfluxDB V1**](https://docs.influxdata.com/influxdb/v1/) : Base de données temporelle qui reçoit les données, les indexe, les stocke et les met à disposition sur un port dédié.  
 - [**Grafana**](https://grafana.com/) : Plateforme de visualisation graphique proposant une interface web moderne, la génération de graphiques, l’alerting et la gestion des utilisateurs. Elle se connecte directement à InfluxDB pour observer les données collectées par ce dernier.
@@ -63,13 +63,13 @@ Il est compatible avec Collectd et Grafana. Il suffit alors de configurer les li
 
 #### CPU
 
-[![Graphique d'utilisation CPU de Influxdb + Grafana sur les 3600 dernières secondes.](../images/monitoring-dasboard-benchmark/influxdb_cpu_usage.png)](../images/monitoring-dasboard-benchmark/influxdb_cpu_usage.png)
+[![Graphique d'utilisation CPU de Influxdb + Grafana sur les 3600 dernières secondes.](/images/monitoring-dasboard-benchmark/influxdb_cpu_usage.png)](/images/monitoring-dasboard-benchmark/influxdb_cpu_usage.png)
 
 Ce sont les mesures les plus basses en CPU que nous ayons obtenu avec une utilisation moyenne de **11,12%**.
 
 #### RAM
 
-[![Graphique d'utilisation mémoire de Influxdb + Grafana sur les 3600 dernières secondes.](../images/monitoring-dasboard-benchmark/influxdb_memory_usage.png)](../images/monitoring-dasboard-benchmark/influxdb_memory_usage.png)
+[![Graphique d'utilisation mémoire de Influxdb + Grafana sur les 3600 dernières secondes.](/images/monitoring-dasboard-benchmark/influxdb_memory_usage.png)](/images/monitoring-dasboard-benchmark/influxdb_memory_usage.png)
 
 Là encore nous obtenons le chiffre le plus faible de nos mesures : **3,17%**.
 

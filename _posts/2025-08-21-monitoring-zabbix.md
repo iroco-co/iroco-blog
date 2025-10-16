@@ -13,7 +13,7 @@ tags:
 
 ## Présentation
 
-[![Exemple de dashboard de Zabbix](../images/monitoring-dasboard-benchmark/Pres_zabbix.png)](https://www.zabbix.com/)
+[![Exemple de dashboard de Zabbix](/images/monitoring-dasboard-benchmark/Pres_zabbix.png)](https://www.zabbix.com/)
 
 **Description** : Zabbix est un outil open source d’entreprise doté d’une architecture distribuée (agents, proxies) et d’une base de données (MySQL/PostgreSQL/Oracle) pour stocker les métriques. Il fournit une interface moderne et un grand nombre de fonctionnalités relatives au monitoring.
 
@@ -22,7 +22,7 @@ tags:
 
 ## Structure
 
-[![Schéma descriptif du fonctionnement de Zabbix](../images/monitoring-dasboard-benchmark/Schema_zabbix.png)](https://www.zabbix.com/)
+[![Schéma descriptif du fonctionnement de Zabbix](/images/monitoring-dasboard-benchmark/Schema_zabbix.png)](https://www.zabbix.com/)
 
   - [**Zabbix-server**](https://www.zabbix.com/documentation/7.2/en/manual/appendix/config/zabbix_server) : Noyau central qui gère la gestion des métriques, les utilisateurs et le système d'alerte.
   - **Mysql/PostgreSQL** : Base de données utilisée pour stocker les métriques et la configuration de Zabbix.
@@ -53,13 +53,13 @@ Zabbix peut être configuré, soit via l'interface web, soit par fichier de conf
 
 #### CPU
 
-[![Graphique d'utilisation CPU de Zabbix sur les 3600 dernières secondes.](../images/monitoring-dasboard-benchmark/zabbix_cpu_usage.png)](../images/monitoring-dasboard-benchmark/zabbix_cpu_usage.png)
+[![Graphique d'utilisation CPU de Zabbix sur les 3600 dernières secondes.](/images/monitoring-dasboard-benchmark/zabbix_cpu_usage.png)](/images/monitoring-dasboard-benchmark/zabbix_cpu_usage.png)
 
 Zabbix est plus gourmand en CPU que nagios. Par ailleurs on observe de très fortes variations, avec des pics à plus de 200%. La moyenne d'utilisation CPU est de **153,62%** là où nagios était à 22,71%. Nous avons des doutes sur l'origine de cette consommation. Il est probable que cela vienne de la méthode que nous employons pour envoyer les données vers zabbix et non pas de zabbix lui mème (à confirmer).
 
 #### RAM
 
-[![Graphique d'utilisation mémoire de Zabbix sur les 3600 dernières secondes.](../images/monitoring-dasboard-benchmark/zabbix_memory_usage.png)](../images/monitoring-dasboard-benchmark/zabbix_memory_usage.png)
+[![Graphique d'utilisation mémoire de Zabbix sur les 3600 dernières secondes.](/images/monitoring-dasboard-benchmark/zabbix_memory_usage.png)](/images/monitoring-dasboard-benchmark/zabbix_memory_usage.png)
 
 Pour la RAM c'est plus proche que ce que nous avions avec nagios : **4,17%** (nagios : 2,99%) . Cependant, il reste une légère augmentation de l'utilisation de la RAM au fil du temps, ce qui pourrait causer des problèmes de performance à long terme. Nous faisons l'hypothèse que cela viendrait de la gestion des données qui serait montée en partie en RAM (à confirmer).
 
