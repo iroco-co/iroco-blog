@@ -12,7 +12,7 @@ Quelques liens :
 * [moi](https://u.baldir.fr/me)
 * [blog](https://baldir.fr)
 * [LinkedIn](https://fr.linkedin.com/in/profileofmarcbouvier)
-* <a rel="me" href="https://pouet.chapril.org/@marc_bouvier">Mastodon</a>
+* [Mastodon](https://pouet.chapril.org/@marc_bouvier)
  
 
 ## Articles
