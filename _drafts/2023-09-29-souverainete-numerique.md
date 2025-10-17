@@ -3,7 +3,7 @@ layout: post
 title: L'importance de la souveraineté numérique dans un monde connecté
 description: La souveraineté numérique, un enjeu majeur dans notre ère connectée. Découvrez son impact sur la vie quotidienne et les défis qu'elle pose.
 author:
-  display_name: Iroco
+  name: iroco
 categories:
 - Grand public
 tags:

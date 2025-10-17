@@ -3,7 +3,7 @@ layout: post
 title: Tests comparatifs SvelteKit / Pyramid
 description: Un petit tour sous le capot de nos dernières évolutions techniques.
 author:
-  display_name: Bruno Thomas
+  name: bruno
 categories:
 - Sous le capot
 - Avancé

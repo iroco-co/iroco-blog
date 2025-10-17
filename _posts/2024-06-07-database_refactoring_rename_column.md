@@ -3,7 +3,7 @@ layout: post
 title: Refactoring de base de données — Renommer une colonne
 description: Explorons le refactoring de base de données en nous appuyant sur les techniques d'architecture évolutionnaire et de déploiement continu.
 author:
-  display_name: Marc Bouvier
+  name: marc
 categories:
   - Sous le capot
   - Avancé

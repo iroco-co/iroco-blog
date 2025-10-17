@@ -3,7 +3,7 @@ layout: post
 title: Les bases de la mesure d'impact environnemental du numérique
 description: Découvrez les méthodologies pour mesurer l'impact environnemental du numérique, de l'ACV au bilan carbone, en passant par l'empreinte écologique.
 author:
-  display_name: Iroco
+  name: iroco
 categories:
 - Décryptage
 - Grand public

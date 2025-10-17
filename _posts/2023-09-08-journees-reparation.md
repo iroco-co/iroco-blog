@@ -3,7 +3,7 @@ layout: post
 title: Les Journées Nationales de la Réparation
 description: Participez aux Journées Nationales de la Réparation 2023 pour contribuer à réduire les déchets et préserver l'environnement !
 author:
-  display_name: Iroco
+  name: iroco
 categories:
 - Grand public
 - Décryptage

@@ -3,7 +3,7 @@ layout: post
 title: Quelques publications de référence sur le numérique responsable
 description: Quelle littérature consulter pour se renseigner sur le numérique responsable ?
 author:
-  display_name: Adeline Agut
+  name: adeline
 categories: 
 - Décryptage
 - Grand public

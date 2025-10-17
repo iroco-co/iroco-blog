@@ -2,7 +2,7 @@
 layout: post
 title: Windows 10 c'est (bientôt) la fin
 author:
-  display_name: Iroco
+  name: iroco
 categories:
 - Grand public
 tags:

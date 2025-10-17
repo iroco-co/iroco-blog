@@ -2,7 +2,7 @@
 layout: post
 title: Les certificats letsencrypt avec haproxy et acme.sh
 author:
-  display_name: Iroco
+  name: iroco
 categories:
 - Sous le capot
 tags:

@@ -3,7 +3,7 @@ layout: post
 title: Mise à jour de Cyrus en version 3.6 - Une migration pour notre serveur IMAP
 description: Un (nouveau) tour sous le capot pour découvrir la dernière mise à jour de Cyrus en version 3.6
 author:
-  display_name: Bruno Thomas
+  name: bruno
 categories:
 - Sous le capot
 - Avancé

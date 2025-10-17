@@ -2,7 +2,7 @@
 layout: post
 title: Les événements de la rentrée 2025
 author:
-  display_name: Iroco
+  name: iroco
 categories:
 - Grand public
 tags:

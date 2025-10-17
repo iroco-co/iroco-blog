@@ -2,7 +2,7 @@
 layout: post
 title: Utilisation d'un injecteur de charge pour simuler des emails
 author:
-  display_name: Bruno Thomas
+  name: bruno
 categories:
 - Sous le capot
 - Avancé

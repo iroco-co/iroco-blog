@@ -2,7 +2,7 @@
 layout: post
 title: Retour sur la journée d'écoconception numérique
 author:
-  display_name: Bruno Thomas
+  name: bruno
 categories:
   - Grand public
 tags:

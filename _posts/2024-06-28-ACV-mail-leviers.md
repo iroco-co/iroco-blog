@@ -3,7 +3,7 @@ layout: post
 title: Comment limiter l'impact des mails ?
 description: Dans l'ACV comparative réalisée avec Hubblo, nous nous sommes demandé comment limiter l'impact des mails.
 author:
-  display_name: iroco
+  name: iroco
 categories:
 - Grand public
 tags:

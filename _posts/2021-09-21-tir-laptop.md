@@ -3,7 +3,7 @@ layout: post
 title: Migration vers une technologie plus responsable. (2/3)
 description: Python contre Rust, performances comparées
 author:
-  display_name: Barnabé Geffroy
+  name: barnabe
 categories:
 - Sous le capot
 - Avancé

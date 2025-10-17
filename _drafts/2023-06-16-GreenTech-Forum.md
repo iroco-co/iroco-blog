@@ -3,7 +3,7 @@ layout: post
 title: GreenTech Forum
 description: Participez au GreenTech Forum 2023 pour réduire votre empreinte environnementale du numérique !
 author:
-  display_name: Iroco
+  name: iroco
 categories:
 - Grand public
 - Décryptage

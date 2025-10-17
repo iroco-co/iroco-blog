@@ -3,7 +3,7 @@ layout: post
 title: Journée mondiale du nettoyage numérique 
 description: Participez au Digital Cleanup Day 2023 pour nettoyer votre vie numérique ! Protégez votre vie privée et améliorez votre sécurité en ligne.
 author:
-  display_name: Iroco
+  name: iroco
 categories:
 - Décryptage
 - Grand public

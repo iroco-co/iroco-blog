@@ -2,7 +2,7 @@
 layout: post
 title: IA Responsable
 author:
-  display_name: Iroco
+  name: iroco
 categories:
   - Grand public
 tags:

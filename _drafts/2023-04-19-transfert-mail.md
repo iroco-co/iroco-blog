@@ -3,7 +3,7 @@ layout: post
 title: Comment protéger ses données lors d'un changement de fournisseur de messagerie électronique ?
 description: Découvrez pourquoi vous devriez éviter l'enfermement propriétaire des fournisseurs d'e-mails et comment protéger votre vie privée en ligne.
 author:
-  display_name: Iroco
+  name: iroco
 categories:
 - Décryptage
 - Grand public

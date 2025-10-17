@@ -2,7 +2,7 @@
 layout: post
 title: Retour sur Alternative Worlds
 author:
-  display_name: Bruno Thomas
+  name: bruno
 categories:
   - Grand public
 tags:

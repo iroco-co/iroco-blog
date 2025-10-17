@@ -2,7 +2,7 @@
 layout: post
 title: Retour sur "Demain c'est maintenant !"
 author:
-  display_name: iroco
+  name: iroco
 categories:
 - Grand public
 tags:

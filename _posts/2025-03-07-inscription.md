@@ -2,7 +2,7 @@
 layout: post
 title: Inscription au service de mail
 author:
-  display_name: Iroco
+  name: iroco
 categories:
 - Grand public
 tags:

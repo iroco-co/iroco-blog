@@ -2,7 +2,7 @@
 layout: post
 title: Futur article
 author:
-  display_name: Bruno Thomas
+  name: bruno
 categories:
 - dev
 tags:

@@ -3,7 +3,7 @@ layout: post
 title: 7 Raisons de passer à un compte Payant Iroco 
 description: Découvrez les 7 raisons de passer à un compte Payant Iroco. Profitez d'avantages exclusifs dès maintenant ! 
 author:
-  display_name: Iroco
+  name: iroco
 categories:
 - Grand public
 tags:

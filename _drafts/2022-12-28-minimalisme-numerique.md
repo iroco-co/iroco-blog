@@ -3,7 +3,7 @@ layout: post
 title: Minimaliste numérique - vivre et travailler mieux avec moins de technologie
 description: Vous sentez-vous fatigué, irritable, épuisé ? Êtes-vous accro à la technologie ? Pourquoi ne pas essayer le minimalisme numérique ?
 author:
-  display_name: Iroco
+  name: iroco
 categories:
 - Décryptage
 - Grand public

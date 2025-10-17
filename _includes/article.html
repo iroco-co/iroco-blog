@@ -1,5 +1,5 @@
 <h1><a href="{{ site.baseurl}}{{ page.url }}">{{ page.title }}</a></h1>
-{% assign author = site.authors | where: 'display_name', page.author.display_name | first %}
+{% assign author = site.authors | where: 'name', page.author.name | first %}
 {% capture read_time %}
 {{ page.content | number_of_words | divided_by: 180 }}
 {% endcapture %}

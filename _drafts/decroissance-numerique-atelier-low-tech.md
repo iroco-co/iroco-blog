@@ -2,7 +2,7 @@
 layout: post
 title: Journée décroissance du numérique
 author:
-  display_name: Bruno Thomas
+  name: bruno
 categories:
   - Grand public
 tags:

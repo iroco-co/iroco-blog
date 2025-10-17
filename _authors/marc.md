@@ -19,7 +19,7 @@ Quelques liens :
 
 <!--
 TODO : maybe generalize ?
-{% assign posts = site.posts | where_exp : "post" , "post.author.display_name == page.display_name "  %}
+{% assign posts = site.posts | where_exp : "post" , "post.author.name == page.name "  %}
 -->
 
 <!-- {% for post in posts %} -->

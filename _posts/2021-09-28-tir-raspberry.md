@@ -3,7 +3,7 @@ layout: post
 title: Migration vers une technologie plus responsable. (3/3)
 description: Python contre Rust, match retour sur un Raspberry Pi
 author:
-  display_name: Barnabé Geffroy
+  name: barnabe
 categories:
 - Sous le capot
 - Avancé

@@ -1,7 +1,7 @@
 ---
 layout: post
 author:
-  display_name: Iroco
+  name: iroco
 title: Bienvenue sur le blog d'Iroco !
 description: Le blog d'Iroco, et ce que vous y trouverez.
 categories:

@@ -3,7 +3,7 @@ layout: post
 title: L'écoconception et le "software craftsmanship" ?
 description: L'éco-conception, uniquement un problème d'optimisation ?
 author:
-  display_name: Bruno Thomas
+  name: bruno
 categories:
 - Décryptage
 - Grand public

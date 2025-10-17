@@ -3,7 +3,7 @@ layout: post
 title: C'est quoi l'obsolescence logicielle ?
 description: Découvrez ce qu'est l'obsolescence logicielle, ses conséquences et les solutions possibles.
 author:
-  display_name: Iroco
+  name: iroco
 categories:
 - Décryptage
 - Grand public

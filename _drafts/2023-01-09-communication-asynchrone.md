@@ -3,7 +3,7 @@ layout: post
 title: Augmenter votre productivité grâce à la communication asynchrone
 description: La communication asynchrone est présente partout, du transfert de fichiers à l'e-mail. Pourtant s'appuyer dessus peut sembler contre-productif. Pourquoi ? 
 author:
-  display_name: Iroco
+  name: iroco
 categories:
 - Décryptage
 - Grand public

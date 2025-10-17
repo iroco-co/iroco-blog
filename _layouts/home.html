@@ -10,7 +10,7 @@ layout: default
 <div class="home">
 
   {% for post in paginator.posts %}
-    {% assign author = site.authors | where: 'display_name', post.author.display_name | first %}
+    {% assign author = site.authors | where: 'name', post.author.name | first %}
     <div class="article">
         <div class="well">
             <h1><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></h1>

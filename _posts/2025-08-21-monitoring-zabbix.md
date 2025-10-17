@@ -2,7 +2,7 @@
 layout: post
 title: Benchmark monitoring - Zabbix
 author:
-  display_name: Iroco
+  name: iroco
 categories:
 - Sous le capot
 tags:

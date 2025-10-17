@@ -3,7 +3,7 @@ layout: post
 title: Quel est l'impact de l'augmentation de la durée de vie des terminaux ?
 description: Dans l'ACV comparative réalisée avec Hubblo, nous avons quantifié l'impact de l'augmentation de la durée de vie des terminaux.
 author:
-  display_name: iroco
+  name: iroco
 categories:
 - Grand public
 tags:

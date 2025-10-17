@@ -3,7 +3,7 @@ layout: post
 title: Tout ce que vous devez savoir sur les en-têtes d'e-mails
 description: Découvrez tout ce qu'il faut savoir sur les en-têtes d'e-mails, leur utilité, leur structure, comment les lire et les analyser.
 author:
-  display_name: Iroco
+  name: iroco
 categories:
 - Décryptage
 - Grand public

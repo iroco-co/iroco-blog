@@ -3,7 +3,7 @@ layout: post
 title: Comment fonctionne le courrier électronique ?
 description: Mais au fait, savez-vous vraiment comment fonctionne le courrier électronique (e-mail) ? Dans cet article, plongez sous le capot !
 author:
-  display_name: Iroco
+  name: iroco
 categories:
 - Sous le capot
 - Grand public

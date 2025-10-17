@@ -3,7 +3,7 @@ layout: post
 title: Votre application de messagerie vous espionne-t-elle ?
 description: Dans un monde numérique où la surveillance est omniprésente, beaucoup de gens ne se rendent pas compte que leur boîte mail est espionnée.Pourquoi?
 author:
-  display_name: Iroco
+  name: iroco
 categories:
 - Décryptage
 - Grand public

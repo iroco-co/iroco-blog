@@ -2,7 +2,7 @@
 layout: post
 title: Le point bisounours
 author:
-  display_name: Bruno Thomas
+  name: bruno
 categories:
 - Décryptage
 tags:

@@ -3,7 +3,7 @@ layout: post
 title: L'écoconception, qu'est-ce que c'est ?
 description: Réflexions autour du GreenIT
 author:
-  display_name: Bruno Thomas
+  name: bruno
 categories: 
 - Décryptage
 - Grand public

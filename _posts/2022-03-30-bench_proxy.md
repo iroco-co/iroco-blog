@@ -3,7 +3,7 @@ layout: post
 title: Benchmark proxy
 description: Rust contre Python, version proxy
 author:
-  display_name: Bruno Thomas
+  name: bruno
 categories:
 - Sous le capot
 - Avancé
