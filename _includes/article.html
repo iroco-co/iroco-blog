@@ -1,5 +1,5 @@
 <h1><a href="{{ site.baseurl}}{{ page.url }}">{{ page.title }}</a></h1>
-{% assign author_name = page.author.display_name %}
+{% assign author = site.authors | where: 'display_name', page.author.display_name | first %}
 {% capture read_time %}
 {{ page.content | number_of_words | divided_by: 180 }}
 {% endcapture %}
@@ -20,7 +20,7 @@
     {% when '11' %}novembre
     {% when '12' %}décembre
     {% endcase %}
-    {{ page.date | date: "%Y" }}, par <span class="author"><a href="{{ site.baseurl }}/author/{{ site.data.authors[author_name].short }}/">{{ author_name }}</a> -
+    {{ page.date | date: "%Y" }}, par <span class="author">{% if author %}<a href="{{ author.url }}">{{ author.display_name }}</a>{% endif %} -
     {% if read_time != '0' %}
         {{ read_time }}
     {% else %}

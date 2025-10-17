@@ -1,9 +1,10 @@
 ---
 layout: default
-name: Iroco
+name: iroco
+display_name: Iroco 
 ---
 
-# Iroco 
+# {{ page.display_name }} 
 
 Quelques liens :
 

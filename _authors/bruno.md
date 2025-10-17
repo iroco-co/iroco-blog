@@ -1,9 +1,10 @@
 ---
 layout: default
 name: bruno
+display_name: Bruno Thomas
 ---
 
-# Bruno Thomas
+# {{ page.display_name }}
 
 Quelques liens :
 

@@ -38,3 +38,7 @@ pagination:
 
 exclude: ['README.md', 'LICENSE', '*.sh', '.circleci']
 encoding: utf-8
+
+collections:
+  authors:
+    output: true

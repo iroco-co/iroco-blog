@@ -1,9 +1,10 @@
 ---
 layout: default
 name: adeline
+display_name: Adeline Agut
 ---
 
-# Adeline Agut
+# {{ page.display_name }}
 
 Quelques liens :
 

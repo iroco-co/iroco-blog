@@ -1,9 +1,10 @@
 ---
 layout: default
 name: barnabe
+display_name: Barnabé Geffroy
 ---
 
-# Barnabé Geffroy
+# {{ page.display_name }}
 
 Quelques liens :
 
