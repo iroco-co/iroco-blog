@@ -10,9 +10,6 @@ tags:
 - benchmark
 - monitoring
 ---
-# Zabbix
-
-## Présentation
 
 [![Exemple de dashboard de Zabbix](/images/monitoring-dasboard-benchmark/Pres_zabbix.png)](https://www.zabbix.com/)
 

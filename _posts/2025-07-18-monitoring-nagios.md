@@ -10,9 +10,7 @@ tags:
 - benchmark
 - monitoring
 ---
-# Nagios
 
-## Présentation
 
 [![Exemple de dashboard de Grafana](/images/monitoring-dasboard-benchmark/Pres_nagios.png)](https://www.nagios.org/)
 

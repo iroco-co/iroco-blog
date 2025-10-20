@@ -12,7 +12,6 @@ tags:
 ![Prise de tête en perspective](/images/windows10-end/hi-estudio-O-0vU-Nc9Qo-unsplash.png)
 
 Photo de [HI! ESTUDIO](https://unsplash.com/fr/@hiestudio?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) sur [Unsplash](https://unsplash.com/fr/photos/gros-plan-dun-chapeau-O-0vU-Nc9Qo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
-      
 
 _Dans 10 jours, le 14 octobre, le support de windows 10 prendra fin. Il faudra soit payer une extension de garantie de 30€ pour un an (renouvelable jusqu'en 2028), soit prendre un compte Microsoft, soit passer à windows 11 si votre machine le permet. Une occasion de changer de système ? On tente de vous expliquer (c'est pas simple)._
 

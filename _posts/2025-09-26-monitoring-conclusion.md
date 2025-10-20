@@ -10,7 +10,6 @@ tags:
 - benchmark
 - monitoring
 ---
-# Conclusion
 
 Chaque graphique ci-dessous représente les mesures prises toutes les secondes et la moyenne des mesures sur une période d'une heure pour chaque outil de monitoring. Elles peuvent être comparées à une mesure témoin prise sans aucun outil de monitoring en fonctionnement (*empty*).
 

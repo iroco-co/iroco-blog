@@ -10,12 +10,9 @@ tags:
 - benchmark
 - monitoring
 ---
-# Introduction
 
 [![Exemple de dashboard de Grafana](/images/monitoring-dasboard-benchmark/monitoring.png)](/images/monitoring-dasboard-benchmark/monitoring.png)
 
-
-## Contexte et enjeux
 
 Nous avons fait un premier benchmark sur les outils de monitoring de type agent. Nous cherchons maintenant à évaluer les outils de génération de graphiques compatibles avec les outils de collecte de métriques que nous avons testés précédemment.
 Suite à notre précédent article, nous avons choisit de conserver **Collectd** comme agent. Les prochains articles de ce blog seront donc orientés vers une utilisation compatible avec l'usage d'un agent **Collectd**. Cependant, avec un peu de travail, il semble possible de réaliser le mème type de test avec **Vector** en passant par l'utilisation de Sink Socket (vous pourrez notamment vous inspirer de ce que nous avons fait pou Zabbix).

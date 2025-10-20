@@ -10,9 +10,6 @@ tags:
 - benchmark
 - monitoring
 ---
-# Graphite + Grafana
-
-## Présentation
 
 [![Exemple de dashboard de Grafana](/images/monitoring-dasboard-benchmark/Pres_graphite+grafana.png)](https://www.grafana.com/)
 

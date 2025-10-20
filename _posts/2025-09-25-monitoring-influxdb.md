@@ -10,7 +10,6 @@ tags:
 - benchmark
 - monitoring
 ---
-# InfluxDB
 
 Après avoir rédigé notre série d'articles sur nos benchmarks des outils de monitoring, nous avons voulu mettre notre prototype Graphite + Grafana sous [ansible](https://www.redhat.com/en/ansible-collaborative).  
 

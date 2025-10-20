@@ -10,7 +10,6 @@ tags:
 - benchmark
 - monitoring
 ---
-# Introduction
 
 Le monitoring assure l'observabilité des systèmes informatiques. Il permet de recueillir, d'analyser et de visualiser les données relatives à l'état des serveurs, des applications et des réseaux. Il se présente généralement sous la forme d'agents installés sur chaque machine, qui collectent des métriques et les envoient à un serveur central, chargé de leur traitement (voir la suite de nos articles sur le monitoring). Cet article s'inscrit dans une série de benchmarks visant à évaluer différents outils de monitoring, en commençant par les agents de monitoring.
 
