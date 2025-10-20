@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Downsampling avec Influxdb v1 et Grafana
+title: Downsampling avec Influxdb et Grafana
 authors:
   - arthur
   - bruno
