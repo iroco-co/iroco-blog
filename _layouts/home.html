@@ -10,7 +10,7 @@ layout: default
 <div class="home">
 
   {% for post in paginator.posts %}
-    {% assign author = site.authors | where: 'name', post.author.name | first %}
+    {% assign authorCount = post.authors | size %}
     <div class="article">
         <div class="well">
             <h1><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></h1>
@@ -32,7 +32,22 @@ layout: default
               {% when '11' %}novembre
               {% when '12' %}décembre
             {% endcase %}
-            {{ post.date | date: "%Y" }}, par <span class="author">{% if author %}<a href="{{ author.url }}">{{ author.display_name }}</a>{% endif %}</span>
+            {{ post.date | date: "%Y" }}, par <span class="author">
+              {% if authorCount == 0 %}
+                  iroco
+              {% else %}
+                  {% for author_id in post.authors %}
+                      {% assign author = site.authors | where: 'name', author_id | first %}
+                      {% if forloop.first %}
+                         <a href="{{ author.url }}">{{ author.display_name }}</a>
+                      {% elsif forloop.last %}
+                         et <a href="{{ author.url }}">{{ author.display_name }}</a>
+                      {% else %}
+                         , <a href="{{ author.url }}">{{ author.display_name }}</a>
+                      {% endif %}
+                  {% endfor %}
+              {% endif %}</span>
+ 
               {% capture read_time %}
               {{ post.content | number_of_words | divided_by: 180 }}
               {% endcapture %}

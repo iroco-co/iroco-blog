@@ -19,7 +19,7 @@ Quelques liens pour nous retrouver :
 ## Articles
 
 <!--
-{% assign posts = site.posts | where_exp : "post" , "post.author.name == page.name "  %}
+{% assign posts = site.posts | where_exp : "post" , "post.authors contains page.name"  %}
 -->
 
 <!-- {% for post in posts %} -->
