@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Le Cycle de vie de l'IA
-author:
-  name: iroco
+authors:
+  - iroco
 categories:
   - Grand public
 tags:

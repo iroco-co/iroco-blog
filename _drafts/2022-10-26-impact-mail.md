@@ -2,8 +2,8 @@
 layout: post
 title: Pollution numérique, quel est le vrai impact d’un e-mail ? 
 description: On estime qu'un email envoyé émet en moyenne 3,3g d'équivalent CO2. Comment pouvons-nous réduire notre empreinte carbone numérique ? 
-author:
-  name: iroco
+authors:
+  - iroco
 categories:
 - Décryptage
 - Grand public

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Réglementation et souveraineté numérique
-author:
-  name: iroco
+authors:
+  - iroco
 categories:
   - Grand public
 tags:

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Futur article
-author:
-  name: bruno
+authors:
+  - bruno
 categories:
 - dev
 tags:

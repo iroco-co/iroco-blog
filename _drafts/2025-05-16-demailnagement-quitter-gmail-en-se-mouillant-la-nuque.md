@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Vers un numérique plus acceptable : quitter Gmail en se mouillant la nuque - Marc BOUVIER"
-author:
-  name: marc
+authors:
+  - marc
 categories:
   - Grand public
   - Trucs et astuces

@@ -2,8 +2,8 @@
 layout: post
 title: Migration du Design System des outils Iroco
 description: Nous avons récemment changé notre façon de documenter le Design System des outils de l’écosystème autour d’Iroco. Dans cet article un peu technique, nous expliquons les raisons de ce changement. Nous décrivons notre démarche pour comparer quelques alternatives. Nous concluons avec les raisons de notre choix final.
-author:
-  name: marc
+authors:
+  - marc
 categories:
   - Sous le capot
   - Avancé

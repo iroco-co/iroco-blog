@@ -15,3 +15,14 @@ Quelques liens pour nous retrouver :
 * [Mastodon](https://mastodon.social/@iroco)
 * [Codeberg](https://codeberg.org/iroco/)
 * [Github](https://github.com/iroco-co)
+
+## Articles
+
+<!--
+{% assign posts = site.posts | where_exp : "post" , "post.author.name == page.name "  %}
+-->
+
+<!-- {% for post in posts %} -->
+- [{{ post.title }}]({{ post.url}})
+<!-- {% endfor %} -->
+

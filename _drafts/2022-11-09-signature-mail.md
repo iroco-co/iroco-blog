@@ -2,8 +2,8 @@
 layout: post
 title: Sobriété numérique, doit-on abandonner la signature d’e-mail ?
 description: Les signatures d'e-mails peuvent être un réel atout marketing. Mais dans une démarche de sobriété numérique, doit-on l'abandonner pour autant ?
-author:
-  name: iroco
+authors:
+  - iroco
 categories:
 - Décryptage
 - Grand public

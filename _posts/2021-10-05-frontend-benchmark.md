@@ -2,8 +2,8 @@
 layout: post
 title: Migration vers une technologie front plus responsable. (1/3)
 description: Comparaison de frameworks frontend
-author:
-  name: bruno
+authors:
+  - bruno
 categories:
 - Sous le capot
 - Avancé

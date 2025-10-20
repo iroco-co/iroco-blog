@@ -2,8 +2,8 @@
 layout: post
 title: Benchmark vuejs vs. svelte (3/3)
 description: Comparaison de frameworks frontend, suite et fin avec Vue.js et Svelte
-author:
-  name: bruno
+authors:
+  - bruno
 categories:
 - Sous le capot
 - Avancé

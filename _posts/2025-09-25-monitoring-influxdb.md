@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Benchmark monitoring - InfluxDB
-author:
-  name: iroco
+authors:
+  - arthur
+  - bruno
 categories:
 - Sous le capot
 tags:

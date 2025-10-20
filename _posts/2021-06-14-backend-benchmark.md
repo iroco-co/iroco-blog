@@ -2,8 +2,8 @@
 layout: post
 title: Migration vers une technologie plus responsable. (1/3)
 description: Eco-conception et langages de programmation
-author:
-  name: barnabe
+authors:
+  - barnabe
 categories:
 - Décryptage
 - Grand public

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Journée décroissance du numérique
-author:
-  name: bruno
+authors:
+  - bruno
 categories:
   - Grand public
 tags:

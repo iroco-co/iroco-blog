@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Les enjeux humains et éthiques de l'IA
-author:
-  name: iroco
+authors:
+  - iroco
 categories:
   - Grand public
 tags:

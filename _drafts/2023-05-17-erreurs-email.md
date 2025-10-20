@@ -2,8 +2,8 @@
 layout: post
 title: 10 erreurs d'e-mail les plus courantes à éviter
 description: Découvrez les 10 erreurs d'e-mail les plus courantes à éviter pour préserver votre réputation professionnelle et améliorer votre communication écrite.
-author:
-  name: iroco
+authors:
+  - iroco
 categories:
 - Grand public
 tags:

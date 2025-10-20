@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Benchmark monitoring - Conclusion
-author:
-  name: iroco
+authors:
+  - arthur
+  - bruno
 categories:
 - Sous le capot
 tags:

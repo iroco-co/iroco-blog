@@ -2,8 +2,8 @@
 layout: post
 title: Scopes 1, 2, 3 dans le numérique - Les clés d'une transition écologique réussie
 description: Découvrez comment les scopes 1, 2 et 3 du numérique peuvent vous aider à réussir votre transition écologique. Réduisez votre empreinte carbone !
-author:
-  name: iroco
+authors:
+  - iroco
 categories:
 - Grand public
 tags:

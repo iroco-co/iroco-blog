@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Retour sur Alternative Worlds
-author:
-  name: bruno
+authors:
+  - bruno
 categories:
   - Grand public
 tags:

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Le point bisounours
-author:
-  name: bruno
+authors:
+  - bruno
 categories:
 - Décryptage
 tags:

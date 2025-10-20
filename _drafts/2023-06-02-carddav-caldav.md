@@ -2,8 +2,8 @@
 layout: post
 title: Comment synchroniser et migrer des serveurs CardDAV et CalDAV ?
 description: Découvrez les protocoles CardDAV et CalDAV. Apprenez comment les utiliser pour une gestion efficace des données. 
-author:
-  name: iroco
+authors:
+  - iroco
 categories:
 - Décryptage
 tags:

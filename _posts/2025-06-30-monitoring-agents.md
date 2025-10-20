@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Benchmark de différents agents de monitoring
-author:
-  name: iroco
+authors:
+  - arthur
+  - bruno
 categories:
 - Sous le capot
 tags:

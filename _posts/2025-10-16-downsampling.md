@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Downsampling avec Influxdb v1 et Grafana
-author:
-  name: iroco
+authors:
+  - arthur
+  - bruno
 categories:
 - Sous le capot
 tags:

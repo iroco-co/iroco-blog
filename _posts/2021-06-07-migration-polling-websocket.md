@@ -2,8 +2,8 @@
 layout: post
 title: L'événementiel, c'est écologique
 description: IMAP asynchrone et éco-conception
-author:
-  name: bruno
+authors:
+  - bruno
 categories:
 - Sous le capot
 - Avancé

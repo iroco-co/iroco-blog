@@ -9,3 +9,14 @@ display_name: Adeline Agut
 Quelques liens :
 
 * [mon profil LinkedIn](https://fr.linkedin.com/in/adelineagut/)
+
+## Articles
+
+<!--
+{% assign posts = site.posts | where_exp : "post" , "post.author.name == page.name "  %}
+-->
+
+<!-- {% for post in posts %} -->
+- [{{ post.title }}]({{ post.url}})
+<!-- {% endfor %} -->
+

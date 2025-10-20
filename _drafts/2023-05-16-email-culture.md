@@ -2,8 +2,8 @@
 layout: post
 title: Les différences culturelles dans les pratiques d'e-mails à travers le monde
 description: Explorez les différences culturelles dans les pratiques de messagerie à travers le monde. Découvrez comment adapter votre communication.
-author:
-  name: iroco
+authors:
+  - iroco
 categories:
 - Grand public
 tags:

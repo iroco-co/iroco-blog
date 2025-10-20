@@ -2,8 +2,8 @@
 layout: post
 title: Quelle est la différence entre CC et CCI lors de l'envoi d'un e-mail ?
 description: CC et CCI sont deux champs standards à connaître. Ils remplissent des fonctions très différentes. Cette confusion peut conduire à des situations délicates. 
-author:
-  name: iroco
+authors:
+  - iroco
 categories:
 - Astuce
 - Grand public

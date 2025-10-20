@@ -2,8 +2,8 @@
 layout: post
 title: 7 astuces pour gérer efficacement votre boîte mail
 description: Découvrez 7 astuces pratiques pour une gestion efficace de votre boîte mail. Économisez du temps, réduisez votre stress et restez organisé dès maintenant !
-author:
-  name: iroco
+authors:
+  - iroco
 categories:
 - Grand public
 tags:

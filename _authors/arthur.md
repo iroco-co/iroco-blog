@@ -1,19 +1,15 @@
 ---
 layout: default
-name: marc
-display_name: Marc Bouvier
+name: arthur
+display_name: Arthur Billebaut
 ---
 
 # {{ page.display_name }}
 
 Quelques liens :
 
-* [github](https://github.com/marc-bouvier)
-* [moi](https://u.baldir.fr/me)
-* [blog](https://baldir.fr)
-* [LinkedIn](https://fr.linkedin.com/in/profileofmarcbouvier)
-* [Mastodon](https://pouet.chapril.org/@marc_bouvier)
- 
+* [github](https://github.com/ArthB94)
+* [LinkedIn](https://fr.linkedin.com/in/billebaut-arthur/)
 
 ## Articles
 

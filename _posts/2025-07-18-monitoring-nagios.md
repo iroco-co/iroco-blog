@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Benchmark monitoring - Nagios
-author:
-  name: iroco
+authors:
+  - arthur
+  - bruno
 categories:
 - Sous le capot
 tags:

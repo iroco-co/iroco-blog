@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Les bonnes pratiques de l'IA responsable
-author:
-  name: iroco
+authors:
+  - iroco
 categories:
   - Grand public
 tags:

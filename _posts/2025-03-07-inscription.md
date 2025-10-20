@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Inscription au service de mail
-author:
-  name: iroco
+authors:
+  - iroco
 categories:
 - Grand public
 tags:

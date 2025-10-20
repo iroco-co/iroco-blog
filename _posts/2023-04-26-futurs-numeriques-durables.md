@@ -2,9 +2,8 @@
 layout: post
 title: Atelier fiction - et si on imaginait des futurs numériques désirables ?
 description: Retour sur la première édition de notre atelier fiction autour du numérique sobre, convivial et désirable.
-
-author:
-  name: iroco
+authors:
+  - adeline
 categories:
 - Imaginaires
 - Prospective

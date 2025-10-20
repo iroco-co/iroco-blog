@@ -1,5 +1,5 @@
 <h1><a href="{{ site.baseurl}}{{ page.url }}">{{ page.title }}</a></h1>
-{% assign author = site.authors | where: 'name', page.author.name | first %}
+{% assign authorCount = page.authors | size %}
 {% capture read_time %}
 {{ page.content | number_of_words | divided_by: 180 }}
 {% endcapture %}
@@ -20,7 +20,21 @@
     {% when '11' %}novembre
     {% when '12' %}décembre
     {% endcase %}
-    {{ page.date | date: "%Y" }}, par <span class="author">{% if author %}<a href="{{ author.url }}">{{ author.display_name }}</a>{% endif %} -
+    {{ page.date | date: "%Y" }}, par <span class="author">
+	    {% if authorCount == 0 %}
+    		iroco
+	    {% else %}
+                {% for author_id in page.authors %}
+		    {% assign author = site.authors | where: 'name', author_id | first %}
+                    {% if forloop.first %}
+                       <a href="{{ author.url }}">{{ author.display_name }}</a>
+                    {% elsif forloop.last %}
+                       et <a href="{{ author.url }}">{{ author.display_name }}</a>
+                    {% else %}
+                       , <a href="{{ author.url }}">{{ author.display_name }}</a> 
+                    {% endif %}
+                {% endfor %}
+	    {% endif %} -</span>
     {% if read_time != '0' %}
         {{ read_time }}
     {% else %}

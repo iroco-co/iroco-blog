@@ -2,8 +2,8 @@
 layout: post
 title: Gestion des e-mails professionnels en dehors du travail - Comment trouver l'équilibre ?
 description: Préservez la frontière entre vie professionnelle et vie personnelle en gérant efficacement vos e-mails professionnels en dehors du bureau. 
-author:
-  name: iroco
+authors:
+  - iroco
 categories:
 - Grand public
 tags:

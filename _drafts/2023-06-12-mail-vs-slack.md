@@ -2,8 +2,8 @@
 layout: post
 title: Email vs Slack - Quel outil de communication choisir pour une efficacité professionnelle maximale ?
 description: E-mail ou Slack ? Faites le bon choix pour une efficacité maximale. Découvrez leurs avantages et inconvénients. 
-author:
-  name: iroco
+authors:
+  - iroco
 categories:
 - Décryptage
 tags:

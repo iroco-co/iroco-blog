@@ -2,8 +2,8 @@
 layout: post
 title: Les secrets pour vaincre les codes d'erreur SMTP
 description: Apprenez à résoudre les codes d'erreur SMTP courants en comprenant les raisons pour lesquelles ils se produisent.
-author:
-  name: iroco
+authors:
+  - iroco
 categories:
 - Décryptage
 - Grand public

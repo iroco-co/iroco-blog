@@ -2,8 +2,8 @@
 layout: post
 title: Les inscriptions sont à nouveau ouvertes !
 description: Après des mésaventures avec un groupe de spammeurs nous avons du renforcer les contôles d'inscription pour notre service.
-author:
-  name: iroco
+authors:
+  - bruno
 categories:
 - Sous le capot
 tags:

@@ -2,8 +2,8 @@
 layout: post
 title: Devriez-vous supprimer des e-mails ou les archiver ?
 description: L'archivage des e-mails permet de conserver une trace de tout ce qui est envoyé et reçu en ayant une copie. Faut-il archiver ou supprimer les e-mails ? 
-author:
-  name: iroco
+authors:
+  - iroco
 categories:
 - Astuce
 - Grand public

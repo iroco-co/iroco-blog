@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Pourquoi l'écologie serait-elle de gauche ?
-author:
-  name: bruno
+authors:
+  - bruno
 categories:
 - politique
 tags:

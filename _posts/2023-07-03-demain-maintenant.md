@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Retour sur "Demain c'est maintenant !"
-author:
-  name: iroco
+authors:
+  - bruno
 categories:
 - Grand public
 tags:

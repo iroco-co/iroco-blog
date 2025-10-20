@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Windows 10 c'est (bientôt) la fin
-author:
-  name: iroco
+authors:
+  - bruno
 categories:
 - Grand public
 tags:
