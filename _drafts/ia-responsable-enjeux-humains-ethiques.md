@@ -2,7 +2,8 @@
 layout: post
 title: Les enjeux humains et éthiques de l'IA
 authors:
-  - iroco
+  - adeline
+  - bruno
 categories:
   - Grand public
 tags:
@@ -10,10 +11,11 @@ tags:
   - IA Responsable
 ---
 
+_Notre [premier épisode](ia-responsable-cycle-de-vie) résumait le cycle de vie de l'IA et les impacts environnementaux associés. Nous allons voir dans cet article les problèmes liés aux données d'entraînement et aux "travailleurs du clic" qui, tels  [des turques mécaniques](https://fr.wikipedia.org/wiki/Turc_m%C3%A9canique), rendent l'artificialité des matrices mathématiques intellig~~ente~~ible. Nous évoquerons aussi les sujets de transparence et de confiance._
 
 ## Les données d'entraînement
 
-L’étape d’entraînement des IA demande des quantités de données très importantes, en particulier pour les modèles génératifs comme ChatGPT ou Midjourney. Ces modèles ont été rendus possibles en exploitant la quasi-intégralité de l’information disponible sur internet, sans toujours respecter les licences d’utilisation ni le droit d’auteur. L’actualité récente a mis en évidence ce problème : ChatGPT a permis la génération en masse d’images dans le style du Studio Ghibli, laissant supposer que l’IA avait été entraînée sur les films d’animation du studio, alors que Hayao Miyazaki, l’un de ses cofondateurs, est très critique à l’égard de l’IA.
+L’étape d’entraînement des IA demande des quantités de données très importantes, en particulier pour les modèles génératifs comme ChatGPT ou Midjourney. Ces modèles ont été rendus possibles en exploitant la quasi-intégralité de l’information disponible sur internet, sans toujours respecter les licences d’utilisation ni le droit d’auteur. L’actualité récente a mis en évidence ce problème : ChatGPT a permis la génération en masse d’images dans le style du Studio Ghibli, laissant supposer que l’IA avait été entraînée sur les films d’animation du studio, alors que Hayao Miyazaki, l’un de ses cofondateurs, [est très critique](https://www.youtube.com/watch?v=ngZ0K3lWKRc) à l’égard de l’IA.
 
 La récupération sur internet des données d’entraînement se fait notamment à travers des “crawlers”, des programmes qui parcourent en permanence le web pour récolter ces données et alimenter les IA. Mais cela pose des problèmes : dans certains cas, ces crawlers aspirent une telle quantité de données que les organisations qui les hébergent doivent redimensionner leurs infrastructures à la hausse pour que leurs utilisateurs puissent continuer à utiliser normalement leurs services ! C’est par exemple [le cas de la Fondation Wikimedia](https://diff.wikimedia.org/2025/04/01/how-crawlers-impact-the-operations-of-the-wikimedia-projects/), qui héberge notamment Wikipédia.
 
@@ -21,11 +23,16 @@ Le deuxième problème relatif aux données d’entraînement, c’est leurs bia
 
 ## Les travailleurs du clic
 
+[![Madagascar, les petites mains de l'IA](/images/ia-responsable/arte-documentaire.png)](https://www.youtube.com/watch?v=b0a6M5SaQQM)
+_Madagascar, les petites mains de l'IA (Arte, disponible jusqu'au 20/08/2028)_
+
 Pour produire des résultats lors de la phase d’inférence, les IA doivent être entraînées avec des données « étiquetées ». Dans le cas de la reconnaissance d’images, cela signifie qu’une image de chat doit être annotée pour indiquer à la machine qu’il s’agit d’un chat. Sans cela, le modèle d’IA ne pourra jamais apprendre à distinguer l’animal. De cette manière, les valeurs des millions voire milliards de paramètres - pour les plus gros modèles - sont ajustées progressivement jusqu’à ce que la performance de l’algorithme soit satisfaisante.
 
 L’étiquetage des données n’est pas toujours automatisable : il doit parfois être réalisé par des êtres humains manuellement. Ce travail d’annotation peut prendre plusieurs formes : encadrer un chat au sein d’une photo, surligner dans une phrase les mots désignant une personne, un lieu, une date... ou encore évaluer les réponses d’un chatbot. Deux objectifs sont recherchés : améliorer la qualité des prédictions ou réponses apportées par les IA et donner des limites (morales, légales) à ces réponses (dans le cas des chatbots).
 
 Ce processus, même assisté, est fastidieux et très faiblement rémunéré. Par ailleurs, dans l’amélioration de la qualité d’outils de modération automatique, ou la prise en compte des réglementations nationales et internationales, des êtres humains vont devoir analyser des images, textes, contenus audio ou vidéo possiblement violents ou dérangeants. Ce travail occasionne chez certains des syndromes post-traumatiques, comme ceux observés chez les vétérans de guerre. Ces travailleurs du clic habitent souvent dans le “Sud global” (à [Madagascar par exemple pour le travail en français](https://theconversation.com/enquete-derriere-lia-les-travailleurs-precaires-des-pays-du-sud-201503)), ce qui permet notamment aux grandes sociétés d’IA de limiter leurs coûts afin de conserver un modèle économique le plus rentable possible.
+
+Voir aussi à ce sujet "[Les sacrifiés de l'IA](https://www.dailymotion.com/video/x9h7lbq)" dans le cadre du festival du Point de M.I.R. [Numérique en lumière](https://www.point-de-mir.com/numenlum) les 26 et 27 novembre 2025.
 
 ##  L’IA, des usages multiples… et pas toujours positifs
 
@@ -37,13 +44,15 @@ Recommandations sur les réseaux sociaux : bien qu’il ne s’agisse pas de pra
 
 Cybermalveillance assistée par IA : génération de textes par IA pour envoi de spam, analyse par IA de sites cibles pour identifier les meilleures stratégies d’attaque, etc.
 
-Content spinning : génération automatique d’articles plagiant des articles à succès existants pour améliorer le classement d’un site dans les moteurs de recherche, ou encore génération de sites de e-commerce frauduleux.
+_Content spinning_ : génération automatique d’articles plagiant des articles à succès existants pour améliorer le classement d’un site dans les moteurs de recherche, ou encore génération de sites de e-commerce frauduleux.
+
+L'_IA slop_ : [génération de contenus de mauvaise qualité](https://www.youtube.com/watch?v=z1M6_W3ZJkQ) (images, vidéos, articles) venant faire de l'encombrement numérique, en général pour faire des clics ou de l'amélioration de référencement (_ranking_). 
 
 ## Explicabilité, transparence et confiance
 
 Parce que les modèles d’IA sont constitués de très nombreux paramètres, il est extrêmement complexe, pour ne pas dire impossible, d’expliquer pourquoi l’IA a produit telle ou telle réponse : c’est le problème de l’explicabilité de l’IA, qui constitue un champ de recherche à part entière. Dans ce contexte, et compte tenu des enjeux déjà évoqués plus haut, comment faire confiance aux résultats produits par les IA ?
 
-En 2020, dans son livre blanc, “Intelligence artificielle : Une approche européenne axée sur l'excellence et la confiance”, la Commission Européenne listait 7 principes éthiques auxquels les modèles d’IA doivent satisfaire pour être considérées comme dignes de confiance. Ces exigences ont été rappelées par le Règlement sur l’IA, mais aussi confirmées par l’OCDE et d’autres organisations internationales comme l’UNESCO.
+En 2020, dans son livre blanc, “[Intelligence artificielle : Une approche européenne axée sur l'excellence et la confiance](https://eur-lex.europa.eu/legal-content/FR/TXT/PDF/?uri=CELEX:52020DC0065)”, la Commission Européenne listait 7 principes éthiques auxquels les modèles d’IA doivent satisfaire pour être considérées comme dignes de confiance. Ces exigences ont été rappelées par le Règlement sur l’IA, mais aussi confirmées par l’OCDE et d’autres organisations internationales comme l’UNESCO.
 
 **Action humaine et contrôle humain** : les systèmes d’IA sont développés et utilisés comme un outil au service des personnes, qui respecte la dignité humaine et l’autonomie de l’individu, et qui fonctionne de manière à pouvoir être contrôlé et supervisé par des êtres humains
 
@@ -58,4 +67,11 @@ En 2020, dans son livre blanc, “Intelligence artificielle : Une approche europ
 **Bien-être social et environnemental** : les systèmes d’IA sont développés et utilisés d’une manière durable et respectueuse de l’environnement, mais aussi de manière à ce que tous les êtres humains en profitent, tout en surveillant et en évaluant les effets à long terme sur l’individu, la société et la démocratie
 
 **Responsabilité** : les systèmes d’IA sont développés et utilisés de manière à être auditables, à réduire au minimum les incidences négatives et à permettre la transparence au sujet de ces incidences, et à permettre arbitrages et recours
+
+----
+Retrouvez les autres articles de notre série sur l'IA responsable :
+
+- [Le cycle de vie de l'IA](/ia-responsable-cycle-de-vie)
+- [Les enjeux de règlementation et souveraineté numérique liés à l'IA](/ia-responsable-reglementation-et-souverainete)
+- [Les bonnes pratiques de l'IA "responsable"](/ia-responsable-bonnes-pratiques)
 
