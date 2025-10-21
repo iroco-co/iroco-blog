@@ -75,6 +75,6 @@ Sources :
 
 Retrouvez bientôt la suite de notre série sur l'IA responsable :
 
-- [Les enjeux humains et éthiques de l'IA](ia-responsable-enjeux-humains-ethiques)
-- [Les enjeux de règlementation et souveraineté numérique liés à l'IA](ia-responsable-reglementation-et-souverainete)
-- [Les bonnes pratiques de l'IA "responsable"](ia-responsable-bonnes-pratiques)
+- [Les enjeux humains et éthiques de l'IA](/ia-responsable-enjeux-humains-ethiques/)
+- [Les enjeux de règlementation et souveraineté numérique liés à l'IA](/ia-responsable-reglementation-et-souverainete/)
+- [Les bonnes pratiques de l'IA "responsable"](/ia-responsable-bonnes-pratiques/)
