@@ -57,9 +57,9 @@ On peut citer par exemple
 | Tantale | République Démocratique du Congo (35%), Rwanda (17%), Brésil (16%) | condensateurs (smartphones, disques durs) |
 | Cobalt |  République Démocratique du Congo (68%) | batteries (véhicule électriques, appareils électroniques) |
 | Antimoine | Chine (54%), Russie (18%), Tadjikistan (15%) | circuits imprimés, semi-conducteurs, gaines de câbles |
-| Coltan (2)| République Démocratique du Congo, Rwanda (2 premiers exportateurs)| condensateurs (smartphones, disques durs)| 
+| Cuivre (2)| Chili (56%) République Démocratique du Congo (35%)| composants électroniques, circuits imprimés | 
 
 Sources : 
 
 1. [https://www.mineralinfo.fr/fr/actualite/actualite/cartes-de-geopolitique-des-ressources-minieres-production-reserves-mondiales](https://www.mineralinfo.fr/fr/actualite/actualite/cartes-de-geopolitique-des-ressources-minieres-production-reserves-mondiales)
-2. Le coltan (colombite-tantalite) donne du tantale et niobium  [https://www.agenceecofin.com/mines/0804-117688-en-2023-le-rwanda-s-est-classe-premier-exportateur-mondial-de-coltan-pour-la-5e-fois-en-10-ans](https://www.agenceecofin.com/mines/0804-117688-en-2023-le-rwanda-s-est-classe-premier-exportateur-mondial-de-coltan-pour-la-5e-fois-en-10-ans)
+2. [https://worldpopulationreview.com/country-rankings/copper-production-by-country](https://worldpopulationreview.com/country-rankings/copper-production-by-country)
