@@ -62,4 +62,4 @@ On peut citer par exemple
 Sources : 
 
 1. [https://www.mineralinfo.fr/fr/actualite/actualite/cartes-de-geopolitique-des-ressources-minieres-production-reserves-mondiales](https://www.mineralinfo.fr/fr/actualite/actualite/cartes-de-geopolitique-des-ressources-minieres-production-reserves-mondiales)
-2. [https://www.agenceecofin.com/mines/0804-117688-en-2023-le-rwanda-s-est-classe-premier-exportateur-mondial-de-coltan-pour-la-5e-fois-en-10-ans](https://www.agenceecofin.com/mines/0804-117688-en-2023-le-rwanda-s-est-classe-premier-exportateur-mondial-de-coltan-pour-la-5e-fois-en-10-ans)
+2. Le coltan (colombite-tantalite) donne du tantale et niobium  [https://www.agenceecofin.com/mines/0804-117688-en-2023-le-rwanda-s-est-classe-premier-exportateur-mondial-de-coltan-pour-la-5e-fois-en-10-ans](https://www.agenceecofin.com/mines/0804-117688-en-2023-le-rwanda-s-est-classe-premier-exportateur-mondial-de-coltan-pour-la-5e-fois-en-10-ans)
