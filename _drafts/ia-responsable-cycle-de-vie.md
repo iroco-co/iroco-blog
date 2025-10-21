@@ -11,19 +11,28 @@ tags:
   - IA Responsable
 ---
 
-_L’IA est aujourd’hui partout dans nos vies professionnelles et personnelles. Or nous ne prenons pas toujours le temps de comprendre les enjeux environnementaux et humains derrière la fabrication et l’utilisation du numérique en général, et de l’IA en particulier. Nous entamons cette série par la présentation d'une synthèse du cycle de vie de l'IA._ 
+
+_L’IA est aujourd’hui partout dans nos vies professionnelles et personnelles. Or nous ne prenons pas toujours le temps de comprendre les enjeux environnementaux et humains derrière la fabrication et l’utilisation du numérique en général, et de l’IA en particulier. Nous entamons cette série par la présentation d'une synthèse du cycle de vie de l'IA._
+
+![Les IA](/images/ia-responsable/ia.png)
+
+L'Intelligence Artificielle existe depuis les années 60 et regroupe un large champ de recherches et de technologies. Dans cette série nous allons aborder en grande partie "l'IA générative", parce que c'est celle qui suscite le plus de réactions et nécessite le plus de données et de ressources.
 
 ##  Le cycle de vie de l’IA
 
 Le numérique en général, et l’IA en particulier, nous paraissent souvent immatériels : ne parle-t-on pas de « dématérialisation » ou de « cloud »  ou encore « [serverless computing](https://en.wikipedia.org/wiki/Serverless_computing) » ? L’IA en particulier ne nous est-elle pas souvent présentée comme un peu magique, à grand renfort d’étoiles et d’étincelles ? Pourtant, utiliser l’IA nécessite le recours à de nombreuses infrastructures qui ne sont pas sans impact sur l’environnement et les humains. Comme pour tous les produits et tous les services, l’IA a un cycle de vie.
 
-1. Le cycle de vie de l’IA commence dans la mine, où sont extraits les métaux nécessaires à la fabrication des équipements numériques qui serviront à développer ou utiliser l’IA. Les composants puis les équipements sont ensuite fabriqués et assemblés en usine pour devenir nos ordinateurs et nos téléphones mais aussi les GPU (graphics processing units) nécessaires à l’entraînement et à l’utilisation des grands modèles d’IA, et les data centers qui hébergent les serveurs sur lesquels tournent beaucoup de services numériques.
+[![La chaine de valeur de l'IA](/images/ia-responsable/ia-chaine-de-valeur.jpg)](/images/ia-responsable/ia-chaine-de-valeur.jpg)
 
-2. Une fois développée la structure algorithmique de base d’un modèle d’IA, une phase d’entraînement est nécessaire : le modèle lit de grandes quantités de données afin « d’apprendre » à accomplir la tâche pour laquelle il a été conçu (par exemple reconnaître une image, prédire une température ou encore générer du texte ou une image dans le cas de l’IA générative). Cette phase d’entraînement nécessite notamment deux choses : une capacité de calcul, c’est-à-dire du temps de processeur, qui croît avec la taille du modèle et la quantité de données d’entraînement, et bien évidemment des données d’entraînement de bonne qualité.
+1. Le cycle de vie de l’IA commence dans la mine, où sont extraits les métaux nécessaires à la fabrication des équipements numériques qui serviront à développer ou utiliser l’IA. 
 
-3. Une fois entraînés, les modèles d’IA sont utilisés pour diverses finalités : c’est la phase d’inférence, où le modèle tire des conclusions sur la base des données d’entrée qui lui sont fournies par la personne qui l’utilise. Cette phase nécessite également une capacité de calcul, plus ou moins importante selon la tâche à accomplir et selon le type et la taille du modèle d’IA utilisé. La diversité des modèles disponibles et de leurs capacités fait de l’IA un outil très puissant pouvant être utilisé à de nombreuses fins... qui ne sont pas toujours licites ou utiles.
+2. Les composants puis les équipements sont ensuite fabriqués et assemblés en usine pour devenir nos ordinateurs et nos téléphones mais aussi les GPU (graphics processing units) nécessaires à l’entraînement et à l’utilisation des grands modèles d’IA, et les data centers qui hébergent les serveurs sur lesquels tournent beaucoup de services numériques.
 
-4. Les équipements numériques finissent par tomber en panne... ou par être remplacés par des modèles plus performants ou plus récents. Ces équipements en fin de vie sont très peu recyclables et finissent la plupart du temps enfouis, incinérés ou dans des décharges à ciel ouvert.
+3. Une fois développée la structure algorithmique de base d’un modèle d’IA, une phase d’entraînement est nécessaire : le modèle lit de grandes quantités de données afin « d’apprendre » à accomplir la tâche pour laquelle il a été conçu (par exemple reconnaître une image, prédire une température ou encore générer du texte ou une image dans le cas de l’IA générative). Cette phase d’entraînement nécessite notamment deux choses : une capacité de calcul, c’est-à-dire du temps de processeur, qui croît avec la taille du modèle et la quantité de données d’entraînement, et bien évidemment des données d’entraînement de bonne qualité.
+
+4. Une fois entraînés, les modèles d’IA sont utilisés pour diverses finalités : c’est la phase d’inférence, où le modèle tire des conclusions sur la base des données d’entrée qui lui sont fournies par la personne qui l’utilise. Cette phase nécessite également une capacité de calcul, plus ou moins importante selon la tâche à accomplir et selon le type et la taille du modèle d’IA utilisé. La diversité des modèles disponibles et de leurs capacités fait de l’IA un outil très puissant pouvant être utilisé à de nombreuses fins... qui ne sont pas toujours licites ou utiles.
+
+5. Les équipements numériques finissent par tomber en panne... ou par être remplacés par des modèles plus performants ou plus récents. Ces équipements en fin de vie sont très peu recyclables et finissent la plupart du temps enfouis, incinérés ou dans des décharges à ciel ouvert.
 
 ## Les enjeux environnementaux de l'IA
 
@@ -63,3 +72,9 @@ Sources :
 
 1. [https://www.mineralinfo.fr/fr/actualite/actualite/cartes-de-geopolitique-des-ressources-minieres-production-reserves-mondiales](https://www.mineralinfo.fr/fr/actualite/actualite/cartes-de-geopolitique-des-ressources-minieres-production-reserves-mondiales)
 2. [https://worldpopulationreview.com/country-rankings/copper-production-by-country](https://worldpopulationreview.com/country-rankings/copper-production-by-country)
+
+Retrouvez bientôt la suite de notre série sur l'IA responsable :
+
+- [Les enjeux humains et éthiques de l'IA](ia-responsable-enjeux-humains-ethiques.md)
+- [Les enjeux de règlementation et souveraineté numérique liés à l'IA](ia-responsable-reglementation-et-souverainete.md)
+- [Les bonnes pratiques de l'IA "responsable"](ia-responsable-bonnes-pratiques.md)
