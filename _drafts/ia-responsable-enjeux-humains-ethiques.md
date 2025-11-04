@@ -11,7 +11,7 @@ tags:
   - IA Responsable
 ---
 
-_Notre [premier épisode](ia-responsable-cycle-de-vie) résumait le cycle de vie de l'IA et les impacts environnementaux associés. Nous allons voir dans cet article les problèmes liés aux données d'entraînement et aux "travailleurs du clic" qui, tels  [des turques mécaniques](https://fr.wikipedia.org/wiki/Turc_m%C3%A9canique), rendent l'artificialité des matrices mathématiques intellig~~ente~~ible. Nous évoquerons aussi les sujets de transparence et de confiance._
+_Notre [premier épisode](ia-responsable-cycle-de-vie) résumait le cycle de vie de l'IA et les impacts environnementaux associés. Nous allons voir dans cet article les problèmes liés aux données d'entraînement et aux "travailleurs du clic" qui, tels  [des turcs mécaniques](https://fr.wikipedia.org/wiki/Turc_m%C3%A9canique), rendent l'artificialité des matrices mathématiques intellig~~ente~~ible. Nous évoquerons aussi les sujets de transparence et de confiance._
 
 ## Les données d'entraînement
 
@@ -32,21 +32,21 @@ L’étiquetage des données n’est pas toujours automatisable : il doit parfoi
 
 Ce processus, même assisté, est fastidieux et très faiblement rémunéré. Par ailleurs, dans l’amélioration de la qualité d’outils de modération automatique, ou la prise en compte des réglementations nationales et internationales, des êtres humains vont devoir analyser des images, textes, contenus audio ou vidéo possiblement violents ou dérangeants. Ce travail occasionne chez certains des syndromes post-traumatiques, comme ceux observés chez les vétérans de guerre. Ces travailleurs du clic habitent souvent dans le “Sud global” (à [Madagascar par exemple pour le travail en français](https://theconversation.com/enquete-derriere-lia-les-travailleurs-precaires-des-pays-du-sud-201503)), ce qui permet notamment aux grandes sociétés d’IA de limiter leurs coûts afin de conserver un modèle économique le plus rentable possible.
 
-Voir aussi à ce sujet "[Les sacrifiés de l'IA](https://www.dailymotion.com/video/x9h7lbq)" dans le cadre du festival du Point de M.I.R. [Numérique en lumière](https://www.point-de-mir.com/numenlum) les 26 et 27 novembre 2025.
+Voir aussi à ce sujet "[Les sacrifiés de l'IA](https://www.dailymotion.com/video/x9h7lbq)" dans le cadre du festival de Point de M.I.R. [Numérique en lumière](https://www.point-de-mir.com/numenlum) les 26 et 27 novembre 2025.
 
 ##  L’IA, des usages multiples… et pas toujours positifs
 
-L’IA offre une multiplicité d’usages, mais ceux-ci ne sont pas toujours bénéfiques pour les utilisateurs… et certains effets négatifs, comme les bulles de filtre, ne se révèlent que sur le long terme. Tour d’horizon (non exhaustif) de quelques problèmes posés par l’IA.
+L’IA offre une multiplicité d’usages, mais ceux-ci ne sont pas toujours bénéfiques pour les utilisateurs… et certains effets négatifs, comme les bulles de filtre, ne se révèlent que sur le long terme. Tour d’horizon (non exhaustif) de quelques problèmes posés par l’IA :
 
-Deepfakes : reproduction de la voix ou de l’apparence physique d’une personne pour générer de l’audio ou de la vidéo lui prêtant des paroles ou des actions qu’elle n’a jamais eues. Peut être utilisé par exemple pour de la désinformation, des escroqueries, de la malveillance à caractère pornographique...
+- Deepfakes : reproduction de la voix ou de l’apparence physique d’une personne pour générer de l’audio ou de la vidéo lui prêtant des paroles ou des actions qu’elle n’a jamais eues. Peut être utilisé par exemple pour de la désinformation, des escroqueries, de la malveillance à caractère pornographique...
 
-Recommandations sur les réseaux sociaux : bien qu’il ne s’agisse pas de pratiques illicites, plusieurs expériences ont montré que les algorithmes de recommandations sur certains réseaux sociaux ou plateformes de contenu avaient tendance à recommander des contenus clivants, idéologiquement extrêmes ou dérangeants. Ils peuvent également avoir tendance à “enfermer” les utilisateurs dans leurs croyances : c’est ce qu’on appelle la bulle de filtre.
+- Recommandations sur les réseaux sociaux : bien qu’il ne s’agisse pas de pratiques illicites, plusieurs expériences ont montré que les algorithmes de recommandations sur certains réseaux sociaux ou plateformes de contenu avaient tendance à recommander des contenus clivants, idéologiquement extrêmes ou dérangeants. Ils peuvent également avoir tendance à “enfermer” les utilisateurs dans leurs croyances : c’est ce qu’on appelle la bulle de filtre.
 
-Cybermalveillance assistée par IA : génération de textes par IA pour envoi de spam, analyse par IA de sites cibles pour identifier les meilleures stratégies d’attaque, etc.
+- Cybermalveillance assistée par IA : génération de textes par IA pour envoi de spam, analyse par IA de sites cibles pour identifier les meilleures stratégies d’attaque, etc.
 
-_Content spinning_ : génération automatique d’articles plagiant des articles à succès existants pour améliorer le classement d’un site dans les moteurs de recherche, ou encore génération de sites de e-commerce frauduleux.
+- _Content spinning_ : génération automatique d’articles plagiant des articles à succès existants pour améliorer le classement d’un site dans les moteurs de recherche, ou encore génération de sites de e-commerce frauduleux.
 
-L'_IA slop_ : [génération de contenus de mauvaise qualité](https://www.youtube.com/watch?v=z1M6_W3ZJkQ) (images, vidéos, articles) venant faire de l'encombrement numérique, en général pour faire des clics ou de l'amélioration de référencement (_ranking_). 
+- _IA slop_ : [génération de contenus de mauvaise qualité](https://www.youtube.com/watch?v=z1M6_W3ZJkQ) (images, vidéos, articles) venant faire de l'encombrement numérique, en général pour faire des clics ou de l'amélioration de référencement (_ranking_). 
 
 ## Explicabilité, transparence et confiance
 
