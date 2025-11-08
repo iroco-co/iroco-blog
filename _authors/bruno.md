@@ -8,9 +8,11 @@ display_name: Bruno Thomas
 
 Quelques liens :
 
-* [github](https://github.com/bamthomas)
-* [LinkedIn](https://fr.linkedin.com/in/bamthomas)
+* [Codeberg](https://codeberg.org/bamthomas)
+* [Bluesky](https://bsky.app/profile/bamthomas.bsky.social)
 * [Mastodon](https://mastodon.social/@bthomas)
+* [LinkedIn](https://fr.linkedin.com/in/bamthomas)
+* [github](https://github.com/bamthomas)
 
 ## Articles
 
