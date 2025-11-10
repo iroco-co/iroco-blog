@@ -35,7 +35,7 @@ Si Iroco refuse `startTLS` le serveur Infomaniak peut avoir deux comportements :
 1. il envoie le mail en clair
 2. il refuse d'envoyer le mail
 
-Par exemple pour postfix, entre autres valeurs, le `[smtpd_tls_security_level](https://www.postfix.org/postconf.5.html#smtpd_tls_security_level)` peut prendre `may` (cas 1) ou  `encrypt` (cas 2). Donc le chiffrement concerne _uniquement_ le transport du message. Le type de menace que cela couvre c'est l'écoute sur la ligne internet (par exemple par un état autoritaire).
+Par exemple pour postfix, entre autres valeurs, le [`smtpd_tls_security_level`](https://www.postfix.org/postconf.5.html#smtpd_tls_security_level) peut prendre `may` (cas 1) ou  `encrypt` (cas 2). Donc le chiffrement concerne _uniquement_ le transport du message. Le type de menace que cela couvre c'est l'écoute sur la ligne internet (par exemple par un état autoritaire).
 
 Pour l'échange des certificats, il faut configurer dans le serveur mail SMTP un chemin vers le fichier du certificat et de la clé secrète (`smtpd_tls_cert_file` et `smtpd_tls_key_file`). La difficulté pour Iroco, c'est que nous n'avons pas qu'un seul nom de domaine mais plusieurs par serveur. Dans ce cas, postfix peut gérer une table de correspondance (_map_ nom de domaine ➡️ chemin vers le fichier clé/certificat)  avec l'option `tls_server_sni_maps` (attention cette _map_ n'accepte pas de valeur de type base de données). 
 
