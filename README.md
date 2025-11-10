@@ -10,6 +10,7 @@ As an organization that values the building of digital commons, we do not want t
 2. We do not want to contribute to the [techno-authoritarian stack](https://www.authoritarian-stack.info/) that is developing in the United States. We disapprove of Microsoft's involvement in the [hydrocarbon extraction companies](https://www.woodmac.com/horizons/ai-powered-analysis-oil-field-potential/). We don't understand the [version management policy](https://blog.iroco.co/windows10-the-end/) for Windows 10. Last but not least, we wish to maintain sovereignty over our IT stack.
 
 Long version is [here](https://blog.iroco.co/pouquoi-quitter-github/).
+
 ---
 Version Française
 
@@ -20,7 +21,6 @@ En tant qu'organisation qui valorise la construction de communs numériques, nou
 2. Nous ne voulons pas alimenter l'[écosystème techno-autoritaire](https://www.authoritarian-stack.info/) qui se met en place aux Etats-Unis. Nous réprouvons l'[aide aux sociétés extractives](https://www.woodmac.com/horizons/ai-powered-analysis-oil-field-potential/) d'hydrocarbures. Nous ne comprenons pas la politique de gestion de [version de Windows 10](https://blog.iroco.co/windows10-the-end/). Surtout, nous souhaitons conserver la souveraineté sur notre environnement informatique.
 
 La version longue est [ici](https://blog.iroco.co/pouquoi-quitter-github/).
----
 
 
 
