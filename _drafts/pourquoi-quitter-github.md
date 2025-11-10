@@ -2,7 +2,7 @@
 layout: post
 title: Pourquoi quitter GitHub ?
 authors:
-  - bruno
+  - iroco
 categories:
 - Grand Public
 tags:
